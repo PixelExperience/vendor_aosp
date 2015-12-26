@@ -89,4 +89,7 @@
     <string name="widget_default_package_name">com.google.android.deskclock</string>
     <string name="widget_default_class_name">com.android.alarmclock.DigitalAppWidgetProvider</string>
 
+    <!-- set default messaging app to googles messenger -->
+    <string name="default_sms_application">com.google.android.apps.messaging</string>
+
 </resources>
