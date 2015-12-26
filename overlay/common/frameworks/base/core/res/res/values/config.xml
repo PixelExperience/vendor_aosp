@@ -85,4 +85,8 @@
         <item>com.google.android.apps.tycho</item>
     </string-array>
 
+    <!-- set default widget options to use googles clock -->
+    <string name="widget_default_package_name">com.google.android.deskclock</string>
+    <string name="widget_default_class_name">com.android.alarmclock.DigitalAppWidgetProvider</string>
+
 </resources>
