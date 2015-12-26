@@ -92,4 +92,6 @@
     <!-- set default messaging app to googles messenger -->
     <string name="default_sms_application">com.google.android.apps.messaging</string>
 
+    <!-- set defaults for google services -->
+    <string name="config_appsAuthorizedForSharedAccounts">;com.android.vending;com.android.settings;</string>
 </resources>
