@@ -98,4 +98,9 @@
     <!-- default dnd acess packages -->
     <string name="config_defaultDndAccessPackages">com.google.android.GoogleCamera</string>
 
+    <!-- empheral resolver packages -->
+    <string-array name="config_ephemeralResolverPackage">
+        <item>com.google.android.gms</item>
+    </string-array>
+
 </resources>
