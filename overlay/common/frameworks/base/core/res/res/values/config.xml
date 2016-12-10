@@ -103,4 +103,11 @@
         <item>com.google.android.gms</item>
     </string-array>
 
+    <!-- non blockable notification packages -->
+    <string-array name="config_nonBlockableNotificationPackages">
+        <item>com.android.dialer</item>
+        <item>com.google.android.dialer</item>
+        <item>com.google.android.deskclock</item>
+    </string-array>
+
 </resources>
