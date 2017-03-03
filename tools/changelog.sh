@@ -13,9 +13,9 @@ echo "Generating changelog..."
 
 for i in $(seq 14);
 do
-export After_Date=`date --date="$i days ago" +%d-%m-%Y`
+export After_Date=`date --date="$i days ago" +%m-%d-%Y`
 k=$(expr $i - 1)
-	export Until_Date=`date --date="$k days ago" +%d-%m-%Y`
+	export Until_Date=`date --date="$k days ago" +%m-%d-%Y`
 
 	# Line with after --- until was too long for a small ListView
 	echo '=======================' >> $Changelog;
