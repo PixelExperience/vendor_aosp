@@ -23,5 +23,6 @@
         <item>com.google.android.launcher</item>
         <item>com.android.launcher</item>
         <item>com.google.android.dialer</item>
+        <item>com.google.android.apps.messaging</item>
     </string-array>
 </resources>
