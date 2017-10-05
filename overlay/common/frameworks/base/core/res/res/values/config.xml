@@ -76,4 +76,8 @@
     -->
     <integer translatable="false" name="config_wifi_wakeup_available">1</integer>
 
+    <!-- Boolean indicating whether the HWC setColorTransform function can be performed efficiently
+         in hardware. -->
+    <bool name="config_setColorTransformAccelerated">true</bool>
+
 </resources>
