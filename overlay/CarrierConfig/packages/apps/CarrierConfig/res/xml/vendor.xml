@@ -1441,6 +1441,7 @@
     </carrier_config>
     <carrier_config mcc="244" mnc="05" >
         <boolean name="carrier_volte_available_bool" value="true" />
+        <boolean name="carrier_wfc_ims_available_bool" value="true" />
     </carrier_config>
     <carrier_config mcc="244" mnc="21" />
     <carrier_config mcc="238" mnc="06" />
