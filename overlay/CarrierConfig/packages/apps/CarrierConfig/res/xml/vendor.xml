@@ -1439,7 +1439,9 @@
     <carrier_config mcc="405" mnc="56">
         <boolean name="carrier_volte_available_bool" value="true" />
     </carrier_config>
-    <carrier_config mcc="244" mnc="05" />
+    <carrier_config mcc="244" mnc="05" >
+        <boolean name="carrier_volte_available_bool" value="true" />
+    </carrier_config>
     <carrier_config mcc="244" mnc="21" />
     <carrier_config mcc="238" mnc="06" />
     <carrier_config mcc="404" mnc="01">
