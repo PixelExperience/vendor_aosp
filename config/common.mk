@@ -120,6 +120,10 @@ PRODUCT_PACKAGES += \
     PixelSetupWizardOverlay \
     PixelSetupWizardAodOverlay
 
+# Dex preopt
+PRODUCT_DEXPREOPT_SPEED_APPS += \
+    SystemUIGoogle
+
 # Themed bootanimation
 TARGET_MISC_BLOCK_OFFSET ?= 0
 PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
