@@ -21,7 +21,9 @@ PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
     ro.com.android.dateformat=MM-dd-yyyy \
     persist.sys.disable_rescue=true \
     keyguard.no_require_sim=true \
-    ro.build.selinux=1
+    ro.build.selinux=1 \
+    persist.debug.wfd.enable=1 \
+    persist.sys.wfd.virtual=0
 
 ifneq ($(TARGET_BUILD_VARIANT),user)
 # Thank you, please drive thru!
