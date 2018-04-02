@@ -264,17 +264,32 @@ function pixelremote()
     fi
     git remote rm pixel 2> /dev/null
     local GERRIT_REMOTE=$(git config --get remote.github.projectname)
+    local PIXEL="true"
     if [ -z "$GERRIT_REMOTE" ]
     then
-        local GERRIT_REMOTE=$(git config --get remote.aosp.projectname | sed s#platform/#android/#g | sed s#/#_#g)
-        local PFX="PixelExperience/"
+        GERRIT_REMOTE=$(git config --get remote.aosp.projectname)
+        PIXEL="false"
     fi
+    if [ -z "$GERRIT_REMOTE" ]
+    then
+        GERRIT_REMOTE=$(git config --get remote.caf.projectname)
+        PIXEL="false"
+    fi
+
+    if [ $PIXEL = "false" ]
+    then
+        local PROJECT=$(echo $GERRIT_REMOTE | sed -e "s#platform/#android/#g; s#/#_#g")
+        local PFX="PixelExperience/"
+    else
+        local PROJECT=$GERRIT_REMOTE
+    fi
+
     local GERRIT_USER=$(git config --get review.review.pixelexperience.org.username)
     if [ -z "$GERRIT_USER" ]
     then
-        git remote add pixel ssh://review.pixelexperience.org:29418/$PFX$GERRIT_REMOTE
+        git remote add pixel ssh://review.pixelexperience.org:29418/$PFX$PROJECT
     else
-        git remote add pixel ssh://$GERRIT_USER@review.pixelexperience.org:29418/$PFX$GERRIT_REMOTE
+        git remote add pixel ssh://$GERRIT_USER@review.pixelexperience.org:29418/$PFX$PROJECT
     fi
     echo "Remote 'pixel' created"
 }
@@ -575,7 +590,7 @@ EOF
             esac
             shift
             git push $@ ssh://$user@$review:29418/$project \
-                $local_branch:refs/for/$remote_branch || return 1
+                $local_branch:refs/for/$GERRIT_REMOTE_branch || return 1
             ;;
         changes|for)
             if [ "$FUNCNAME" = "pixelgerrit" ]; then
