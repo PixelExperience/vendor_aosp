@@ -1,4 +1,5 @@
 # Copyright (C) 2018 The LineageOS Project
+#           (C) 2018 The PixelExperience Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -25,4 +26,3 @@ else
 endif
 
 include $(BUILD_SYSTEM)/package.mk
-

@@ -18,7 +18,4 @@
     <!-- default to disabling the menu key. The Lineage setting to
          do this is a no-op unless the below item is true -->
     <bool name="config_disableMenuKeyInLockScreen">true</bool>
-
-    <!-- config for showing AM/PM on lock screen in 12hour format -->
-    <bool name="config_showAmpm">false</bool>
 </resources>

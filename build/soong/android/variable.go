@@ -1,4 +1,4 @@
-package android
+package android_aosp
 type Product_variables struct {
 	Needs_text_relocations struct {
 		Cppflags []string

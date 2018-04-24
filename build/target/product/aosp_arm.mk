@@ -1,6 +1,4 @@
-# Copyright (C) 2015 The CyanogenMod Project
-#           (C) 2017 The LineageOS Project
-#           (C) 2018 The PixelExperience Project
+# Copyright (C) 2018 The LineageOS Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -14,4 +12,12 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-BUILD_RRO_SYSTEM_PACKAGE := $(TOP)/vendor/aosp/build/core/system_rro.mk
+$(call inherit-product, build/target/product/aosp_arm.mk)
+$(call inherit-product, vendor/aosp/config/common.mk)
+
+# Allow building otatools
+TARGET_FORCE_OTA_PACKAGE := true
+
+TARGET_USES_64_BIT_BINDER := true
+
+PRODUCT_NAME := aosp_arm
