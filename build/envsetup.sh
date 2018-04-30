@@ -263,7 +263,7 @@ function pixelremote()
         return 1
     fi
     git remote rm pixel 2> /dev/null
-    local GERRIT_REMOTE=$(git config --get remote.github.projectname)
+    local GERRIT_REMOTE=$(git config --get remote.pixel.projectname)
     local PIXEL="true"
     if [ -z "$GERRIT_REMOTE" ]
     then
@@ -465,8 +465,8 @@ function pixelgerrit() {
         return 1
     fi
     local user=`git config --get review.review.pixelexperience.org.username`
-    local review=`git config --get remote.github.review`
-    local project=`git config --get remote.github.projectname`
+    local review=`git config --get remote.pixel.review`
+    local project=`git config --get remote.pixel.projectname`
     local command=$1
     shift
     case $command in
