@@ -262,8 +262,8 @@ function pixelremote()
         echo ".git directory not found. Please run this from the root directory of the Android repository you wish to set up."
         return 1
     fi
-    git remote rm pixel 2> /dev/null
     local GERRIT_REMOTE=$(git config --get remote.pixel.projectname)
+    git remote rm pixel 2> /dev/null
     local PIXEL="true"
     if [ -z "$GERRIT_REMOTE" ]
     then
