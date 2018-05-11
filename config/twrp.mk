@@ -1,2 +1,0 @@
-RECOVERY_VARIANT := twrp
-TW_EXCLUDE_SUPERSU := true
