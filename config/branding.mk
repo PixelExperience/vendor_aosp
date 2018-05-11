@@ -10,5 +10,3 @@ CUSTOM_PROPERTIES := \
     org.pixelexperience.build_date=$(CUSTOM_BUILD_DATE) \
     org.pixelexperience.build_type=$(CUSTOM_BUILD_TYPE) \
     org.pixelexperience.fingerprint=$(ROM_FINGERPRINT)
-
-PRODUCT_PROPERTY_OVERRIDES += $(CUSTOM_PROPERTIES)
