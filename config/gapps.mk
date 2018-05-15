@@ -8,7 +8,6 @@ GAPPS_FORCE_MMS_OVERRIDES := true
 endif
 
 GAPPS_PRODUCT_PACKAGES += GoogleContacts talkback LatinImeGoogle PrebuiltDeskClockGoogle CalculatorGoogle TagGoogle
-GAPPS_FORCE_WEBVIEW_OVERRIDES := true
 GAPPS_EXCLUDED_PACKAGES := PrebuiltGmsCoreInstantApps
 
 ifeq ($(TARGET_MINIMAL_APPS),false)
