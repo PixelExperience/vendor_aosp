@@ -1,3 +1,4 @@
+ifneq ($(IS_GENERIC_SYSTEM_IMAGE), true)
 ifeq ($(CUSTOM_BUILD_TYPE), OFFICIAL)
 
 CUSTOM_OTA_VERSION_CODE ?= oreo
@@ -8,4 +9,5 @@ CUSTOM_PROPERTIES += \
 PRODUCT_PACKAGES += \
     Updates
 
+endif
 endif
