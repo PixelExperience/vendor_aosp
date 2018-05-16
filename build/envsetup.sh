@@ -284,12 +284,12 @@ function pixelremote()
         local PROJECT=$GERRIT_REMOTE
     fi
 
-    local GERRIT_USER=$(git config --get review.review.pixelexperience.org.username)
+    local GERRIT_USER=$(git config --get review.gerrit.pixelexperience.org.username)
     if [ -z "$GERRIT_USER" ]
     then
-        git remote add pixel ssh://review.pixelexperience.org:29418/$PFX$PROJECT
+        git remote add pixel ssh://gerrit.pixelexperience.org:29418/$PFX$PROJECT
     else
-        git remote add pixel ssh://$GERRIT_USER@review.pixelexperience.org:29418/$PFX$PROJECT
+        git remote add pixel ssh://$GERRIT_USER@gerrit.pixelexperience.org:29418/$PFX$PROJECT
     fi
     echo "Remote 'pixel' created"
 }
@@ -464,7 +464,7 @@ function pixelgerrit() {
         $FUNCNAME help
         return 1
     fi
-    local user=`git config --get review.review.pixelexperience.org.username`
+    local user=`git config --get review.gerrit.pixelexperience.org.username`
     local review=`git config --get remote.pixel.review`
     local project=`git config --get remote.pixel.projectname`
     local command=$1
@@ -721,7 +721,7 @@ function pixelrebase() {
     echo "Bringing it up to date..."
     repo sync .
     echo "Fetching change..."
-    git fetch "http://review.pixelexperience.org/p/$repo" "refs/changes/$refs" && git cherry-pick FETCH_HEAD
+    git fetch "http://gerrit.pixelexperience.org/p/$repo" "refs/changes/$refs" && git cherry-pick FETCH_HEAD
     if [ "$?" != "0" ]; then
         echo "Error cherry-picking. Not uploading!"
         return
