@@ -7,7 +7,6 @@ Additional functions:
 - mmmp:            Builds all of the modules in the supplied directories and pushes them to the device.
 - pixelgerrit:     A Git wrapper that fetches/pushes patch from/to PixelExperience Gerrit Review.
 - pixelrebase:     Rebase a Gerrit change and push it again.
-- pixelremote:     Add git remote for PixelExperience Gerrit Review.
 - aospremote:      Add git remote for matching AOSP repository.
 - cafremote:       Add git remote for matching CodeAurora repository.
 - mka:             Builds using SCHED_BATCH on all processors.
@@ -255,45 +254,6 @@ function dddclient()
    fi
 }
 
-function pixelremote()
-{
-    if ! git rev-parse --git-dir &> /dev/null
-    then
-        echo ".git directory not found. Please run this from the root directory of the Android repository you wish to set up."
-        return 1
-    fi
-    local GERRIT_REMOTE=$(git config --get remote.pixel.projectname)
-    git remote rm pixel 2> /dev/null
-    local PIXEL="true"
-    if [ -z "$GERRIT_REMOTE" ]
-    then
-        GERRIT_REMOTE=$(git config --get remote.aosp.projectname)
-        PIXEL="false"
-    fi
-    if [ -z "$GERRIT_REMOTE" ]
-    then
-        GERRIT_REMOTE=$(git config --get remote.caf.projectname)
-        PIXEL="false"
-    fi
-
-    if [ $PIXEL = "false" ]
-    then
-        local PROJECT=$(echo $GERRIT_REMOTE | sed -e "s#platform/#android/#g; s#/#_#g")
-        local PFX="PixelExperience/"
-    else
-        local PROJECT=$GERRIT_REMOTE
-    fi
-
-    local GERRIT_USER=$(git config --get review.review.pixelexperience.org.username)
-    if [ -z "$GERRIT_USER" ]
-    then
-        git remote add pixel ssh://review.pixelexperience.org:29418/$PFX$PROJECT
-    else
-        git remote add pixel ssh://$GERRIT_USER@review.pixelexperience.org:29418/$PFX$PROJECT
-    fi
-    echo "Remote 'pixel' created"
-}
-
 function aospremote()
 {
     if ! git rev-parse --git-dir &> /dev/null
@@ -432,28 +392,6 @@ function installrecovery()
     fi
 }
 
-function makerecipe() {
-    if [ -z "$1" ]
-    then
-        echo "No branch name provided."
-        return 1
-    fi
-    cd android
-    sed -i s/'default revision=.*'/'default revision="refs\/heads\/'$1'"'/ default.xml
-    git commit -a -m "$1"
-    cd ..
-
-    repo forall -c '
-
-    if [ "$REPO_REMOTE" = "github" ]
-    then
-        pwd
-        pixelremote
-        git push pixel HEAD:refs/heads/'$1'
-    fi
-    '
-}
-
 function pixelgerrit() {
     if [ "$(__detect_shell)" = "zsh" ]; then
         # zsh does not define FUNCNAME, derive from funcstack
@@ -464,7 +402,7 @@ function pixelgerrit() {
         $FUNCNAME help
         return 1
     fi
-    local user=`git config --get review.review.pixelexperience.org.username`
+    local user=`git config --get review.gerrit.pixelexperience.org.username`
     local review=`git config --get remote.pixel.review`
     local project=`git config --get remote.pixel.projectname`
     local command=$1
@@ -590,7 +528,7 @@ EOF
             esac
             shift
             git push $@ ssh://$user@$review:29418/$project \
-                $local_branch:refs/for/$GERRIT_REMOTE_branch || return 1
+                $local_branch:refs/for/$remote_branch || return 1
             ;;
         changes|for)
             if [ "$FUNCNAME" = "pixelgerrit" ]; then
@@ -721,7 +659,7 @@ function pixelrebase() {
     echo "Bringing it up to date..."
     repo sync .
     echo "Fetching change..."
-    git fetch "http://review.pixelexperience.org/p/$repo" "refs/changes/$refs" && git cherry-pick FETCH_HEAD
+    git fetch "http://gerrit.pixelexperience.org/p/$repo" "refs/changes/$refs" && git cherry-pick FETCH_HEAD
     if [ "$?" != "0" ]; then
         echo "Error cherry-picking. Not uploading!"
         return

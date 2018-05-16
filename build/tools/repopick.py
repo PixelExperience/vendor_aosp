@@ -146,7 +146,7 @@ def fetch_query(remote_url, query):
 
 if __name__ == '__main__':
     # Default to PixelExperience Gerrit
-    default_gerrit = 'https://review.pixelexperience.org'
+    default_gerrit = 'https://gerrit.pixelexperience.org'
 
     parser = argparse.ArgumentParser(formatter_class=argparse.RawDescriptionHelpFormatter, description=textwrap.dedent('''\
         repopick.py is a utility to simplify the process of cherry picking
@@ -411,9 +411,9 @@ if __name__ == '__main__':
                 print('Trying to fetch the change from GitHub')
 
             if args.pull:
-                cmd = ['git pull --no-edit github', item['fetch'][method]['ref']]
+                cmd = ['git pull --no-edit pixel', item['fetch'][method]['ref']]
             else:
-                cmd = ['git fetch github', item['fetch'][method]['ref']]
+                cmd = ['git fetch pixel', item['fetch'][method]['ref']]
             if args.quiet:
                 cmd.append('--quiet')
             else:
