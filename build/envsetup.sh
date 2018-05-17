@@ -653,7 +653,7 @@ function pixelrebase() {
         return
     fi
     cd $dir
-    repo=$(cat .git/config  | grep git://github.com | awk '{ print $NF }' | sed s#git://github.com/##g)
+    repo=$(git config --get remote.pixel.projectname)
     echo "Starting branch..."
     repo start tmprebase .
     echo "Bringing it up to date..."
