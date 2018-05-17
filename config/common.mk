@@ -177,6 +177,9 @@ include vendor/aosp/config/ota.mk
 # GApps
 include vendor/aosp/config/gapps.mk
 
+# Themes
+include vendor/aosp/config/themes.mk
+
 # Pixel Style
 include vendor/pixelstyle/config.mk
 
