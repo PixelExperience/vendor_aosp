@@ -8,7 +8,7 @@ GAPPS_FORCE_MMS_OVERRIDES := true
 endif
 
 GAPPS_PRODUCT_PACKAGES += GoogleContacts talkback LatinImeGoogle PrebuiltDeskClockGoogle CalculatorGoogle TagGoogle
-GAPPS_EXCLUDED_PACKAGES := PrebuiltGmsCoreInstantApps
+GAPPS_EXCLUDED_PACKAGES := PrebuiltGmsCoreInstantApps GooglePackageInstaller
 
 ifeq ($(TARGET_MINIMAL_APPS),false)
 GAPPS_FORCE_BROWSER_OVERRIDES := true
