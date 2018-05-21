@@ -137,6 +137,10 @@ PRODUCT_PACKAGES += \
     fsck.exfat \
     mkfs.exfat
 
+# Launcher3
+PRODUCT_PACKAGES += \
+    Launcher3
+
 # Openssh
 PRODUCT_PACKAGES += \
     scp \
