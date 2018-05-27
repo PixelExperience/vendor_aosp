@@ -18,6 +18,7 @@ try:
     response = urllib.request.urlopen(url)
     data = json.loads(response.read())
     for res in data:
-        print (res['codename'])
+        if res['codename'] != "treble_gsi":
+            print (res['codename'])
 except:
     print ("")
