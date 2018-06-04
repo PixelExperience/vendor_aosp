@@ -21,6 +21,6 @@
      for different hardware and product builds. -->
 <resources>
 
-    <bool name="config_sms_force_7bit_encoding">true</bool>
+    <bool name="config_sms_force_7bit_encoding">false</bool>
 
 </resources>
