@@ -70,6 +70,29 @@
     <!-- Flag indicating which package name can access the persistent data partition -->
     <string name="config_persistentDataPackageName" translatable="false">com.google.android.gms</string>
 
+    <!-- The component name, flattened to a string, for the default autofill service
+         to  enabled for an user. This service must be trusted, as it can be activated
+         without explicit consent of the user. If no autofill service with the
+          specified name exists on the device, autofill will be disabled by default.
+    -->
+    <string name="config_defaultAutofillService" translatable="false">com.google.android.gms/.autofill.service.AutofillService</string>
+
+    <!-- The component name, flattened to a string, for the default accessibility service to be
+         enabled by the accessibility shortcut. This service must be trusted, as it can be activated
+         without explicit consent of the user. If no accessibility service with the specified name
+         exists on the device, the accessibility shortcut will be disabled by default. -->
+    <string name="config_defaultAccessibilityService" translatable="false">com.google.android.marvin.talkback/.TalkBackService</string>
+
+    <!-- The package name of the default network recommendation app.
+         A network recommendation provider must:
+             * Be granted the SCORE_NETWORKS permission.
+             * Be granted the ACCESS_COARSE_LOCATION permission.
+             * Include a Service for the android.net.scoring.RECOMMEND_NETWORKS action
+               protected by the BIND_NETWORK_RECOMMENDATION_SERVICE permission.
+         This must be set to a valid network recommendation app or empty.
+     -->
+    <string name="config_defaultNetworkRecommendationProviderPackage" translatable="false">com.google.android.gms</string>
+
     <!-- Controls the WiFi wakeup feature.
           0 = Not available.
           1 = Available.
