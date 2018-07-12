@@ -1005,7 +1005,7 @@ function extract() {
         fi
 
         if [ "$SRC" = "adb" ]; then
-            printf '  - %s .. ' "${DST_FILE}"
+            printf '  - %s .. \n' "${DST_FILE}"
         else
             printf '  - %s \n' "${DST_FILE}"
         fi
