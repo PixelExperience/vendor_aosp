@@ -1303,6 +1303,10 @@
         <boolean name="support_downgrade_vt_to_audio_bool" value="true" />
     </carrier_config>
     <carrier_config mcc="234" mnc="10" />
+    <carrier_config mcc="234" mnc="20">
+        <boolean name="carrier_volte_available_bool" value="true" />
+        <boolean name="carrier_wfc_ims_available_bool" value="true" />
+    </carrier_config>
     <carrier_config mcc="454" mnc="12">
         <boolean name="allow_use_ims_for_ecc_bool" value="false" />
         <boolean name="carrier_volte_available_bool" value="true" />
