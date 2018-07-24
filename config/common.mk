@@ -95,10 +95,6 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     frameworks/base/data/keyboards/Vendor_045e_Product_028e.kl:system/usr/keylayout/Vendor_045e_Product_0719.kl
 
-# Bluetooth
-PRODUCT_PACKAGES += \
-    BluetoothExt
-
 # Optional packages
 PRODUCT_PACKAGES += \
     libemoji \
