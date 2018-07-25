@@ -112,21 +112,16 @@ PRODUCT_PACKAGES += \
     bash \
     bzip2 \
     curl \
-    fsck.ntfs \
     gdbserver \
     htop \
     lib7z \
     libsepol \
     micro_bench \
-    mke2fs \
-    mkfs.ntfs \
-    mount.ntfs \
     oprofiled \
     pigz \
     powertop \
     sqlite3 \
     strace \
-    tune2fs \
     unrar \
     unzip \
     vim \
@@ -142,10 +137,14 @@ PRODUCT_COPY_FILES += \
     vendor/aosp/prebuilt/common/media/audio/BatteryPlugged.ogg:system/media/audio/ui/BatteryPlugged.ogg \
     vendor/aosp/prebuilt/common/media/audio/BatteryPlugged_48k.ogg:system/media/audio/ui/BatteryPlugged_48k.ogg
 
-# exFAT tools
+# Filesystems tools
 PRODUCT_PACKAGES += \
     fsck.exfat \
-    mkfs.exfat
+    fsck.ntfs \
+    mke2fs \
+    mkfs.exfat \
+    mkfs.ntfs \
+    mount.ntfs
 
 # Launcher3
 PRODUCT_PACKAGES += \
