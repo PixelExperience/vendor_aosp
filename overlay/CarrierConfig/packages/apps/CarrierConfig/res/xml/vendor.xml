@@ -1370,7 +1370,9 @@
     <carrier_config mcc="001" mnc="010" />
     <carrier_config mcc="001" mnc="01" />
     <carrier_config mcc="214" mnc="01" />
-    <carrier_config mcc="222" mnc="10" />
+    <carrier_config mcc="222" mnc="10" >
+        <boolean name="carrier_volte_available_bool" value="true" />
+    </carrier_config>
     <carrier_config mcc="262" mnc="02" />
     <carrier_config mcc="268" mnc="01" >
         <boolean name="carrier_volte_available_bool" value="true" />
