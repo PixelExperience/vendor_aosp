@@ -14,10 +14,87 @@
      limitations under the License.
 -->
 <resources>
-    <!-- Help URL, Tap & pay [DO NOT TRANSLATE] -->
-    <string name="help_url_nfc_payment" translatable="false">https://support.google.com/wallet/answer/1347934</string>
 
-    <!-- Help URL, Fingerprint [DO NOT TRANSLATE] -->
-    <string name="help_url_fingerprint" translatable="false">https://support.google.com</string>
+    <!-- Misc -->
+    <string name="account_confirmation_class">com.google.android.gms.auth.uiflows.factoryreset.PreFactoryResetActivity</string>
+    <string name="account_confirmation_package">com.google.android.gms</string>
+    <string name="oem_preferred_feedback_reporter">com.google.android.gms</string>
+    <string name="gesture_assist_component">com.google.android.googlequicksearchbox/com.google.android.voiceinteraction.GsaVoiceInteractionService</string>
+    <string name="gesture_assist_deskclock_package">com.google.android.deskclock</string>
+    <string name="gesture_assist_deskclock_permission">com.google.android.deskclock.permission.RECEIVE_ALERT_BROADCASTS</string>
+
+    <!-- Help intents -->
+    <string name="help_uri_about">intent:#Intent;action=com.google.android.gms.googlehelp.LAUNCH;S.EXTRA_CONTEXT=android_about;end</string>
+    <string name="help_uri_about_phone_v2">intent:#Intent;action=com.google.android.gms.googlehelp.LAUNCH;S.EXTRA_CONTEXT=android_about_device;end</string>
+    <string name="help_uri_accessibility">intent:#Intent;action=com.google.android.gms.googlehelp.LAUNCH;S.EXTRA_CONTEXT=android_accessibility;end</string>
+    <string name="help_uri_apps">intent:#Intent;action=com.google.android.gms.googlehelp.LAUNCH;S.EXTRA_CONTEXT=android_apps;end</string>
+    <string name="help_uri_beam">intent:#Intent;action=com.google.android.gms.googlehelp.LAUNCH;S.EXTRA_CONTEXT=android_beam;end</string>
+    <string name="help_uri_bluetooth_screen" />
+    <string name="help_uri_default">intent:#Intent;action=com.google.android.gms.googlehelp.LAUNCH;end</string>
+    <string name="help_uri_display">intent:#Intent;action=com.google.android.gms.googlehelp.LAUNCH;S.EXTRA_CONTEXT=android_display;end</string>
+    <string name="help_uri_interruptions">intent:#Intent;action=com.google.android.gms.googlehelp.LAUNCH;S.EXTRA_CONTEXT=android_zen;end</string>
+    <string name="help_uri_notifications">intent:#Intent;action=com.google.android.gms.googlehelp.LAUNCH;S.EXTRA_CONTEXT=android_notification;end</string>
+    <string name="help_uri_other_sounds">intent:#Intent;action=com.google.android.gms.googlehelp.LAUNCH;S.EXTRA_CONTEXT=android_touch;end</string>
+    <string name="help_uri_printing">intent:#Intent;action=com.google.android.gms.googlehelp.LAUNCH;S.EXTRA_CONTEXT=android_print;end</string>
+    <string name="help_uri_private_dns">intent:#Intent;action=com.google.android.gms.googlehelp.LAUNCH;S.EXTRA_CONTEXT=android_private_dns;end</string>
+    <string name="help_uri_process_stats_apps">intent:#Intent;action=com.google.android.gms.googlehelp.LAUNCH;S.EXTRA_CONTEXT=android_process_stats_apps;end</string>
+    <string name="help_uri_process_stats_summary">intent:#Intent;action=com.google.android.gms.googlehelp.LAUNCH;S.EXTRA_CONTEXT=android_process_stats_summary;end</string>
+    <string name="help_uri_restricted_apps">intent:#Intent;action=com.google.android.gms.googlehelp.LAUNCH;S.EXTRA_CONTEXT=restricted_apps;end</string>
+    <string name="help_uri_smart_battery_settings">intent:#Intent;action=com.google.android.gms.googlehelp.LAUNCH;S.EXTRA_CONTEXT=smart_battery_settings;end</string>
+    <string name="help_uri_storage">intent:#Intent;action=com.google.android.gms.googlehelp.LAUNCH;S.EXTRA_CONTEXT=android_storage;end</string>
+    <string name="help_uri_wallpaper">intent:#Intent;action=com.google.android.gms.googlehelp.LAUNCH;S.EXTRA_CONTEXT=android_wallpaper;end</string>
+    <string name="help_uri_wifi_calling">intent:#Intent;action=com.google.android.gms.googlehelp.LAUNCH;S.EXTRA_CONTEXT=wifi_calling_settings;end</string>
+    <string name="help_uri_wifi_scanning_required">intent:#Intent;action=com.google.android.gms.googlehelp.LAUNCH;S.EXTRA_CONTEXT=wifi_scanning_required;end</string>
+    <string name="help_url_accessibility_shortcut">intent:#Intent;action=com.google.android.gms.googlehelp.LAUNCH;S.EXTRA_CONTEXT=android_accessibility_shortcut;end</string>
+    <string name="help_url_account_detail">intent:#Intent;action=com.google.android.gms.googlehelp.LAUNCH;S.EXTRA_CONTEXT=android_account_detail;end</string>
+    <string name="help_url_accounts" formatted="false">intent:#Intent;action=com.google.android.gms.googlehelp.LAUNCH;S.EXTRA_CONTEXT=android_account;S.EXTRA_BACKUP_URI=https%3A%2F%2Fsupport.google.com%2Fmobile%2F%3Fp%3Dsettings_accounts;end</string>
+    <string name="help_url_apps_and_notifications">intent:#Intent;action=com.google.android.gms.googlehelp.LAUNCH;S.EXTRA_CONTEXT=android_apps_and_notifications;end</string>
+    <string name="help_url_audio_accessory_not_supported">intent:#Intent;action=com.google.android.gms.googlehelp.LAUNCH;S.EXTRA_CONTEXT=help_url_audio_accessory_not_supported;end</string>
+    <string name="help_url_auto_brightness" formatted="false">intent:#Intent;action=com.google.android.gms.googlehelp.LAUNCH;S.EXTRA_CONTEXT=android_auto_brightness;S.EXTRA_BACKUP_URI=https%3A%2F%2Fsupport.google.com%2Fmobile%2F%3Fp%3Dsettings_auto_brightness;end</string>
+    <string name="help_url_autoclick">intent:#Intent;action=com.google.android.gms.googlehelp.LAUNCH;S.EXTRA_CONTEXT=android_accessibility_autoclick;end</string>
+    <string name="help_url_backup_reset" formatted="false">intent:#Intent;action=com.google.android.gms.googlehelp.LAUNCH;S.EXTRA_CONTEXT=android_backup;S.EXTRA_BACKUP_URI=https%3A%2F%2Fsupport.google.com%2Fmobile%2F%3Fp%3Dsettings_backup;end</string>
+    <string name="help_url_battery" formatted="false">intent:#Intent;action=com.google.android.gms.googlehelp.LAUNCH;S.EXTRA_CONTEXT=android_battery;S.EXTRA_BACKUP_URI=https%3A%2F%2Fsupport.google.com%2Fmobile%2F%3Fp%3Dsettings_battery;end</string>
+    <string name="help_url_battery_saver_settings">intent:#Intent;action=com.google.android.gms.googlehelp.LAUNCH;S.EXTRA_CONTEXT=battery_saver_settings;end</string>
+    <string name="help_url_bluetooth" formatted="false">intent:#Intent;action=com.google.android.gms.googlehelp.LAUNCH;S.EXTRA_CONTEXT=android_bluetooth;S.EXTRA_BACKUP_URI=https%3A%2F%2Fsupport.google.com%2Fmobile%2F%3Fp%3Dsettings_bluetooth;end</string>
+    <string name="help_url_choose_lockscreen" formatted="false">intent:#Intent;action=com.google.android.gms.googlehelp.LAUNCH;S.EXTRA_CONTEXT=android_lock;S.EXTRA_BACKUP_URI=https%3A%2F%2Fsupport.google.com%2Fmobile%2F%3Fp%3Dsettings_screenlock;end</string>
+    <string name="help_url_color_correction">intent:#Intent;action=com.google.android.gms.googlehelp.LAUNCH;S.EXTRA_CONTEXT=android_color_correction;end</string>
+    <string name="help_url_connected_devices">intent:#Intent;action=com.google.android.gms.googlehelp.LAUNCH;S.EXTRA_CONTEXT=android_connected_devices;end</string>
+    <string name="help_url_data_saver" formatted="false">intent:#Intent;action=com.google.android.gms.googlehelp.LAUNCH;S.EXTRA_CONTEXT=android_datasaver;S.EXTRA_BACKUP_URI=https%3A%2F%2Fsupport.google.com%2Fmobile%2F%3Fp%3Dsettings_datasaver;end</string>
+    <string name="help_url_data_usage" formatted="false">intent:#Intent;action=com.google.android.gms.googlehelp.LAUNCH;S.EXTRA_CONTEXT=android_data;S.EXTRA_BACKUP_URI=https%3A%2F%2Fsupport.google.com%2Fmobile%2F%3Fp%3Dsettings_data;end</string>
+    <string name="help_url_display_size">intent:#Intent;action=com.google.android.gms.googlehelp.LAUNCH;S.EXTRA_CONTEXT=android_toggle_display;end</string>
+    <string name="help_url_double_tap_screen">intent:#Intent;action=com.google.android.gms.googlehelp.LAUNCH;S.EXTRA_CONTEXT=android_double_tap_screen;end</string>
+    <string name="help_url_dreams" formatted="false">intent:#Intent;action=com.google.android.gms.googlehelp.LAUNCH;S.EXTRA_CONTEXT=android_daydream;S.EXTRA_BACKUP_URI=https%3A%2F%2Fsupport.google.com%2Fmobile%2F%3Fp%3Dsettings_dreams;end</string>
+    <string name="help_url_encryption">intent:#Intent;action=com.google.android.gms.googlehelp.LAUNCH;S.EXTRA_CONTEXT=android_encryption_credentials;end</string>
+    <string name="help_url_fingerprint" formatted="false">intent:#Intent;action=com.google.android.gms.googlehelp.LAUNCH;S.EXTRA_CONTEXT=android_fingerprint;S.EXTRA_BACKUP_URI=https%3A%2F%2Fsupport.google.com%2Fmobile%2F%3Fp%3Dsettings_fingerprint;end</string>
+    <string name="help_url_font_size">intent:#Intent;action=com.google.android.gms.googlehelp.LAUNCH;S.EXTRA_CONTEXT=android_toggle_font;end</string>
+    <string name="help_url_gestures" formatted="false">intent:#Intent;action=com.google.android.gms.googlehelp.LAUNCH;S.EXTRA_CONTEXT=android_gestures;S.EXTRA_BACKUP_URI=https%3A%2F%2Fsupport.google.com%2Fmobile%2F%3Fp%3Dsettings_gestures;end</string>
+    <string name="help_url_icc_lock">intent:#Intent;action=com.google.android.gms.googlehelp.LAUNCH;S.EXTRA_CONTEXT=android_icc_lock;end</string>
+    <string name="help_url_location_access" formatted="false">intent:#Intent;action=com.google.android.gms.googlehelp.LAUNCH;S.EXTRA_CONTEXT=android_location;S.EXTRA_BACKUP_URI=https%3A%2F%2Fsupport.google.com%2Fmobile%2F%3Fp%3Dsettings_location;end</string>
+    <string name="help_url_lockscreen">intent:#Intent;action=com.google.android.gms.googlehelp.LAUNCH;S.EXTRA_CONTEXT=android_lockscreen_dashboard;end</string>
+    <string name="help_url_magnification">intent:#Intent;action=com.google.android.gms.googlehelp.LAUNCH;S.EXTRA_CONTEXT=android_magnification;end</string>
+    <string name="help_url_manage_storage">intent:#Intent;action=com.google.android.gms.googlehelp.LAUNCH;S.EXTRA_CONTEXT=android_manage_storage;end</string>
+    <string name="help_url_more_networks" formatted="false">intent:#Intent;action=com.google.android.gms.googlehelp.LAUNCH;S.EXTRA_CONTEXT=android_more;S.EXTRA_BACKUP_URI=https%3A%2F%2Fsupport.google.com%2Fmobile%2F%3Fp%3Dsettings_wireless;end</string>
+    <string name="help_url_network_dashboard">intent:#Intent;action=com.google.android.gms.googlehelp.LAUNCH;S.EXTRA_CONTEXT=android_network_dashboard;end</string>
+    <string name="help_url_nfc_payment" formatted="false">intent:#Intent;action=com.google.android.gms.googlehelp.LAUNCH;S.EXTRA_CONTEXT=android_tap_pay;S.EXTRA_BACKUP_URI=https%3A%2F%2Fsupport.google.com%2Fmobile%2F%3Fp%3Dsettings_nfcpayment;end</string>
+    <string name="help_url_night_display">intent:#Intent;action=com.google.android.gms.googlehelp.LAUNCH;S.EXTRA_CONTEXT=android_night_display;end</string>
+    <string name="help_url_pickup_gesture">intent:#Intent;action=com.google.android.gms.googlehelp.LAUNCH;S.EXTRA_CONTEXT=android_pickup_gesture;end</string>
+    <string name="help_url_previously_connected_devices">intent:#Intent;action=com.google.android.gms.googlehelp.LAUNCH;S.EXTRA_CONTEXT=android_previously_connected_devices;end</string>
+    <string name="help_url_remote_display" formatted="false">intent:#Intent;action=com.google.android.gms.googlehelp.LAUNCH;S.EXTRA_CONTEXT=android_cast;S.EXTRA_BACKUP_URI=https%3A%2F%2Fsupport.google.com%2Fmobile%2F%3Fp%3Dsettings_remote_display;end</string>
+    <string name="help_url_screen_pinning">intent:#Intent;action=com.google.android.gms.googlehelp.LAUNCH;S.EXTRA_CONTEXT=android_screen_pinning;end</string>
+    <string name="help_url_screen_saver">intent:#Intent;action=com.google.android.gms.googlehelp.LAUNCH;S.EXTRA_CONTEXT=android_screen_saver;end</string>
+    <string name="help_url_security" formatted="false">intent:#Intent;action=com.google.android.gms.googlehelp.LAUNCH;S.EXTRA_CONTEXT=android_security;S.EXTRA_BACKUP_URI=https%3A%2F%2Fsupport.google.com%2Fmobile%2F%3Fp%3Dsettings_security;end</string>
+    <string name="help_url_sound" formatted="false">intent:#Intent;action=com.google.android.gms.googlehelp.LAUNCH;S.EXTRA_CONTEXT=android_sound;S.EXTRA_BACKUP_URI=https%3A%2F%2Fsupport.google.com%2Fmobile%2F%3Fp%3Dsettings_sound;end</string>
+    <string name="help_url_storage_dashboard">intent:#Intent;action=com.google.android.gms.googlehelp.LAUNCH;S.EXTRA_CONTEXT=android_storage_dashboard;end</string>
+    <string name="help_url_system_dashboard">intent:#Intent;action=com.google.android.gms.googlehelp.LAUNCH;S.EXTRA_CONTEXT=android_system_dashboard;end</string>
+    <string name="help_url_tether" formatted="false">intent:#Intent;action=com.google.android.gms.googlehelp.LAUNCH;S.EXTRA_CONTEXT=android_tether;S.EXTRA_BACKUP_URI=https%3A%2F%2Fsupport.google.com%2Fmobile%2F%3Fp%3Dsettings_tether;end</string>
+    <string name="help_url_trust_agent">intent:#Intent;action=com.google.android.gms.googlehelp.LAUNCH;S.EXTRA_CONTEXT=android_trust_agent;end</string>
+    <string name="help_url_unrestricted_data_access" formatted="false">intent:#Intent;action=com.google.android.gms.googlehelp.LAUNCH;S.EXTRA_CONTEXT=android_unrestricted_data_access;S.EXTRA_BACKUP_URI=https%3A%2F%2Fsupport.google.com%2Fmobile%2F%3Fp%3Dsettings_unrestricted_data_access;end</string>
+    <string name="help_url_upgrading">intent:#Intent;action=com.google.android.gms.googlehelp.LAUNCH;S.EXTRA_CONTEXT=android_upgrading;end</string>
+    <string name="help_url_usage_access">intent:#Intent;action=com.google.android.gms.googlehelp.LAUNCH;S.EXTRA_CONTEXT=android_usage_access;end</string>
+    <string name="help_url_user_and_account_dashboard">intent:#Intent;action=com.google.android.gms.googlehelp.LAUNCH;S.EXTRA_CONTEXT=android_user_and_account_dashboard;end</string>
+    <string name="help_url_users" formatted="false">intent:#Intent;action=com.google.android.gms.googlehelp.LAUNCH;S.EXTRA_CONTEXT=android_users;S.EXTRA_BACKUP_URI=https%3A%2F%2Fsupport.google.com%2Fmobile%2F%3Fp%3Dsettings_users;end</string>
+    <string name="help_url_vpn" formatted="false">intent:#Intent;action=com.google.android.gms.googlehelp.LAUNCH;S.EXTRA_CONTEXT=android_vpn;S.EXTRA_BACKUP_URI=https%3A%2F%2Fsupport.google.com%2Fmobile%2F%3Fp%3Dsettings_vpn;end</string>
+    <string name="help_url_wifi" formatted="false">intent:#Intent;action=com.google.android.gms.googlehelp.LAUNCH;S.EXTRA_CONTEXT=android_wi_fi;S.EXTRA_BACKUP_URI=https%3A%2F%2Fsupport.google.com%2Fmobile%2F%3Fp%3Dsettings_wifi;end</string>
+    <string name="help_url_wifi_p2p" formatted="false">intent:#Intent;action=com.google.android.gms.googlehelp.LAUNCH;S.EXTRA_CONTEXT=android_wi_fi_p2p;S.EXTRA_BACKUP_URI=https%3A%2F%2Fsupport.google.com%2Fmobile%2F%3Fp%3Dsettings_wifi_p2p;end</string>
 </resources>
 

@@ -93,20 +93,9 @@
      -->
     <string name="config_defaultNetworkRecommendationProviderPackage" translatable="false">com.google.android.gms</string>
 
-    <!-- Controls the WiFi wakeup feature.
-          0 = Not available.
-          1 = Available.
-    -->
-    <integer translatable="false" name="config_wifi_wakeup_available">1</integer>
-
     <!-- Boolean indicating whether the HWC setColorTransform function can be performed efficiently
          in hardware. -->
     <bool name="config_setColorTransformAccelerated">true</bool>
-
-    <!-- Hide Project Fi app unless it is being used -->
-    <string-array name="config_disabledUntilUsedPreinstalledCarrierApps">
-        <item>com.google.android.apps.tycho</item>
-    </string-array>
 
     <!-- set default widget options to use googles clock -->
     <string name="widget_default_package_name">com.google.android.deskclock</string>
@@ -119,7 +108,7 @@
     <string name="config_appsAuthorizedForSharedAccounts">;com.android.vending;com.android.settings;</string>
 
     <!-- default dnd acess packages -->
-    <string name="config_defaultDndAccessPackages">com.google.android.GoogleCamera</string>
+    <string name="config_defaultDndAccessPackages">com.google.android.GoogleCamera:com.google.intelligence.sense:com.google.android.settings.intelligence:com.google.android.apps.wellbeing</string>
 
     <!-- empheral resolver packages -->
     <string-array name="config_ephemeralResolverPackage">
@@ -128,9 +117,11 @@
 
     <!-- non blockable notification packages -->
     <string-array name="config_nonBlockableNotificationPackages">
-        <item>com.android.dialer</item>
         <item>com.google.android.dialer</item>
-        <item>com.google.android.deskclock</item>
+        <item>com.google.android.dialer:phone_incoming_call</item>
+        <item>com.google.android.deskclock:Firing</item>
+        <item>com.google.android.setupwizard</item>
+        <item>com.google.android.apps.pixelmigrate</item>
     </string-array>
 
     <!-- Whether WiFi display is supported by this device.
@@ -146,5 +137,55 @@
          * The device must be provisioned with HDCP keys (for protected content).
     -->
     <bool name="config_enableWifiDisplay">true</bool>
+    
+    <!-- Taken from pixel -->
+    <string name="config_defaultListenerAccessPackages">com.google.android.apps.nexuslauncher:com.google.android.setupwizard:com.google.android.apps.pixelmigrate:com.google.android.as</string>
+    <string name="config_defaultAssistantAccessPackage">com.google.android.ext.services</string>
+    <string name="config_defaultTextClassifierPackage">com.google.android.as</string>
+    <string-array name="config_disabledUntilUsedPreinstalledImes">
+        <item>com.google.android.inputmethod.latin</item>
+        <item>com.google.android.apps.inputmethod.hindi</item>
+        <item>com.google.android.inputmethod.japanese</item>
+        <item>com.google.android.inputmethod.korean</item>
+        <item>com.google.android.inputmethod.pinyin</item>
+        <item>jp.co.omronsoft.iwnnime.ml</item>
+        <item>com.nuance.xt9.input</item>
+    </string-array>
+    <string-array name="config_allowedSecureInstantAppSettings">
+        <item>advertising_id</item>
+        <item>limit_ad_tracking</item>
+    </string-array>
+    <string-array name="vendor_required_apps_managed_device">
+        <item>com.android.vending</item>
+        <item>com.google.android.gms</item>
+        <item>com.google.android.contacts</item>
+        <item>com.google.android.googlequicksearchbox</item>
+        <item>com.google.android.launcher</item>
+        <item>com.android.launcher</item>
+        <item>com.google.android.dialer</item>
+        <item>com.google.android.apps.messaging</item>
+        <item>com.google.android.setupwizard</item>
+    </string-array>
+    <string-array name="vendor_required_apps_managed_profile">
+        <item>com.android.vending</item>
+        <item>com.google.android.gms</item>
+        <item>com.google.android.contacts</item>
+    </string-array>
+    <string-array name="vendor_required_apps_managed_user">
+        <item>com.android.vending</item>
+        <item>com.google.android.gms</item>
+        <item>com.google.android.contacts</item>
+        <item>com.google.android.googlequicksearchbox</item>
+        <item>com.google.android.launcher</item>
+        <item>com.android.launcher</item>
+        <item>com.google.android.dialer</item>
+        <item>com.google.android.apps.messaging</item>
+    </string-array>
+    <string-array name="config_batteryPackageTypeService">
+        <item>com.google.android.gms</item>
+        <item>com.google.android.apps.gcs</item>
+    </string-array>
+    <string name="config_timeZoneRulesDataPackage">com.google.android.timezone.data</string>
+    <string name="config_dreamsDefaultComponent">com.google.android.deskclock/com.android.deskclock.Screensaver</string>
 
 </resources>
