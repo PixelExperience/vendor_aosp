@@ -105,37 +105,9 @@ PRODUCT_PACKAGES += \
     libprotobuf-cpp-full \
     librsjni
 
-# Extra tools
-PRODUCT_PACKAGES += \
-    7z \
-    awk \
-    bash \
-    bzip2 \
-    curl \
-    gdbserver \
-    htop \
-    lib7z \
-    libsepol \
-    micro_bench \
-    oprofiled \
-    pigz \
-    powertop \
-    sqlite3 \
-    strace \
-    unrar \
-    unzip \
-    vim \
-    wget \
-    zip
-
 # Charger
 PRODUCT_PACKAGES += \
     charger_res_images
-
-# Charging sounds
-PRODUCT_COPY_FILES += \
-    vendor/aosp/prebuilt/common/media/audio/BatteryPlugged.ogg:system/media/audio/ui/BatteryPlugged.ogg \
-    vendor/aosp/prebuilt/common/media/audio/BatteryPlugged_48k.ogg:system/media/audio/ui/BatteryPlugged_48k.ogg
 
 # Filesystems tools
 PRODUCT_PACKAGES += \
@@ -146,24 +118,6 @@ PRODUCT_PACKAGES += \
     mkfs.ntfs \
     mount.ntfs
 
-# Launcher3
-PRODUCT_PACKAGES += \
-    Launcher3
-
-# Openssh
-PRODUCT_PACKAGES += \
-    scp \
-    sftp \
-    ssh \
-    sshd \
-    sshd_config \
-    ssh-keygen \
-    start-ssh
-
-# rsync
-PRODUCT_PACKAGES += \
-    rsync
-
 # Storage manager
 PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
     ro.storage_manager.enabled=true
@@ -172,28 +126,21 @@ PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
 PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
     media.recorder.show_manufacturer_and_model=true
 
-# These packages are excluded from user builds
-ifneq ($(TARGET_BUILD_VARIANT),user)
-PRODUCT_PACKAGES += \
-    procmem \
-    procrank
-endif
-
 DEVICE_PACKAGE_OVERLAYS += vendor/aosp/overlay/common
 
 # Branding
 include vendor/aosp/config/branding.mk
 
 # OTA
-include vendor/aosp/config/ota.mk
+#include vendor/aosp/config/ota.mk
 
 # GApps
-include vendor/aosp/config/gapps.mk
+#include vendor/aosp/config/gapps.mk
 
 # Pixel Style
 include vendor/pixelstyle/config.mk
 
 # Themes
-include vendor/themes/config.mk
+#include vendor/themes/config.mk
 
 -include $(WORKSPACE)/build_env/image-auto-bits.mk
