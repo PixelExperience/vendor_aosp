@@ -129,7 +129,7 @@ DEVICE_PACKAGE_OVERLAYS += vendor/aosp/overlay/common
 include vendor/aosp/config/branding.mk
 
 # OTA
-#include vendor/aosp/config/ota.mk
+include vendor/aosp/config/ota.mk
 
 # GApps
 #include vendor/aosp/config/gapps.mk
