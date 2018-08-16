@@ -146,6 +146,10 @@ PRODUCT_PACKAGES += \
     mkfs.ntfs \
     mount.ntfs
 
+# Facelock fix
+PRODUCT_COPY_FILES += \
+    vendor/aosp/prebuilt/common/lib/libprotobuf-cpp-shit.so:system/lib/libprotobuf-cpp-shit.so
+
 # Launcher3
 PRODUCT_PACKAGES += \
     Launcher3
