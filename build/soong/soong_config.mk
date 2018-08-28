@@ -5,6 +5,7 @@ _contents := $(_contents)    "Aosp":{$(newline)
 # See build/core/soong_config.mk for the add_json_* functions you can use here.
 $(call add_json_str_omitempty, Additional_gralloc_10_usage_bits, $(TARGET_ADDITIONAL_GRALLOC_10_USAGE_BITS))
 $(call add_json_bool, Has_legacy_camera_hal1, $(filter true,$(TARGET_HAS_LEGACY_CAMERA_HAL1)))
+$(call add_json_bool, Should_skip_waiting_for_qsee, $(filter true,$(TARGET_KEYMASTER_SKIP_WAITING_FOR_QSEE)))
 $(call add_json_str, Specific_camera_parameter_library, $(TARGET_SPECIFIC_CAMERA_PARAMETER_LIBRARY))
 $(call add_json_bool, Supports_hw_fde, $(filter true,$(TARGET_HW_DISK_ENCRYPTION)))
 $(call add_json_bool, Supports_hw_fde_perf, $(filter true,$(TARGET_HW_DISK_ENCRYPTION_PERF)))
