@@ -323,8 +323,10 @@ if __name__ == '__main__':
 
         mergables.append({
             'subject': review['subject'],
-            'project': review['project'],
+            'project': review['project'].replace('LineageOS/',''),
+            'project_fallback': review['project'].replace('LineageOS/android_',''),
             'branch': review['branch'],
+            'branch_fallback': review['branch'].replace('lineage-16.0','pie'),
             'change_id': review['change_id'],
             'change_number': review['number'],
             'status': review['status'],
@@ -358,6 +360,8 @@ if __name__ == '__main__':
 
         if item['project'] in project_name_to_data and item['branch'] in project_name_to_data[item['project']]:
             project_path = project_name_to_data[item['project']][item['branch']]
+        elif item['project_fallback'] in project_name_to_data and item['branch_fallback'] in project_name_to_data[item['project_fallback']]:
+            project_path = project_name_to_data[item['project_fallback']][item['branch_fallback']]
         elif args.path:
             project_path = args.path
         elif args.ignore_missing:
