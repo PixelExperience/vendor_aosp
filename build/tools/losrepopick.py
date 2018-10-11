@@ -54,6 +54,9 @@ def is_subdir(a, b):
     b = os.path.realpath(b) + '/'
     return b == a[:len(b)]
 
+# Remove preffix from string
+def remove_prefix(text, prefix):
+    return text[len(prefix):] if text.startswith(prefix) else text
 
 def fetch_query_via_ssh(remote_url, query):
     """Given a remote_url and a query, return the list of changes that fit it
@@ -360,10 +363,15 @@ if __name__ == '__main__':
         #   - check that the project path exists
         project_path = None
 
+        aosp_project_name = 'platform/' + remove_prefix(item['project'], 'android_').replace('_','/')
+
         if item['project'] in project_name_to_data and item['branch'] in project_name_to_data[item['project']]:
             project_path = project_name_to_data[item['project']][item['branch']]
         elif item['project_fallback'] in project_name_to_data and item['branch_fallback'] in project_name_to_data[item['project_fallback']]:
             project_path = project_name_to_data[item['project_fallback']][item['branch_fallback']]
+        elif aosp_project_name in project_name_to_data:
+            print('\nAOSP Project found: {0}, resolving as {1}\n'.format(item['project'], aosp_project_name))
+            project_path = remove_prefix(aosp_project_name, 'platform/')
         elif args.path:
             project_path = args.path
         elif args.ignore_missing:
