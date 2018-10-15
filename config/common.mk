@@ -129,6 +129,13 @@ PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
 PRODUCT_ENFORCE_RRO_EXCLUDED_OVERLAYS += vendor/aosp/overlay
 DEVICE_PACKAGE_OVERLAYS += vendor/aosp/overlay/common
 
+# Key disabler package
+PRODUCT_PACKAGES += \
+    org.pixelexperience.keydisabler
+
+PRODUCT_BOOT_JARS += \
+    org.pixelexperience.keydisabler
+
 # Branding
 include vendor/aosp/config/branding.mk
 
