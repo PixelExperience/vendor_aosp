@@ -44,4 +44,7 @@
     <!-- If this is true, long press on power button will be available from a
          non-interactive state. -->
     <bool name="config_supportLongPressPowerWhenNonInteractive">true</bool>
+
+    <!-- Whether or not we should show the option to show battery percentage -->
+    <bool name="config_battery_percentage_setting_available">false</bool>
 </resources>
