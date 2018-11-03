@@ -50,6 +50,10 @@ else
     ro.device.cache_dir=/cache
 endif
 
+# Ambient Play
+PRODUCT_PACKAGES += \
+    AmbientPlayHistoryProvider
+
 # Backup Tool
 PRODUCT_COPY_FILES += \
     vendor/aosp/prebuilt/common/bin/backuptool.sh:install/bin/backuptool.sh \
