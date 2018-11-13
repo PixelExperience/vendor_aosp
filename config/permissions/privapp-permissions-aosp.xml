@@ -45,4 +45,10 @@
         <permission name="com.android.permission.WRITE_EMBEDDED_SUBSCRIPTIONS"/>
     </privapp-permissions>
 
+    <privapp-permissions package="org.pixelexperience.ota">
+        <permission name="android.permission.RECOVERY"/>
+        <permission name="android.permission.ACCESS_CACHE_FILESYSTEM"/>
+        <permission name="android.permission.REBOOT"/>
+    </privapp-permissions>
+
 </permissions>
