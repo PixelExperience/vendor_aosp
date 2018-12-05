@@ -175,4 +175,7 @@
          ASSIST_DISCLOSURE_ENABLED. -->
     <bool name="config_allowDisablingAssistDisclosure">true</bool>
 
+    <!-- Component name for default assistant on this device -->
+    <string name="config_defaultAssistantComponentName">com.google.android.googlequicksearchbox/com.google.android.voiceinteraction.GsaVoiceInteractionService</string>
+
 </resources>
