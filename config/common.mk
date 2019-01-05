@@ -109,13 +109,7 @@ PRODUCT_MINIMIZE_JAVA_DEBUG_INFO := true
 
 # Optional packages
 PRODUCT_PACKAGES += \
-    libemoji \
     LiveWallpapersPicker
-
-# Include explicitly to work around GMS issues
-PRODUCT_PACKAGES += \
-    libprotobuf-cpp-full \
-    librsjni
 
 # Charger
 PRODUCT_PACKAGES += \
