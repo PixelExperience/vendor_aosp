@@ -1,4 +1,3 @@
-ifneq ($(IS_GENERIC_SYSTEM_IMAGE), true)
 ifeq ($(CUSTOM_BUILD_TYPE), OFFICIAL)
 
 ifeq ($(IS_GO_VERSION), true)
@@ -16,5 +15,4 @@ PRODUCT_PACKAGES += \
 PRODUCT_COPY_FILES += \
     vendor/aosp/config/permissions/org.pixelexperience.ota.xml:system/etc/permissions/org.pixelexperience.ota.xml
 
-endif
 endif

@@ -18,10 +18,9 @@ try:
     response = urllib.request.urlopen(url)
     data = json.loads(response.read())
     for res in data:
-        if res['codename'] != "treble_gsi":
-            for version in res['supported_versions']:
-                if version['version_code'] == 'pie' or version['version_code'] == 'pie_go':
-                    print (res['codename'])
-                    break
+        for version in res['supported_versions']:
+            if version['version_code'] == 'pie' or version['version_code'] == 'pie_go':
+                print (res['codename'])
+                break
 except:
     print ("")
