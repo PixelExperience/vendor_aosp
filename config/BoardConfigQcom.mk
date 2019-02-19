@@ -71,7 +71,7 @@ ifeq ($(call is-board-platform-in-list, $(UM_4_9_FAMILY)),true)
     QCOM_HARDWARE_VARIANT := sdm845
 else
     MSM_VIDC_TARGET_LIST := $(TARGET_BOARD_PLATFORM)
-    QCOM_HARDWARE_VARIANT := $(TARGET_BOARD_PLATFORM)
+    QCOM_HARDWARE_VARIANT ?= $(TARGET_BOARD_PLATFORM)
 endif
 endif
 endif
@@ -92,6 +92,3 @@ PRODUCT_SOONG_NAMESPACES += \
 ifeq ($(TARGET_HW_DISK_ENCRYPTION),true)
     TARGET_CRYPTFS_HW_PATH ?= vendor/qcom/opensource/cryptfs_hw
 endif
-
-TARGET_USES_AOSP := true
-
