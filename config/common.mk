@@ -150,6 +150,9 @@ include vendor/gapps/config.mk
 # Pixel Style
 include vendor/pixelstyle/config.mk
 
+# SDCLANG config
+include vendor/aosp/sdclang/sdclang.mk
+
 # Themes
 include vendor/themes/config.mk
 
