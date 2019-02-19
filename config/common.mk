@@ -1,5 +1,5 @@
 PRODUCT_BRAND ?= PixelExperience
-
+PRODUCT_SIZE := full
 PRODUCT_BUILD_PROP_OVERRIDES += BUILD_UTC_DATE=0
 
 ifeq ($(PRODUCT_GMS_CLIENTID_BASE),)
@@ -27,6 +27,30 @@ PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
 PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
     ro.config.notification_sound=Popcorn.ogg \
     ro.config.alarm_alert=Bright_morning.ogg
+
+# Telephony
+PRODUCT_PACKAGES += telephony-ext
+PRODUCT_BOOT_JARS += telephony-ext
+
+IS_PHONE := true
+
+# World APN list
+PRODUCT_PACKAGES += \
+    apns-conf.xml
+
+# Telephony packages
+PRODUCT_PACKAGES += \
+    Stk \
+    CellBroadcastReceiver
+
+# Tethering - allow without requiring a provisioning app
+# (for devices that check this)
+PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
+    net.tethering.noprovisioning=true
+
+# Default ringtone
+PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
+    ro.config.ringtone=The_big_adventure.ogg
 
 ifneq ($(TARGET_BUILD_VARIANT),user)
 # Thank you, please drive thru!
