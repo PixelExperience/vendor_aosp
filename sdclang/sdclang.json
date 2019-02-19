@@ -1,0 +1,10 @@
+{
+    "default" : {
+        "SDCLANG" : false,
+        "SDCLANG_PATH" : "vendor/qcom/sdclang-3.9/linux-x86/bin",
+        "SDCLANG_PATH_2" : "vendor/qcom/sdclang-4.0/linux-x86/bin",
+        "SDCLANG_FLAGS" : "-O3 -fvectorize-loops -Wno-vectorizer-no-neon -Wno-user-defined-warnings",
+        "SDCLANG_FLAGS_2" : "-O3 -fvectorize-loops -Wno-vectorizer-no-neon -Wno-user-defined-warnings"
+    }
+}
+
