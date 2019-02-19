@@ -331,7 +331,7 @@ if __name__ == '__main__':
             'project': review['project'].replace('LineageOS/',''),
             'project_fallback': review['project'].replace('LineageOS/android_',''),
             'branch': review['branch'],
-            'branch_fallback': review['branch'].replace('lineage-16.0','pie'),
+            'branch_fallback': review['branch'].replace('lineage-16.0','pie-caf'),
             'change_id': review['change_id'],
             'change_number': review['number'],
             'status': review['status'],
