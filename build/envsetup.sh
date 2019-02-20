@@ -691,6 +691,9 @@ function pixelrebase() {
 }
 
 function mka() {
+
+    source $ANDROID_BUILD_TOP/vendor/aosp/build/disp_hals_setup.sh
+
     if [ -f $ANDROID_BUILD_TOP/$QTI_BUILDTOOLS_DIR/build/update-vendor-hal-makefiles.sh ]; then
         vendor_hal_script=$ANDROID_BUILD_TOP/$QTI_BUILDTOOLS_DIR/build/update-vendor-hal-makefiles.sh
         source $vendor_hal_script --check
