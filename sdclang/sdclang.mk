@@ -20,5 +20,5 @@ $(warning **********************************************)
 sdclang_already_warned := true
 endif
 else
-SDCLANG_LTO_DEFS := vendor/pa/sdclang/sdllvm-lto-defs.mk
+SDCLANG_LTO_DEFS := vendor/aosp/sdclang/sdllvm-lto-defs.mk
 endif
