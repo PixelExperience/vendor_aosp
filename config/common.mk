@@ -20,7 +20,6 @@ PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
     ro.atrace.core.services=com.google.android.gms,com.google.android.gms.ui,com.google.android.gms.persistent \
     ro.com.android.dateformat=MM-dd-yyyy \
     persist.sys.disable_rescue=true \
-    keyguard.no_require_sim=true \
     ro.setupwizard.rotation_locked=true
 
 # Default notification/alarm sounds
