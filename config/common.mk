@@ -138,6 +138,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_BOOT_JARS += \
     org.pixelexperience.keydisabler
 
+# Cutout control overlay
+PRODUCT_PACKAGES += \
+    NoCutoutOverlay
+
 # Branding
 include vendor/aosp/config/branding.mk
 
