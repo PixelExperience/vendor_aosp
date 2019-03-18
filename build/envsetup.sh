@@ -714,7 +714,7 @@ function mka() {
         source $vendor_hal_script
         RET=$?
         if [ $RET -ne 0 ]; then
-            echo -n "${color_failed}#### HAL file .bp generation failed dure to incpomaptible HAL files , please check above error log"
+            echo -n "${color_failed}#### HAL file .bp generation failed due to incompatible HAL files , please check above error log"
             echo " ####${color_reset}"
             return $RET
         fi
