@@ -6,4 +6,5 @@
     <dimen name="status_bar_height_portrait">28dp</dimen>
     <dimen name="status_bar_height_landscape">28dp</dimen>
     <dimen name="rounded_corner_radius_top">60px</dimen>
+    <bool name="config_showMultiuserIconKeyguard">true</bool>
 </resources>
