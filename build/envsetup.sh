@@ -426,9 +426,11 @@ function pixelgerrit() {
     fi
     local user=`git config --get review.gerrit.pixelexperience.org.username`
     local review=`git config --get remote.pixel-caf.review`
+    local remote_branch=pie-caf
     if [ -z "$review" ]
     then
         local review=`git config --get remote.pixel.review`
+        local remote_branch=pie
     fi
     local project=`git config --get remote.pixel-caf.projectname`
     if [ -z "$project" ]
@@ -448,7 +450,7 @@ Commands:
     fetch   Just fetch the change as FETCH_HEAD
     help    Show this help, or for a specific command
     pull    Pull a change into current branch
-    push    Push HEAD or a local branch to Gerrit for a specific branch
+    push    Push HEAD or a local branch to Gerrit
 
 Any other Git commands that support refname would work as:
     git fetch URL CHANGE && git COMMAND OPTIONS FETCH_HEAD{@|^|~|:}ARG -- ARGS
@@ -486,15 +488,15 @@ will $1 patch-set 1 of change 1234
 EOF
                     ;;
                 push) cat <<EOF
-usage: $FUNCNAME push [OPTIONS] [LOCAL_BRANCH:]REMOTE_BRANCH
+usage: $FUNCNAME push [OPTIONS] [LOCAL_BRANCH]
 
 works as:
     git push OPTIONS ssh://USER@DOMAIN:29418/PROJECT \\
-      {LOCAL_BRANCH|HEAD}:refs/for/REMOTE_BRANCH
+      {LOCAL_BRANCH|HEAD}:refs/for/$remote_branch
 
 Example:
-    $FUNCNAME push fix6789:gingerbread
-will push local branch 'fix6789' to Gerrit for branch 'gingerbread'.
+    $FUNCNAME push fix6789
+will push local branch 'fix6789' to Gerrit for branch 'pie-caf'.
 HEAD will be pushed from local if omitted.
 EOF
                     ;;
@@ -539,21 +541,18 @@ EOF
                 $($FUNCNAME __cmg_get_ref $change) || return 1
             ;;
         push)
-            $FUNCNAME __cmg_err_no_arg $command $# help && return 1
             $FUNCNAME __cmg_err_not_repo && return 1
             if [ -z "$user" ]; then
                 echo >&2 "Gerrit username not found."
                 return 1
             fi
-            local local_branch remote_branch
+            local local_branch
             case $1 in
                 *:*)
                     local_branch=${1%:*}
-                    remote_branch=${1##*:}
                     ;;
                 *)
                     local_branch=HEAD
-                    remote_branch=$1
                     ;;
             esac
             shift
