@@ -496,7 +496,7 @@ works as:
 
 Example:
     $FUNCNAME push fix6789
-will push local branch 'fix6789' to Gerrit for branch 'pie-caf'.
+will push local branch 'fix6789' to Gerrit for branch '$remote_branch'.
 HEAD will be pushed from local if omitted.
 EOF
                     ;;
