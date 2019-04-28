@@ -533,15 +533,10 @@ EOF
                 echo >&2 "Gerrit username not found."
                 return 1
             fi
-            local local_branch
-            case $1 in
-                *:*)
-                    local_branch=${1%:*}
-                    ;;
-                *)
-                    local_branch=HEAD
-                    ;;
-            esac
+            local local_branch=${*: -1:1}
+            if [ -z "$local_branch" ]; then
+                local_branch=HEAD
+            fi
             shift
             git push $@ ssh://$user@$review:29418/$project \
                 $local_branch:refs/for/$remote_branch || return 1
