@@ -450,7 +450,7 @@ Commands:
     fetch   Just fetch the change as FETCH_HEAD
     help    Show this help, or for a specific command
     pull    Pull a change into current branch
-    push    Push HEAD or a local branch to Gerrit
+    push    Push current branch to Gerrit
 
 Any other Git commands that support refname would work as:
     git fetch URL CHANGE && git COMMAND OPTIONS FETCH_HEAD{@|^|~|:}ARG -- ARGS
@@ -488,16 +488,15 @@ will $1 patch-set 1 of change 1234
 EOF
                     ;;
                 push) cat <<EOF
-usage: $FUNCNAME push [OPTIONS] [LOCAL_BRANCH]
+usage: $FUNCNAME push [OPTIONS]
 
 works as:
     git push OPTIONS ssh://USER@DOMAIN:29418/PROJECT \\
       {LOCAL_BRANCH|HEAD}:refs/for/$remote_branch
 
 Example:
-    $FUNCNAME push fix6789
-will push local branch 'fix6789' to Gerrit for branch '$remote_branch'.
-HEAD will be pushed from local if omitted.
+    $FUNCNAME push
+will push current branch to Gerrit for branch '$remote_branch'.
 EOF
                     ;;
                 *)
@@ -546,15 +545,7 @@ EOF
                 echo >&2 "Gerrit username not found."
                 return 1
             fi
-            local local_branch
-            case $1 in
-                *:*)
-                    local_branch=${1%:*}
-                    ;;
-                *)
-                    local_branch=HEAD
-                    ;;
-            esac
+            local local_branch=HEAD
             shift
             git push $@ ssh://$user@$review:29418/$project \
                 $local_branch:refs/for/$remote_branch || return 1
