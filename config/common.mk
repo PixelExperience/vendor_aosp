@@ -167,6 +167,9 @@ include vendor/aosp/config/branding.mk
 # OTA
 include vendor/aosp/config/ota.mk
 
+# LiveDisplay
+include vendor/livedisplay/config.mk
+
 # GApps
 include vendor/gapps/config.mk
 
