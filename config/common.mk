@@ -62,7 +62,8 @@ endif
 PRODUCT_COPY_FILES += \
     vendor/aosp/config/permissions/backup.xml:system/etc/sysconfig/backup.xml \
     vendor/aosp/config/permissions/privapp-permissions-aosp.xml:system/etc/permissions/privapp-permissions-aosp.xml \
-    vendor/aosp/config/permissions/org.lineageos.snap.xml:system/etc/permissions/org.lineageos.snap.xml
+    vendor/aosp/config/permissions/org.lineageos.snap.xml:system/etc/permissions/org.lineageos.snap.xml \
+    vendor/aosp/config/permissions/privapp-permissions-custom.xml:system/etc/permissions/privapp-permissions-custom.xml
 
 # init.d support
 PRODUCT_COPY_FILES += \
