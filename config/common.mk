@@ -49,7 +49,7 @@ PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
 
 # Default ringtone
 PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
-    ro.config.ringtone=The_big_adventure.ogg
+    ro.config.ringtone=The_big_adventure.ogg,The_big_adventure.ogg
 
 ifneq ($(TARGET_BUILD_VARIANT),user)
 # Thank you, please drive thru!
