@@ -113,10 +113,11 @@
         <item>com.google.android.deskclock:Firing</item>
         <item>com.google.android.setupwizard</item>
         <item>com.google.android.apps.pixelmigrate</item>
+        <item>com.google.android.apps.restore</item>
     </string-array>
 
     <!-- Taken from pixel -->
-    <string name="config_defaultListenerAccessPackages">com.google.android.apps.nexuslauncher:com.google.android.setupwizard:com.google.android.apps.pixelmigrate:com.google.android.as</string>
+    <string name="config_defaultListenerAccessPackages">com.google.android.apps.nexuslauncher:com.google.android.setupwizard:com.google.android.apps.pixelmigrate:com.google.android.as:com.google.android.apps.restore</string>
     <string name="config_defaultAssistantAccessPackage">com.google.android.ext.services</string>
     <string name="config_defaultTextClassifierPackage">com.google.android.as</string>
     <string-array name="config_disabledUntilUsedPreinstalledImes">
