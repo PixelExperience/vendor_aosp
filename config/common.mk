@@ -135,6 +135,10 @@ DEVICE_PACKAGE_OVERLAYS += vendor/aosp/overlay/common
 PRODUCT_PACKAGES += \
     NoCutoutOverlay
 
+# SetupWizard overlay
+PRODUCT_PACKAGES += \
+    SetupWizardOverlay
+
 # Branding
 include vendor/aosp/config/branding.mk
 
