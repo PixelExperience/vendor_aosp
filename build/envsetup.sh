@@ -475,11 +475,11 @@ will $1 patch-set 1 of change 1234
 EOF
                     ;;
                 push) cat <<EOF
-usage: $FUNCNAME push [OPTIONS] [LOCAL_BRANCH]
+usage: $FUNCNAME push [OPTIONS]
 
 works as:
     git push OPTIONS ssh://USER@DOMAIN:29418/PROJECT \\
-      {LOCAL_BRANCH|HEAD}:refs/for/$remote_branch
+      HEAD:refs/for/$remote_branch
 
 Example:
     $FUNCNAME push fix6789
@@ -533,10 +533,7 @@ EOF
                 echo >&2 "Gerrit username not found."
                 return 1
             fi
-            local local_branch=${*: -1:1}
-            if [ -z "$local_branch" ]; then
-                local_branch=HEAD
-            fi
+            local local_branch=HEAD
             shift
             git push $@ ssh://$user@$review:29418/$project \
                 $local_branch:refs/for/$remote_branch || return 1
