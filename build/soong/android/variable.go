@@ -48,6 +48,9 @@ type Product_variables struct {
 		Cppflags []string
 		Shared_libs []string
 	}
+	Uses_um_platform struct {
+		Cflags []string
+	}
 }
 
 type ProductVariables struct {
@@ -68,4 +71,5 @@ type ProductVariables struct {
 	Uses_qcom_bsp_legacy  *bool `json:",omitempty"`
 	Uses_metadata_as_fde_key  *bool `json:",omitempty"`
 	Uses_qti_camera_device  *bool `json:",omitempty"`
+	Uses_um_platform  *bool `json:",omitempty"`
 }

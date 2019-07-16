@@ -34,6 +34,7 @@ TARGET_USES_QCOM_MM_AUDIO := true
 # Enable color metadata for every UM platform
 ifneq ($(filter $(UM_PLATFORMS),$(TARGET_BOARD_PLATFORM)),)
     TARGET_USES_COLOR_METADATA := true
+    TARGET_USES_UM_PLATFORM := true
 endif
 
 # Enable DRM PP driver on UM platforms that support it
