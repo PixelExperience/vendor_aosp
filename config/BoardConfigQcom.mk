@@ -34,6 +34,7 @@ TARGET_USES_QCOM_MM_AUDIO := true
 # Enable color metadata for every UM platform
 ifneq ($(filter $(UM_PLATFORMS),$(TARGET_BOARD_PLATFORM)),)
     TARGET_USES_COLOR_METADATA := true
+    TARGET_USES_QCOM_UM_FAMILY := true
 endif
 
 # Enable DRM PP driver on UM platforms that support it
@@ -65,15 +66,19 @@ else ifneq ($(filter $(BR_FAMILY),$(TARGET_BOARD_PLATFORM)),)
 else ifneq ($(filter $(UM_3_18_FAMILY),$(TARGET_BOARD_PLATFORM)),)
     MSM_VIDC_TARGET_LIST := $(UM_3_18_FAMILY)
     QCOM_HARDWARE_VARIANT := msm8996
+    TARGET_USES_QCOM_UM_3_18_FAMILY := true
 else ifneq ($(filter $(UM_4_4_FAMILY),$(TARGET_BOARD_PLATFORM)),)
     MSM_VIDC_TARGET_LIST := $(UM_4_4_FAMILY)
     QCOM_HARDWARE_VARIANT := msm8998
+    TARGET_USES_QCOM_UM_4_4_FAMILY := true
 else ifneq ($(filter $(UM_4_9_FAMILY),$(TARGET_BOARD_PLATFORM)),)
     MSM_VIDC_TARGET_LIST := $(UM_4_9_FAMILY)
     QCOM_HARDWARE_VARIANT := sdm845
+    TARGET_USES_QCOM_UM_4_9_FAMILY := true
 else ifneq ($(filter $(UM_4_14_FAMILY),$(TARGET_BOARD_PLATFORM)),)
     MSM_VIDC_TARGET_LIST := $(UM_4_14_FAMILY)
     QCOM_HARDWARE_VARIANT := sm8150
+    TARGET_USES_QCOM_UM_4_14_FAMILY := true
 else
     MSM_VIDC_TARGET_LIST := $(TARGET_BOARD_PLATFORM)
     QCOM_HARDWARE_VARIANT := $(TARGET_BOARD_PLATFORM)
