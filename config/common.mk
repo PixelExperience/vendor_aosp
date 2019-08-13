@@ -44,6 +44,11 @@ endif
 PRODUCT_PACKAGES += \
     AmbientPlayHistoryProvider
 
+# Asus screenshot
+PRODUCT_PACKAGES += \
+    StitchImage \
+    StitchImageService
+
 # Backup Tool
 PRODUCT_COPY_FILES += \
     vendor/aosp/prebuilt/common/bin/backuptool.sh:install/bin/backuptool.sh \
