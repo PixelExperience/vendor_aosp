@@ -20,7 +20,7 @@ try:
     for res in data:
         if res['codename'] != "treble_gsi":
             for version in res['supported_versions']:
-                if version['version_code'] == 'pie' or version['version_code'] == 'pie_go':
+                if version['version_code'] == 'pie':
                     print (res['codename'])
                     break
 except:
