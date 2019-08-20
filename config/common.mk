@@ -131,6 +131,10 @@ PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
 PRODUCT_ENFORCE_RRO_EXCLUDED_OVERLAYS += vendor/aosp/overlay
 DEVICE_PACKAGE_OVERLAYS += vendor/aosp/overlay/common
 
+# Cutout control overlay
+PRODUCT_PACKAGES += \
+    NoCutoutOverlay
+
 # SetupWizard overlay
 PRODUCT_PACKAGES += \
     SetupWizardOverlay
@@ -146,5 +150,8 @@ include vendor/gapps/config.mk
 
 # Pixel Style
 include vendor/pixelstyle/config.mk
+
+# Themes
+include vendor/themes/config.mk
 
 -include $(WORKSPACE)/build_env/image-auto-bits.mk
