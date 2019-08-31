@@ -54,8 +54,7 @@ PRODUCT_PACKAGES += \
 
 # Some permissions
 PRODUCT_COPY_FILES += \
-    vendor/aosp/config/permissions/privapp-permissions-recorder.xml:system/etc/permissions/privapp-permissions-recorder.xml \
-    vendor/aosp/config/permissions/org.pixelexperience.recorder.xml:system/etc/permissions/org.pixelexperience.recorder.xml
+    vendor/aosp/config/permissions/privapp-permissions-recorder.xml:system/etc/permissions/privapp-permissions-recorder.xml
 
 # Backup Tool
 PRODUCT_COPY_FILES += \
