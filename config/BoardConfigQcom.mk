@@ -89,20 +89,7 @@ ifneq ($(OVERRIDE_QCOM_HARDWARE_VARIANT),)
 QCOM_HARDWARE_VARIANT := $(OVERRIDE_QCOM_HARDWARE_VARIANT)
 endif
 
-# Required for frameworks/native
-ifeq ($(QCOM_HARDWARE_VARIANT),msm8996)
-    TARGET_USES_QCOM_UM_FAMILY := true
-    TARGET_USES_QCOM_UM_3_18_FAMILY := true
-else ifeq ($(QCOM_HARDWARE_VARIANT),msm8998)
-    TARGET_USES_QCOM_UM_FAMILY := true
-    TARGET_USES_QCOM_UM_4_4_FAMILY := true
-else ifeq ($(QCOM_HARDWARE_VARIANT),sdm845)
-    TARGET_USES_QCOM_UM_FAMILY := true
-    TARGET_USES_QCOM_UM_4_9_FAMILY := true
-else ifeq ($(QCOM_HARDWARE_VARIANT),sm8150)
-    TARGET_USES_QCOM_UM_FAMILY := true
-    TARGET_USES_QCOM_UM_4_14_FAMILY := true
-endif
+include vendor/aosp/config/BoardConfigQcomUmPlatform.mk
 
 PRODUCT_SOONG_NAMESPACES += \
     hardware/qcom/audio-caf/$(QCOM_HARDWARE_VARIANT) \
