@@ -41,8 +41,8 @@ PRODUCT_SYSTEM_DEFAULT_PROPERTIES += ro.adb.secure=1
 endif
 
 # Ambient Play
-PRODUCT_PACKAGES += \
-    AmbientPlayHistoryProvider
+#PRODUCT_PACKAGES += \
+#    AmbientPlayHistoryProvider
 
 # Backup Tool
 PRODUCT_COPY_FILES += \
@@ -136,8 +136,8 @@ PRODUCT_ENFORCE_RRO_EXCLUDED_OVERLAYS += vendor/aosp/overlay
 DEVICE_PACKAGE_OVERLAYS += vendor/aosp/overlay/common
 
 # SetupWizard overlay
-PRODUCT_PACKAGES += \
-    SetupWizardOverlay
+#PRODUCT_PACKAGES += \
+#    SetupWizardOverlay
 
 # Branding
 include vendor/aosp/config/branding.mk
