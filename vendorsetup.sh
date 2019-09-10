@@ -1,6 +1,7 @@
+lunch_others_targets=()
 for device in $(python vendor/aosp/tools/get_official_devices.py)
 do
-for var in user userdebug; do
-add_lunch_combo aosp_$device-$var
-done
+    for var in user userdebug; do
+        lunch_others_targets+=("aosp_$device-$var")
+    done
 done
