@@ -19,6 +19,7 @@ ROM_FINGERPRINT := PixelExperience/$(CUSTOM_PLATFORM_VERSION)/$(TARGET_PRODUCT_S
 
 CUSTOM_PROPERTIES := \
     org.pixelexperience.version=$(CUSTOM_VERSION_PROP) \
+    org.pixelexperience.version.display=$(CUSTOM_VERSION) \
     org.pixelexperience.build_date=$(CUSTOM_BUILD_DATE) \
     org.pixelexperience.build_date_utc=$(CUSTOM_BUILD_DATE_UTC) \
     org.pixelexperience.build_type=$(CUSTOM_BUILD_TYPE) \
