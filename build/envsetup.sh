@@ -433,6 +433,7 @@ function pixelgerrit() {
     if [ -z "$project" ]
     then
         local project=`git config --get remote.pixel.projectname`
+        local remote_branch=pie
     fi
     local command=$1
     shift
