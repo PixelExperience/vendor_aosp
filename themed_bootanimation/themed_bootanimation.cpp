@@ -43,6 +43,9 @@ using std::string_view;
 const char kPropOffset[] = "ro.misc.block.offset";
 const char kPropBootTheme[] = "ro.boot.theme";
 
+static const size_t BOOTLOADER_MESSAGE_OFFSET_IN_MISC = BOARD_RECOVERY_BLDRMSG_OFFSET;
+static const size_t VENDOR_SPACE_OFFSET_IN_MISC = 2 * 1024 + BOOTLOADER_MESSAGE_OFFSET_IN_MISC;
+
 static bool read_misc_partition(void* p, size_t size, const string& misc_blk_device,
                                 size_t offset, string* err) {
   unique_fd fd(open(misc_blk_device.c_str(), O_RDONLY));
