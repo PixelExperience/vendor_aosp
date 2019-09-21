@@ -38,4 +38,11 @@ cc_binary {
         "libfstab",
     ],
     init_rc: ["themed_bootanimation.rc"],
+    product_variables: {
+        aosp: {
+            bootloader_message_offset : {
+                cflags: ["-DBOARD_RECOVERY_BLDRMSG_OFFSET=%d"],
+            },
+        },
+    },
 }
