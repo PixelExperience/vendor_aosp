@@ -40,10 +40,6 @@ else
 PRODUCT_SYSTEM_DEFAULT_PROPERTIES += ro.adb.secure=1
 endif
 
-# Ambient Play
-PRODUCT_PACKAGES += \
-    AmbientPlayHistoryProvider
-
 # Long screenshot
 PRODUCT_PACKAGES += \
     Longshot
