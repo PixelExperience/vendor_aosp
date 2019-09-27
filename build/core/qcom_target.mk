@@ -31,12 +31,7 @@ $(call set-device-specific-path,POWER,power,hardware/qcom/power)
 $(call set-device-specific-path,THERMAL,thermal,hardware/qcom/thermal)
 $(call set-device-specific-path,VR,vr,hardware/qcom/vr)
 
-ifeq ($(BOARD_USES_AOSP_WLAN_HAL),true)
-$(call wlan-set-path-variant,wlan)
-else
 $(call wlan-set-path-variant,wlan-caf)
-endif
-
 $(call bt-vendor-set-path-variant,bt-caf)
 
 PRODUCT_CFI_INCLUDE_PATHS += \
