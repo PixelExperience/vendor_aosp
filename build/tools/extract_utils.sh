@@ -86,7 +86,6 @@ function setup_vendor() {
 
     export PRODUCTMK="$AOSP_ROOT"/"$OUTDIR"/"$VNDNAME"-vendor.mk
     export ANDROIDMK="$AOSP_ROOT"/"$OUTDIR"/Android.mk
-    export ANDROIDBP="$AOSP_ROOT"/"$OUTDIR"/Android.bp
     export BOARDMK="$AOSP_ROOT"/"$OUTDIR"/BoardConfigVendor.mk
 
     if [ "$4" == "true" ] || [ "$4" == "1" ]; then
@@ -428,59 +427,6 @@ function write_packages() {
         printf 'include $(BUILD_PREBUILT)\n\n'
     done
 }
-#
-# write_framework:
-#
-# $1: "true" if this package is part of the vendor/ path
-# $2: Name of the array holding the target list
-#
-# Internal function which setup framework files using blueprints
-# for all modules in the list. This is called by write_product_packages
-# after the modules are categorized.
-#
-function write_framework() {
-
-    local PARTITION="$1"
-
-    # Yes, this is a horrible hack - we create a new array using indirection
-    local ARR_NAME="$2[@]"
-    local FILELIST=("${!ARR_NAME}")
-
-    local FILE=
-    local BASENAME=
-    local PKGNAME=
-    local SRC=
-
-    for P in "${FILELIST[@]}"; do
-        FILE=$(target_file "$P")
-
-        BASENAME=$(basename "$FILE")
-        PKGNAME=${BASENAME%.*}
-
-        # Add to final package list
-        PACKAGE_LIST+=("$PKGNAME")
-
-        SRC="proprietary"
-        if [ "$PARTITION" = "vendor" ]; then
-            SRC+="/vendor"
-        elif [ "$PARTITION" = "product" ]; then
-            SRC+="/product"
-        fi
-
-        printf 'soong_namespace {\n'
-        printf '}\n\n'
-        printf 'dex_import {\n'
-        printf '    name: "%s",\n' "$PKGNAME"
-        printf '    owner: "%s",\n' "$VENDOR"
-        printf '    jars: ["%s/framework/%s"],\n' "$SRC" "$FILE"
-        if [ "$PARTITION" = "vendor" ]; then
-            printf '    vendor: true,\n'
-        elif [ "$PARTITION" = "product" ]; then
-            printf '    product_specific: true,\n'
-        fi
-        printf '}\n\n'
-    done
-}
 
 #
 # write_product_packages:
@@ -578,15 +524,15 @@ function write_product_packages() {
     # Framework
     local FRAMEWORK=( $(prefix_match "framework/") )
     if [ "${#FRAMEWORK[@]}" -gt "0" ]; then
-        write_framework "" "FRAMEWORK" >> "$ANDROIDBP"
+        write_packages "JAVA_LIBRARIES" "" "" "FRAMEWORK" >> "$ANDROIDMK"
     fi
     local V_FRAMEWORK=( $(prefix_match "vendor/framework/") )
     if [ "${#V_FRAMEWORK[@]}" -gt "0" ]; then
-        write_framework "vendor" "V_FRAMEWORK" >> "$ANDROIDBP"
+        write_packages "JAVA_LIBRARIES" "vendor" "" "V_FRAMEWORK" >> "$ANDROIDMK"
     fi
     local P_FRAMEWORK=( $(prefix_match "product/framework/") )
     if [ "${#P_FRAMEWORK[@]}" -gt "0" ]; then
-        write_framework "product" "P_FRAMEWORK" >> "$ANDROIDBP"
+        write_packages "JAVA_LIBRARIES" "product" "" "P_FRAMEWORK" >> "$ANDROIDMK"
     fi
 
     # Etc
@@ -629,10 +575,6 @@ function write_product_packages() {
         return 0
     fi
 
-    # Soong namespace
-    printf "\n\nPRODUCT_SOONG_NAMESPACES += \\" >> "$PRODUCTMK"
-    printf '\n    %s\n' "${OUTDIR}"  >> "$PRODUCTMK"
-
     printf '\n%s\n' "PRODUCT_PACKAGES += \\" >> "$PRODUCTMK"
     for (( i=1; i<PACKAGE_COUNT+1; i++ )); do
         local LINEEND=" \\"
@@ -647,7 +589,6 @@ function write_product_packages() {
 # write_header:
 #
 # $1: file which will be written to
-# $2: line comment prefix
 #
 # writes out the copyright header with the current year.
 # note that this is not an append operation, and should
@@ -658,13 +599,6 @@ function write_header() {
         rm $1
     fi
 
-    if [ -z "$2" ]
-    then
-        local COMMENT_PREFIX="#"
-    else
-        local COMMENT_PREFIX="$2"
-    fi
-
     YEAR=$(date +"%Y")
 
     [ "$COMMON" -eq 1 ] && local DEVICE="$DEVICE_COMMON"
@@ -672,43 +606,43 @@ function write_header() {
     NUM_REGEX='^[0-9]+$'
     if [[ $INITIAL_COPYRIGHT_YEAR =~ $NUM_REGEX ]] && [ $INITIAL_COPYRIGHT_YEAR -le $YEAR ]; then
         if [ $INITIAL_COPYRIGHT_YEAR -lt 2016 ]; then
-            printf "$COMMENT_PREFIX Copyright (C) $INITIAL_COPYRIGHT_YEAR-2016 The CyanogenMod Project\n" > $1
+            printf "# Copyright (C) $INITIAL_COPYRIGHT_YEAR-2016 The CyanogenMod Project\n" > $1
         elif [ $INITIAL_COPYRIGHT_YEAR -eq 2016 ]; then
-            printf "$COMMENT_PREFIX Copyright (C) 2016 The CyanogenMod Project\n" > $1
+            printf "# Copyright (C) 2016 The CyanogenMod Project\n" > $1
         fi
         if [ $YEAR -eq 2017 ]; then
-            printf "$COMMENT_PREFIX Copyright (C) 2017 The LineageOS Project\n" >> $1
-            printf "$COMMENT_PREFIX Copyright (C) 2017 The PixelExperience Project\n" >> $1
+            printf "# Copyright (C) 2017 The LineageOS Project\n" >> $1
+            printf "# Copyright (C) 2017 The PixelExperience Project\n" >> $1
         elif [ $INITIAL_COPYRIGHT_YEAR -eq $YEAR ]; then
-            printf "$COMMENT_PREFIX Copyright (C) $YEAR The LineageOS Project\n" >> $1
-            printf "$COMMENT_PREFIX Copyright (C) $YEAR The PixelExperience Project\n" >> $1
+            printf "# Copyright (C) $YEAR The LineageOS Project\n" >> $1
+            printf "# Copyright (C) $YEAR The PixelExperience Project\n" >> $1
         elif [ $INITIAL_COPYRIGHT_YEAR -le 2017 ]; then
-            printf "$COMMENT_PREFIX Copyright (C) 2017-$YEAR The LineageOS Project\n" >> $1
-            printf "$COMMENT_PREFIX Copyright (C) 2017-$YEAR The PixelExperience Project\n" >> $1
+            printf "# Copyright (C) 2017-$YEAR The LineageOS Project\n" >> $1
+            printf "# Copyright (C) 2017-$YEAR The PixelExperience Project\n" >> $1
         else
-            printf "$COMMENT_PREFIX Copyright (C) $INITIAL_COPYRIGHT_YEAR-$YEAR The LineageOS Project\n" >> $1
-            printf "$COMMENT_PREFIX Copyright (C) $INITIAL_COPYRIGHT_YEAR-$YEAR The PixelExperience Project\n" >> $1
+            printf "# Copyright (C) $INITIAL_COPYRIGHT_YEAR-$YEAR The LineageOS Project\n" >> $1
+            printf "# Copyright (C) $INITIAL_COPYRIGHT_YEAR-$YEAR The PixelExperience Project\n" >> $1
         fi
     else
-        printf "$COMMENT_PREFIX Copyright (C) $YEAR The LineageOS Project\n" > $1
-        printf "$COMMENT_PREFIX Copyright (C) $YEAR The PixelExperience Project\n" > $1
+        printf "# Copyright (C) $YEAR The LineageOS Project\n" > $1
+        printf "# Copyright (C) $YEAR The PixelExperience Project\n" > $1
     fi
 
     cat << EOF >> $1
-$COMMENT_PREFIX
-$COMMENT_PREFIX Licensed under the Apache License, Version 2.0 (the "License");
-$COMMENT_PREFIX you may not use this file except in compliance with the License.
-$COMMENT_PREFIX You may obtain a copy of the License at
-$COMMENT_PREFIX
-$COMMENT_PREFIX http://www.apache.org/licenses/LICENSE-2.0
-$COMMENT_PREFIX
-$COMMENT_PREFIX Unless required by applicable law or agreed to in writing, software
-$COMMENT_PREFIX distributed under the License is distributed on an "AS IS" BASIS,
-$COMMENT_PREFIX WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-$COMMENT_PREFIX See the License for the specific language governing permissions and
-$COMMENT_PREFIX limitations under the License.
+#
+# Licensed under the Apache License, Version 2.0 (the "License");
+# you may not use this file except in compliance with the License.
+# You may obtain a copy of the License at
+#
+# http://www.apache.org/licenses/LICENSE-2.0
+#
+# Unless required by applicable law or agreed to in writing, software
+# distributed under the License is distributed on an "AS IS" BASIS,
+# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+# See the License for the specific language governing permissions and
+# limitations under the License.
 
-$COMMENT_PREFIX This file is generated by device/$VENDOR/$DEVICE/setup-makefiles.sh
+# This file is generated by device/$VENDOR/$DEVICE/setup-makefiles.sh
 
 EOF
 }
@@ -725,7 +659,6 @@ EOF
 #
 function write_headers() {
     write_header "$ANDROIDMK"
-    write_header "$ANDROIDBP" "//"
 
     GUARD="$2"
     if [ -z "$GUARD" ]; then
