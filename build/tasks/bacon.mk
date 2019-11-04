@@ -20,5 +20,4 @@ CUSTOM_TARGET_PACKAGE := $(PRODUCT_OUT)/$(CUSTOM_VERSION).zip
 bacon: $(INTERNAL_OTA_PACKAGE_TARGET)
 	$(hide) mv $(INTERNAL_OTA_PACKAGE_TARGET) $(CUSTOM_TARGET_PACKAGE)
 	$(hide) $(MD5SUM) $(CUSTOM_TARGET_PACKAGE) | sed "s|$(PRODUCT_OUT)/||" > $(CUSTOM_TARGET_PACKAGE).md5sum
-	$(hide) ./vendor/aosp/tools/generate_json_build_info.sh $(CUSTOM_TARGET_PACKAGE)
 	@echo "Package Complete: $(CUSTOM_TARGET_PACKAGE)" >&2
