@@ -126,7 +126,8 @@ DEVICE_PACKAGE_OVERLAYS += vendor/aosp/overlay/common
 
 # PixelSetupWizard overlay
 PRODUCT_PACKAGES += \
-    PixelSetupWizardOverlay
+    PixelSetupWizardOverlay \
+    PixelSetupWizardAodOverlay
 
 # Themed bootanimation
 TARGET_MISC_BLOCK_OFFSET ?= 0
