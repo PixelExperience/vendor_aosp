@@ -96,10 +96,6 @@ PRODUCT_ART_TARGET_INCLUDE_DEBUG_BUILD := false
 # leave less information available via JDWP.
 PRODUCT_MINIMIZE_JAVA_DEBUG_INFO := true
 
-# Optional packages
-PRODUCT_PACKAGES += \
-    LiveWallpapersPicker
-
 # Charger
 PRODUCT_PACKAGES += \
     charger_res_images
