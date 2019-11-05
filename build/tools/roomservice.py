@@ -44,7 +44,11 @@ DEBUG = False
 default_manifest = ".repo/manifest.xml"
 
 custom_local_manifest = ".repo/local_manifests/pixel.xml"
+<<<<<<< HEAD   (3aa324 vendor: Add signing parameters)
 custom_default_revision = "pie-plus"
+=======
+custom_default_revision =  os.getenv('ROOMSERVICE_DEFAULT_BRANCH', 'pie')
+>>>>>>> CHANGE (0877eb vendor: roomservice: Add support for custom branch)
 custom_dependencies = "aosp.dependencies"
 org_manifest = "pixel-devices"  # leave empty if org is provided in manifest
 org_display = "PixelExperience-Devices"  # needed for displaying
