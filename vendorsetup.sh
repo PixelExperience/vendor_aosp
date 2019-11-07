@@ -1,4 +1,5 @@
 lunch_others_targets=()
+testx
 for device in $(python vendor/aosp/tools/get_official_devices.py)
 do
     for var in user userdebug eng; do
