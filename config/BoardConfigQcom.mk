@@ -89,5 +89,9 @@ ifneq ($(OVERRIDE_QCOM_HARDWARE_VARIANT),)
 QCOM_HARDWARE_VARIANT := $(OVERRIDE_QCOM_HARDWARE_VARIANT)
 endif
 
+include vendor/aosp/config/BoardConfigQcomUmPlatform.mk
+
+ifneq ($(FROM_SOONG),true)
 PRODUCT_SOONG_NAMESPACES += \
     hardware/qcom-caf/$(QCOM_HARDWARE_VARIANT)
+endif
