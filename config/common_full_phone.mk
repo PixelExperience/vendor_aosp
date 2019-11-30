@@ -2,9 +2,11 @@
 
 IS_PHONE := true
 
+ifeq ($(TARGET_USES_AOSP_APNS_CONF),)
 # World APN list
 PRODUCT_PACKAGES += \
     apns-conf.xml
+endif
 
 # Telephony packages
 PRODUCT_PACKAGES += \
