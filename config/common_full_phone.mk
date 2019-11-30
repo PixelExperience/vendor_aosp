@@ -2,9 +2,11 @@
 
 IS_PHONE := true
 
+ifeq ($(CUSTOM_BUILD),)
 # World APN list
 PRODUCT_PACKAGES += \
     apns-conf.xml
+endif
 
 # Telephony packages
 PRODUCT_PACKAGES += \
