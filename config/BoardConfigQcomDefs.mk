@@ -48,6 +48,9 @@ ifneq ($(OVERRIDE_QCOM_HARDWARE_VARIANT),)
 QCOM_HARDWARE_VARIANT := $(OVERRIDE_QCOM_HARDWARE_VARIANT)
 endif
 
+# Allow exluding qcom's surfaceflinger extentions
+ifneq ($(TARGET_USES_AOSP_SURFACEFLINGER),true)
+
 # Required for frameworks/native
 ifeq ($(QCOM_HARDWARE_VARIANT),msm8996)
     TARGET_USES_QCOM_UM_FAMILY := true
@@ -61,4 +64,6 @@ else ifeq ($(QCOM_HARDWARE_VARIANT),sdm845)
 else ifeq ($(QCOM_HARDWARE_VARIANT),sm8150)
     TARGET_USES_QCOM_UM_FAMILY := true
     TARGET_USES_QCOM_UM_4_14_FAMILY := true
+endif
+
 endif
