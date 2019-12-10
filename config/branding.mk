@@ -15,9 +15,11 @@ TARGET_PRODUCT_SHORT := $(subst aosp_,,$(CUSTOM_BUILD))
 
 CUSTOM_VERSION := PixelExperience_$(CUSTOM_BUILD)-$(CUSTOM_PLATFORM_VERSION)-$(CUSTOM_BUILD_DATE)-$(CUSTOM_BUILD_TYPE)
 CUSTOM_VERSION_PROP := 10
+CUSTOM_TARGET_DEVICE ?= $(PRODUCT_DEVICE)
 ROM_FINGERPRINT := PixelExperience/$(CUSTOM_PLATFORM_VERSION)/$(TARGET_PRODUCT_SHORT)/$(CUSTOM_BUILD_DATE)
 
 CUSTOM_PROPERTIES := \
+    org.pixelexperience.device=$(CUSTOM_TARGET_DEVICE) \
     org.pixelexperience.version=$(CUSTOM_VERSION_PROP) \
     org.pixelexperience.version.display=$(CUSTOM_VERSION) \
     org.pixelexperience.build_date=$(CUSTOM_BUILD_DATE) \
