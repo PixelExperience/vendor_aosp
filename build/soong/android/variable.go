@@ -55,7 +55,6 @@ type Product_variables struct {
 	}
 	Uses_qcom_um_family struct {
 		Cflags []string
-		Srcs []string
 	}
 	Uses_qcom_um_3_18_family struct {
 		Include_dirs []string
