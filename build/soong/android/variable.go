@@ -81,6 +81,9 @@ type Product_variables struct {
 		Cflags []string
 		Srcs []string
 	}
+	Uses_prebuilt_camera_service struct {
+		Header_libs []string
+	}
 }
 
 type ProductVariables struct {
