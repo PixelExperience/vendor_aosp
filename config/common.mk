@@ -130,6 +130,10 @@ PRODUCT_PACKAGES += \
     NavBarGesturalWideBackNoPillOverlay \
     NavBarGesturalExtraWideBackNoPillOverlay \
 
+# GreyThemeOverlay overlay
+PRODUCT_PACKAGES += \
+    GreyThemeOverlay
+
 # Dex preopt
 PRODUCT_DEXPREOPT_SPEED_APPS += \
     SystemUI \
