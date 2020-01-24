@@ -85,7 +85,8 @@ PRODUCT_MINIMIZE_JAVA_DEBUG_INFO := true
 
 # Charger
 PRODUCT_PACKAGES += \
-    charger_res_images
+    charger_res_images \
+    product_charger_res_images
 
 # Filesystems tools
 PRODUCT_PACKAGES += \
