@@ -104,8 +104,14 @@ endif
 # Clear this first to prevent accidental poisoning from env
 KERNEL_MAKE_FLAGS :=
 
+ifeq ($(OS), Darwin)
+    THREAD_COUNT := $(sysctl -n hw.ncpu)
+else
+    THREAD_COUNT := $(shell nproc --all)
+endif
+
 # Add back threads, ninja cuts this to $(nproc)/2
-KERNEL_MAKE_FLAGS += -j$(shell nproc --all)
+KERNEL_MAKE_FLAGS += -j$(THREAD_COUNT)
 
 ifeq ($(KERNEL_ARCH),arm)
   # Avoid "Unknown symbol _GLOBAL_OFFSET_TABLE_" errors
