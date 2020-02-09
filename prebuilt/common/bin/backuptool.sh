@@ -7,8 +7,6 @@ export C=/tmp/backupdir
 export SYSDEV="$(readlink -nf "$2")"
 export SYSFS="$3"
 
-export ADDOND_VERSION=1
-
 # Scripts in /system/addon.d expect to find backuptool.functions in /tmp
 cp -f /tmp/install/bin/backuptool.functions /tmp
 
@@ -17,18 +15,6 @@ preserve_addon_d() {
   if [ -d $S/addon.d/ ]; then
     mkdir -p /tmp/addon.d/
     cp -a $S/addon.d/* /tmp/addon.d/
-
-    # Discard any scripts that aren't at least our version level
-    for f in /tmp/addon.d/*sh; do
-      SCRIPT_VERSION=$(grep "^# ADDOND_VERSION=" $f | cut -d= -f2)
-      if [ -z "$SCRIPT_VERSION" ]; then
-        SCRIPT_VERSION=1
-      fi
-      if [ $SCRIPT_VERSION -lt $ADDOND_VERSION ]; then
-        rm $f
-      fi
-    done
-
     chmod 755 /tmp/addon.d/*.sh
   fi
 }
