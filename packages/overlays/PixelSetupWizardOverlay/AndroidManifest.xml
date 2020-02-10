@@ -2,7 +2,7 @@
     package="com.google.android.pixel.setupwizard.overlay"
     android:versionCode="1"
     android:versionName="1.0">
-    <overlay android:targetPackage="com.google.android.pixel.setupwizard" android:priority="1" />
+    <overlay android:targetPackage="com.google.android.pixel.setupwizard" android:priority="1" android:isStatic="true" />
 
     <application android:label="Setup wizard" android:hasCode="false"/>
 </manifest>
