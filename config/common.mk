@@ -156,6 +156,9 @@ include vendor/aosp/config/ota.mk
 # GApps
 #include vendor/gapps/config.mk
 
+# Audio
+include vendor/aosp/config/audio.mk
+
 # Fonts
 include vendor/aosp/config/fonts.mk
 
