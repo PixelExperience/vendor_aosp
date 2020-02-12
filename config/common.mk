@@ -156,7 +156,7 @@ include vendor/aosp/config/ota.mk
 # GApps
 #include vendor/gapps/config.mk
 
-# Pixel Style
-#include vendor/pixelstyle/config.mk
+# Fonts
+include vendor/aosp/config/fonts.mk
 
 -include $(WORKSPACE)/build_env/image-auto-bits.mk
