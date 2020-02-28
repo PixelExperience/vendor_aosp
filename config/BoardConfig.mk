@@ -11,3 +11,6 @@ PRODUCT_SOONG_NAMESPACES += \
     frameworks/av/camera/cameraserver \
     frameworks/av/services/camera/libcameraservice
 endif
+
+# Namespace for fwk-detect
+PRODUCT_SOONG_NAMESPACE ?= hardware/qcom-caf/common/fwk-detect
