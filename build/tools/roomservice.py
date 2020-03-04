@@ -199,6 +199,10 @@ def add_to_manifest(repos, fallback_branch=None):
                     "name": "%s" % repo_name}
         )
 
+        clone_depth = os.getenv('ROOMSERVICE_CLONE_DEPTH')
+        if clone_depth:
+            project.set('clone-depth', clone_depth)
+
         if repo_branch is not None:
             project.set('revision', repo_branch)
         elif fallback_branch:
