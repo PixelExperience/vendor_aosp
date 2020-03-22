@@ -13,8 +13,13 @@ CUSTOM_PLATFORM_VERSION := 10.0
 
 TARGET_PRODUCT_SHORT := $(subst aosp_,,$(CUSTOM_BUILD))
 
+<<<<<<< HEAD   (487579 vendor: pixelgerrit: Fixes for ten-plus branch)
 CUSTOM_VERSION := PixelExperience_Plus_$(CUSTOM_BUILD)-$(CUSTOM_PLATFORM_VERSION)-$(CUSTOM_BUILD_DATE)-$(CUSTOM_BUILD_TYPE)
 CUSTOM_VERSION_PROP := 10
+=======
+CUSTOM_VERSION := PixelExperience_$(CUSTOM_BUILD)-$(CUSTOM_PLATFORM_VERSION)-$(CUSTOM_BUILD_DATE)-$(CUSTOM_BUILD_TYPE)
+CUSTOM_VERSION_PROP := ten
+>>>>>>> CHANGE (cb477a vendor: Adapt to new ota API)
 
 CUSTOM_PROPERTIES := \
     org.pixelexperience.version=$(CUSTOM_VERSION_PROP) \
