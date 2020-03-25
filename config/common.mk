@@ -140,6 +140,10 @@ PRODUCT_PACKAGES += \
     misc_writer_system \
     themed_bootanimation
 
+# Screen recorder
+PRODUCT_PACKAGES += \
+    Recorder
+
 # Branding
 include vendor/aosp/config/branding.mk
 
