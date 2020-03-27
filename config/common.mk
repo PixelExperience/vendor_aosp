@@ -144,6 +144,14 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     Recorder
 
+# Face Unlock
+ifeq ($(TARGET_GAPPS_ARCH),arm64)
+ifneq ($(TARGET_DISABLE_ALTERNATIVE_FACE_UNLOCK), true)
+PRODUCT_PACKAGES += \
+    FaceUnlockService
+endif
+endif
+
 # Branding
 include vendor/aosp/config/branding.mk
 
