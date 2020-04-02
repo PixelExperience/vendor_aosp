@@ -144,6 +144,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     Recorder
 
+# Long Screenshot
+PRODUCT_PACKAGES += \
+    StitchImage
+
 # Face Unlock
 TARGET_FACE_UNLOCK_SUPPORTED := false
 ifeq ($(TARGET_GAPPS_ARCH),arm64)
