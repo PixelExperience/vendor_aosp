@@ -30,10 +30,6 @@ else
 PRODUCT_SYSTEM_DEFAULT_PROPERTIES += ro.adb.secure=1
 endif
 
-# Ambient Play
-#PRODUCT_PACKAGES += \
-#    AmbientPlayHistoryProvider
-
 # Backup Tool
 PRODUCT_COPY_FILES += \
     vendor/aosp/prebuilt/common/bin/backuptool.sh:install/bin/backuptool.sh \
