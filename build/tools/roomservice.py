@@ -131,25 +131,6 @@ def get_remote(manifest=None, remote_name=None):
         if remote_name == remote.get('name'):
             return remote
 
-
-def get_revision(manifest=None, p="build"):
-    return custom_default_revision
-    m = manifest or load_manifest(get_manifest_path())
-    project = None
-    for proj in m.findall('project'):
-        if proj.get('path').strip('/') == p:
-            project = proj
-            break
-    revision = project.get('revision')
-    if revision:
-        return revision.replace('refs/heads/', '').replace('refs/tags/', '')
-    remote = get_remote(manifest=m, remote_name=project.get('remote'))
-    revision = remote.get('revision')
-    if not revision:
-        return custom_default_revision
-    return revision.replace('refs/heads/', '').replace('refs/tags/', '')
-
-
 def get_from_manifest(device_name):
     if os.path.exists(custom_local_manifest):
         man = load_manifest(custom_local_manifest)
@@ -190,30 +171,26 @@ def add_to_manifest(repos, fallback_branch=None):
             print('already exists: %s' % repo_path)
             continue
 
-        print('Adding dependency:\nRepository: %s\nBranch: %s\nRemote: %s\nPath: %s\n' % (repo_name, repo_branch,repo_remote, repo_path))
+        if fallback_branch:
+            repo_branch = fallback_branch
+
+        print('Adding dependency:\nRepository: %s\nBranch: %s\nRemote: %s\nPath: %s\n' % (repo_name, repo_branch, repo_remote, repo_path))
 
         project = ElementTree.Element(
             "project",
             attrib={"path": repo_path,
                     "remote": repo_remote,
-                    "name": "%s" % repo_name}
+                    "name": "%s" % repo_name,
+                    "revision": "%s" % repo_branch}
         )
 
         clone_depth = os.getenv('ROOMSERVICE_CLONE_DEPTH')
         if clone_depth:
             project.set('clone-depth', clone_depth)
-
-        if repo_branch is not None:
-            project.set('revision', repo_branch)
-        elif fallback_branch:
-            print("Using branch %s for %s" %
-                  (fallback_branch, repo_name))
-            project.set('revision', fallback_branch)
-        else:
-            print("Using default branch for %s" % repo_name)
         if 'clone-depth' in repo:
             print("Setting clone-depth to %s for %s" % (repo['clone-depth'], repo_name))
             project.set('clone-depth', repo['clone-depth'])
+
         lm.append(project)
 
     indent(lm)
@@ -249,8 +226,7 @@ def fetch_dependencies(repo_path, fallback_branch=None):
     for dependency in dependencies:
         if not is_in_manifest(dependency['target_path']):
             if not dependency.get('branch'):
-                dependency['branch'] = (get_revision() or
-                                        custom_default_revision)
+                dependency['branch'] = custom_default_revision
 
             fetch_list.append(dependency)
             syncable_repos.append(dependency['target_path'])
@@ -284,24 +260,19 @@ def detect_revision(repo):
     add_auth(githubreq)
     result = json.loads(urllib.request.urlopen(githubreq).read().decode())
 
-    calc_revision = get_revision()
-    print("Calculated revision: %s" % calc_revision)
+    if has_branch(result, custom_default_revision):
+        print("Using default revision: %s\n" % custom_default_revision)
+        return custom_default_revision
 
-    if has_branch(result, calc_revision):
-        return calc_revision
+    print("Default revision not found: %s, trying to fallback to another branch" % custom_default_revision)
 
     fallbacks = os.getenv('ROOMSERVICE_BRANCHES', '').split()
     for fallback in fallbacks:
         if has_branch(result, fallback):
-            print("Using fallback branch: %s" % fallback)
+            print("Using fallback branch: %s\n" % fallback)
             return fallback
 
-    if has_branch(result, custom_default_revision):
-        print("Falling back to custom revision: %s"
-              % custom_default_revision)
-        return custom_default_revision
-
-    print("Branches found:")
+    print("\nBranches found:")
     for branch in result:
         print(branch['name'])
     print("Use the ROOMSERVICE_BRANCHES environment variable to "
