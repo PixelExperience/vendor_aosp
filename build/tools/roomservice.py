@@ -131,25 +131,6 @@ def get_remote(manifest=None, remote_name=None):
         if remote_name == remote.get('name'):
             return remote
 
-
-def get_revision(manifest=None, p="build"):
-    return custom_default_revision
-    m = manifest or load_manifest(get_manifest_path())
-    project = None
-    for proj in m.findall('project'):
-        if proj.get('path').strip('/') == p:
-            project = proj
-            break
-    revision = project.get('revision')
-    if revision:
-        return revision.replace('refs/heads/', '').replace('refs/tags/', '')
-    remote = get_remote(manifest=m, remote_name=project.get('remote'))
-    revision = remote.get('revision')
-    if not revision:
-        return custom_default_revision
-    return revision.replace('refs/heads/', '').replace('refs/tags/', '')
-
-
 def get_from_manifest(device_name):
     if os.path.exists(custom_local_manifest):
         man = load_manifest(custom_local_manifest)
@@ -249,8 +230,7 @@ def fetch_dependencies(repo_path, fallback_branch=None):
     for dependency in dependencies:
         if not is_in_manifest(dependency['target_path']):
             if not dependency.get('branch'):
-                dependency['branch'] = (get_revision() or
-                                        custom_default_revision)
+                dependency['branch'] = custom_default_revision
 
             fetch_list.append(dependency)
             syncable_repos.append(dependency['target_path'])
@@ -284,28 +264,12 @@ def detect_revision(repo):
     add_auth(githubreq)
     result = json.loads(urllib.request.urlopen(githubreq).read().decode())
 
-    calc_revision = get_revision()
-    print("Calculated revision: %s" % calc_revision)
-
-    if has_branch(result, calc_revision):
-        return calc_revision
-
-    fallbacks = os.getenv('ROOMSERVICE_BRANCHES', '').split()
-    for fallback in fallbacks:
-        if has_branch(result, fallback):
-            print("Using fallback branch: %s" % fallback)
-            return fallback
+    print("Calculated revision: %s" % custom_default_revision)
 
     if has_branch(result, custom_default_revision):
-        print("Falling back to custom revision: %s"
-              % custom_default_revision)
         return custom_default_revision
 
-    print("Branches found:")
-    for branch in result:
-        print(branch['name'])
-    print("Use the ROOMSERVICE_BRANCHES environment variable to "
-          "specify a list of fallback branches.")
+    print("Branch %s not found" % custom_default_revision)
     sys.exit()
 
 
