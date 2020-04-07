@@ -436,16 +436,16 @@ will $1 patch-set 1 of change 1234
 EOF
                     ;;
                 push) cat <<EOF
-usage: $FUNCNAME push [OPTIONS]
+usage: $FUNCNAME push BRANCH
 
 works as:
-    git push OPTIONS ssh://USER@DOMAIN:29418/PROJECT \\
+    git push ssh://USER@DOMAIN:29418/PROJECT \\
       HEAD:refs/for/$remote_branch
 
 Example:
-    $FUNCNAME push fix6789
-will push local branch 'fix6789' to Gerrit for branch '$remote_branch'.
-HEAD will be pushed from local if omitted.
+    $FUNCNAME push '$remote_branch'
+will push HEAD to branch '$remote_branch'.
+'$remote_branch' is the default branch.
 EOF
                     ;;
                 *)
@@ -495,6 +495,9 @@ EOF
                 return 1
             fi
             local local_branch=HEAD
+            if [ -n "$1" ]; then
+                remote_branch=$1
+            fi
             shift
             git push $@ ssh://$user@$review:29418/$project \
                 $local_branch:refs/for/$remote_branch || return 1
