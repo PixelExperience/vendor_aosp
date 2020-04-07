@@ -436,13 +436,14 @@ if __name__ == '__main__':
 
         if args.am:
             patch_url = '{0}/{1}/commit/{2}.patch'.format(default_github, item['project'], item['current_revision'])
-            cmd = ['curl {0} | git am --3way'.format(patch_url)]
+            cmd = ['curl -s {0} | git am --3way'.format(patch_url)]
         elif args.pull:
             cmd = ['git pull --no-edit', item['fetch'][method]['url'], item['fetch'][method]['ref']]
         else:
             cmd = ['git fetch', item['fetch'][method]['url'], item['fetch'][method]['ref']]
         if args.quiet:
-            cmd.append('--quiet')
+            if not args.am:
+                cmd.append('--quiet')
         else:
             print(cmd)
         result = subprocess.call([' '.join(cmd)], cwd=project_path, shell=True)
