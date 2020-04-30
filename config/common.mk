@@ -179,6 +179,6 @@ include vendor/gapps/config.mk
 include vendor/pixelstyle/config.mk
 
 # Customization
-include vendor/google/customization/config.mk
+include vendor/google-customization/config.mk
 
 -include $(WORKSPACE)/build_env/image-auto-bits.mk
