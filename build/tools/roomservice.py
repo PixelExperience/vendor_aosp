@@ -94,20 +94,6 @@ def indent(elem, level=0):
         if level and (not elem.tail or not elem.tail.strip()):
             elem.tail = i
 
-
-def get_manifest_path():
-    '''Find the current manifest path
-    In old versions of repo this is at .repo/manifest.xml
-    In new versions, .repo/manifest.xml includes an include
-    to some arbitrary file in .repo/manifests'''
-
-    m = ElementTree.parse(".repo/manifest.xml")
-    try:
-        m.findall('default')[0]
-        return '.repo/manifest.xml'
-    except IndexError:
-        return ".repo/manifests/{}".format(m.find("include").get("name"))
-
 def load_manifest(manifest):
     try:
         man = ElementTree.parse(manifest).getroot()
@@ -117,13 +103,13 @@ def load_manifest(manifest):
 
 
 def get_default(manifest=None):
-    m = manifest or load_manifest(get_manifest_path())
+    m = manifest
     d = m.findall('default')[0]
     return d
 
 
 def get_remote(manifest=None, remote_name=None):
-    m = manifest or load_manifest(get_manifest_path())
+    m = manifest
     if not remote_name:
         remote_name = get_default(manifest=m).get('remote')
     remotes = m.findall('remote')
@@ -142,11 +128,10 @@ def get_from_manifest(device_name):
 
 
 def is_in_manifest(project_path):
-    for man in (custom_local_manifest, get_manifest_path()):
-        man = load_manifest(man)
-        for local_path in man.findall("project"):
-            if local_path.get("path") == project_path:
-                return True
+    man = load_manifest(custom_local_manifest)
+    for local_path in man.findall("project"):
+        if local_path.get("path") == project_path:
+            return True
     return False
 
 
