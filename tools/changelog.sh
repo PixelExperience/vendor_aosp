@@ -7,6 +7,8 @@ then
 	rm -f $Changelog
 fi
 
+export formatter_script=$(realpath vendor/aosp/tools/changelog_repo_formatter.sh)
+
 touch $Changelog
 
 echo "Generating changelog..."
@@ -24,7 +26,7 @@ k=$(expr $i - 1)
 	echo >> $Changelog;
 
 	# Cycle through every repo to find commits between 2 dates
-	repo forall -c 'cmd=$(git log --oneline --after=$After_Date --until=$Until_Date) ; repo_url=$(git config --get "remote.$(echo $REPO_REMOTE).url") ; [[ ! -z "$cmd" ]] && echo -e "* Repository: ${repo_url}/commits/${REPO_RREV}\n\n${cmd}\n"' >> $Changelog
+	repo forall -c '. $formatter_script' >> $Changelog
 	echo >> $Changelog;
 done
 
