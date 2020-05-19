@@ -1,0 +1,6 @@
+runtime_resource_overlay {
+    name: "NavigationBarNoHintOverlay",
+    certificate: "platform",
+    sdk_version: "current",
+    product_specific: true
+}
