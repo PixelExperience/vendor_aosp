@@ -114,6 +114,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     NavigationBarMode2ButtonOverlay
 
+# Hide navigation bar hint
+PRODUCT_PACKAGES += \
+    NavigationBarNoHintOverlay
+
 # Dex preopt
 PRODUCT_DEXPREOPT_SPEED_APPS += \
     SystemUI \
