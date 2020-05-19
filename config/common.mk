@@ -52,9 +52,13 @@ endif
 # Some permissions
 PRODUCT_COPY_FILES += \
     vendor/aosp/config/permissions/backup.xml:system/etc/sysconfig/backup.xml \
+<<<<<<< HEAD   (3d0a24 Merge "Revert "aosp: Drop APN configs"" into ten)
     vendor/aosp/config/permissions/privapp-permissions-fm.xml:system/etc/permissions/privapp-permissions-fm.xml \
     vendor/aosp/config/permissions/privapp-permissions-snap.xml:system/etc/permissions/privapp-permissions-snap.xml \
     vendor/aosp/config/permissions/privapp-permissions-camera2.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/privapp-permissions-camera2.xml
+=======
+    vendor/aosp/config/permissions/privapp-permissions-livedisplay.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/privapp-permissions-livedisplay.xml
+>>>>>>> CHANGE (8c810b Cleanup permissions)
 
 # Copy all custom init rc files
 $(foreach f,$(wildcard vendor/aosp/prebuilt/common/etc/init/*.rc),\
