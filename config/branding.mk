@@ -23,6 +23,6 @@ CUSTOM_PROPERTIES := \
     org.pixelexperience.build_date_utc=$(CUSTOM_BUILD_DATE_UTC) \
     org.pixelexperience.build_type=$(CUSTOM_BUILD_TYPE)
 
-ifeq ($(CUSTOM_BUILD_TYPE), OFFICIAL)
-PRODUCT_DEFAULT_DEV_CERTIFICATE := vendor/secure/releasekey
-endif
+#ifeq ($(CUSTOM_BUILD_TYPE), OFFICIAL)
+#PRODUCT_DEFAULT_DEV_CERTIFICATE := vendor/secure/releasekey
+#endif
