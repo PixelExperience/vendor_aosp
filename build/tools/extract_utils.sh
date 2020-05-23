@@ -459,7 +459,7 @@ function write_blueprint_packages() {
         fi
         if [ "$CLASS" = "SHARED_LIBRARIES" ] || [ "$CLASS" = "EXECUTABLES" ] || [ "$CLASS" = "ETC" ] ; then
             if [ "$DIRNAME" != "." ]; then
-                printf '\tsub_dir: "%s",\n' "$DIRNAME"
+                printf '\trelative_install_path: "%s",\n' "$DIRNAME"
             fi
         fi
         if [ "$CLASS" = "SHARED_LIBRARIES" ] || [ "$CLASS" = "EXECUTABLES" ] ; then
