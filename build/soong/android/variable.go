@@ -49,6 +49,10 @@ type Product_variables struct {
 	Target_ignores_ftp_pptp_conntrack_failure struct {
 		Cppflags []string
 	}
+	Target_surfaceflinger_fod_lib struct {
+		Cflags []string
+		Whole_static_libs []string
+	}
 	Uses_generic_camera_parameter_library struct {
 		Srcs []string
 	}
@@ -109,6 +113,7 @@ type ProductVariables struct {
 	Target_needs_netd_direct_connect_rule  *bool `json:",omitempty"`
 	Target_camera_needs_client_info  *bool `json:",omitempty"`
 	Target_ignores_ftp_pptp_conntrack_failure  *bool `json:",omitempty"`
+	Target_surfaceflinger_fod_lib  *string `json:",omitempty"`
 	Uses_generic_camera_parameter_library  *bool `json:",omitempty"`
 	Uses_nvidia_enhancements  *bool `json:",omitempty"`
 	Uses_qcom_bsp_legacy  *bool `json:",omitempty"`
