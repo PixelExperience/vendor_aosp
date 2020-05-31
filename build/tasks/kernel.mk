@@ -46,7 +46,16 @@
 #                                          on whether the clang version is set, optional.
 #   KERNEL_LD                          = The Linker used. This is automatically set based
 #                                          on whether the clang/gcc version is set, optional.
-#
+#   KERNEL_AR                          = AR program to be used. This is automatically selected to 
+#                                        default GNU binutils unless otherwise mentioned
+#   KERNEL_NM                          = NM program to be used. This is automatically selected to 
+#                                        default GNU binutils unless otherwise mentioned
+#   KERNEL_OBJCOPY                     = OBJCOPY Program to be used. This is automatically selected to 
+#                                        default GNU binutils unless otherwise mentioned
+#   KERNEL_OBJDUMP                     = OBJDUMP Program to be used. This is automatically selected to 
+#                                        default GNU binutils unless otherwise mentioned
+#   KERNEL_STRIP                       = STRIP Program to be used. This is automatically selected to 
+#                                        default GNU binutils unless otherwise mentioned
 #   KERNEL_CLANG_TRIPLE                = Target triple for clang (e.g. aarch64-linux-gnu-)
 #                                          defaults to arm-linux-gnu- for arm
 #                                                      aarch64-linux-gnu- for arm64
@@ -189,6 +198,21 @@ ifeq ($(TARGET_KERNEL_CLANG_COMPILE),true)
     ifeq ($(KERNEL_LD),)
         KERNEL_LD :=
     endif
+    ifeq ($(KERNEL_STRIP),)
+        KERNEL_STRIP :=
+    endif
+    ifeq ($(KERNEL_AR),)
+        KERNEL_AR :=
+    endif
+    ifeq ($(KERNEL_NM),)
+        KERNEL_NM :=
+    endif
+    ifeq ($(KERNEL_OBJCOPY),)
+        KERNEL_OBJCOPY :=
+    endif
+    ifeq ($(KERNEL_OBJDUMP),)
+        KERNEL_OBJDUMP :=
+    endif
 endif
 
 ifneq ($(TARGET_KERNEL_MODULES),)
@@ -206,7 +230,7 @@ KERNEL_ADDITIONAL_CONFIG_OUT := $(KERNEL_OUT)/.additional_config
 # $(1): output path (The value passed to O=)
 # $(2): target to build (eg. defconfig, modules, dtbo.img)
 define internal-make-kernel-target
-$(PATH_OVERRIDE) $(KERNEL_MAKE_CMD) $(KERNEL_MAKE_FLAGS) -C $(KERNEL_SRC) O=$(KERNEL_BUILD_OUT_PREFIX)$(1) ARCH=$(KERNEL_ARCH) $(KERNEL_CROSS_COMPILE) $(KERNEL_CLANG_TRIPLE) $(KERNEL_CC) $(KERNEL_LD) $(2)
+$(PATH_OVERRIDE) $(KERNEL_MAKE_CMD) $(KERNEL_MAKE_FLAGS) -C $(KERNEL_SRC) O=$(KERNEL_BUILD_OUT_PREFIX)$(1) ARCH=$(KERNEL_ARCH) $(KERNEL_CROSS_COMPILE) $(KERNEL_CLANG_TRIPLE) $(KERNEL_CC) $(KERNEL_LD) $(KERNEL_AR) $(KERNEL_NM) $(KERNEL_OBJCOPY) $(KERNEL_OBJDUMP) $(KERNEL_STRIP) $(2)
 endef
 
 # Make a kernel target
