@@ -113,6 +113,17 @@ PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
 PRODUCT_ENFORCE_RRO_EXCLUDED_OVERLAYS += vendor/aosp/overlay
 DEVICE_PACKAGE_OVERLAYS += vendor/aosp/overlay/common
 
+<<<<<<< HEAD   (8c294f Revert "vendor: soong: add target_needs_client_info")
+=======
+# TouchGestures
+PRODUCT_PACKAGES += \
+    TouchGestures
+
+# Cutout control overlay
+PRODUCT_PACKAGES += \
+    NoCutoutOverlay
+
+>>>>>>> CHANGE (1ea494 Build TouchGestures)
 # PixelSetupWizard overlay
 PRODUCT_PACKAGES += \
     PixelSetupWizardOverlay \
