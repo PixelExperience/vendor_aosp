@@ -119,6 +119,10 @@ DEVICE_PACKAGE_OVERLAYS += vendor/aosp/overlay/common
 PRODUCT_PACKAGES += \
     NoCutoutOverlay
 
+# TouchGestures
+PRODUCT_PACKAGES += \
+    TouchGestures
+
 # PixelSetupWizard overlay
 PRODUCT_PACKAGES += \
     PixelSetupWizardOverlay \
