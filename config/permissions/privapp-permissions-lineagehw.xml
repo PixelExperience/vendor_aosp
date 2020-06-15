@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<permissions>
+    <privapp-permissions package="com.android.systemui">
+        <permission name="lineageos.permission.HARDWARE_ABSTRACTION_ACCESS" />
+    </privapp-permissions>
+
+    <privapp-permissions package="com.android.settings">
+        <permission name="lineageos.permission.HARDWARE_ABSTRACTION_ACCESS" />
+    </privapp-permissions>
+</permissions>
