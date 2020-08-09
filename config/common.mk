@@ -30,6 +30,15 @@ else
 PRODUCT_SYSTEM_DEFAULT_PROPERTIES += ro.adb.secure=1
 endif
 
+# Binaries for file-based incremental ota
+PRODUCT_COPY_FILES += \
+    vendor/aosp/prebuilt/common/bin/busybox-arm:install/bin/busybox-arm \
+    vendor/aosp/prebuilt/common/bin/busybox-x86:install/bin/busybox-x86 \
+    vendor/aosp/prebuilt/common/bin/mount_all.sh:install/bin/mount_all.sh \
+    vendor/aosp/prebuilt/common/bin/mount_functions.sh:install/bin/mount_functions.sh \
+    vendor/aosp/prebuilt/common/bin/setup_busybox.sh:install/bin/setup_busybox.sh \
+    vendor/aosp/prebuilt/common/bin/umount_all.sh:install/bin/umount_all.sh
+
 # OTA
 ifneq ($(TARGET_BUILD_VARIANT),user)
 PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
