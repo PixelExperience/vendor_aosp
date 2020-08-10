@@ -30,6 +30,12 @@ else
 PRODUCT_SYSTEM_DEFAULT_PROPERTIES += ro.adb.secure=1
 endif
 
+# AOSP recovery flashing
+ifeq ($(TARGET_USES_AOSP_RECOVERY),)
+PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
+    persist.sys.recovery_update=true
+endif
+
 # Binaries for file-based incremental ota
 PRODUCT_COPY_FILES += \
     vendor/aosp/prebuilt/common/bin/busybox-arm:install/bin/busybox-arm \
