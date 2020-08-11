@@ -31,7 +31,7 @@ PRODUCT_SYSTEM_DEFAULT_PROPERTIES += ro.adb.secure=1
 endif
 
 # AOSP recovery flashing
-ifeq ($(TARGET_USES_AOSP_RECOVERY),)
+ifeq ($(TARGET_USES_AOSP_RECOVERY),true)
 PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
     persist.sys.recovery_update=true
 endif
