@@ -27,6 +27,11 @@
         <item>com.google.android.gms/com.google.android.gms.update.SystemUpdateService</item>
     </string-array>
 
+    <!-- Force enable styles -->
+    <string-array name="config_forceEnabledComponents" translatable="false">
+        <item>com.google.android.apps.wallpaper/com.android.customization.picker.CustomizationPickerActivity</item>
+    </string-array>
+
     <string name="config_mms_user_agent">Android</string>
     <string name="config_mms_user_agent_profile_url">http://www.google.com/oha/rdf/ua-profile-kila.xml</string>
 
