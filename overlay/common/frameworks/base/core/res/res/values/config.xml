@@ -27,6 +27,7 @@
         <item>com.google.android.gms/com.google.android.gms.update.SystemUpdateService</item>
         <item>com.google.android.settings.intelligence/com.google.android.settings.intelligence.modules.search.SearchActivity</item>
         <item>com.google.android.settings.intelligence/com.google.android.settings.intelligence.modules.search.indexing.SearchResultDumpProvider</item>
+        <item>com.google.android.apps.wallpaper/com.google.android.apps.wallpaper.picker.SetWallpaperAlias</item>
     </string-array>
 
     <!-- Force enable styles -->
