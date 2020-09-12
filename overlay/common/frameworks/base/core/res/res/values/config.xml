@@ -25,6 +25,12 @@
         <item>com.google.android.gms/com.google.android.gms.update.SystemUpdateActivity</item>
         <item>com.google.android.gms/com.google.android.gms.update.SystemUpdateGcmTaskService</item>
         <item>com.google.android.gms/com.google.android.gms.update.SystemUpdateService</item>
+<<<<<<< HEAD   (fa8844 extract_utils: Add support for system_ext)
+=======
+        <item>com.google.android.settings.intelligence/com.google.android.settings.intelligence.modules.search.SearchActivity</item>
+        <item>com.google.android.settings.intelligence/com.google.android.settings.intelligence.modules.search.indexing.SearchResultDumpProvider</item>
+        <item>com.google.android.apps.wallpaper/com.google.android.apps.wallpaper.picker.SetWallpaperAlias</item>
+>>>>>>> CHANGE (b43110 vendor: Fix duplicated styles package)
     </string-array>
 
     <!-- Force enable styles -->
