@@ -102,3 +102,7 @@ endif
 ifneq ($(filter $(UM_PLATFORMS),$(TARGET_BOARD_PLATFORM)),)
 SOONG_CONFIG_customQcomVars_qcom_soong_namespace := $(QCOM_SOONG_NAMESPACE)
 endif
+
+ifneq ($(TARGET_USE_QTI_BT_STACK),true)
+PRODUCT_SOONG_NAMESPACES += packages/apps/Bluetooth
+endif #TARGET_USE_QTI_BT_STACK

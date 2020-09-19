@@ -107,6 +107,12 @@ ifneq ($(USE_DEVICE_SPECIFIC_DATA_IPA_CFG_MGR),true)
     PRODUCT_SOONG_NAMESPACES += vendor/qcom/opensource/data-ipa-cfg-mgr
 endif
 
+ifeq ($(TARGET_USE_QTI_BT_STACK),true)
+PRODUCT_SOONG_NAMESPACES += \
+    vendor/qcom/opensource/commonsys/packages/apps/Bluetooth \
+    vendor/qcom/opensource/commonsys/system/bt/conf
+endif #TARGET_USE_QTI_BT_STACK
+
 # Add dataservices to PRODUCT_SOONG_NAMESPACES if needed
 ifneq ($(PRODUCT_PLATFORM_SOD),true)
     PRODUCT_SOONG_NAMESPACES += vendor/qcom/opensource/dataservices
