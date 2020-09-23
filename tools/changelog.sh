@@ -1,6 +1,9 @@
 #!/bin/sh
+DEVICE=$(echo $TARGET_PRODUCT | cut -d "_" -f2)
 
-export Changelog=Changelog.txt
+OUT="./out/target/product/$DEVICE"
+
+export Changelog="$OUT/Changelog.txt"
 
 if [ -f $Changelog ];
 then
@@ -30,5 +33,5 @@ do
     echo >> $Changelog;
 done
 
+mkdir -p $OUT/system/etc/
 cp $Changelog $OUT/system/etc/
-cp $Changelog $OUT/
