@@ -156,6 +156,12 @@
         <item>com.linkedin.android</item>
         <item>com.tencent.mm</item>
         <item>com.Slack</item>
+        <item>nekox.messenger</item>
+        <item>org.telegram.plus</item>
+        <item>org.thunderdog.challegram</item>
+        <item>im.vector.app</item>
+        <item>cx.ring</item>
+        <item>org.briarproject.briar.android</item>
     </string-array>
     <string-array name="config_packagesExemptFromSuspension">
         <item>com.google.android.apps.wellbeing</item>
