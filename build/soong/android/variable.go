@@ -74,6 +74,9 @@ type Product_variables struct {
 		Cppflags []string
 		Shared_libs []string
 	}
+	Board_build_mtk_hals struct {
+		Cflags []string
+	}
 }
 
 type ProductVariables struct {
@@ -100,4 +103,5 @@ type ProductVariables struct {
 	Uses_qcom_bsp_legacy  *bool `json:",omitempty"`
 	Uses_qti_camera_device  *bool `json:",omitempty"`
 	Target_uses_prebuilt_dynamic_partitions  *bool `json:",omitempty"`
+	Board_build_mtk_hals  *bool `json:",omitempty"`
 }
