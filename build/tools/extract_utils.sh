@@ -1273,6 +1273,10 @@ function oat2dex() {
         export CDEXCONVERTER="$AOSP_ROOT"/prebuilts/tools-custom/${HOST}-x86/bin/compact_dex_converter
     fi
 
+    if [ -z "$PATCHELF" ]; then
+        export PATCHELF="$AOSP_ROOT"/prebuilts/tools-custom/${HOST}-x86/bin/patchelf
+    fi
+
     # Extract existing boot.oats to the temp folder
     if [ -z "$ARCHES" ]; then
         echo "Checking if system is odexed and locating boot.oats..."
