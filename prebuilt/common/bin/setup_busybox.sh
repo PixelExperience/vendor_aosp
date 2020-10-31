@@ -1,15 +1,14 @@
 #!/sbin/sh
 source /tmp/install/bin/mount_functions.sh
 
-case "$(uname -m)" in
-  *86*) export BINARCH="x86";;  # e.g. Zenfone is i686
-  *ar*) export BINARCH="arm";; # i.e. armv7l and aarch64
-esac
-
-export bb="$TMP/busybox-$BINARCH"
+export bb="$TMP/busybox"
 
 setenforce 0
-chmod +x $bb
+
+for f in busybox; do
+  chmod +x "$TMP/$f"
+done
+
 if [ -e "$bb" ]; then
   for i in $($bb --list); do
     if ! ln -sf "$bb" "$TMP/$i" && ! $bb ln -sf "$bb" "$TMP/$i" && ! $bb ln -f "$bb" "$TMP/$i"; then
