@@ -130,6 +130,10 @@ PRODUCT_PACKAGES += \
     misc_writer_system \
     themed_bootanimation
 
+# SystemUI plugins
+PRODUCT_PACKAGES += \
+    QuickAccessWallet
+
 # Face Unlock
 #TARGET_FACE_UNLOCK_SUPPORTED ?= true
 #ifneq ($(TARGET_GAPPS_ARCH),arm64)
