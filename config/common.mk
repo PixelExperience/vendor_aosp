@@ -167,4 +167,7 @@ $(call inherit-product, vendor/aosp/config/carrier_settings.mk)
 # RRO Overlays
 $(call inherit-product, vendor/aosp/config/rro_overlays.mk)
 
+# Apex
+$(call inherit-product, vendor/aosp/config/apex.mk)
+
 -include $(WORKSPACE)/build_env/image-auto-bits.mk
