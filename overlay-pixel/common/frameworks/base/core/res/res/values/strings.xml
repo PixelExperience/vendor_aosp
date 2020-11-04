@@ -17,7 +17,7 @@
     <string name="config_defaultNearbySharingComponent">com.google.android.gms/com.google.android.gms.nearby.sharing.ShareSheetActivity</string>
     <string name="config_defaultNetworkRecommendationProviderPackage">com.google.android.gms</string>
     <string name="config_defaultSms">com.google.android.apps.messaging</string>
-    <string name="config_deviceConfiguratorPackageName">com.google.android.gms</string>
+    <!--string name="config_deviceConfiguratorPackageName">com.google.android.gms</string-->
     <string name="config_persistentDataPackageName">com.google.android.gms</string>
     <!--string name="config_servicesExtensionPackage">com.google.android.ext.services</string-->
     <string name="config_systemGallery">com.google.android.apps.photos</string>
