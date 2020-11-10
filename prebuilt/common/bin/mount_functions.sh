@@ -17,39 +17,41 @@ setup_mountpoint() {
 }
 
 is_mounted() { mount | grep -q " $1 "; }
+
 mount_all() {
   (mount /cache
-  mount -o ro -t auto /persist
-  mount -o ro -t auto /product
-  mount -o ro -t auto /odm
-  mount -o ro -t auto /vendor) 2>/dev/null
+  mount -o rw -t auto /persist
+  mount -o rw -t auto /product
+  mount -o rw -t auto /odm
+  mount -o rw -t auto /vendor) 2>/dev/null
   test "$ANDROID_ROOT" || ANDROID_ROOT=/system
   setup_mountpoint $ANDROID_ROOT
   if ! is_mounted $ANDROID_ROOT; then
-    mount -o ro -t auto $ANDROID_ROOT 2>/dev/null
+    mount -o rw -t auto $ANDROID_ROOT 2>/dev/null
   fi
   case $ANDROID_ROOT in
     /system_root) setup_mountpoint /system;;
     /system)
       if ! is_mounted /system && ! is_mounted /system_root; then
         setup_mountpoint /system_root
-        mount -o ro -t auto /system_root
+        mount -o rw -t auto /system_root
       elif [ -f /system/system/build.prop ]; then
         setup_mountpoint /system_root
         mount --move /system /system_root
       fi
+      echo "exit code is $?"
       if [ $? != 0 ]; then
         umount /system
         umount -l /system 2>/dev/null
         if [ "$dynamic_partitions" = "true" ]; then
           test -e /dev/block/mapper/system
-          mount -o ro -t auto /dev/block/mapper/system /system_root
-          mount -o ro -t auto /dev/block/mapper/vendor /vendor 2>/dev/null
-          mount -o ro -t auto /dev/block/mapper/product /product 2>/dev/null
-          mount -o ro -t auto /dev/block/mapper/odm /odm 2>/dev/null
+          mount -o rw -t auto /dev/block/mapper/system /system_root
+          (mount -o rw -t auto /dev/block/mapper/vendor /vendor
+          mount -o rw -t auto /dev/block/mapper/product /product
+          mount -o rw -t auto /dev/block/mapper/odm /odm) 2>/dev/null
         else
           test -e /dev/block/bootdevice/by-name/system
-          mount -o ro -t auto /dev/block/bootdevice/by-name/system /system_root
+          mount -o rw -t auto /dev/block/bootdevice/by-name/system /system_root
         fi
       fi
     ;;
