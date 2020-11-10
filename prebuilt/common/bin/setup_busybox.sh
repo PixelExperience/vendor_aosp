@@ -5,9 +5,7 @@ export bb="$TMP/busybox"
 
 setenforce 0
 
-for f in busybox; do
-  chmod +x "$TMP/$f"
-done
+chmod +x "$bb"
 
 if [ -e "$bb" ]; then
   for i in $($bb --list); do
