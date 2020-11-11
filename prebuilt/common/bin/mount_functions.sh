@@ -34,33 +34,32 @@ mount_all() {
     /system)
       if ! is_mounted /system && ! is_mounted /system_root; then
         setup_mountpoint /system_root
-        mount -o rw -t auto /system_root
+        mount -o rw -t auto /system_root 2>/dev/null
       elif [ -f /system/system/build.prop ]; then
         setup_mountpoint /system_root
-        mount --move /system /system_root
+        mount --move /system /system_root 2>/dev/null
       fi
-      echo "exit code is $?"
       if [ $? != 0 ]; then
         umount /system
         umount -l /system 2>/dev/null
         if [ "$dynamic_partitions" = "true" ]; then
           test -e /dev/block/mapper/system
-          mount -o rw -t auto /dev/block/mapper/system /system_root
+          mount -o rw -t auto /dev/block/mapper/system /system_root 2>/dev/null
           (mount -o rw -t auto /dev/block/mapper/vendor /vendor
           mount -o rw -t auto /dev/block/mapper/product /product
           mount -o rw -t auto /dev/block/mapper/odm /odm) 2>/dev/null
         else
           test -e /dev/block/bootdevice/by-name/system
-          mount -o rw -t auto /dev/block/bootdevice/by-name/system /system_root
+          mount -o rw -t auto /dev/block/bootdevice/by-name/system /system_root 2>/dev/null
         fi
       fi
     ;;
   esac
   if is_mounted /system_root; then
     if [ -f /system_root/build.prop ]; then
-      mount -o bind /system_root /system
+      mount -o bind /system_root /system 2>/dev/null
     else
-      mount -o bind /system_root/system /system
+      mount -o bind /system_root/system /system 2>/dev/null
     fi
   fi
 }
