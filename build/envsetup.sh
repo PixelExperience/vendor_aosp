@@ -384,7 +384,7 @@ function pixelgerrit() {
     local user=`git config --get review.gerrit.pixelexperience.org.username`
     local review=`git config --get remote.pixel.review`
     local project=`git config --get remote.pixel.projectname`
-    local remote_branch=ten
+    local remote_branch=eleven
     local command=$1
     shift
     case $command in

@@ -36,14 +36,6 @@ PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
     persist.sys.recovery_update=true
 endif
 
-# Binaries for file-based incremental ota
-PRODUCT_COPY_FILES += \
-    vendor/aosp/prebuilt/common/bin/busybox:install/bin/busybox \
-    vendor/aosp/prebuilt/common/bin/mount_all.sh:install/bin/mount_all.sh \
-    vendor/aosp/prebuilt/common/bin/mount_functions.sh:install/bin/mount_functions.sh \
-    vendor/aosp/prebuilt/common/bin/setup_busybox.sh:install/bin/setup_busybox.sh \
-    vendor/aosp/prebuilt/common/bin/umount_all.sh:install/bin/umount_all.sh
-
 # OTA
 ifneq ($(TARGET_BUILD_VARIANT),user)
 PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
@@ -137,21 +129,17 @@ PRODUCT_PACKAGES += \
     misc_writer_system \
     themed_bootanimation
 
-# Screen recorder
-PRODUCT_PACKAGES += \
-    Recorder
-
 # Face Unlock
-TARGET_FACE_UNLOCK_SUPPORTED := false
-ifeq ($(TARGET_GAPPS_ARCH),arm64)
-ifneq ($(TARGET_DISABLE_ALTERNATIVE_FACE_UNLOCK), true)
-PRODUCT_PACKAGES += \
-    FaceUnlockService
-TARGET_FACE_UNLOCK_SUPPORTED := true
-endif
-endif
-PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
-    ro.face.moto_unlock_service=$(TARGET_FACE_UNLOCK_SUPPORTED)
+#TARGET_FACE_UNLOCK_SUPPORTED ?= true
+#ifneq ($(TARGET_GAPPS_ARCH),arm64)
+#TARGET_FACE_UNLOCK_SUPPORTED := false
+#endif
+#ifeq ($(TARGET_FACE_UNLOCK_SUPPORTED),true)
+#PRODUCT_PACKAGES += \
+#    FaceUnlockService
+#PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
+#    ro.face.moto_unlock_service=$(TARGET_FACE_UNLOCK_SUPPORTED)
+#endif
 
 # Branding
 include vendor/aosp/config/branding.mk
@@ -160,12 +148,9 @@ include vendor/aosp/config/branding.mk
 include vendor/aosp/config/ota.mk
 
 # GApps
-include vendor/gapps/config.mk
+#include vendor/gapps/config.mk
 
 # Pixel Style
-include vendor/pixelstyle/config.mk
-
-# Customization
-include vendor/google-customization/config.mk
+#include vendor/pixelstyle/config.mk
 
 -include $(WORKSPACE)/build_env/image-auto-bits.mk
