@@ -1,3 +1,15 @@
+ifeq ($(IS_PHONE),true)
+TARGET_USE_GOOGLE_CARRIER_SETTINGS ?= true
+
+ifeq ($(TARGET_USE_GOOGLE_CARRIER_SETTINGS),true)
+
+# Overlays
+PRODUCT_ENFORCE_RRO_EXCLUDED_OVERLAYS += \
+    vendor/aosp/CarrierSettings/overlay
+
+DEVICE_PACKAGE_OVERLAYS += \
+    vendor/aosp/CarrierSettings/overlay/common
+
 # CarrierSettings, replace CarrierConfig
 PRODUCT_PACKAGES += \
     CarrierSettings
@@ -116,3 +128,6 @@ PRODUCT_PACKAGES += \
 # Other countries
 PRODUCT_PACKAGES += \
     others.pb
+
+endif # TARGET_USE_GOOGLE_CARRIER_SETTINGS
+endif # IS_PHONE

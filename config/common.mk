@@ -167,4 +167,7 @@ include vendor/aosp/config/audio.mk
 # Fonts
 include vendor/aosp/config/fonts.mk
 
+# CarrierSettings
+include vendor/aosp/CarrierSettings/config.mk
+
 -include $(WORKSPACE)/build_env/image-auto-bits.mk
