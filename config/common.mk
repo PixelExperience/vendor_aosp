@@ -119,7 +119,6 @@ PRODUCT_PACKAGES += \
 
 # PixelSetupWizard overlay
 PRODUCT_PACKAGES += \
-    PixelSetupWizardOverlay \
     PixelSetupWizardAodOverlay
 
 # Dex preopt
