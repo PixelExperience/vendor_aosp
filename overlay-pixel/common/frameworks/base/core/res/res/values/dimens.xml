@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="config_bottomDialogCornerRadius">16.0dip</dimen>
+    <dimen name="config_buttonCornerRadius">4.0dip</dimen>
+    <dimen name="config_dialogCornerRadius">8.0dip</dimen>
+    <item name="config_highResTaskSnapshotScale" format="float" type="dimen">0.8</item>
+    <dimen name="config_progressBarCornerRadius">1000.0dip</dimen>
+</resources>

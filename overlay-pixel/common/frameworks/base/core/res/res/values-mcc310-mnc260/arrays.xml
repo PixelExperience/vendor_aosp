@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="config_mobile_tcp_buffers">
+        <item>umts:21135,131070,1056768,6144,24576,165312</item>
+        <item>hspa:18300,131070,1056768,6144,24576,393216</item>
+        <item>hsdpa:18300,131070,1056768,6144,24576,393216</item>
+        <item>hsupa:6141,131070,1056768,6144,24576,393216</item>
+        <item>hspap:31455,131070,1830912,6144,24576,1830912</item>
+        <item>edge:8192,26280,704512,4096,16384,110208</item>
+        <item>gprs:8192,8760,704512,4096,8760,110208</item>
+        <item>lte:2097152,4194304,8388608,262144,524288,1048576</item>
+    </string-array>
+</resources>

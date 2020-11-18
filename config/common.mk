@@ -104,8 +104,14 @@ PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
 PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
     media.recorder.show_manufacturer_and_model=true
 
-PRODUCT_ENFORCE_RRO_EXCLUDED_OVERLAYS += vendor/aosp/overlay
-DEVICE_PACKAGE_OVERLAYS += vendor/aosp/overlay/common
+# Overlays
+PRODUCT_ENFORCE_RRO_EXCLUDED_OVERLAYS += \
+    vendor/aosp/overlay \
+    vendor/aosp/overlay-pixel \
+
+DEVICE_PACKAGE_OVERLAYS += \
+    vendor/aosp/overlay/common \
+    vendor/aosp/overlay-pixel/common
 
 # TouchGestures
 PRODUCT_PACKAGES += \
