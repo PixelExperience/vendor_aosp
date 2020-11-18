@@ -153,21 +153,21 @@ PRODUCT_PACKAGES += \
 #endif
 
 # Branding
-include vendor/aosp/config/branding.mk
+$(call inherit-product, vendor/aosp/config/branding.mk)
 
 # OTA
-include vendor/aosp/config/ota.mk
+$(call inherit-product, vendor/aosp/config/ota.mk)
 
 # GApps
-#include vendor/gapps/config.mk
+#$(call inherit-product, vendor/gapps/config.mk)
 
 # Audio
-include vendor/aosp/config/audio.mk
+$(call inherit-product, vendor/aosp/config/audio.mk)
 
 # Fonts
-include vendor/aosp/config/fonts.mk
+$(call inherit-product, vendor/aosp/config/fonts.mk)
 
 # CarrierSettings
-include vendor/aosp/CarrierSettings/config.mk
+$(call inherit-product, vendor/aosp/config/carrier_settings.mk)
 
 -include $(WORKSPACE)/build_env/image-auto-bits.mk
