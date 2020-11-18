@@ -54,14 +54,5 @@ PRODUCT_PACKAGES += \
     Barlow-Bold.ttf \
     Barlow-Medium.ttf
 
-# Customization overlays
-PRODUCT_PACKAGES += \
-    FontArbutusSourceOverlay \
-    FontArvoLatoOverlay \
-    FontKaiOverlay \
-    FontRubikRubikOverlay \
-    FontSamOverlay \
-    FontVictorOverlay
-
 PRODUCT_COPY_FILES += \
     vendor/aosp/fonts/fonts_customization.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/fonts_customization.xml
