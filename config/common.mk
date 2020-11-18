@@ -146,28 +146,31 @@ PRODUCT_PACKAGES += \
 #    ro.face.moto_unlock_service=$(TARGET_FACE_UNLOCK_SUPPORTED)
 #endif
 
-# Branding
-$(call inherit-product, vendor/aosp/config/branding.mk)
-
-# OTA
-$(call inherit-product, vendor/aosp/config/ota.mk)
-
-# GApps
-#$(call inherit-product, vendor/gapps/config.mk)
+# Apex
+$(call inherit-product, vendor/aosp/config/apex.mk)
 
 # Audio
 $(call inherit-product, vendor/aosp/config/audio.mk)
 
-# Fonts
-$(call inherit-product, vendor/aosp/config/fonts.mk)
+# Bootanimation
+$(call inherit-product, vendor/aosp/config/bootanimation.mk)
+
+# Branding
+$(call inherit-product, vendor/aosp/config/branding.mk)
 
 # CarrierSettings
 $(call inherit-product, vendor/aosp/config/carrier_settings.mk)
 
+# Fonts
+$(call inherit-product, vendor/aosp/config/fonts.mk)
+
+# GApps
+#$(call inherit-product, vendor/gapps/config.mk)
+
+# OTA
+$(call inherit-product, vendor/aosp/config/ota.mk)
+
 # RRO Overlays
 $(call inherit-product, vendor/aosp/config/rro_overlays.mk)
-
-# Apex
-$(call inherit-product, vendor/aosp/config/apex.mk)
 
 -include $(WORKSPACE)/build_env/image-auto-bits.mk
