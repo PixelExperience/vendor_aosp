@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="platform_carrier_config_package">com.google.android.carrier</string>
+</resources>
