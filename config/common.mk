@@ -117,16 +117,6 @@ DEVICE_PACKAGE_OVERLAYS += \
 PRODUCT_PACKAGES += \
     TouchGestures
 
-# RRO Overlays
-PRODUCT_PACKAGES += \
-    PixelSetupWizardAodOverlay \
-    IconPackCircularPixelLauncherOverlay \
-    IconPackCircularPixelThemePickerOverlay \
-    IconPackFilledPixelLauncherOverlay \
-    IconPackFilledPixelThemePickerOverlay \
-    IconPackRoundedPixelLauncherOverlay \
-    IconPackRoundedPixelThemePickerOverlay \
-
 # Dex preopt
 PRODUCT_DEXPREOPT_SPEED_APPS += \
     SystemUI \
@@ -169,5 +159,8 @@ $(call inherit-product, vendor/aosp/config/fonts.mk)
 
 # CarrierSettings
 $(call inherit-product, vendor/aosp/config/carrier_settings.mk)
+
+# RRO Overlays
+$(call inherit-product, vendor/aosp/config/rro_overlays.mk)
 
 -include $(WORKSPACE)/build_env/image-auto-bits.mk
