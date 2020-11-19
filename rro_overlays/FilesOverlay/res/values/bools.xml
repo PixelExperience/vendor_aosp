@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <bool name="enable_junk_card">false</bool>
+    <bool name="enable_share_tab">false</bool>
+</resources>

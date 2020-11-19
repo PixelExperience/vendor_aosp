@@ -1,6 +1,7 @@
 # RRO Overlays
 PRODUCT_PACKAGES += \
     PixelSetupWizardAodOverlay \
+    FilesOverlay \
     IconPackCircularPixelLauncherOverlay \
     IconPackCircularPixelThemePickerOverlay \
     IconPackFilledPixelLauncherOverlay \
