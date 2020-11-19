@@ -206,7 +206,7 @@ $(call inherit-product, vendor/aosp/config/carrier_settings.mk)
 $(call inherit-product, vendor/aosp/config/fonts.mk)
 
 # GApps
-#$(call inherit-product, vendor/gapps/config.mk)
+$(call inherit-product, vendor/gapps/config.mk)
 
 # OTA
 $(call inherit-product, vendor/aosp/config/ota.mk)
