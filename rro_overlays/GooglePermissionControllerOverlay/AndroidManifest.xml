@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?><manifest xmlns:android="http://schemas.android.com/apk/res/android" android:compileSdkVersion="30" android:compileSdkVersionCodename="11" package="com.google.android.overlay.permissioncontroller" platformBuildVersionCode="30" platformBuildVersionName="11">
+    <application android:hasCode="false" android:label="GooglePermissionControllerOverlay"/>
+    <overlay android:isStatic="true" android:priority="0" android:targetName="PermissionControllerStyles" android:targetPackage="com.google.android.permissioncontroller"/>
+</manifest>
