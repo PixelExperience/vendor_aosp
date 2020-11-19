@@ -2,15 +2,13 @@ service themed_bootanimation /system/bin/themed_bootanimation
     class core
     oneshot
 
-# Write the dark theme magic (`theme-dark`, or 0x7468656d652d6461726b in hex string) to /misc
-# partition. Offset 0 in vendor space is effectively offset 2048 in /misc partition.
-service theme_set /system/bin/misc_writer_system --vendor-space-offset ${ro.misc.block.offset} --hex-string 0x7468656d652d6461726b
+# Write the dark theme magic to /misc partition.
+service theme_set /system/bin/misc_writer --override-vendor-space-offset ${ro.misc.block.offset} --set-dark-theme
     disabled
     oneshot
 
-# Clear the 10-byte dark theme magic in /misc partition. Offset 0 in vendor space is effectively
-# offset 2048 in /misc partition.
-service theme_clear /system/bin/misc_writer_system --vendor-space-offset ${ro.misc.block.offset} --hex-string 0x00000000000000000000
+# Clear the dark theme magic in /misc partition.
+service theme_clear /system/bin/misc_writer --override-vendor-space-offset ${ro.misc.block.offset} --clear-dark-theme
     disabled
     oneshot
 
