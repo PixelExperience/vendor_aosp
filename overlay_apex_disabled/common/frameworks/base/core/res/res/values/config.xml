@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="config_defaultAssistantAccessComponent">com.google.android.ext.services/android.ext.services.notification.Assistant</string>
-    <string name="config_servicesExtensionPackage">com.google.android.ext.services</string>
-    <string name="config_defaultModuleMetadataProvider">com.google.android.modulemetadata</string>
-
     <!-- Disable stock components if installed -->
     <string-array name="config_globallyDisabledComponents" translatable="false">
+        <item>com.android.vending/com.google.android.finsky.systemupdate.SystemUpdateSettingsContentProvider</item>
+        <item>com.android.vending/com.google.android.finsky.systemupdateactivity.SettingsSecurityEntryPoint</item>
         <item>com.android.vending/com.google.android.finsky.systemupdateactivity.SystemUpdateActivity</item>
         <item>com.google.android.gms/com.google.android.gms.update.SystemUpdateActivity</item>
         <item>com.google.android.gms/com.google.android.gms.update.SystemUpdateGcmTaskService</item>
@@ -16,7 +14,5 @@
     <!-- Force enable styles -->
     <string-array name="config_forceEnabledComponents" translatable="false">
         <item>com.google.android.apps.wallpaper/com.android.customization.picker.CustomizationPickerActivity</item>
-        <item>com.android.vending/com.google.android.finsky.systemupdate.SystemUpdateSettingsContentProvider</item>
-        <item>com.android.vending/com.google.android.finsky.systemupdateactivity.SettingsSecurityEntryPoint</item>
     </string-array>
 </resources>
