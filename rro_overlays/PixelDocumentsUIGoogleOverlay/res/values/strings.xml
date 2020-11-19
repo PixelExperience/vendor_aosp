@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="config_fontFamily">google-sans</string>
+    <string name="config_fontFamilyMedium">google-sans-medium</string>
+    <string name="preferred_root_package">com.google.android</string>
+    <string name="trusted_quick_viewer_package">com.google.android.apps.docs</string>
+</resources>
