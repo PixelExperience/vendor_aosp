@@ -5,6 +5,5 @@
     <bool name="config_night_light_suggestion_enabled">false</bool>
     <bool name="config_show_avatar_in_homepage">true</bool>
     <bool name="config_show_device_header_in_device_info">false</bool>
-    <bool name="config_support_enabled">true</bool>
     <bool name="config_use_legacy_suggestion">false</bool>
 </resources>
