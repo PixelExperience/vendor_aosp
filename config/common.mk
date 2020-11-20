@@ -197,16 +197,7 @@ endif
 #endif
 
 # Apex
-ifeq ($(TARGET_FLATTEN_APEX),false)
 $(call inherit-product, vendor/aosp/config/apex.mk)
-else
-# Hide "Google Play System Updates" if Apex disabled
-PRODUCT_ENFORCE_RRO_EXCLUDED_OVERLAYS += \
-    vendor/aosp/overlay_apex_disabled
-
-DEVICE_PACKAGE_OVERLAYS += \
-    vendor/aosp/overlay_apex_disabled/common
-endif
 
 # Audio
 $(call inherit-product, vendor/aosp/config/audio.mk)
