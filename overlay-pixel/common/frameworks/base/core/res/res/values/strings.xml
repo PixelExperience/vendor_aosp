@@ -2,7 +2,7 @@
 <resources>
     <string name="config_deviceProvisioningPackage">com.google.android.apps.work.oobconfig</string>
     <string name="config_wallpaperCropperPackage">com.google.android.apps.wallpaper</string>
-    <string name="default_wallpaper_component">com.breel.wallpapers20/com.breel.wallpapers20.stack.wallpaper.StackWallpaper</string>
+    <!--string name="default_wallpaper_component">com.breel.wallpapers20/com.breel.wallpapers20.stack.wallpaper.StackWallpaper</string-->
     <string name="config_appsAuthorizedForSharedAccounts">;com.android.vending;com.android.settings;</string>
     <string name="config_defaultAccessibilityService">com.google.android.marvin.talkback/.TalkBackService</string>
     <string name="config_defaultAssistant">com.google.android.googlequicksearchbox</string>
