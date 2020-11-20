@@ -433,3 +433,22 @@ stagefright_qcom_legacy {
         },
     },
 }
+
+soong_config_module_type {
+    name: "force_build_fingerprint",
+    module_type: "cc_defaults",
+    config_namespace: "customGlobalVars",
+    value_variables: ["force_build_fingerprint"],
+    properties: [
+        "cppflags"
+    ],
+}
+
+force_build_fingerprint {
+    name: "force_build_fingerprint_defaults",
+    soong_config_variables: {
+        force_build_fingerprint: {
+            cppflags: ["-DTARGET_FORCE_BUILD_FINGERPRINT=\"%s\""],
+        },
+    },
+}
