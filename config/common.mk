@@ -175,6 +175,13 @@ PRODUCT_PRODUCT_PROPERTIES += \
 PRODUCT_PRODUCT_PROPERTIES += \
     ro.boot.vendor.overlay.theme=com.android.internal.systemui.navbar.gestural
 
+# Live Wallpapers
+TARGET_INCLUDE_LIVE_WALLPAPERS ?= true
+ifeq ($(TARGET_INCLUDE_LIVE_WALLPAPERS),true)
+PRODUCT_PACKAGES += \
+    PixelLiveWallpapersOverlay
+endif
+
 # Face Unlock
 #TARGET_FACE_UNLOCK_SUPPORTED ?= true
 #ifneq ($(TARGET_GAPPS_ARCH),arm64)
