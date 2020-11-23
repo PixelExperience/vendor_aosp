@@ -135,12 +135,3 @@ prebuilt_apex {
     owner: "google",
     prefer: true,
 }
-
-// Google com.google.android.wifi
-prebuilt_apex {
-    name: "com.google.android.wifi",
-    src: "com.google.android.wifi.apex",
-    overrides: ["com.android.wifi"],
-    owner: "google",
-    prefer: true,
-}
