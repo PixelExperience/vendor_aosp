@@ -1,5 +1,5 @@
 #!/bin/sh
-DEVICE=$(echo $TARGET_PRODUCT | cut -d "_" -f2)
+DEVICE=$(echo $TARGET_PRODUCT | awk -F'aosp_' '{ print $1 ORS $2 }')
 
 OUT="./out/target/product/$DEVICE"
 
