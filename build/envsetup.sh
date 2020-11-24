@@ -371,6 +371,22 @@ function installrecovery()
     fi
 }
 
+function __detect_shell() {
+    case `ps -o command -p $$` in
+        *bash*)
+            echo bash
+            ;;
+        *zsh*)
+            echo zsh
+            ;;
+        *)
+            echo unknown
+            return 1
+            ;;
+    esac
+    return
+}
+
 function pixelgerrit() {
     if [ "$(__detect_shell)" = "zsh" ]; then
         # zsh does not define FUNCNAME, derive from funcstack
