@@ -106,3 +106,8 @@ PRODUCT_SOONG_NAMESPACES += $(QCOM_SOONG_NAMESPACE)
 ifneq ($(USE_DEVICE_SPECIFIC_DATA_IPA_CFG_MGR),true)
     PRODUCT_SOONG_NAMESPACES += vendor/qcom/opensource/data-ipa-cfg-mgr
 endif
+
+# Add dataservices to PRODUCT_SOONG_NAMESPACES if needed
+ifneq ($(PRODUCT_PLATFORM_SOD),true)
+    PRODUCT_SOONG_NAMESPACES += vendor/qcom/opensource/dataservices
+endif
