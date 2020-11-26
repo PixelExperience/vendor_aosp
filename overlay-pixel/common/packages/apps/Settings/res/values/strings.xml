@@ -3,7 +3,7 @@
     <string name="account_confirmation_class">com.google.android.gms.auth.uiflows.factoryreset.PreFactoryResetActivity</string>
     <string name="account_confirmation_package">com.google.android.gms</string>
     <string name="account_type">com.google</string>
-    <string name="cell_broadcast_receiver_package">com.google.android.cellbroadcastreceiver</string>
+    <!--string name="cell_broadcast_receiver_package">com.google.android.cellbroadcastreceiver</string-->
     <string name="config_account_intent_uri">intent:#Intent;action=com.android.settings.action.VIEW_ACCOUNT;category=android.intent.category.DEFAULT;launchFlags=0x8000;S.extra.callingPackageName=com.android.settings;end</string>
     <string name="config_bluetooth_device_settings_uri">content://com.google.android.apps.wearables.maestro.companion/settings_slice?addr=%1$s</string>
     <string name="config_contextual_card_feedback_email">contextual-settings-homepage-feedback@google.com</string>
