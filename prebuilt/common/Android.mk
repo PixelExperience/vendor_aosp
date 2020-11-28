@@ -1,6 +1,5 @@
 LOCAL_PATH := $(call my-dir)
 
-ifeq ($(TARGET_USES_AOSP_APNS_CONF),)
 ################################
 # Copies the APN list file into system/etc for the product as apns-conf.xml.
 # In the case where $(CUSTOM_APNS_FILE) is defined, the content of $(CUSTOM_APNS_FILE)
@@ -28,4 +27,3 @@ endif
 LOCAL_PREBUILT_MODULE_FILE := $(FINAL_APNS_FILE)
 
 include $(BUILD_PREBUILT)
-endif
