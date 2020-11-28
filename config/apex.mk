@@ -15,7 +15,6 @@ PRODUCT_PACKAGES += \
 # Google Apexes
 PRODUCT_PACKAGES += \
     com.google.android.adbd \
-    com.google.android.cellbroadcast \
     com.google.android.conscrypt \
     com.google.android.extservices \
     com.google.android.ipsec \

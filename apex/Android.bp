@@ -10,15 +10,6 @@ prebuilt_apex {
     prefer: true,
 }
 
-// Google com.google.android.cellbroadcast
-prebuilt_apex {
-    name: "com.google.android.cellbroadcast",
-    src: "com.google.android.cellbroadcast.apex",
-    overrides: ["com.android.cellbroadcast"],
-    owner: "google",
-    prefer: true,
-}
-
 // Google com.google.android.conscrypt
 prebuilt_apex {
     name: "com.google.android.conscrypt",
