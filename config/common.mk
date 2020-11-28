@@ -208,9 +208,6 @@ $(call inherit-product, vendor/aosp/config/bootanimation.mk)
 # Branding
 $(call inherit-product, vendor/aosp/config/branding.mk)
 
-# CarrierSettings
-$(call inherit-product, vendor/aosp/config/carrier_settings.mk)
-
 # Fonts
 $(call inherit-product, vendor/aosp/config/fonts.mk)
 
