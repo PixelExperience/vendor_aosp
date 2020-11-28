@@ -1,8 +1,0 @@
-<manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.android.settings.overlay.apex"
-    android:versionCode="1"
-    android:versionName="1.0">
-    <overlay android:targetPackage="com.android.settings" android:priority="1" android:isStatic="true" />
-
-    <application android:label="ApexSettingsOverlay" android:hasCode="false"/>
-</manifest>

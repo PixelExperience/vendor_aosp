@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-    <string name="cell_broadcast_receiver_package">com.google.android.cellbroadcastreceiver</string>
-</resources>
