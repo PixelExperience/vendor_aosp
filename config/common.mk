@@ -30,12 +30,6 @@ else
 PRODUCT_SYSTEM_DEFAULT_PROPERTIES += ro.adb.secure=1
 endif
 
-# AOSP recovery flashing
-ifeq ($(TARGET_USES_AOSP_RECOVERY),true)
-PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
-    persist.sys.recovery_update=true
-endif
-
 # Some permissions
 PRODUCT_COPY_FILES += \
     vendor/aosp/config/permissions/backup.xml:system/etc/sysconfig/backup.xml \
@@ -198,9 +192,6 @@ $(call inherit-product, vendor/aosp/config/audio.mk)
 
 # Bootanimation
 $(call inherit-product, vendor/aosp/config/bootanimation.mk)
-
-# Branding
-$(call inherit-product, vendor/aosp/config/branding.mk)
 
 # Fonts
 $(call inherit-product, vendor/aosp/config/fonts.mk)
