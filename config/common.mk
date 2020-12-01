@@ -36,12 +36,6 @@ PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
     persist.sys.recovery_update=true
 endif
 
-# OTA
-ifneq ($(TARGET_BUILD_VARIANT),user)
-PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
-    ro.ota.allow_downgrade=true
-endif
-
 # Some permissions
 PRODUCT_COPY_FILES += \
     vendor/aosp/config/permissions/backup.xml:system/etc/sysconfig/backup.xml \
