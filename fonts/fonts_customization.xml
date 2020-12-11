@@ -39,6 +39,11 @@
     </family>
     <alias name="zilla-slab-semi-bold" to="zilla-slab-medium" weight="600" />
 
+    <family customizationType="new-named-family" name="lustria">
+      <font weight="400" style="normal">Lustria-Regular.ttf</font>
+    </family>
+    <alias name="lustria" to="lustria" weight="400"/>
+
     <family customizationType="new-named-family" name="karla">
       <font weight="400" style="normal">Karla-Regular.ttf</font>
     </family>
