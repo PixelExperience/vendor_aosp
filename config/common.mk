@@ -159,6 +159,13 @@ PRODUCT_PRODUCT_PROPERTIES += \
     ro.error.receiver.system.apps=com.google.android.gms \
     ro.atrace.core.services=com.google.android.gms,com.google.android.gms.ui,com.google.android.gms.persistent
 
+# TextClassifier
+PRODUCT_PACKAGES += \
+	libtextclassifier_annotator_en_model \
+	libtextclassifier_annotator_universal_model \
+	libtextclassifier_actions_suggestions_universal_model \
+	libtextclassifier_lang_id_model
+
 # Use gestures by default
 PRODUCT_PRODUCT_PROPERTIES += \
     ro.boot.vendor.overlay.theme=com.android.internal.systemui.navbar.gestural
