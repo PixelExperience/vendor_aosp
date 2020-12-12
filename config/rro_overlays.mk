@@ -4,6 +4,7 @@ PRODUCT_PACKAGES += \
     FilesOverlay \
     GooglePermissionControllerOverlay \
     PixelDocumentsUIGoogleOverlay \
+    CellBroadcastServiceOverlay \
     PixelTetheringOverlay \
     IconPackCircularPixelLauncherOverlay \
     IconPackCircularPixelThemePickerOverlay \
