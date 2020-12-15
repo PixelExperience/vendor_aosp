@@ -6,4 +6,6 @@
     <bool name="config_show_avatar_in_homepage">true</bool>
     <bool name="config_show_device_header_in_device_info">false</bool>
     <bool name="config_use_legacy_suggestion">false</bool>
+    <bool name="config_show_regulatory_info">false</bool>
+    <bool name="config_nfc_detection_point">true</bool>
 </resources>
