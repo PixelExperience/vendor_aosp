@@ -4,7 +4,8 @@ $(call inherit-product, vendor/aosp/apex/sepolicy.mk)
 
 # Overlay
 PRODUCT_PACKAGES += \
-    ApexOverlay
+    ApexOverlay \
+    ApexSettingsOverlay
 
 # Enable Google Play system updates support
 PRODUCT_SOONG_NAMESPACES += \
