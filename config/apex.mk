@@ -1,4 +1,7 @@
 ifeq ($(TARGET_FLATTEN_APEX),false)
+# Sepolicy
+$(call inherit-product, vendor/aosp/apex/sepolicy.mk)
+
 # Overlay
 PRODUCT_PACKAGES += \
     ApexOverlay
@@ -27,5 +30,6 @@ PRODUCT_PACKAGES += \
     com.google.android.resolv \
     com.google.android.sdkext \
     com.google.android.telephony \
+    com.google.android.tethering \
     com.google.android.tzdata2
 endif
