@@ -1,5 +1,5 @@
 # Safetynet
-TARGET_FORCE_BUILD_FINGERPRINT := google/redfin/redfin:11/RQ1A.201205.010/6953398:user/release-keys
+TARGET_FORCE_BUILD_FINGERPRINT := google/crosshatch/crosshatch:11/RQ1A.201205.003/6906706:user/release-keys
 
 include vendor/aosp/config/BoardConfigKernel.mk
 
