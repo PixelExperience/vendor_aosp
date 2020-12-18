@@ -6,13 +6,6 @@ $(call inherit-product, vendor/aosp/apex/sepolicy.mk)
 PRODUCT_PACKAGES += \
     ApexOverlay
 
-# Networkstack certificate
-PRODUCT_MAINLINE_SEPOLICY_DEV_CERTIFICATES := vendor/aosp/apex/NetworkStack
-
-# Enable Google Play system updates support
-PRODUCT_SOONG_NAMESPACES += \
-    vendor/aosp/apex
-
 # ModuleMetadata
 PRODUCT_PACKAGES += \
     ModuleMetadataGoogle
@@ -20,7 +13,6 @@ PRODUCT_PACKAGES += \
 # Google Apexes
 PRODUCT_PACKAGES += \
     com.google.android.adbd \
-    com.google.android.cellbroadcast \
     com.google.android.conscrypt \
     com.google.android.extservices \
     com.google.android.ipsec \
@@ -33,6 +25,13 @@ PRODUCT_PACKAGES += \
     com.google.android.resolv \
     com.google.android.sdkext \
     com.google.android.telephony \
-    com.google.android.tethering \
     com.google.android.tzdata2
 endif
+
+# Networkstack certificate
+PRODUCT_MAINLINE_SEPOLICY_DEV_CERTIFICATES := vendor/aosp/apex/NetworkStack
+
+# Default Apexes
+PRODUCT_PACKAGES += \
+    com.google.android.cellbroadcast \
+    com.google.android.tethering
