@@ -6,6 +6,9 @@ $(call inherit-product, vendor/aosp/apex/sepolicy.mk)
 PRODUCT_PACKAGES += \
     ApexOverlay
 
+# Networkstack certificate
+PRODUCT_MAINLINE_SEPOLICY_DEV_CERTIFICATES := vendor/aosp/apex/NetworkStack
+
 # Enable Google Play system updates support
 PRODUCT_SOONG_NAMESPACES += \
     vendor/aosp/apex
