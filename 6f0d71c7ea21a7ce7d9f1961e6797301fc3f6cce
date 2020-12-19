@@ -16,6 +16,23 @@
       "message": "Just curious, why was it changed from redfin to crosshatch ?",
       "revId": "6f0d71c7ea21a7ce7d9f1961e6797301fc3f6cce",
       "serverId": "8ba0da3e-d57f-4bbe-ac74-faf358ba962a"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "14737c40_4ee84db8",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2020-12-19T15:57:21Z",
+      "side": 1,
+      "message": "To prevent hardware atestation",
+      "revId": "6f0d71c7ea21a7ce7d9f1961e6797301fc3f6cce",
+      "serverId": "8ba0da3e-d57f-4bbe-ac74-faf358ba962a"
     }
   ]
 }
