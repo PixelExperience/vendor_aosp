@@ -1,4 +1,5 @@
 #
+# Copyright (C) 2018 The Pixel3ROM Project
 # Copyright (C) 2020 Raphielscape LLC. and Haruka LLC.
 #
 # Licensed under the Apache License, Version 2.0 (the License);
@@ -34,15 +35,9 @@ $(eval include $(BUILD_PREBUILT))
 endef
 
 font_src_files := \
-    GoogleSans-BoldItalic.ttf \
-    GoogleSans-Bold.ttf \
-    GoogleSans-Italic.ttf \
-    GoogleSans-MediumItalic.ttf \
-    GoogleSans-Medium.ttf \
-    GoogleSans-Regular.ttf
+    $(patsubst $(LOCAL_PATH)/%,%,$(shell find $(LOCAL_PATH) -type f))
 
 $(foreach f, $(font_src_files), $(call build-one-font-module, $(f)))
 
 build-one-font-module :=
 font_src_files :=
-
