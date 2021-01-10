@@ -112,8 +112,3 @@ PRODUCT_SOONG_NAMESPACES += \
     vendor/qcom/opensource/commonsys/packages/apps/Bluetooth \
     vendor/qcom/opensource/commonsys/system/bt/conf
 endif #TARGET_USE_QTI_BT_STACK
-
-# Add dataservices to PRODUCT_SOONG_NAMESPACES if needed
-ifneq ($(PRODUCT_PLATFORM_SOD),true)
-    PRODUCT_SOONG_NAMESPACES += vendor/qcom/opensource/dataservices
-endif
