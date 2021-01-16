@@ -16,6 +16,23 @@
       "message": "Testing this patch. So far it works fine on polaris, updating from a CI build without this patch to a CI build with this patch through OTA. I am going to try another update from the current build (with patch) to a new build (also with patch).",
       "revId": "129d1b43c523b318f7af0c20690f86b0b9412068",
       "serverId": "8ba0da3e-d57f-4bbe-ac74-faf358ba962a"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "c52a7dd0_5188e068",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000126
+      },
+      "writtenOn": "2021-01-16T00:21:55Z",
+      "side": 1,
+      "message": "OTA from a build with patch to a new build with patch worked fine as well.",
+      "revId": "129d1b43c523b318f7af0c20690f86b0b9412068",
+      "serverId": "8ba0da3e-d57f-4bbe-ac74-faf358ba962a"
     }
   ]
 }
