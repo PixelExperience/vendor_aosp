@@ -33,6 +33,23 @@
       "message": "OTA from a build with patch to a new build with patch worked fine as well.",
       "revId": "129d1b43c523b318f7af0c20690f86b0b9412068",
       "serverId": "8ba0da3e-d57f-4bbe-ac74-faf358ba962a"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "c21adad4_e86a9065",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000257
+      },
+      "writtenOn": "2021-01-16T00:37:03Z",
+      "side": 1,
+      "message": "Could you try removing the directory and letting it recreate it to make sure it also works when actually unencrypted? It should work just fine (it did for me) but I guess it\u0027s worth checking anyway",
+      "revId": "129d1b43c523b318f7af0c20690f86b0b9412068",
+      "serverId": "8ba0da3e-d57f-4bbe-ac74-faf358ba962a"
     }
   ]
 }
