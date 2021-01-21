@@ -33,6 +33,7 @@ SOONG_CONFIG_customGlobalVars += \
     ignores_ftp_pptp_conntrack_failure \
     needs_netd_direct_connect_rule \
     target_init_vendor_lib \
+    target_inputdispatcher_skip_event_key \
     target_ld_shim_libs \
     target_process_sdk_version_override \
     target_surfaceflinger_fod_lib \
@@ -89,6 +90,7 @@ SOONG_CONFIG_customQcomVars_uses_qti_camera_device := $(TARGET_USES_QTI_CAMERA_D
 BOOTLOADER_MESSAGE_OFFSET ?= 0
 TARGET_ADDITIONAL_GRALLOC_10_USAGE_BITS ?= 0
 TARGET_INIT_VENDOR_LIB ?= vendor_init
+TARGET_INPUTDISPATCHER_SKIP_EVENT_KEY ?= 0
 TARGET_SPECIFIC_CAMERA_PARAMETER_LIBRARY ?= libcamera_parameters
 TARGET_SURFACEFLINGER_FOD_LIB ?= surfaceflinger_fod_lib
 
@@ -100,6 +102,7 @@ SOONG_CONFIG_customGlobalVars_target_ld_shim_libs := $(subst $(space),:,$(TARGET
 SOONG_CONFIG_customGlobalVars_target_process_sdk_version_override := $(TARGET_PROCESS_SDK_VERSION_OVERRIDE)
 SOONG_CONFIG_customGlobalVars_target_surfaceflinger_fod_lib := $(TARGET_SURFACEFLINGER_FOD_LIB)
 SOONG_CONFIG_customGlobalVars_uses_camera_parameter_lib := $(TARGET_SPECIFIC_CAMERA_PARAMETER_LIBRARY)
+SOONG_CONFIG_customGlobalVars_target_inputdispatcher_skip_event_key := $(TARGET_INPUTDISPATCHER_SKIP_EVENT_KEY)
 
 ifneq ($(TARGET_FORCE_BUILD_FINGERPRINT),)
 SOONG_CONFIG_customGlobalVars_force_build_fingerprint := $(TARGET_FORCE_BUILD_FINGERPRINT)

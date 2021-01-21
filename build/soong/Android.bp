@@ -542,3 +542,20 @@ force_build_fingerprint {
         },
     },
 }
+
+soong_config_module_type {
+    name: "inputdispatcher_skip_event_key",
+    module_type: "cc_defaults",
+    config_namespace: "customGlobalVars",
+    value_variables: ["target_inputdispatcher_skip_event_key"],
+    properties: ["cppflags"],
+}
+
+inputdispatcher_skip_event_key {
+    name: "inputdispatcher_skip_event_key_defaults",
+    soong_config_variables: {
+        target_inputdispatcher_skip_event_key: {
+            cppflags: ["-DINPUTDISPATCHER_SKIP_EVENT_KEY=%s"],
+        },
+    },
+}
