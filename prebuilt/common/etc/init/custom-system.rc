@@ -1,18 +1,5 @@
-on init
-    export TERMINFO /system/etc/terminfo
-
 on post-fs-data
     mkdir /cache/recovery 0770 system cache
-
-    # Change permissions on fsck log so it can be added to the dropbox
-    chown root log /dev/fscklogs/log
-    chmod 0640 /dev/fscklogs/log
-
-# bugreport is triggered by holding down volume down, volume up and power
-service bugreport /system/bin/dumpstate -d -p -z
-    oneshot
-    disabled
-    keycodes 114 115 116
 
 on property:sys.boot_completed=1
    # selinux nodes, hide permissive state
