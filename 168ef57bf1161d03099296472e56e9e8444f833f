@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "70163fe7_9874efe3",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000126
+      },
+      "writtenOn": "2021-02-05T02:08:18Z",
+      "side": 1,
+      "message": "Still waiting for Vodafone AU users to verify.",
+      "revId": "168ef57bf1161d03099296472e56e9e8444f833f",
+      "serverId": "8ba0da3e-d57f-4bbe-ac74-faf358ba962a"
+    }
+  ]
+}
