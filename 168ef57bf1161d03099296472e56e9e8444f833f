@@ -16,6 +16,23 @@
       "message": "Still waiting for Vodafone AU users to verify.",
       "revId": "168ef57bf1161d03099296472e56e9e8444f833f",
       "serverId": "8ba0da3e-d57f-4bbe-ac74-faf358ba962a"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "5611eaf3_83208aff",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000126
+      },
+      "writtenOn": "2021-02-06T05:18:19Z",
+      "side": 1,
+      "message": "The tester has confirmed that mobile data works fine on Vodafone AU. The change is ready to be merged.",
+      "revId": "168ef57bf1161d03099296472e56e9e8444f833f",
+      "serverId": "8ba0da3e-d57f-4bbe-ac74-faf358ba962a"
     }
   ]
 }
