@@ -2925,6 +2925,7 @@
   <apn carrier="楽天モバイル" mcc="440" mnc="10" apn="rmobile.jp" user="rm" password="0000" authtype="3" type="default,supl" />
   <apn carrier="楽天モバイル" mcc="440" mnc="10" apn="vdm.jp" user="rakuten@vdm" password="vrkt" authtype="3" type="default,supl" />
   <apn carrier="IMS" mcc="440" mnc="10" apn="ims" type="ims" protocol="IPV6" />
+  <apn carrier="楽天（rakuten.jp）" mcc="440" mnc="11" apn="rakuten.jp" protocol="IPV4V6" roaming_protocol="IPV4V6" type="default,supl" />
   <apn carrier="Y!mobile" mcc="440" mnc="20" apn="plus.acs.jp" user="ym" password="ym" mmsc="http://mms-s" mmsproxy="andmms.plusacs.ne.jp" mmsport="8080" authtype="2" type="default,supl,mms" />
   <apn carrier="andoworld" mcc="440" mnc="20" apn="andoworld.softbank.ne.jp" mmsc="http://mms/" mmsproxy="andmms.softbank.ne.jp" mmsport="8080" authtype="2" type="default,supl,mms" />
   <apn carrier="fourgsmartphone" mcc="440" mnc="20" apn="fourgsmartphone" user="" password="" mmsc="http://mms/" mmsproxy="andmms.softbank.ne.jp" mmsport="8080" authtype="2" type="default,supl,mms" />
