@@ -102,6 +102,9 @@ DEVICE_PACKAGE_OVERLAYS += \
     vendor/aosp/overlay/common \
     vendor/aosp/overlay-pixel/common
 
+PRODUCT_PACKAGES += \
+    NavigationBarMode2ButtonOverlay
+
 # Cutout control overlay
 PRODUCT_PACKAGES += \
     NoCutoutOverlay
