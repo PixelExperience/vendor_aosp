@@ -72,6 +72,13 @@ PRODUCT_PACKAGES += \
     charger_res_images \
     product_charger_res_images
 
+# Custom AVB Key
+ifeq ($(CUSTOM_BUILD_TYPE),OFFICIAL)
+ifeq ($(TARGET_USES_CUSTOM_AVB_KEY),true)
+$(call inherit-product, vendor/aosp/config/avb.mk)
+endif
+endif
+
 # Filesystems tools
 PRODUCT_PACKAGES += \
     fsck.exfat \
