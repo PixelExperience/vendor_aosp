@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "14a4013d_cf4cc999",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000243
+      },
+      "writtenOn": "2021-03-11T14:30:47Z",
+      "side": 1,
+      "message": "-1 until placeholder avb_custom_key is replaced with actual publickey\n",
+      "revId": "47fce7de745c09109951154710133a53f791a127",
+      "serverId": "8ba0da3e-d57f-4bbe-ac74-faf358ba962a"
+    }
+  ]
+}
