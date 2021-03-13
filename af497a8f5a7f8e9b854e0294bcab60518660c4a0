@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "dd142ec2_bdbb3db5",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2021-03-13T20:40:47Z",
+      "side": 1,
+      "message": "I\u0027m not going to add that in normal edition.",
+      "revId": "af497a8f5a7f8e9b854e0294bcab60518660c4a0",
+      "serverId": "8ba0da3e-d57f-4bbe-ac74-faf358ba962a"
+    }
+  ]
+}
