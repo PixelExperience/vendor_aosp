@@ -10,9 +10,9 @@ endef
 
 ifeq ($(BOARD_USES_QCOM_HARDWARE),true)
 
-$(call set-device-specific-path,AUDIO,audio,$(QCOM_SOONG_NAMESPACE)/audio)
-$(call set-device-specific-path,DISPLAY,display,$(QCOM_SOONG_NAMESPACE)/display)
-$(call set-device-specific-path,MEDIA,media,$(QCOM_SOONG_NAMESPACE)/media)
+$(call set-device-specific-path,AUDIO,audio,hardware/qcom-caf/$(QCOM_HARDWARE_VARIANT)/audio)
+$(call set-device-specific-path,DISPLAY,display,hardware/qcom-caf/$(QCOM_HARDWARE_VARIANT)/display)
+$(call set-device-specific-path,MEDIA,media,hardware/qcom-caf/$(QCOM_HARDWARE_VARIANT)/media)
 
 $(call set-device-specific-path,BT_VENDOR,bt-vendor,hardware/qcom-caf/bt)
 $(call set-device-specific-path,DATA_IPA_CFG_MGR,data-ipa-cfg-mgr,vendor/qcom/opensource/data-ipa-cfg-mgr)
