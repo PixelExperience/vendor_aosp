@@ -58,5 +58,8 @@
 
         <!-- Select text on recents -->
         <item>device_personalization_services/Overview__enable_overview=true</item>
+
+        <!-- Allow more cached apps in the background -->
+        <item>activity_manager/max_cached_processes=64</item>
     </string-array>
 </resources>
