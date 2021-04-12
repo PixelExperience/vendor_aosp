@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "bfab327c_39cbe961",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000418
+      },
+      "writtenOn": "2021-04-12T01:03:50Z",
+      "side": 1,
+      "message": "This is necessary due to this commit\n\nhttps://github.com/LineageOS/android_vendor_qcom_opensource_usb/commit/cec97e1e8e0dc407ea13b583ca6b15dce98b0fbd",
+      "revId": "95ba022aaec51a7ac16240bc35e4ce730d104f2b",
+      "serverId": "8ba0da3e-d57f-4bbe-ac74-faf358ba962a"
+    }
+  ]
+}
