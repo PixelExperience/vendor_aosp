@@ -20,6 +20,10 @@
             System
         -->
 
+        <!-- Enable privacy indicators -->
+        <item>privacy/permissions_hub_2_enabled=true</item>
+        <item>privacy/permissions_hub_enabled=true</item>
+
         <!--
             Device Personalization Services (AiAi)
         -->
