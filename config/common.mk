@@ -103,9 +103,13 @@ DEVICE_PACKAGE_OVERLAYS += \
     vendor/aosp/overlay/common \
     vendor/aosp/overlay-pixel/common
 
+<<<<<<< HEAD   (de79f7 soong: Add TARGET_CAMERA_BOOTTIME_TIMESTAMP conditional)
 # Cutout control overlay
 PRODUCT_PACKAGES += \
     NoCutoutOverlay
+=======
+DEVICE_FRAMEWORK_COMPATIBILITY_MATRIX_FILE += vendor/aosp/config/device_framework_matrix.xml
+>>>>>>> CHANGE (dee0c4 vendor: Add framework compatibility matrix for Lineage HALs.)
 
 # TouchGestures
 PRODUCT_PACKAGES += \
