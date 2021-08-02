@@ -103,12 +103,15 @@ DEVICE_PACKAGE_OVERLAYS += \
     vendor/aosp/overlay/common \
     vendor/aosp/overlay-pixel/common
 
+<<<<<<< HEAD   (4dcf2b vendor: Add framework compatibility matrix for Lineage HALs.)
 # Cutout control overlay
 PRODUCT_PACKAGES += \
     NoCutoutOverlay
 
 DEVICE_FRAMEWORK_COMPATIBILITY_MATRIX_FILE += vendor/aosp/config/device_framework_matrix.xml
 
+=======
+>>>>>>> CHANGE (0f8c63 vendor: Don't enforce inclusion of common compatibility matr)
 # TouchGestures
 PRODUCT_PACKAGES += \
     TouchGestures
