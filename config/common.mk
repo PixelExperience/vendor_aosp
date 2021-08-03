@@ -99,7 +99,7 @@ PRODUCT_ENFORCE_RRO_EXCLUDED_OVERLAYS += \
     vendor/aosp/overlay \
     vendor/aosp/overlay-pixel \
 
-DEVICE_PACKAGE_OVERLAYS += \
+PRODUCT_PACKAGE_OVERLAYS += \
     vendor/aosp/overlay/common \
     vendor/aosp/overlay-pixel/common
 
