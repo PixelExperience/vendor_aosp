@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "c750061a_3a8db70f",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000545
+      },
+      "writtenOn": "2021-08-10T14:11:22Z",
+      "side": 1,
+      "message": "A fix for the Three UK / Freedompop APN. Currently the freedompop APN does not specify that it is supplemental meaning it is permanently enabled without the ability to disable it which interferes with all other MVNOs on Three and even Three themselves. This makes it supplemental so that you are able to use other APNs. I have built for my own device with this fix and it all functions correctly and as expected.",
+      "revId": "149799d68041e149558332ed31b35e447004806a",
+      "serverId": "8ba0da3e-d57f-4bbe-ac74-faf358ba962a"
+    }
+  ]
+}
