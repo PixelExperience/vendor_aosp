@@ -52,7 +52,7 @@ endif
 
 TARGET_KERNEL_HEADERS ?= $(TARGET_KERNEL_SOURCE)
 
-CLANG_PREBUILTS := $(BUILD_TOP)/prebuilts/clang/host/$(HOST_PREBUILT_TAG)/clang-r383902b
+CLANG_PREBUILTS := $(BUILD_TOP)/prebuilts/clang/host/$(HOST_PREBUILT_TAG)/clang-r416183b1
 GCC_PREBUILTS := $(BUILD_TOP)/prebuilts/gcc/$(HOST_PREBUILT_TAG)
 
 # x86 toolchain
