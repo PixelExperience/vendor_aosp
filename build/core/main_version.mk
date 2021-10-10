@@ -19,7 +19,7 @@ ADDITIONAL_SYSTEM_PROPERTIES  += \
 endif
 
 # Branding
-CUSTOM_BUILD_TYPE ?= UNOFFICIAL
+CUSTOM_BUILD_TYPE ?= ALPHA
 
 CUSTOM_DATE_YEAR := $(shell date -u +%Y)
 CUSTOM_DATE_MONTH := $(shell date -u +%m)
