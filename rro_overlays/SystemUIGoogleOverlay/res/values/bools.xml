@@ -3,6 +3,6 @@
     <bool name="config_hspa_data_distinguishable">true</bool>
     <bool name="config_nfc_conflict_with_usb_audio">true</bool>
     <bool name="config_nfc_conflict_with_wlc">true</bool>
-    <bool name="config_vibrateOnIconAnimation">true</bool>
+    <!--bool name="config_vibrateOnIconAnimation">true</bool-->
     <bool name="config_wlc_support_enabled">true</bool>
 </resources>

@@ -2,5 +2,5 @@
 <resources>
     <string name="config_deviceProvisioningPackage">com.google.android.apps.work.oobconfig</string>
     <string name="config_wallpaperCropperPackage">com.google.android.apps.wallpaper</string>
-    <string name="default_wallpaper_component">com.breel.wallpapers20/com.breel.wallpapers20.stack.wallpaper.StackWallpaper</string>
+    <!--string name="default_wallpaper_component">com.breel.wallpapers20/com.breel.wallpapers20.stack.wallpaper.StackWallpaper</string-->
 </resources>

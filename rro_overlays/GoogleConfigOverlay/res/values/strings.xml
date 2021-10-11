@@ -7,7 +7,7 @@
     <string name="config_appsAuthorizedForSharedAccounts">;com.android.vending;com.android.settings;</string>
     <string name="config_defaultAccessibilityService">com.google.android.marvin.talkback/.TalkBackService</string>
     <string name="config_defaultAssistant">com.google.android.googlequicksearchbox</string>
-    <string name="config_defaultAssistantAccessComponent">com.google.android.ext.services/android.ext.services.notification.Assistant</string>
+    <!--string name="config_defaultAssistantAccessComponent">com.google.android.ext.services/android.ext.services.notification.Assistant</string-->
     <string name="config_defaultAutofillService">com.google.android.gms/.autofill.service.AutofillService</string>
     <string name="config_defaultDialer">com.google.android.dialer</string>
     <string name="config_defaultGallery">com.google.android.apps.photos</string>
@@ -16,11 +16,11 @@
     <string name="config_defaultNearbySharingComponent">com.google.android.gms/com.google.android.gms.nearby.sharing.ShareSheetActivity</string>
     <string name="config_defaultNetworkRecommendationProviderPackage">com.google.android.gms</string>
     <string name="config_defaultSms">com.google.android.apps.messaging</string>
-    <string name="config_deviceConfiguratorPackageName">com.google.android.gms</string>
+    <!--string name="config_deviceConfiguratorPackageName">com.google.android.gms</string-->
     <string name="config_persistentDataPackageName">com.google.android.gms</string>
     <string name="config_primaryLocationTimeZoneProviderPackageName">com.google.android.gms</string>
     <string name="config_secondaryLocationTimeZoneProviderPackageName" />
-    <string name="config_servicesExtensionPackage">com.google.android.ext.services</string>
+    <!--string name="config_servicesExtensionPackage">com.google.android.ext.services</string-->
     <string name="config_systemActivityRecognizer">com.google.android.gms</string>
     <string name="config_systemAutomotiveProjection">com.google.android.projection.gearhead</string>
     <string name="config_systemCompanionDeviceProvider">com.google.android.gms</string>
