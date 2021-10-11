@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="biometric_app_setting_name">ਚਿਹਰਾ ਜਾਂ ਫਿੰਗਰਪ੍ਰਿੰਟ ਵਰਤੋ</string>
+    <string name="biometric_dialog_default_subtitle">ਜਾਰੀ ਰੱਖਣ ਲਈ ਆਪਣਾ ਚਿਹਰਾ ਜਾਂ ਫਿੰਗਰਪ੍ਰਿੰਟ ਵਰਤੋ</string>
+    <string name="biometric_or_screen_lock_app_setting_name">ਚਿਹਰਾ, ਫਿੰਗਰਪ੍ਰਿੰਟ ਜਾਂ ਸਕ੍ਰੀਨ ਲਾਕ ਵਰਤੋ</string>
+    <string name="biometric_or_screen_lock_dialog_default_subtitle">ਜਾਰੀ ਰੱਖਣ ਲਈ ਆਪਣਾ ਚਿਹਰਾ, ਫਿੰਗਰਪ੍ਰਿੰਟ ਜਾਂ ਸਕ੍ਰੀਨ ਲਾਕ ਵਰਤੋ</string>
+    <string name="face_recalibrate_notification_content">ਤੁਹਾਡਾ ਚਿਹਰਾ ਮੁੜ-ਦਰਜ ਹੋਣ ਤੱਕ ਸ਼ਾਇਦ ਫ਼ੇਸ ਅਣਲਾਕ ਕੰਮ ਨਾ ਕਰੇ</string>
+    <string name="face_recalibrate_notification_name">ਫ਼ੇਸ ਅਣਲਾਕ</string>
+    <string name="face_recalibrate_notification_title">ਕਿਰਪਾ ਕਰਕੇ ਆਪਣਾ ਚਿਹਰਾ ਦੁਬਾਰਾ ਦਰਜ ਕਰੋ</string>
+    <string name="harmful_app_warning_title">Play ਢਾਲ ਦੀ ਚੇਤਾਵਨੀ</string>
+</resources>

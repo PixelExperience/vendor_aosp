@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-    <color name="contextual_card_background">#ff202124</color>
-    <color name="contextual_card_dismissal_background">#ff3c4043</color>
-    <color name="dialog_background">#ff3c4043</color>
-    <color name="search_bar_background">#ff303134</color>
-</resources>

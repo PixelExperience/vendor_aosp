@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="biometric_app_setting_name">अनुहार वा फिंगरप्रिन्ट प्रयोग गर्नु…</string>
+    <string name="biometric_dialog_default_subtitle">जारी राख्न अनुहार वा फिंगरप्रिन्ट प्रयोग गरी पुष्टि गर्नुहोस्</string>
+    <string name="biometric_or_screen_lock_app_setting_name">अनुहार, फिंगरप्रिन्ट वा स्क्रिन लक प्रयोग गर्नुहोस्</string>
+    <string name="biometric_or_screen_lock_dialog_default_subtitle">जारी राख्न आफ्नो अनुहार, फिंगरप्रिन्ट वा स्क्रिन लक प्रयोग गरी पुष्टि गर्नुहोस्</string>
+    <string name="face_recalibrate_notification_content">तपाईंले पुनः दर्ता नगरेसम्म फेस अनलकले काम नगर्न सक्छ</string>
+    <string name="face_recalibrate_notification_name">फेस अनलक</string>
+    <string name="face_recalibrate_notification_title">कृपया आफ्नो अनुहार पुनः दर्ता गर्नुहोस्</string>
+    <string name="harmful_app_warning_title">Play संरक्षणको चेतावनी</string>
+</resources>

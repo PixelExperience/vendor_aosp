@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="biometric_app_setting_name">استفاده از چهره یا اثر انگشت</string>
+    <string name="biometric_dialog_default_subtitle">برای ادامه، از چهره یا اثر انگشت استفاده کنید</string>
+    <string name="biometric_or_screen_lock_app_setting_name">استفاده از چهره، اثر انگشت، یا قفل صفحه</string>
+    <string name="biometric_or_screen_lock_dialog_default_subtitle">برای ادامه، از چهره، اثر انگشت، یا قفل صفحه استفاده کنید</string>
+    <string name="face_recalibrate_notification_content">ممکن است «قفل‌گشایی با چهره» تا ثبت مجدد کار نکند</string>
+    <string name="face_recalibrate_notification_name">قفل‌گشایی با چهره</string>
+    <string name="face_recalibrate_notification_title">لطفاً چهره‌تان را مجدداً ثبت کنید</string>
+    <string name="harmful_app_warning_title">‏هشدار «سپر ایمنی Play»</string>
+</resources>

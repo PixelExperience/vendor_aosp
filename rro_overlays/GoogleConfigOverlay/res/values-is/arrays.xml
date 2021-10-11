@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="face_acquired_vendor">
+    </array>
+    <array name="face_error_vendor">
+        <item>Vottorð útrunnið</item>
+        <item>Slökkt tímabundið á skynjara</item>
+        <item>Kvörðunarvilla</item>
+        <item>Ekki er hægt að nota andlitskenni. Síminn er of heitur.</item>
+        <item>Setja þarf upp andlitskenni aftur</item>
+    </array>
+</resources>

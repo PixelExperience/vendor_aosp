@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="additional_cell_broadcast_receiver_packages">
+        <item>com.google.android.apps.safetyhub</item>
+    </array>
+    <array name="test_cell_broadcast_receiver_packages">
+        <item>com.googlecode.android_scripting</item>
+    </array>
+</resources>

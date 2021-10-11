@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="face_acquired_vendor">
+    </array>
+    <array name="face_error_vendor">
+        <item>វិញ្ញាបនបត្រ​បានផុត​កំណត់</item>
+        <item>បានបិទ​ឧបករណ៍​ចាប់សញ្ញាជា​បណ្តោះអាសន្ន</item>
+        <item>មានបញ្ហា​ក្នុងការក្រិត​តាមខ្នាត</item>
+        <item>មិនអាចប្រើ​ការដោះសោ​តាមទម្រង់មុខបានទេ។ ទូរសព្ទ​ក្ដៅ​ពេក។</item>
+        <item>ត្រូវរៀបចំការដោះសោ​តាមទម្រង់មុខម្ដងទៀត</item>
+    </array>
+</resources>

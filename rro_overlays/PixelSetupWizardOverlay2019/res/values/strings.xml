@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="exit_to_action_in_initial_setup">com.google.android.apps.nexuslauncher/com.android.quickstep.action.GESTURE_ONBOARDING_ALL_SET</string>
+</resources>

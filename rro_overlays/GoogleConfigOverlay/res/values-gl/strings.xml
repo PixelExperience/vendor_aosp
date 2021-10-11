@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="biometric_app_setting_name">Usar cara ou impresión dixital</string>
+    <string name="biometric_dialog_default_subtitle">Para continuar, usa o desbloqueo facial ou a impresión dixital</string>
+    <string name="biometric_or_screen_lock_app_setting_name">Usar desbloqueo facial, impresión dixital ou bloqueo de pantalla</string>
+    <string name="biometric_or_screen_lock_dialog_default_subtitle">Para continuar, usa o desbloqueo facial, a impresión dixital ou o bloqueo de pantalla</string>
+    <string name="face_recalibrate_notification_content">O desbloqueo facial pode non funcionar ata que rexistres de novo a túa cara</string>
+    <string name="face_recalibrate_notification_name">Desbloqueo facial</string>
+    <string name="face_recalibrate_notification_title">Rexistra de novo a túa cara</string>
+    <string name="harmful_app_warning_title">Advertencia de Play Protect</string>
+</resources>

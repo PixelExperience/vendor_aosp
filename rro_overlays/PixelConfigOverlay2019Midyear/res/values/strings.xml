@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="config_defaultDndAccessPackages">com.google.android.GoogleCamera:com.google.android.gms:com.google.android.settings.intelligence:com.google.android.apps.wellbeing:com.google.android.apps.safetyhub:com.google.android.dialer</string>
+    <string name="config_defaultListenerAccessPackages">com.google.android.apps.nexuslauncher:com.google.android.setupwizard:com.google.android.apps.pixelmigrate:com.google.android.as:com.google.android.projection.gearhead</string>
+</resources>

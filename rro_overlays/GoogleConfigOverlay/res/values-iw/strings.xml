@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="biometric_app_setting_name">זיהוי הפנים או טביעת האצבע</string>
+    <string name="biometric_dialog_default_subtitle">יש להשתמש בזיהוי הפנים או בטביעת האצבע כדי להמשיך</string>
+    <string name="biometric_or_screen_lock_app_setting_name">שימוש בזיהוי הפנים, בטביעת האצבע או בנעילת המסך</string>
+    <string name="biometric_or_screen_lock_dialog_default_subtitle">יש להשתמש בזיהוי הפנים, בטביעת האצבע או בנעילת המסך כדי להמשיך</string>
+    <string name="face_recalibrate_notification_content">ייתכן שהתכונה \'פתיחה ע\"י זיהוי הפנים\' לא תפעל עד הרישום מחדש של הפנים</string>
+    <string name="face_recalibrate_notification_name">פתיחה ע\"י זיהוי הפנים</string>
+    <string name="face_recalibrate_notification_title">יש לרשום מחדש את הפנים</string>
+    <string name="harmful_app_warning_title">‏אזהרה של Play Protect</string>
+</resources>

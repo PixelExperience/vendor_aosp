@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="face_acquired_vendor">
+    </array>
+    <array name="face_error_vendor">
+        <item>சான்றிதழ் காலாவதியானது</item>
+        <item>சென்சார் தற்காலிகமாக முடக்கப்பட்டுள்ளது</item>
+        <item>படத்தை சீரமைப்பதில் பிழை</item>
+        <item>முகம் காட்டித் திறத்தல் அம்சம் இல்லை. மொபைல் மிகவும் சூடாக உள்ளது.</item>
+        <item>முகம் காட்டித் திறத்தல் அம்சம் மீண்டும் அமைக்கப்பட வேண்டும்</item>
+    </array>
+</resources>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="biometric_app_setting_name">За обличчям чи відбитком пальця</string>
+    <string name="biometric_dialog_default_subtitle">Щоб продовжити, скористайтеся фейсконтролем чи відбитком пальця</string>
+    <string name="biometric_or_screen_lock_app_setting_name">За обличчям, відбитком пальця чи даними для розблокування екрана</string>
+    <string name="biometric_or_screen_lock_dialog_default_subtitle">Щоб продовжити, скористайтеся відбитком пальця або даними для розблокування екрана</string>
+    <string name="face_recalibrate_notification_content">Фейсконтроль може не працювати, доки ви повторно не проскануєте своє обличчя</string>
+    <string name="face_recalibrate_notification_name">Фейсконтроль</string>
+    <string name="face_recalibrate_notification_title">Повторно проскануйте обличчя</string>
+    <string name="harmful_app_warning_title">Застереження Play Захисту</string>
+</resources>

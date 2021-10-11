@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="wfcSpnFormats">
+        <item>%s</item>
+        <item>WLAN Call</item>
+    </array>
+</resources>

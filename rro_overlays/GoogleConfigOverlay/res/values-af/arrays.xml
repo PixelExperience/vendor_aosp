@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="face_acquired_vendor">
+    </array>
+    <array name="face_error_vendor">
+        <item>Sertifikaat het verval</item>
+        <item>Sensor is tydelik gedeaktiveer</item>
+        <item>Kalibrasiefout</item>
+        <item>Gesigslot is nie beskikbaar nie. Foon is te warm.</item>
+        <item>Gesigslot moet weer opgestel word</item>
+    </array>
+</resources>

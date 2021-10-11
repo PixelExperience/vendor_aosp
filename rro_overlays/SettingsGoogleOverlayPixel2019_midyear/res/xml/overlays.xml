@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<overlay>
+    <item target="drawable/fallback_home_unprovisioned_background" value="@drawable/fallback_home_unprovisioned_background"/>
+    <item target="drawable/gesture_assist" value="@drawable/gesture_assist"/>
+    <item target="drawable/gesture_assist_silence" value="@drawable/gesture_assist_silence"/>
+    <item target="drawable/nfc_detection_point" value="@drawable/nfc_detection_point"/>
+    <item target="raw/assist_gesture_settings_animation_silence" value="@raw/assist_gesture_settings_animation_silence"/>
+    <item target="raw/assist_gesture_settings_animation" value="@raw/assist_gesture_settings_animation"/>
+    <item target="raw/gesture_assist_animation" value="@raw/gesture_assist_animation"/>
+    <item target="bool/config_show_logical_camera_default" value="@bool/config_show_logical_camera_default"/>
+    <item target="bool/config_nfc_detection_point" value="@bool/config_nfc_detection_point"/>
+    <item target="string/wifi_calling_settings_title" value="@string/wifi_calling_settings_title"/>
+</overlay>

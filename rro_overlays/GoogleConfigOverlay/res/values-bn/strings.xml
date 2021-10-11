@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="biometric_app_setting_name">মুখ অথবা আঙ্গুলের ছাপ ব্যবহার করুন</string>
+    <string name="biometric_dialog_default_subtitle">চালিয়ে যেতে আপনার মুখ অথবা আঙ্গুলের ছাপ ব্যবহার করুন</string>
+    <string name="biometric_or_screen_lock_app_setting_name">মুখ, আঙ্গুলের ছাপ অথবা স্ক্রিন লক ব্যবহার করুন</string>
+    <string name="biometric_or_screen_lock_dialog_default_subtitle">চালিয়ে যেতে আপনার মুখ, আঙ্গুলের ছাপ বা স্ক্রিন লক ব্যবহার করুন</string>
+    <string name="face_recalibrate_notification_content">আপনি আবার নথিভুক্ত না করা পর্যন্ত ফেস আনলক ফিচার হয়ত ব্যবহার করা যাবে না</string>
+    <string name="face_recalibrate_notification_name">ফেস আনলক ফিচার</string>
+    <string name="face_recalibrate_notification_title">আপনার মুখের ছবি আবার নথিভুক্ত করুন</string>
+    <string name="harmful_app_warning_title">Play নিরাপত্তা সতর্কতা</string>
+</resources>

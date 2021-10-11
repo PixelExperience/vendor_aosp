@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="face_acquired_vendor">
+    </array>
+    <array name="face_error_vendor">
+        <item>Certyfikat wygasł</item>
+        <item>Czujnik tymczasowo wyłączony</item>
+        <item>Błąd kalibracji</item>
+        <item>Rozpoznawanie twarzy jest niedostępne. Telefon jest zbyt gorący.</item>
+        <item>Musisz ponownie skonfigurować rozpoznawanie twarzy</item>
+    </array>
+</resources>

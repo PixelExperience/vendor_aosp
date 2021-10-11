@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="1" android:versionName="1.0" package="com.android.providers.contacts.overlay.pixel">
+
+    <overlay android:priority="1" android:targetPackage="com.android.providers.contacts" android:isStatic="true"/>
+</manifest>

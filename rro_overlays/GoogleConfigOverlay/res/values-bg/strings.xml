@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="biometric_app_setting_name">Използване на лице/отпечатък</string>
+    <string name="biometric_dialog_default_subtitle">За да продължите, използвайте лицето или отпечатъка си</string>
+    <string name="biometric_or_screen_lock_app_setting_name">Използвайте лице, отпечатък или опция за заключване на екрана</string>
+    <string name="biometric_or_screen_lock_dialog_default_subtitle">Използвайте лицето, отпечатъка си или опцията за заключване на екрана, за да продължите</string>
+    <string name="face_recalibrate_notification_content">Функцията за отключване с лице може да не работи, докато не се регистрирате отново</string>
+    <string name="face_recalibrate_notification_name">Отключване с лице</string>
+    <string name="face_recalibrate_notification_title">Моля, регистрирайте лицето си отново</string>
+    <string name="harmful_app_warning_title">Предупреждение от Play Protect</string>
+</resources>

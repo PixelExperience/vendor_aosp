@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="config_hideWhenDisabled_packageNames">
+        <item>com.google.android.talk</item>
+    </array>
+    <array name="config_mobile_hotspot_provision_app">
+        <item>com.google.android.tetheringentitlement</item>
+        <item>com.google.android.tetheringentitlement.CarrierEntitlementActivity</item>
+    </array>
+</resources>

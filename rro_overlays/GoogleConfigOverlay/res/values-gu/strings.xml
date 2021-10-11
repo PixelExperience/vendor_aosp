@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="biometric_app_setting_name">ચહેરા કે ફિંગરપ્રિન્ટનો વપરાશ</string>
+    <string name="biometric_dialog_default_subtitle">આગળ વધવા માટે, તમારા ચહેરા કે ફિંગરપ્રિન્ટનો વપરાશ કરો</string>
+    <string name="biometric_or_screen_lock_app_setting_name">ચહેરા, ફિંગરપ્રિન્ટ કે સ્ક્રીન લૉકનો વપરાશ કરો</string>
+    <string name="biometric_or_screen_lock_dialog_default_subtitle">આગળ વધવા માટે, તમારા ચહેરા, ફિંગરપ્રિન્ટ કે સ્ક્રીન લૉકનો વપરાશ કરો</string>
+    <string name="face_recalibrate_notification_content">જ્યાં સુધી તમે ફરી નોંધણી નહીં કરાવો, ત્યાં સુધી કદાચ ફેસ અનલૉકની સુવિધા કાર્ય કરશે નહીં</string>
+    <string name="face_recalibrate_notification_name">ફેસ અનલૉક</string>
+    <string name="face_recalibrate_notification_title">કૃપા કરીને તમારા ચહેરાની ફરી નોંધણી કરાવો</string>
+    <string name="harmful_app_warning_title">Play Protectની ચેતવણી</string>
+</resources>

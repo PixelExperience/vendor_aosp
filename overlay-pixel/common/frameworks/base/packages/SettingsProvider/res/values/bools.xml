@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-    <bool name="def_screen_brightness_automatic_mode">true</bool>
-    <bool name="def_vibrate_when_ringing">true</bool>
-</resources>

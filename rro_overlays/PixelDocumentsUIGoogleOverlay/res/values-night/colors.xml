@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="color_surface_header">@*android:color/surface_header_dark</color>
+    <color name="hairline">@*android:color/accent_material_dark</color>
+    <color name="list_item_selected_background_color">@*android:color/background_holo_light</color>
+</resources>

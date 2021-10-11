@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="biometric_app_setting_name">ముఖం, వేలిముద్రను ఉపయోగించండి</string>
+    <string name="biometric_dialog_default_subtitle">కొనసాగించడానికి మీ ముఖం లేదా వేలిముద్రను ఉపయోగించండి</string>
+    <string name="biometric_or_screen_lock_app_setting_name">ముఖం, వేలిముద్ర లేదా స్క్రీన్ లాక్‌ను ఉపయోగించండి</string>
+    <string name="biometric_or_screen_lock_dialog_default_subtitle">కొనసాగించడానికి మీ ముఖం, వేలిముద్ర లేదా స్క్రీన్ లాక్‌ను ఉపయోగించండి</string>
+    <string name="face_recalibrate_notification_content">మీరు తిరిగి ఎన్‌రోల్ చేసే దాకా ఫేస్ అన్‌లాక్ పని చేయకపోవచ్చు</string>
+    <string name="face_recalibrate_notification_name">ఫేస్ అన్‌లాక్</string>
+    <string name="face_recalibrate_notification_title">దయచేసి మీ ముఖాన్ని మళ్లీ నమోదు చేయండి</string>
+    <string name="harmful_app_warning_title">Play రక్షణ హెచ్చరిక</string>
+</resources>

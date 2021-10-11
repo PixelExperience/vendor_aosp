@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="app_icon_background_color">@*android:color/car_body1_dark</color>
+</resources>

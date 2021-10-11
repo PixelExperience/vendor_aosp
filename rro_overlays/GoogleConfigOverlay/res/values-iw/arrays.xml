@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="face_acquired_vendor">
+    </array>
+    <array name="face_error_vendor">
+        <item>תוקף האישור פג</item>
+        <item>החיישן מושבת באופן זמני</item>
+        <item>שגיאה בכיול</item>
+        <item>פתיחה ע\"י זיהוי הפנים לא זמינה. הטלפון חם מדי.</item>
+        <item>יש להגדיר שוב את התכונה \'פתיחה ע\"י זיהוי הפנים\'</item>
+    </array>
+</resources>

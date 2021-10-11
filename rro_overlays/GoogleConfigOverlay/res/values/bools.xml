@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <bool name="config_enableAutoPowerModes">true</bool>
+    <bool name="config_enableGeolocationTimeZoneDetection">true</bool>
+    <bool name="config_enablePrimaryLocationTimeZoneProvider">true</bool>
+    <bool name="config_enableSecondaryLocationTimeZoneProvider">false</bool>
+</resources>

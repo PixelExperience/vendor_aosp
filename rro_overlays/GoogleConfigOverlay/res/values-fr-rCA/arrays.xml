@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="face_acquired_vendor">
+    </array>
+    <array name="face_error_vendor">
+        <item>Certificat expiré</item>
+        <item>Le capteur a été désactivé temporairement</item>
+        <item>Erreur de calibration</item>
+        <item>Le déverrouillage par reconnaissance faciale n\'est pas accessible. Le téléphone est trop chaud.</item>
+        <item>Le déverrouillage par reconnaissance faciale doit être configuré de nouveau</item>
+    </array>
+</resources>

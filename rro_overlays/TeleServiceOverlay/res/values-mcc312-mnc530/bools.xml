@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <bool name="config_apn_expand">false</bool>
+    <bool name="config_carrier_settings_enable">true</bool>
+    <bool name="config_show_cdma">true</bool>
+    <bool name="config_use_hfa_for_provisioning">true</bool>
+    <bool name="support_swap_after_merge">false</bool>
+</resources>

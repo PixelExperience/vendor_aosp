@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="biometric_app_setting_name">ಮುಖ ಅಥವಾ ಫಿಂಗರ್‌ ಪ್ರಿಂಟ್ ಬಳಸಿ</string>
+    <string name="biometric_dialog_default_subtitle">ಮುಂದುವರಿಸಲು, ನಿಮ್ಮ ಮುಖ ಅಥವಾ ಫಿಂಗರ್‌ ಪ್ರಿಂಟ್ ಬಳಸಿ</string>
+    <string name="biometric_or_screen_lock_app_setting_name">ಮುಖ, ಫಿಂಗರ್‌ ಪ್ರಿಂಟ್ ಅಥವಾ ಸ್ಕ್ರೀನ್ ಲಾಕ್ ಬಳಸಿ</string>
+    <string name="biometric_or_screen_lock_dialog_default_subtitle">ಮುಂದುವರಿಸಲು, ನಿಮ್ಮ ಮುಖ, ಫಿಂಗರ್‌ ಪ್ರಿಂಟ್ ಅಥವಾ ಸ್ಕ್ರೀನ್ ಲಾಕ್ ಬಳಸಿ</string>
+    <string name="face_recalibrate_notification_content">ಮರುನೋಂದಣಿ ಮಾಡುವವರೆಗೂ ಫೇಸ್ ಅನ್‌ಲಾಕ್ ಕಾರ್ಯನಿರ್ವಹಿಸದಿರಬಹುದು</string>
+    <string name="face_recalibrate_notification_name">ಫೇಸ್ ಅನ್‌ಲಾಕ್</string>
+    <string name="face_recalibrate_notification_title">ನಿಮ್ಮ ಮುಖವನ್ನು ಮರುನೋಂದಾಯಿಸಿ</string>
+    <string name="harmful_app_warning_title">Play ರಕ್ಷಣೆ ಎಚ್ಚರಿಕೆ</string>
+</resources>

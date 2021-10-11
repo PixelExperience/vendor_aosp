@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="biometric_app_setting_name">Përdor fytyrën ose gjurmën e gishtit</string>
+    <string name="biometric_dialog_default_subtitle">Përdor fytyrën ose gjurmën e gishtit për të vazhduar</string>
+    <string name="biometric_or_screen_lock_app_setting_name">Përdor fytyrën, gjurmën e gishtit ose kyçjen e ekranit</string>
+    <string name="biometric_or_screen_lock_dialog_default_subtitle">Përdor fytyrën, gjurmën e gishtit ose kyçjen e ekranit për të vazhduar</string>
+    <string name="face_recalibrate_notification_content">Shkyçja me fytyrë mund të mos funksionojë derisa të regjistrohesh përsëri</string>
+    <string name="face_recalibrate_notification_name">Shkyçja me fytyrë</string>
+    <string name="face_recalibrate_notification_title">Regjistroje përsëri fytyrën tënde</string>
+    <string name="harmful_app_warning_title">Paralajmërim i Play Protect</string>
+</resources>

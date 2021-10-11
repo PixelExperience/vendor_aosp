@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-    <color name="battery_bad_color_light">#ffd93025</color>
-    <color name="battery_good_color_light">#ff1e8e3e</color>
-    <color name="battery_maybe_color_light">#ffe37400</color>
-    <color name="contextual_card_dismissal_background">#fff1f3f4</color>
-</resources>

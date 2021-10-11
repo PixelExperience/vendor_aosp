@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-    <string name="branded_monitoring_description_app_personal">Google is securing this connection by sending data through its servers</string>
-    <string name="branded_vpn_footer">Connection secured by Google</string>
-    <string name="config_screenshotEditor">com.google.android.markup/com.google.android.markup.AnnotateActivity</string>
-    <string name="quick_settings_tiles_default">wifi,bt,dnd,flashlight,rotation,battery,cell,airplane,night,screenrecord,custom(com.google.android.gms/.nearby.sharing.SharingTileService)</string>
-    <string name="themepicker_overlayable_package">com.google.android.apps.wallpaper</string>
-    <string name="launcher_overlayable_package">com.google.android.apps.nexuslauncher</string>
-</resources>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <bool name="dynamic_color_enabled">true</bool>
+    <bool name="extended_partner_config_enabled">true</bool>
+    <bool name="setup_design_header_auto_size_enabled">true</bool>
+    <bool name="setup_design_items_divider_shown">false</bool>
+</resources>

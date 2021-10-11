@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="biometric_app_setting_name">ប្រើ​មុខ ឬ​ស្នាមម្រាមដៃ</string>
+    <string name="biometric_dialog_default_subtitle">ប្រើ​មុខ ឬ​ស្នាមម្រាមដៃ​របស់អ្នក ដើម្បី​បន្ត</string>
+    <string name="biometric_or_screen_lock_app_setting_name">ប្រើ​មុខ ស្នាមម្រាមដៃ ឬ​ការចាក់សោ​អេក្រង់</string>
+    <string name="biometric_or_screen_lock_dialog_default_subtitle">ប្រើ​មុខ ស្នាមម្រាមដៃ ឬ​ការចាក់សោ​អេក្រង់​របស់អ្នក ដើម្បីបន្ត</string>
+    <string name="face_recalibrate_notification_content">ការដោះសោ​តាមទម្រង់មុខ​អាចនឹង​មិនដំណើរការទេ រហូតទាល់តែអ្នក​ស្កេន​បញ្ចូល​មុខ​ម្ដងទៀត</string>
+    <string name="face_recalibrate_notification_name">ដោះសោ​តាមទម្រង់មុខ</string>
+    <string name="face_recalibrate_notification_title">សូមស្កេន​បញ្ចូល​មុខរបស់អ្នក​ម្ដងទៀត</string>
+    <string name="harmful_app_warning_title">ការ​ព្រមានពី Play Protect</string>
+</resources>

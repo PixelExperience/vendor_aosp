@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="face_acquired_vendor">
+    </array>
+    <array name="face_error_vendor">
+        <item>Հավաստագրի ժամկետը լրացել է</item>
+        <item>Տվիչը ժամանակավորապես անջատված է</item>
+        <item>Չափաբերման սխալ</item>
+        <item>Դեմքով ապակողպումն անհասանելի է: Հեռախոսը շատ է տաքացել:</item>
+        <item>Դեմքով ապակողպումն անհրաժեշտ է նորից կարգավորել</item>
+    </array>
+</resources>

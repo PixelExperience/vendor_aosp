@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="demo_device_admin_component_name">com.google.android.retaildemo/.DemoDeviceAdminReceiver</string>
+    <string name="demo_device_admin_download_location">https://g.co/pixel/retaildemo</string>
+    <string name="demo_device_admin_signature_checksum">ZUfHPe4VDBA5gL_f_lXMmgEdeF3WlKX5mv2CBbyvH4A</string>
+    <string name="setup_compat_footer_button_font_family">google-sans-text-medium</string>
+    <string name="setup_design_content_font_family">google-sans-text</string>
+    <string name="setup_design_content_info_font_family">google-sans-text</string>
+    <string name="setup_design_description_font_family">google-sans-text</string>
+    <string name="setup_design_items_summary_font_family">google-sans-text</string>
+    <string name="setup_design_items_title_font_family">google-sans</string>
+    <string name="setup_design_layout_gravity">start</string>
+</resources>

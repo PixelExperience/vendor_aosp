@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="face_acquired_vendor">
+    </array>
+    <array name="face_error_vendor">
+        <item>සහතිකය කල් ඉකුත් වී ඇත</item>
+        <item>සංවේදකය තාවකාලිකව අබල කර ඇත</item>
+        <item>ක්‍රමාංකන දෝෂයකි</item>
+        <item>මුහුණෙන් අගුලු ඇරීම ලබා ගත නොහැකිය. දුරකථනය උණුසුම් වැඩිය.</item>
+        <item>මුහුණෙන් අගුලු ඇරීම නැවත පිහිටුවීමට අවශ්‍යය</item>
+    </array>
+</resources>

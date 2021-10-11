@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="face_acquired_vendor">
+    </array>
+    <array name="face_error_vendor">
+        <item>انتهت صلاحية الشهادة.</item>
+        <item>تم إيقاف جهاز الاستشعار مؤقتًا.</item>
+        <item>خطأ في المعايرة</item>
+        <item>ميزة \"فتح الجهاز بالتعرف على الوجه\" غير متاحة. درجة حرارة الهاتف مرتفعة جدًا.</item>
+        <item>يجب إعداد ميزة \"فتح الجهاز بالتعرف على الوجه\" مرة أخرى.</item>
+    </array>
+</resources>

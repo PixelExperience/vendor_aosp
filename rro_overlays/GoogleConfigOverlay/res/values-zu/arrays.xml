@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="face_acquired_vendor">
+    </array>
+    <array name="face_error_vendor">
+        <item>Isitifiketi siphelelwe isikhathi</item>
+        <item>Inzwa ikhutshazwe okwesikhashana</item>
+        <item>Iphutha lokulinganiswa</item>
+        <item>Ukuvula ngobuso akutholakali. Ifoni ishisa kakhulu.</item>
+        <item>Ukuvula ngobuso kudinga ukusethwa futhi</item>
+    </array>
+</resources>

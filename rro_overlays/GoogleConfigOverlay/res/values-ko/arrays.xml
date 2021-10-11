@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="face_acquired_vendor">
+    </array>
+    <array name="face_error_vendor">
+        <item>만료된 인증서</item>
+        <item>센서가 일시적으로 사용 중지됨</item>
+        <item>보정 오류</item>
+        <item>얼굴 인식 잠금 해제를 사용할 수 없습니다. 휴대전화 온도가 너무 높습니다.</item>
+        <item>얼굴 인식 잠금 해제를 다시 설정해야 함</item>
+    </array>
+</resources>

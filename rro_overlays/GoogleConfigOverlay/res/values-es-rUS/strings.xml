@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="biometric_app_setting_name">Usa tu rostro o huella</string>
+    <string name="biometric_dialog_default_subtitle">Usa tu rostro o huella dactilar para continuar</string>
+    <string name="biometric_or_screen_lock_app_setting_name">Usa tu rostro, huella dactilar o bloqueo de pantalla</string>
+    <string name="biometric_or_screen_lock_dialog_default_subtitle">Usa tu rostro, huella dactilar o bloqueo de pantalla para continuar</string>
+    <string name="face_recalibrate_notification_content">Es posible que el desbloqueo facial no funcione hasta que vuelvas a registrar tu rostro</string>
+    <string name="face_recalibrate_notification_name">Desbloqueo facial</string>
+    <string name="face_recalibrate_notification_title">Vuelve a registrar tu rostro</string>
+    <string name="harmful_app_warning_title">Advertencia de Play Protect</string>
+</resources>

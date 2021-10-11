@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <bool name="config_support_simless_emergency_rtt">true</bool>
+    <bool name="hac_enabled">true</bool>
+    <bool name="vvm3_enabled">true</bool>
+</resources>

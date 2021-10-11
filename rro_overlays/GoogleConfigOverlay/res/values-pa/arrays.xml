@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="face_acquired_vendor">
+    </array>
+    <array name="face_error_vendor">
+        <item>ਪ੍ਰਮਾਣ-ਪੱਤਰ ਦੀ ਮਿਆਦ ਸਮਾਪਤ ਹੋ ਗਈ</item>
+        <item>ਸੈਂਸਰ ਅਸਥਾਈ ਤੌਰ \'ਤੇ ਬੰਦ ਕੀਤਾ ਗਿਆ</item>
+        <item>ਕੈਲੀਬਰੇਸ਼ਨ ਗੜਬੜ</item>
+        <item>ਫ਼ੇਸ ਅਣਲਾਕ ਉਪਲਬਧ ਨਹੀਂ ਹੈ। ਫ਼ੋਨ ਬਹੁਤ ਗਰਮ ਹੈ।</item>
+        <item>ਫ਼ੇਸ ਅਣਲਾਕ ਨੂੰ ਦੁਬਾਰਾ ਸੈੱਟਅੱਪ ਕੀਤੇ ਜਾਣ ਦੀ ਲੋੜ ਹੈ</item>
+    </array>
+</resources>

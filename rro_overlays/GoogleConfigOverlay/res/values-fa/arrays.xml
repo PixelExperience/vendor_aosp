@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="face_acquired_vendor">
+    </array>
+    <array name="face_error_vendor">
+        <item>گواهی منقضی شد</item>
+        <item>حسگر به‌طور موقت غیرفعال شد</item>
+        <item>خطای تنظیم</item>
+        <item>«قفل‌گشایی با چهره» دردسترس نیست. تلفن خیلی داغ است.</item>
+        <item>«قفل‌گشایی با چهره» باید دوباره تنظیم شود</item>
+    </array>
+</resources>

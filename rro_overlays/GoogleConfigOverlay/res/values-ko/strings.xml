@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="biometric_app_setting_name">얼굴 또는 지문 사용</string>
+    <string name="biometric_dialog_default_subtitle">계속하려면 얼굴 또는 지문을 사용하세요</string>
+    <string name="biometric_or_screen_lock_app_setting_name">얼굴, 지문 또는 화면 잠금 사용</string>
+    <string name="biometric_or_screen_lock_dialog_default_subtitle">계속하려면 얼굴, 지문 또는 화면 잠금을 사용하세요</string>
+    <string name="face_recalibrate_notification_content">다시 등록할 때까지 얼굴 인식 잠금 해제가 작동하지 않습니다.</string>
+    <string name="face_recalibrate_notification_name">얼굴 인식 잠금 해제</string>
+    <string name="face_recalibrate_notification_title">얼굴을 다시 등록해 주세요</string>
+    <string name="harmful_app_warning_title">Play 프로텍트 경고</string>
+</resources>

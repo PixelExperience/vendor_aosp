@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="face_acquired_vendor">
+    </array>
+    <array name="face_error_vendor">
+        <item>Platnosť certifikátu vypršala</item>
+        <item>Senzor je dočasne vypnutý</item>
+        <item>Chyba kalibrácie</item>
+        <item>Odomknutie tvárou nie je k dispozícii. Telefón je príliš horúci.</item>
+        <item>Odomknutie tvárou musíte znova nastaviť</item>
+    </array>
+</resources>

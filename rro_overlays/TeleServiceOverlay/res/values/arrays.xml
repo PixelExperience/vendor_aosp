@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="config_countries_to_enable_shortcut_view">
+        <item>ca</item>
+        <item>us</item>
+        <item>de</item>
+        <item>fr</item>
+        <item>es</item>
+        <item>gb</item>
+        <item>au</item>
+        <item>in</item>
+        <item>jp</item>
+        <item>sg</item>
+        <item>tw</item>
+        <item>it</item>
+        <item>ie</item>
+        <item>ar</item>
+        <item>be</item>
+        <item>bg</item>
+        <item>br</item>
+        <item>cn</item>
+        <item>co</item>
+        <item>cz</item>
+        <item>dk</item>
+        <item>do</item>
+        <item>ge</item>
+        <item>gr</item>
+        <item>hr</item>
+        <item>hu</item>
+        <item>id</item>
+        <item>jo</item>
+        <item>mx</item>
+        <item>my</item>
+        <item>nl</item>
+        <item>no</item>
+        <item>ph</item>
+        <item>pl</item>
+        <item>pr</item>
+        <item>pt</item>
+        <item>ro</item>
+        <item>ru</item>
+        <item>se</item>
+        <item>th</item>
+        <item>uy</item>
+        <item>vn</item>
+        <item>za</item>
+    </array>
+    <array name="enabled_networks_except_gsm_values">
+        <item>10</item>
+        <item>@null</item>
+    </array>
+    <array name="enabled_networks_values">
+        <item>10</item>
+        <item>@null</item>
+        <item>1</item>
+    </array>
+    <array name="thermal_mitigation_allowlisted_packages">
+        <item>com.google.android.connectivitythermalpowermanager</item>
+    </array>
+</resources>

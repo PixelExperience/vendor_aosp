@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="biometric_app_setting_name">Koristi lice ili otisak prsta</string>
+    <string name="biometric_dialog_default_subtitle">Koristite otključavanje licem ili otiskom prsta da nastavite</string>
+    <string name="biometric_or_screen_lock_app_setting_name">Koristi otključavanje licem, otiskom prsta ili zaključavanje ekrana</string>
+    <string name="biometric_or_screen_lock_dialog_default_subtitle">Koristite otključavanje licem, otiskom prsta ili zaključavanje ekrana da nastavite</string>
+    <string name="face_recalibrate_notification_content">Moguće je da otključavanje licem neće funkcionirati dok se ponovo ne prijavite</string>
+    <string name="face_recalibrate_notification_name">Otključavanje licem</string>
+    <string name="face_recalibrate_notification_title">Ponovo prijavite lice</string>
+    <string name="harmful_app_warning_title">Upozorenje Play zaštite</string>
+</resources>

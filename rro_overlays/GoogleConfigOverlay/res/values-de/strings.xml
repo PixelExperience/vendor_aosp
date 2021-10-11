@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="biometric_app_setting_name">Gesicht oder Fingerabdruck nutzen</string>
+    <string name="biometric_dialog_default_subtitle">Gesicht oder Fingerabdruck nutzen, um fortzufahren</string>
+    <string name="biometric_or_screen_lock_app_setting_name">Gesicht, Fingerabdruck oder Displaysperre nutzen</string>
+    <string name="biometric_or_screen_lock_dialog_default_subtitle">Gesicht, Fingerabdruck oder Displaysperre nutzen, um fortzufahren</string>
+    <string name="face_recalibrate_notification_content">Die Entsperrung per Gesichtserkennung funktioniert möglicherweise nicht, bis du dein Gesicht neu scannen lässt</string>
+    <string name="face_recalibrate_notification_name">Entsperrung per Gesichtserkennung</string>
+    <string name="face_recalibrate_notification_title">Bitte Gesicht neu scannen lassen</string>
+    <string name="harmful_app_warning_title">Play Protect-Warnung</string>
+</resources>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="biometric_app_setting_name">Bruk ansikt el. fingeravtrykk</string>
+    <string name="biometric_dialog_default_subtitle">Bruk ansikt eller fingeravtrykk for å fortsette</string>
+    <string name="biometric_or_screen_lock_app_setting_name">Bruk ansikt, fingeravtrykk eller skjermlås</string>
+    <string name="biometric_or_screen_lock_dialog_default_subtitle">Bruk ansikt, fingeravtrykk eller skjermlås for å fortsette</string>
+    <string name="face_recalibrate_notification_content">Ansiktslås fungerer muligens ikke før du registrerer ansiktet ditt på nytt</string>
+    <string name="face_recalibrate_notification_name">Ansiktslås</string>
+    <string name="face_recalibrate_notification_title">Registrer ansiktet ditt på nytt</string>
+    <string name="harmful_app_warning_title">Play Protect-advarsel</string>
+</resources>

@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="config_accessibility_allowed_install_source">
+        <item>com.android.vending</item>
+    </array>
+    <array name="config_allowedSecureInstantAppSettings">
+        <item>advertising_id</item>
+        <item>limit_ad_tracking</item>
+    </array>
+    <array name="config_companionDeviceCerts">
+        <item>92:3F:B8:D6:48:71:01:14:8D:8D:C0:F7:90:11:5D:BA:34:CF:0E:A3:AA:5D:3B:B0:74:D2:D9:73:58:8C:39:3A</item>
+        <item>48:ED:00:58:D1:B6:63:8E:39:A6:E4:C2:DF:1C:4D:5F:DF:59:3F:69:6B:F3:1B:09:A8:8F:93:14:1E:AF:60:0F</item>
+    </array>
+    <array name="config_companionDevicePackages">
+        <item>com.google.android.apps.wear.companion</item>
+        <item>com.google.android.apps.wear.companion</item>
+    </array>
+    <array name="config_disabledUntilUsedPreinstalledImes">
+        <item>com.google.android.inputmethod.latin</item>
+        <item>com.google.android.apps.inputmethod.hindi</item>
+        <item>com.google.android.inputmethod.japanese</item>
+        <item>com.google.android.inputmethod.korean</item>
+        <item>com.google.android.inputmethod.pinyin</item>
+        <item>jp.co.omronsoft.iwnnime.ml</item>
+        <item>com.nuance.xt9.input</item>
+    </array>
+    <array name="config_ephemeralResolverPackage">
+        <item>com.google.android.gms</item>
+    </array>
+    <array name="config_face_acquire_biometricprompt_ignorelist">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+        <item>16</item>
+        <item>17</item>
+        <item>18</item>
+        <item>19</item>
+    </array>
+    <array name="config_face_acquire_enroll_ignorelist">
+        <item>13</item>
+    </array>
+    <array name="config_face_acquire_keyguard_ignorelist">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>11</item>
+        <item>12</item>
+        <item>14</item>
+        <item>15</item>
+        <item>19</item>
+    </array>
+    <array name="config_face_acquire_vendor_biometricprompt_ignorelist">
+    </array>
+    <array name="config_face_acquire_vendor_enroll_ignorelist">
+    </array>
+    <array name="config_face_acquire_vendor_keyguard_ignorelist">
+    </array>
+    <array name="config_forceQueryablePackages">
+        <item>com.android.settings</item>
+        <item>com.google.android.gms</item>
+        <item>com.android.vending</item>
+    </array>
+    <array name="config_integrityRuleProviderPackages">
+        <item>com.android.vending</item>
+        <item>com.google.android.gms</item>
+    </array>
+    <array name="config_locationProviderPackageNames">
+        <item>com.google.android.gms</item>
+        <item>com.android.location.fused</item>
+    </array>
+    <array name="face_acquired_vendor">
+    </array>
+    <array name="face_error_vendor">
+        <item>Certificate expired</item>
+        <item>Sensor temporarily disabled</item>
+        <item>Calibration error</item>
+        <item>Face unlock unavailable. Phone is too hot.</item>
+        <item>Face unlock needs to be set up again</item>
+    </array>
+    <array name="vendor_cross_profile_apps">
+        <item>com.google.android.googlequicksearchbox</item>
+        <item>com.google.android.inputmethod.latin</item>
+        <item>com.google.android.projection.gearhead</item>
+        <item>com.google.android.inputmethod.latin.dev</item>
+        <item>com.google.android.inputmethod.latin.canary</item>
+    </array>
+    <array name="vendor_required_apps_managed_device">
+        <item>com.android.vending</item>
+        <item>com.google.android.gms</item>
+        <item>com.google.android.contacts</item>
+        <item>com.google.android.apps.wellbeing</item>
+        <item>com.google.android.GoogleCamera</item>
+        <item>com.google.android.googlequicksearchbox</item>
+        <item>com.google.android.launcher</item>
+        <item>com.google.android.apps.nexuslauncher</item>
+        <item>com.android.launcher</item>
+        <item>com.google.android.dialer</item>
+        <item>com.google.android.apps.messaging</item>
+        <item>com.google.android.setupwizard</item>
+        <item>com.google.android.settings.intelligence</item>
+        <item>com.android.settings.intelligence</item>
+        <item>com.google.android.documentsui</item>
+        <item>com.google.android.apps.nbu.files</item>
+        <item>com.google.android.apps.tips</item>
+        <item>com.google.android.apps.assistant</item>
+        <item>com.google.android.apps.searchlite</item>
+        <item>com.google.android.cellbroadcastreceiver</item>
+        <item>com.google.android.projection.gearhead</item>
+        <item>com.google.android.apps.accessibility.voiceaccess</item>
+    </array>
+    <array name="vendor_required_apps_managed_profile">
+        <item>com.android.vending</item>
+        <item>com.google.android.gms</item>
+        <item>com.google.android.contacts</item>
+        <item>com.google.android.apps.wellbeing</item>
+        <item>com.google.android.googlequicksearchbox</item>
+        <item>com.google.android.apps.assistant</item>
+        <item>com.google.android.apps.searchlite</item>
+        <item>com.google.android.documentsui</item>
+        <item>com.google.android.apps.nbu.files</item>
+        <item>com.google.android.projection.gearhead</item>
+        <item>com.google.android.apps.accessibility.voiceaccess</item>
+        <item>com.google.android.apps.internal.betterbug</item>
+        <item>com.google.android.apps.internal.nexusuploader</item>
+        <item>com.google.android.netgrapher</item>
+        <item>com.android.ramdump</item>
+        <item>com.google.android.volta</item>
+        <item>com.google.android.as</item>
+        <item>com.google.mds</item>
+    </array>
+    <array name="vendor_required_apps_managed_user">
+        <item>com.android.vending</item>
+        <item>com.google.android.gms</item>
+        <item>com.google.android.contacts</item>
+        <item>com.google.android.apps.wellbeing</item>
+        <item>com.google.android.googlequicksearchbox</item>
+        <item>com.google.android.launcher</item>
+        <item>com.android.launcher</item>
+        <item>com.google.android.dialer</item>
+        <item>com.google.android.apps.messaging</item>
+        <item>com.google.android.documentsui</item>
+        <item>com.google.android.apps.nbu.files</item>
+        <item>com.google.android.apps.accessibility.voiceaccess</item>
+    </array>
+</resources>

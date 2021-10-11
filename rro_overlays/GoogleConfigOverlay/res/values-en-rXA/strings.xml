@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="biometric_app_setting_name">[Ûšé ƒåçé öŕ ƒîñĝéŕþŕîñţ one two three]</string>
+    <string name="biometric_dialog_default_subtitle">[Ûšé ýöûŕ ƒåçé öŕ ƒîñĝéŕþŕîñţ ţö çöñţîñûé one two three four five]</string>
+    <string name="biometric_or_screen_lock_app_setting_name">[Ûšé ƒåçé, ƒîñĝéŕþŕîñţ, öŕ šçŕééñ ļöçķ one two three four five]</string>
+    <string name="biometric_or_screen_lock_dialog_default_subtitle">[Ûšé ýöûŕ ƒåçé, ƒîñĝéŕþŕîñţ, öŕ šçŕééñ ļöçķ ţö çöñţîñûé one two three four five six seven]</string>
+    <string name="face_recalibrate_notification_content">[Fåçé ûñļöçķ ḿåý ñöţ ŵöŕķ ûñţîļ ýöû ŕé-éñŕöļļ one two three four five]</string>
+    <string name="face_recalibrate_notification_name">[Fåçé ûñļöçķ one two]</string>
+    <string name="face_recalibrate_notification_title">[Þļéåšé ŕé-éñŕöļļ ýöûŕ ƒåçé one two three four]</string>
+    <string name="harmful_app_warning_title">[Þļåý Þŕöţéçţ ŵåŕñîñĝ one two three]</string>
+</resources>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="face_acquired_vendor">
+    </array>
+    <array name="face_error_vendor">
+        <item>Sertifikaat on aegunud</item>
+        <item>Andur on ajutiselt keelatud</item>
+        <item>Kalibreerimisviga</item>
+        <item>Näoga avamine pole saadaval. Telefon on liiga kuum.</item>
+        <item>Näoga avamine tuleb uuesti seadistada</item>
+    </array>
+</resources>

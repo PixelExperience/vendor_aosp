@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="face_acquired_vendor">
+    </array>
+    <array name="face_error_vendor">
+        <item>సర్టిఫికెట్ గడువు ముగిసింది</item>
+        <item>సెన్సార్ తాత్కాలికంగా డిజేబుల్ చేయబడింది</item>
+        <item>క్రమాంకనం ఎర్రర్</item>
+        <item>ఫేస్ అన్‌లాక్ అందుబాటులో లేదు. ఫోన్ చాలా వేడిగా ఉంది.</item>
+        <item>ఫేస్ అన్‌లాక్‌ను మళ్లీ సెటప్ చేయాలి</item>
+    </array>
+</resources>

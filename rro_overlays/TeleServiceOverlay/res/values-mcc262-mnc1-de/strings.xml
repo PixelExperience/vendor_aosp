@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="incall_error_promote_wfc">Aktiviere WLAN Call, um anzurufen.</string>
+    <string name="status_hint_label_incoming_wifi_call">WLAN Call von</string>
+    <string name="status_hint_label_wifi_call">WLAN Call</string>
+    <string name="wifi_calling">WLAN Call</string>
+    <string name="wifi_calling_settings_title">WLAN Call</string>
+</resources>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="face_acquired_vendor">
+    </array>
+    <array name="face_error_vendor">
+        <item>ใบรับรองหมดอายุแล้ว</item>
+        <item>ปิดใช้เซ็นเซอร์ชั่วคราวแล้ว</item>
+        <item>ข้อผิดพลาดในการปรับตำแหน่ง</item>
+        <item>ฟีเจอร์ปลดล็อกด้วยใบหน้าไม่พร้อมใช้งาน โทรศัพท์ร้อนเกินไป</item>
+        <item>ต้องตั้งค่าการปลดล็อกด้วยใบหน้าอีกครั้ง</item>
+    </array>
+</resources>

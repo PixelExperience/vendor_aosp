@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="deferred_medium_priority_actions">
+        <item>intent:#Intent;action=com.google.android.setupwizard.OPA_OPT_IN;end</item>
+        <item>lock_screen</item>
+        <item>intent:#Intent;action=com.google.android.setupwizard.ASSIST_GESTURE;end</item>
+    </array>
+</resources>

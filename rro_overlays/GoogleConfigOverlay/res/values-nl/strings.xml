@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="biometric_app_setting_name">Via gezicht of vingerafdruk</string>
+    <string name="biometric_dialog_default_subtitle">Gebruik je gezicht of vingerafdruk om door te gaan</string>
+    <string name="biometric_or_screen_lock_app_setting_name">Gezicht, vingerafdruk of schermvergrendeling gebruiken</string>
+    <string name="biometric_or_screen_lock_dialog_default_subtitle">Gebruik je gezicht, vingerafdruk of schermvergrendeling om door te gaan</string>
+    <string name="face_recalibrate_notification_content">\'Ontgrendelen via gezichtsherkenning\' werkt mogelijk niet totdat je je opnieuw registreert</string>
+    <string name="face_recalibrate_notification_name">Ontgrendelen via gezichtsherkenning</string>
+    <string name="face_recalibrate_notification_title">Registreer je gezicht opnieuw</string>
+    <string name="harmful_app_warning_title">Play Protect-waarschuwing</string>
+</resources>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="config_controlsPreferredPackages">
+        <item>com.google.android.apps.chromecast.app</item>
+    </array>
+    <array name="config_pluginWhitelist">
+        <item>com.android.systemui</item>
+        <item>com.android.systemui.plugin.globalactions.wallet</item>
+    </array>
+</resources>

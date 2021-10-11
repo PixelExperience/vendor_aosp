@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="config_defaultFirstUserRestrictions">
+        <item>no_oem_unlock</item>
+    </array>
+    <array name="config_highRefreshRateBlacklist">
+        <item>com.nianticlabs.pokemongo</item>
+        <item>com.google.android.documentsui</item>
+        <item>com.activision.callofduty.shooter</item>
+        <item>jp.konami.epjCastlevania2</item>
+    </array>
+    <array name="config_keep_warming_services">
+        <item>com.google.android.GoogleCamera/com.google.android.apps.camera.prewarm.NoOpPrewarmService</item>
+    </array>
+    <array name="config_locationExtraPackageNames">
+        <item>com.google.android.gms.location.history</item>
+    </array>
+    <array name="config_locationProviderPackageNames">
+        <item>com.google.android.gms</item>
+        <item>com.android.location.fused</item>
+    </array>
+    <array name="config_nightDisplayColorTemperatureCoefficients">
+        <item>0.0</item>
+        <item>0.0</item>
+        <item>1.0</item>
+        <item>-0.000000014365268757</item>
+        <item>0.000255092801250106</item>
+        <item>-0.064156942434907716</item>
+        <item>-0.000000000910931179</item>
+        <item>0.000207598323269139</item>
+        <item>-0.349361641294833436</item>
+    </array>
+    <array name="non_removable_euicc_slots">
+        <item>1</item>
+    </array>
+</resources>

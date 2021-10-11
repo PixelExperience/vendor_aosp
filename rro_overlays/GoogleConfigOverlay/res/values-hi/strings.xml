@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="biometric_app_setting_name">फ़िंगरप्रिंट या फ़ेस अनलॉक सुविधा का इस्तेमाल करें</string>
+    <string name="biometric_dialog_default_subtitle">जारी रखने के लिए, फ़िंगरप्रिंट या फ़ेस अनलॉक सुविधा का इस्तेमाल करें</string>
+    <string name="biometric_or_screen_lock_app_setting_name">स्क्रीन लॉक, फ़िंगरप्रिंट या फ़ेस अनलॉक सुविधा का इस्तेमाल करें</string>
+    <string name="biometric_or_screen_lock_dialog_default_subtitle">जारी रखने के लिए, स्क्रीन लॉक, फ़िंगरप्रिंट या फ़ेस अनलॉक सुविधा का इस्तेमाल करें</string>
+    <string name="face_recalibrate_notification_content">मालिक का चेहरा पहचानकर अनलॉक करने की सुविधा, शायद तब तक काम न करें, जब तक आप चेहरे की फिर से पहचान नहीं कराते</string>
+    <string name="face_recalibrate_notification_name">मालिक का चेहरा पहचानकर अनलॉक करने की सुविधा</string>
+    <string name="face_recalibrate_notification_title">कृपया अपने चेहरे की फिर से पहचान कराएं</string>
+    <string name="harmful_app_warning_title">Play Protect की चेतावनी</string>
+</resources>
