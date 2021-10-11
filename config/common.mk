@@ -198,7 +198,7 @@ $(call inherit-product, vendor/aosp/config/audio.mk)
 $(call inherit-product, vendor/aosp/config/bootanimation.mk)
 
 # Fonts
-#$(call inherit-product, vendor/aosp/config/fonts.mk)
+$(call inherit-product, vendor/aosp/config/fonts.mk)
 
 # GApps
 #$(call inherit-product, vendor/gapps/config.mk)
@@ -207,6 +207,6 @@ $(call inherit-product, vendor/aosp/config/bootanimation.mk)
 $(call inherit-product, vendor/aosp/config/ota.mk)
 
 # RRO Overlays
-#$(call inherit-product, vendor/aosp/config/rro_overlays.mk)
+$(call inherit-product, vendor/aosp/config/rro_overlays.mk)
 
 -include $(WORKSPACE)/build_env/image-auto-bits.mk
