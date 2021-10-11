@@ -34,11 +34,7 @@ $(eval include $(BUILD_PREBUILT))
 endef
 
 font_src_files := \
-    GoogleSans-BoldItalic.ttf \
-    GoogleSans-Bold.ttf \
     GoogleSans-Italic.ttf \
-    GoogleSans-MediumItalic.ttf \
-    GoogleSans-Medium.ttf \
     GoogleSans-Regular.ttf
 
 $(foreach f, $(font_src_files), $(call build-one-font-module, $(f)))

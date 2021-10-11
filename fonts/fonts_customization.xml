@@ -1,72 +1,212 @@
 <fonts-modification version="1">
-    <family customizationType="new-named-family" name="google-sans">
-        <font weight="400" style="normal">GoogleSans-Regular.ttf</font>
-        <font weight="400" style="italic">GoogleSans-Italic.ttf</font>
-        <font weight="500" style="normal">GoogleSans-Medium.ttf</font>
-        <font weight="500" style="italic">GoogleSans-MediumItalic.ttf</font>
-        <font weight="700" style="normal">GoogleSans-Bold.ttf</font>
-        <font weight="700" style="italic">GoogleSans-BoldItalic.ttf</font>
-    </family>
-    <alias name="google-sans-medium" to="google-sans" weight="500" />
+  <family customizationType="new-named-family" name="google-sans">
+    <font weight="400" style="normal">GoogleSans-Regular.ttf
+      <axis tag="GRAD" stylevalue="0"/>
+      <axis tag="opsz" stylevalue="18.0"/>
+      <axis tag="wght" stylevalue="400"/>
+    </font>
+    <font weight="500" style="normal">GoogleSans-Regular.ttf
+      <axis tag="GRAD" stylevalue="0"/>
+      <axis tag="opsz" stylevalue="18.0"/>
+      <axis tag="wght" stylevalue="500"/>
+    </font>
+    <font weight="600" style="normal">GoogleSans-Regular.ttf
+      <axis tag="GRAD" stylevalue="0"/>
+      <axis tag="opsz" stylevalue="18.0"/>
+      <axis tag="wght" stylevalue="600"/>
+    </font>
+    <font weight="700" style="normal">GoogleSans-Regular.ttf
+      <axis tag="GRAD" stylevalue="0"/>
+      <axis tag="opsz" stylevalue="18.0"/>
+      <axis tag="wght" stylevalue="700"/>
+    </font>
+    <font weight="400" style="italic">GoogleSans-Italic.ttf
+      <axis tag="GRAD" stylevalue="0"/>
+      <axis tag="opsz" stylevalue="18.0"/>
+      <axis tag="wght" stylevalue="400"/>
+    </font>
+    <font weight="500" style="italic">GoogleSans-Italic.ttf
+      <axis tag="GRAD" stylevalue="0"/>
+      <axis tag="opsz" stylevalue="18.0"/>
+      <axis tag="wght" stylevalue="500"/>
+    </font>
+    <font weight="600" style="italic">GoogleSans-Italic.ttf
+      <axis tag="GRAD" stylevalue="0"/>
+      <axis tag="opsz" stylevalue="18.0"/>
+      <axis tag="wght" stylevalue="600"/>
+    </font>
+    <font weight="700" style="italic">GoogleSans-Italic.ttf
+      <axis tag="GRAD" stylevalue="0"/>
+      <axis tag="opsz" stylevalue="18.0"/>
+      <axis tag="wght" stylevalue="700"/>
+    </font>
+  </family>
 
-    <family customizationType="new-named-family" name="arbutus-slab">
-      <font weight="400" style="normal">ArbutusSlab-Regular.ttf</font>
-    </family>
+  <family customizationType="new-named-family" name="google-sans-medium">
+    <font weight="500" style="normal">GoogleSans-Regular.ttf
+      <axis tag="GRAD" stylevalue="0"/>
+      <axis tag="opsz" stylevalue="18.0"/>
+      <axis tag="wght" stylevalue="500"/>
+    </font>
+  </family>
 
-    <family customizationType="new-named-family" name="lato">
-      <font weight="400" style="normal">Lato-Regular.ttf</font>
-      <font weight="400" style="italic">Lato-Italic.ttf</font>
-      <font weight="700" style="normal">Lato-Bold.ttf</font>
-      <font weight="700" style="italic">Lato-BoldItalic.ttf</font>
-    </family>
-    <alias name="lato-bold" to="lato" weight="700" />
+  <family customizationType="new-named-family" name="google-sans-bold">
+    <font weight="700" style="normal">GoogleSans-Regular.ttf
+      <axis tag="GRAD" stylevalue="0"/>
+      <axis tag="opsz" stylevalue="18.0"/>
+      <axis tag="wght" stylevalue="700"/>
+    </font>
+  </family>
 
-    <family customizationType="new-named-family" name="rubik">
-      <font weight="400" style="normal">Rubik-Regular.ttf</font>
-      <font weight="400" style="italic">Rubik-Italic.ttf</font>
-      <font weight="500" style="normal">Rubik-Medium.ttf</font>
-      <font weight="500" style="italic">Rubik-MediumItalic.ttf</font>
-      <font weight="700" style="normal">Rubik-Bold.ttf</font>
-      <font weight="700" style="italic">Rubik-BoldItalic.ttf</font>
-    </family>
-    <alias name="rubik-medium" to="rubik" weight="500" />
+  <family customizationType="new-named-family" name="google-sans-text">
+    <font weight="400" style="normal">GoogleSans-Regular.ttf
+      <axis tag="GRAD" stylevalue="0"/>
+      <axis tag="opsz" stylevalue="17.0"/>
+      <axis tag="wght" stylevalue="400"/>
+    </font>
+    <font weight="500" style="normal">GoogleSans-Regular.ttf
+      <axis tag="GRAD" stylevalue="0"/>
+      <axis tag="opsz" stylevalue="17.0"/>
+      <axis tag="wght" stylevalue="500"/>
+    </font>
+    <font weight="600" style="normal">GoogleSans-Regular.ttf
+      <axis tag="GRAD" stylevalue="0"/>
+      <axis tag="opsz" stylevalue="17.0"/>
+      <axis tag="wght" stylevalue="600"/>
+    </font>
+    <font weight="700" style="normal">GoogleSans-Regular.ttf
+      <axis tag="GRAD" stylevalue="0"/>
+      <axis tag="opsz" stylevalue="17.0"/>
+      <axis tag="wght" stylevalue="700"/>
+    </font>
+    <font weight="400" style="italic">GoogleSans-Italic.ttf
+      <axis tag="GRAD" stylevalue="0"/>
+      <axis tag="opsz" stylevalue="17.0"/>
+      <axis tag="wght" stylevalue="400"/>
+    </font>
+    <font weight="500" style="italic">GoogleSans-Italic.ttf
+      <axis tag="GRAD" stylevalue="0"/>
+      <axis tag="opsz" stylevalue="17.0"/>
+      <axis tag="wght" stylevalue="500"/>
+    </font>
+    <font weight="600" style="italic">GoogleSans-Italic.ttf
+      <axis tag="GRAD" stylevalue="0"/>
+      <axis tag="opsz" stylevalue="17.0"/>
+      <axis tag="wght" stylevalue="600"/>
+    </font>
+    <font weight="700" style="italic">GoogleSans-Italic.ttf
+      <axis tag="GRAD" stylevalue="0"/>
+      <axis tag="opsz" stylevalue="17.0"/>
+      <axis tag="wght" stylevalue="700"/>
+    </font>
+  </family>
 
-    <family customizationType="new-named-family" name="zilla-slab-medium">
-      <font weight="500" style="normal">ZillaSlab-Medium.ttf</font>
-      <font weight="500" style="italic">ZillaSlab-MediumItalic.ttf</font>
-      <font weight="600" style="normal">ZillaSlab-SemiBold.ttf</font>
-      <font weight="600" style="italic">ZillaSlab-SemiBoldItalic.ttf</font>
-    </family>
-    <alias name="zilla-slab-semi-bold" to="zilla-slab-medium" weight="600" />
+  <family customizationType="new-named-family" name="google-sans-text-medium">
+    <font weight="500" style="normal">GoogleSans-Regular.ttf
+      <axis tag="GRAD" stylevalue="0"/>
+      <axis tag="opsz" stylevalue="17.0"/>
+      <axis tag="wght" stylevalue="500"/>
+    </font>
+  </family>
 
-    <family customizationType="new-named-family" name="lustria">
-      <font weight="400" style="normal">Lustria-Regular.ttf</font>
-    </family>
-    <alias name="lustria" to="lustria" weight="400"/>
+  <family customizationType="new-named-family" name="google-sans-text-bold">
+    <font weight="700" style="normal">GoogleSans-Regular.ttf
+      <axis tag="GRAD" stylevalue="0"/>
+      <axis tag="opsz" stylevalue="17.0"/>
+      <axis tag="wght" stylevalue="700"/>
+    </font>
+  </family>
 
-    <family customizationType="new-named-family" name="karla">
-      <font weight="400" style="normal">Karla-Regular.ttf</font>
-    </family>
-    <alias name="karla" to="karla" weight="400"/>
+  <family customizationType="new-named-family" name="google-sans-text-italic">
+    <font weight="400" style="italic">GoogleSans-Italic.ttf
+      <axis tag="GRAD" stylevalue="0"/>
+      <axis tag="opsz" stylevalue="17.0"/>
+      <axis tag="wght" stylevalue="400"/>
+    </font>
+  </family>
 
-    <family customizationType="new-named-family" name="fraunces">
-      <font weight="400" style="normal">Fraunces-Regular.ttf</font>
-      <font weight="600" style="normal">Fraunces-SemiBold.ttf</font>
-    </family>
-    <alias name="fraunces" to="fraunces" weight="400"/>
-    <alias name="fraunces-semi-bold" to="fraunces" weight="600"/>
+  <family customizationType="new-named-family" name="google-sans-text-medium-italic">
+    <font weight="500" style="italic">GoogleSans-Italic.ttf
+      <axis tag="GRAD" stylevalue="0"/>
+      <axis tag="opsz" stylevalue="17.0"/>
+      <axis tag="wght" stylevalue="500"/>
+    </font>
+  </family>
 
-    <family customizationType="new-named-family" name="big-shoulders-text">
-      <font weight="700" style="normal">BigShouldersText-Bold.ttf</font>
-      <font weight="800" style="normal">BigShouldersText-ExtraBold.ttf</font>
-    </family>
-    <alias name="big-shoulders-text-bold" to="big-shoulders-text" weight="700"/>
-    <alias name="big-shoulders-text-extra-bold" to="big-shoulders-text" weight="800"/>
+  <family customizationType="new-named-family" name="google-sans-text-bold-italic">
+    <font weight="700" style="italic">GoogleSans-Italic.ttf
+      <axis tag="GRAD" stylevalue="0"/>
+      <axis tag="opsz" stylevalue="17.0"/>
+      <axis tag="wght" stylevalue="700"/>
+    </font>
+  </family>
 
-    <family customizationType="new-named-family" name="barlow">
-      <font weight="700" style="normal">Barlow-Bold.ttf</font>
-      <font weight="500" style="normal">Barlow-Medium.ttf</font>
-    </family>
-    <alias name="barlow-bold" to="barlow" weight="700"/>
-    <alias name="barlow-medium" to="barlow" weight="500"/>
+  <family customizationType="new-named-family" name="arbutus-slab">
+    <font weight="400" style="normal">ArbutusSlab-Regular.ttf</font>
+  </family>
+
+  <family customizationType="new-named-family" name="lato">
+    <font weight="400" style="normal">Lato-Regular.ttf</font>
+    <font weight="400" style="italic">Lato-Italic.ttf</font>
+    <font weight="700" style="normal">Lato-Bold.ttf</font>
+    <font weight="700" style="italic">Lato-BoldItalic.ttf</font>
+  </family>
+  <alias name="lato-bold" to="lato" weight="700" />
+
+  <family customizationType="new-named-family" name="rubik">
+    <font weight="400" style="normal">Rubik-Regular.ttf</font>
+    <font weight="400" style="italic">Rubik-Italic.ttf</font>
+    <font weight="500" style="normal">Rubik-Medium.ttf</font>
+    <font weight="500" style="italic">Rubik-MediumItalic.ttf</font>
+    <font weight="700" style="normal">Rubik-Bold.ttf</font>
+    <font weight="700" style="italic">Rubik-BoldItalic.ttf</font>
+  </family>
+  <alias name="rubik-medium" to="rubik" weight="500" />
+
+  <family customizationType="new-named-family" name="zilla-slab-medium">
+    <font weight="500" style="normal">ZillaSlab-Medium.ttf</font>
+    <font weight="500" style="italic">ZillaSlab-MediumItalic.ttf</font>
+    <font weight="600" style="normal">ZillaSlab-SemiBold.ttf</font>
+    <font weight="600" style="italic">ZillaSlab-SemiBoldItalic.ttf</font>
+  </family>
+  <alias name="zilla-slab-semi-bold" to="zilla-slab-medium" weight="600" />
+
+  <family customizationType="new-named-family" name="lustria">-->
+    <font weight="400" style="normal">Lustria-Regular.ttf</font>
+  </family>
+  <alias name="lustria" to="lustria" weight="400"/>
+
+  <family customizationType="new-named-family" name="karla">
+    <font weight="400" style="normal">Karla-Regular.ttf</font>
+  </family>
+  <alias name="karla" to="karla" weight="400"/>
+
+  <family customizationType="new-named-family" name="fraunces">
+    <font
+      weight="400"
+      style="normal"
+      postScriptName="Fraunces144ptS100Black-OpticalSize9Weight347soften100wonk0"
+      >Fraunces-Regular.ttf</font>
+    <font
+      weight="600"
+      style="normal"
+      postScriptName="Fraunces144ptS100Black-OpticalSize9Weight640soften100wonk0"
+      >Fraunces-SemiBold.ttf</font>
+  </family>
+  <alias name="fraunces" to="fraunces" weight="400"/>
+  <alias name="fraunces-semi-bold" to="fraunces" weight="600"/>
+
+  <family customizationType="new-named-family" name="big-shoulders-text">
+    <font weight="700" style="normal">BigShouldersText-Bold.ttf</font>
+    <font weight="800" style="normal">BigShouldersText-ExtraBold.ttf</font>
+  </family>
+  <alias name="big-shoulders-text-bold" to="big-shoulders-text" weight="700"/>
+  <alias name="big-shoulders-text-extra-bold" to="big-shoulders-text" weight="800"/>
+
+  <family customizationType="new-named-family" name="barlow">
+    <font weight="700" style="normal">Barlow-Bold.ttf</font>
+    <font weight="500" style="normal">Barlow-Medium.ttf</font>
+  </family>
+  <alias name="barlow-bold" to="barlow" weight="700"/>
+  <alias name="barlow-medium" to="barlow" weight="500"/>
 </fonts-modification>
