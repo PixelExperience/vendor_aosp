@@ -1,7 +1,0 @@
-runtime_resource_overlay {
-    name: "FontKaiOverlay",
-    theme: "FontKai",
-    certificate: "platform",
-    sdk_version: "current",
-    product_specific: true
-}
