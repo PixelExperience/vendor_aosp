@@ -97,11 +97,11 @@ PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
 # Overlays
 PRODUCT_ENFORCE_RRO_EXCLUDED_OVERLAYS += \
     vendor/aosp/overlay \
-    vendor/aosp/overlay-pixel \
+#    vendor/aosp/overlay-pixel \
 
 PRODUCT_PACKAGE_OVERLAYS += \
     vendor/aosp/overlay/common \
-    vendor/aosp/overlay-pixel/common
+#    vendor/aosp/overlay-pixel/common
 
 # TouchGestures
 PRODUCT_PACKAGES += \
