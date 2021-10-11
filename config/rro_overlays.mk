@@ -9,6 +9,7 @@ PRODUCT_PACKAGES += \
     CaptivePortalLoginOverlay \
     GoogleWebViewOverlay \
     SettingsGoogleOverlay \
+    SettingsGoogleCustomOverlay \
     TelecomOverlay \
     CellBroadcastServiceOverlay \
     SettingsGoogleOverlayPixel2019_midyear \
