@@ -153,9 +153,14 @@ def fetch_query(remote_url, query):
         raise Exception('Gerrit URL should be in the form http[s]://hostname/ or ssh://[user@]host[:port]')
 
 
+def get_private_gerrit_url():
+    cmd = ['git config --get review.gerrit-staging.pixelexperience.org.username']
+    username = subprocess.check_output(cmd, shell=True).decode("utf-8").strip()
+    return 'ssh://{0}@gerrit-staging.pixelexperience.org:29419'.format(username)
+
 if __name__ == '__main__':
     # Default to PixelExperience Gerrit
-    default_gerrit = 'https://gerrit-staging.pixelexperience.org'
+    default_gerrit = get_private_gerrit_url()
 
     parser = argparse.ArgumentParser(formatter_class=argparse.RawDescriptionHelpFormatter, description=textwrap.dedent('''\
         repopick.py is a utility to simplify the process of cherry picking
