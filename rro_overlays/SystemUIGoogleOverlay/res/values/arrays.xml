@@ -7,4 +7,13 @@
         <item>com.android.systemui</item>
         <item>com.android.systemui.plugin.globalactions.wallet</item>
     </array>
+    <string-array name="recents_onboarding_blacklisted_packages">
+        <item>com.google.android.setupwizard</item>
+        <item>com.google.android.apps.googleassistant</item>
+    </string-array>
+    <string-array name="config_quickSettingsAutoAdd" translatable="false">
+        <item>accessibility_display_inversion_enabled:inversion</item>
+        <item>wind_down_first_time_setup:custom(com.google.android.apps.wellbeing/.screen.ui.GrayscaleTileService)</item>
+        <item>focus_mode_first_time_setup:custom(com.google.android.apps.wellbeing/.focusmode.quicksettings.FocusModeTileService)</item>
+    </string-array>
 </resources>
