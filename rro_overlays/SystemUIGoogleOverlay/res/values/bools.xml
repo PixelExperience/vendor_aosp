@@ -5,7 +5,6 @@
     <bool name="config_nfc_conflict_with_wlc">true</bool>
     <!--bool name="config_vibrateOnIconAnimation">true</bool-->
     <bool name="config_wlc_support_enabled">false</bool>
-    <bool name="are_flags_overrideable">true</bool>
     <bool name="flag_charging_ripple">true</bool>
     <bool name="flag_conversations">true</bool>
     <bool name="flag_keyguard_layout">true</bool>
@@ -13,5 +12,4 @@
     <bool name="flag_monet">true</bool>
     <bool name="flag_pm_lite">true</bool>
     <bool name="flag_smartspace">true</bool>
-    <bool name="global_actions_show_change_info">true</bool>
 </resources>
