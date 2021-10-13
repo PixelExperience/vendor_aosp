@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <array name="config_defaultFirstUserRestrictions">
+    <!--array name="config_defaultFirstUserRestrictions">
         <item>no_oem_unlock</item>
-    </array>
+    </array-->
     <array name="config_highRefreshRateBlacklist">
         <item>com.nianticlabs.pokemongo</item>
         <item>com.google.android.documentsui</item>
@@ -19,7 +19,7 @@
         <item>com.google.android.gms</item>
         <item>com.android.location.fused</item>
     </array>
-    <array name="config_nightDisplayColorTemperatureCoefficients">
+    <!--array name="config_nightDisplayColorTemperatureCoefficients">
         <item>0.0</item>
         <item>0.0</item>
         <item>1.0</item>
@@ -32,5 +32,5 @@
     </array>
     <array name="non_removable_euicc_slots">
         <item>1</item>
-    </array>
+    </array-->
 </resources>
