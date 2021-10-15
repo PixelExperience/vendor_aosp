@@ -3,6 +3,5 @@
     android:versionCode="1"
     android:versionName="1.0">
     <overlay android:targetPackage="android" android:priority="1" android:isStatic="true" />
-
     <application android:label="NowPlayingOverlay" android:hasCode="false"/>
 </manifest>

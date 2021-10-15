@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="31" android:versionName="12" package="com.android.settings.overlay.pixel2019midyear">
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="com.android.settings.overlay.pixel2019midyear">
+    <application android:label="SettingsGoogleverlayPixel2019_midyear" android:hasCode="false"/>
     <overlay android:targetPackage="com.android.settings" android:isStatic="true" android:resourcesMap="@xml/overlays"/>
 </manifest>

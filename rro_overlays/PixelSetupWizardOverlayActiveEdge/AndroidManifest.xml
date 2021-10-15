@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="31" android:versionName="12" package="com.google.android.pixel.setupwizard.activeedge">
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="com.google.android.pixel.setupwizard.activeedge">
+    <application android:label="PixelSetupWizardOverlayActiveEdge" android:hasCode="false"/>
     <overlay android:priority="200" android:targetPackage="com.google.android.pixel.setupwizard" android:targetName="PixelSetupWizard" android:isStatic="true"/>
-    <application android:label="PixelSetupWizardOverlayActiveEdge"/>
 </manifest>

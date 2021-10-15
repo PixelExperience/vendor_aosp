@@ -23,7 +23,6 @@ PRODUCT_PACKAGES += \
     PixelSetupWizardOverlay \
     PixelSetupWizardOverlay2019 \
     PixelSetupWizardOverlayActiveEdge \
-    SystemUIGXOverlay \
     PixelFwResOverlay \
     GoogleConfigOverlay \
     SystemUIGoogleOverlay

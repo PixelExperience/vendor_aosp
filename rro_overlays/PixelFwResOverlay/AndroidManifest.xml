@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="1" android:versionName="1.0" package="android.overlay.pixel">
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="android.overlay.pixel">
+    <application android:label="PixelFwResOverlay" android:hasCode="false"/>
     <overlay android:priority="1" android:targetPackage="android" android:isStatic="true"/>
 </manifest>
