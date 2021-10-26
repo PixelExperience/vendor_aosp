@@ -109,3 +109,7 @@ endif
 ifneq ($(TARGET_USE_QTI_BT_STACK),true)
 PRODUCT_SOONG_NAMESPACES += packages/apps/Bluetooth
 endif #TARGET_USE_QTI_BT_STACK
+
+ifneq ($(TARGET_USES_NQ_NFC),true)
+PRODUCT_SOONG_NAMESPACES += hardware/nxp
+endif #TARGET_USES_NQ_NFC
