@@ -9,5 +9,4 @@
     <bool name="flag_keyguard_layout">true</bool>
     <bool name="flag_lockscreen_animations">true</bool>
     <bool name="flag_pm_lite">true</bool>
-    <bool name="flag_combined_status_bar_signal_icons">true</bool>
 </resources>
