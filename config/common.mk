@@ -125,7 +125,6 @@ PRODUCT_PACKAGES += \
 
 # Gboard configuration
 PRODUCT_PRODUCT_PROPERTIES += \
-    ro.com.google.ime.bs_theme=true \
     ro.com.google.ime.theme_id=5 \
     ro.com.google.ime.system_lm_dir=/product/usr/share/ime/google/d3_lms
 
@@ -140,7 +139,8 @@ PRODUCT_PRODUCT_PROPERTIES += \
     setupwizard.feature.show_pai_screen_in_main_flow.carrier1839=false \
     setupwizard.feature.show_pixel_tos=false \
     setupwizard.feature.show_support_link_in_deferred_setup=false \
-    setupwizard.feature.device_default_dark_mode=true
+    setupwizard.feature.day_night_mode_enabled=true \
+    setupwizard.feature.portal_notification=true
 
 # StorageManager configuration
 PRODUCT_PRODUCT_PROPERTIES += \
