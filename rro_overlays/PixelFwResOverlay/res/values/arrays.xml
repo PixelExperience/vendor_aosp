@@ -3,12 +3,6 @@
     <!--array name="config_defaultFirstUserRestrictions">
         <item>no_oem_unlock</item>
     </array-->
-    <array name="config_highRefreshRateBlacklist">
-        <item>com.nianticlabs.pokemongo</item>
-        <item>com.google.android.documentsui</item>
-        <item>com.activision.callofduty.shooter</item>
-        <item>jp.konami.epjCastlevania2</item>
-    </array>
     <array name="config_keep_warming_services">
         <item>com.google.android.GoogleCamera/com.google.android.apps.camera.prewarm.NoOpPrewarmService</item>
     </array>

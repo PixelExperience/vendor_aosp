@@ -1,5 +1,5 @@
 runtime_resource_overlay {
-    name: "SettingsGoogleOverlayPixel2019_midyear",
+    name: "PixelConfigOverlay2021",
     certificate: "platform",
     sdk_version: "current",
     product_specific: true

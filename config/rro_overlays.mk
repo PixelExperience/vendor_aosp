@@ -8,10 +8,10 @@ PRODUCT_PACKAGES += \
     TeleServiceOverlay \
     CaptivePortalLoginOverlay \
     GoogleWebViewOverlay \
-    SettingsGoogleOverlay \
     TelecomOverlay \
     CellBroadcastServiceOverlay \
-    SettingsGoogleOverlayPixel2019_midyear \
+    SettingsGoogleOverlay \
+    SettingsGoogleOverlayPixel2021 \
     TelephonyProviderOverlay \
     ContactsProviderOverlay \
     PixelConfigOverlay2018 \
@@ -19,6 +19,7 @@ PRODUCT_PACKAGES += \
     TraceurOverlay \
     PixelConfigOverlay2019 \
     PixelConfigOverlay2019Midyear \
+    PixelConfigOverlay2021 \
     PixelSetupWizardOverlay \
     PixelSetupWizardOverlay2019 \
     PixelSetupWizardOverlayActiveEdge \

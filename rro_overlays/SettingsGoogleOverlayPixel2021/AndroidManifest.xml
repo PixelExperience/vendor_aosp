@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="com.android.settings.overlay.pixel2021">
+    <application android:label="SettingsGoogleOverlayPixel2021" android:hasCode="false"/>
+    <overlay android:targetPackage="com.android.settings" android:isStatic="true" />
+</manifest>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="config_defaultNightMode">2</integer>
+    <!--integer name="config_keyChordPowerVolumeUp">2</integer>
+    <integer name="config_longPressOnPowerBehavior">5</integer-->
+</resources>

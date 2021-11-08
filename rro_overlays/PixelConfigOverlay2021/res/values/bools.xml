@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--bool name="config_assistLongPressHomeEnabledDefault">false</bool-->
+    <!--bool name="config_assistTouchGestureEnabledDefault">false</bool-->
+    <!--bool name="config_volumeHushGestureEnabled">false</bool-->
+</resources>

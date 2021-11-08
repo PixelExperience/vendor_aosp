@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <bool name="config_nfc_detection_point">true</bool>
+    <!--bool name="config_show_reverse_charging">true</bool>
+    <bool name="config_show_touch_sensitivity">true</bool>
+    <bool name="config_suc_use_partner_resource">true</bool-->
+</resources>
