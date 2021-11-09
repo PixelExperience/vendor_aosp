@@ -2,5 +2,4 @@
 <resources>
     <string name="config_deviceProvisioningPackage">com.google.android.apps.work.oobconfig</string>
     <string name="config_wallpaperCropperPackage">com.google.android.apps.wallpaper</string>
-    <!--string name="default_wallpaper_component">com.breel.wallpapers20a/com.breel.wallpapers20a.gradient.wallpaper.GradientWallpaper</string-->
 </resources>
