@@ -84,5 +84,8 @@
         <item>device_personalization_services/OverviewFederatedAnalytics__enable_fa=false</item>
         <item>device_personalization_services/OverviewFederatedAnalytics__enable_min_training_interval=false</item>
         <item>device_personalization_services/OverviewFederatedAnalytics__enable_non_synthetic_logs=false</item>
+
+        <!-- Allow users to disable location indicators in Developer Options -->
+        <item>privacy/location_indicator_settings_enabled=true</item>
     </string-array>
 </resources>
