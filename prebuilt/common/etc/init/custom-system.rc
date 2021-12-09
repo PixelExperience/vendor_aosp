@@ -1,2 +1,0 @@
-on post-fs-data
-    mkdir /cache/recovery 0770 system cache
