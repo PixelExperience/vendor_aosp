@@ -102,8 +102,8 @@ PRODUCT_PACKAGE_OVERLAYS += \
     vendor/aosp/overlay/common
 
 # TouchGestures
-#PRODUCT_PACKAGES += \
-#    TouchGestures
+PRODUCT_PACKAGES += \
+    TouchGestures
 
 # One Handed mode
 PRODUCT_PRODUCT_PROPERTIES += \
