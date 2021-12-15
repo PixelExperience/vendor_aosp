@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="display_white_balance_summary">根据周围光线强度动态调整显示屏</string>
+    <string name="display_white_balance_title">屏幕智能调节</string>
+</resources>

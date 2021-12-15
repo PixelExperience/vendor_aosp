@@ -120,6 +120,7 @@
         <item>com.google.android.cellbroadcastreceiver</item>
         <item>com.google.android.projection.gearhead</item>
         <item>com.google.android.apps.accessibility.voiceaccess</item>
+        <item>com.google.android.apps.tycho</item>
     </array>
     <array name="vendor_required_apps_managed_profile">
         <item>com.android.vending</item>

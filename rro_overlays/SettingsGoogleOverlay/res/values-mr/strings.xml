@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="display_white_balance_summary">आसपासच्या प्रकाशाच्या पातळीनुसार डिस्प्ले सातत्याने अ‍ॅडजस्ट करते</string>
+    <string name="display_white_balance_title">Ambient EQ</string>
+</resources>

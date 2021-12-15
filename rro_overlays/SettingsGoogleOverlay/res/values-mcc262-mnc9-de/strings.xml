@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="keywords_wifi_calling">Wi‑Fi, anruf, anrufen, Wi‑Fi Calling, anrufe über Wi‑Fi</string>
+    <string name="wfc_disclaimer_emergency_limitation_desc_text">Notrufe über Wi‑Fi Calling werden von deinem Mobilfunkanbieter nicht unterstützt.\nDas Gerät wechselt automatisch zu einem Mobilfunknetz, um einen Notruf abzusetzen.\nNotrufe sind nur in Bereichen mit Mobilfunkabdeckung möglich.</string>
+    <string name="wifi_calling_not_supported">Wi‑Fi Calling wird von %1$s nicht unterstützt</string>
+    <string name="wifi_calling_off_explanation">Wenn die Option \"Wi‑Fi Calling\" aktiviert ist, kann dein Smartphone abhängig von deiner Einstellung und von der Signalstärke Anrufe über WLANs oder über das Netz deines Mobilfunkanbieters übertragen. Erkundige dich bei deinem Mobilfunkanbieter über die hierfür erhobenen Gebühren und andere Informationen, bevor du diese Funktion aktivierst.%1$s</string>
+    <string name="wifi_calling_off_explanation_2">\n\nDu kannst von deinem Gerät via \"Wi‑Fi Calling\" keine Notrufe tätigen. Wenn du versuchst, den Notruf zu erreichen, nutzt dein Gerät automatisch das Mobilfunknetz. Notrufe sind nur an Orten mit Mobilfunkabdeckung möglich.</string>
+    <string name="wifi_calling_settings_activation_instructions">Wi‑Fi Calling aktivieren</string>
+    <string name="wifi_calling_settings_title">Wi‑Fi Calling</string>
+    <string name="wifi_calling_suggestion_summary">\"WiFi Calling\" aktivieren, um Abdeckung zu erweitern</string>
+    <string name="wifi_calling_turn_on">Wi‑Fi Calling verwenden</string>
+</resources>

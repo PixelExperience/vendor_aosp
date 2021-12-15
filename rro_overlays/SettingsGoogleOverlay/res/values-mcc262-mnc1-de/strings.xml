@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="keywords_wifi_calling">wlan, anruf, anrufen, wlan call, anrufe über wlan</string>
+    <string name="wfc_disclaimer_emergency_limitation_desc_text">Notrufe über WLAN Call werden von deinem Mobilfunkanbieter nicht unterstützt.\nDas Gerät wechselt automatisch zu einem Mobilfunknetz, um einen Notruf abzusetzen.\nNotrufe sind nur in Bereichen mit Mobilfunkabdeckung möglich.</string>
+    <string name="wifi_calling_not_supported">WLAN Call wird von %1$s nicht unterstützt</string>
+    <string name="wifi_calling_off_explanation">Wenn die Option \"WLAN Call\" aktiviert ist, kann dein Smartphone abhängig von deiner Einstellung und von der Signalstärke Anrufe über WLANs oder über das Netz deines Mobilfunkanbieters übertragen. Bevor du diese Funktion aktivierst, solltest du dich bei deinem Mobilfunkanbieter nach den hierfür anfallenden Gebühren und anderen Voraussetzungen erkundigen.</string>
+    <string name="wifi_calling_settings_activation_instructions">WLAN Call aktivieren</string>
+    <string name="wifi_calling_settings_title">WLAN Call</string>
+    <string name="wifi_calling_suggestion_summary">\"WLAN Call\" aktivieren, um Abdeckung zu erweitern</string>
+    <string name="wifi_calling_turn_on">WLAN Call verwenden</string>
+</resources>

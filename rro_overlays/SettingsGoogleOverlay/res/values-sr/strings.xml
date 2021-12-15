@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="display_white_balance_summary">Динамички прилагођава екран на основу нивоа светлости у околини</string>
+    <string name="display_white_balance_title">Еквилајзер амбијента</string>
+</resources>

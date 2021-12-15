@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="display_white_balance_summary">Динамічно коригує баланс білого на екрані залежно від рівня освітлення навколо</string>
+    <string name="display_white_balance_title">Корекція освітлення</string>
+</resources>

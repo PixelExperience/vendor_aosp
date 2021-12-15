@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="display_white_balance_summary">نمایشگر را به‌صورت پویا براساس سطح نور اطراف تنظیم می‌کند</string>
+    <string name="display_white_balance_title">تنظیم محیطی</string>
+</resources>
