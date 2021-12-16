@@ -48,8 +48,8 @@
         <item>device_personalization_services/NowPlaying__ambient_music_index_manifest_17_09_02=191:https://storage.googleapis.com/music-iq-db/updatable_ytm_db/20211031-040022/manifest.json</item>
 
         <!-- Adaptive Sound (Pixel 2020) -->
-        <item>device_personalization_services/AdaptiveAudio__enable_adaptive_audio=false</item>
-        <item>device_personalization_services/AdaptiveAudio__show_promo_notification=false</item>
+        <item>device_personalization_services/AdaptiveAudio__enable_adaptive_audio=true</item>
+        <item>device_personalization_services/AdaptiveAudio__show_promo_notification=true</item>
 
         <!-- Screen attention (Pixel 2019) -->
         <item>device_personalization_services/Attention__accel_sensor_enabled=false</item>
