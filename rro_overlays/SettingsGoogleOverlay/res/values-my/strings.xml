@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="display_white_balance_summary">ပတ်ဝန်းကျင်အလင်း အနည်းအများအပေါ် အခြေခံပြီး ဖန်သားပြင်ကို တဖြည်းဖြည်း ချိန်ညှိသည်</string>
+    <string name="display_white_balance_title">Ambient EQ</string>
+</resources>

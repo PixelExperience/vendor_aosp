@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="display_white_balance_summary">চৌপাশৰ পোহৰৰ মাত্ৰাৰ ওপৰত নিৰ্ভৰ কৰি পৰিৱৰ্তনশীলভাৱে ডিছপ্লে’ মিলাওক</string>
+    <string name="display_white_balance_title">এম্বিয়েণ্ট ইকিউ</string>
+</resources>

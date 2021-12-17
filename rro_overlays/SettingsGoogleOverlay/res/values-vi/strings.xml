@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="display_white_balance_summary">Chủ động điều chỉnh màn hình theo mức độ ánh sáng xung quanh</string>
+    <string name="display_white_balance_title">Cân bằng ánh sáng</string>
+</resources>

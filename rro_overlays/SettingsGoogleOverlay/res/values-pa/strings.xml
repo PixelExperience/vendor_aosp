@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="display_white_balance_summary">ਆਲੇ-ਦੁਆਲੇ ਦੀ ਰੋਸ਼ਨੀ ਦੇ ਹਿਸਾਬ ਨਾਲ ਡਿਸਪਲੇ ਦੀ ਰੋਸ਼ਨੀ ਨੂੰ ਲੋੜ ਮੁਤਾਬਕ ਘੱਟ-ਵੱਧ ਕੀਤਾ ਜਾਂਦਾ ਹੈ</string>
+    <string name="display_white_balance_title">Ambient EQ</string>
+</resources>

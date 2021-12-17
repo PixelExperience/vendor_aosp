@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="display_white_balance_summary">根據周遭的燈光亮度動態調整螢幕</string>
+    <string name="display_white_balance_title">螢幕智慧調節</string>
+</resources>

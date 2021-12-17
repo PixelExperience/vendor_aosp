@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="display_white_balance_summary">यसले वरिपरिको प्रकाशको स्तरका आधारमा गतिशील रूपमा डिस्प्ले समायोजन गर्छ</string>
+    <string name="display_white_balance_title">एम्बियन्ट इक्विलाइजर</string>
+</resources>

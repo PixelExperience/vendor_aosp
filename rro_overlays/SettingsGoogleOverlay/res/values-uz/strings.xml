@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="display_white_balance_summary">Yorqinlik darajasiga muvofiq ekrandagi oq rang balansini avtomatik tuzatadi</string>
+    <string name="display_white_balance_title">Moslashuvchan yorqinlik</string>
+</resources>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="display_white_balance_summary">Verstel die skerm dinamies op grond van die omringende ligvlakke</string>
+    <string name="display_white_balance_title">Omgewingeffenaar</string>
+
+</resources>

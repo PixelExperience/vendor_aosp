@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="display_white_balance_summary">لتعديل العرض ديناميكيًا استنادًا إلى مستويات الإضاءة المحيطة</string>
+    <string name="display_white_balance_title">تعديل ألوان الشاشة التلقائي</string>
+</resources>
