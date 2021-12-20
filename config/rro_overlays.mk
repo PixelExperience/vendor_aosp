@@ -1,6 +1,5 @@
 # RRO Overlays
 PRODUCT_PACKAGES += \
-    FilesOverlay \
     PixelDocumentsUIGoogleOverlay \
     BuiltInPrintServiceOverlay \
     GooglePermissionControllerOverlay \
