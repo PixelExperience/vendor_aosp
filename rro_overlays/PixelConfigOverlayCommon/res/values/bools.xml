@@ -12,5 +12,5 @@
     <bool name="config_supportsMicToggle">true</bool>
     <bool name="config_swipe_up_gesture_setting_available">true</bool>
     <bool name="config_useRoundIcon">true</bool>
-    <bool name="config_volumeAdjustmentForRemoteGroupSessions">false</bool>
+    <!--bool name="config_volumeAdjustmentForRemoteGroupSessions">false</bool-->
 </resources>
