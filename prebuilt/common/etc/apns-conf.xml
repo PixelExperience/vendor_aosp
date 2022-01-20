@@ -2902,8 +2902,8 @@
   <apn carrier="Rightel MMS" mcc="432" mnc="20" apn="RighTel-WAP" mmsc="http://10.200.40.55:38090/was" mmsproxy="10.200.39.10" mmsport="8080" type="mms" />
   <apn carrier="IR-MCI" mcc="432" mnc="11" apn="mcinet"  type="default,supl" />
   <apn carrier="IR-MCI MMS" mcc="432" mnc="20" apn="mcinet" mmsc="http://192.168.193.134:38090/was" mmsproxy="192.168.194.73" mmsport="8080" type="mms" />
-  <apn carrier="Irancell" mcc="432" mnc="35" apn="irancell" type="default,supl" />
-  <apn carrier="Irancell MMS" mcc="432" mnc="35" apn="irancell" mmsc="http://mms:8002" mmsproxy="10.131.26.138" mmsport="8080" type="mms" />
+  <apn carrier="Irancell-GPRS" mcc="432" mnc="35" apn="mtnirancell" proxy="10.131.26.138" port="8080" type="default,supl" />
+  <apn carrier="Irancell-MMS" mcc="432" mnc="35" apn="mtnirancell" mmsc="http://mms:8002" mmsproxy="10.131.26.138" mmsport="8080" type="mms" />
   <apn carrier="Beeline UZ" mcc="434" mnc="04" apn="internet.beeline.uz" user="beeline" password="beeline" type="default,supl" />
   <apn carrier="Beeline UZ MMS" mcc="434" mnc="04" apn="mms.beeline.uz" user="beeline" password="beeline" mmsc="http://mms" mmsproxy="172.30.30.166" mmsport="8080" type="mms" />
   <apn carrier="Ucell Internet" mcc="434" mnc="05" apn="internet" proxy="10.64.164.10" port="8080" mmsc="" user="" password="" type="default,supl" />
