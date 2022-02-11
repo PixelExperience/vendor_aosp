@@ -81,15 +81,6 @@
         <item>com.google.android.gms</item>
         <item>com.android.location.fused</item>
     </array>
-    <array name="face_acquired_vendor">
-    </array>
-    <array name="face_error_vendor">
-        <item>Certificate expired</item>
-        <item>Sensor temporarily disabled</item>
-        <item>Calibration error</item>
-        <item>Face unlock unavailable. Phone is too hot.</item>
-        <item>Face unlock needs to be set up again</item>
-    </array>
     <array name="vendor_cross_profile_apps">
         <item>com.google.android.googlequicksearchbox</item>
         <item>com.google.android.inputmethod.latin</item>
