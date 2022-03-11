@@ -1,3 +1,7 @@
+# Required packages
+PRODUCT_PACKAGES += \
+    androidx.window.extensions
+
 # World APN list
 PRODUCT_PACKAGES += \
     apns-conf.xml
