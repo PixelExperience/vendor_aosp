@@ -44,7 +44,7 @@ SOONG_CONFIG_customGlobalVars += \
 
 SOONG_CONFIG_NAMESPACES += customNvidiaVars
 SOONG_CONFIG_customNvidiaVars += \
-    uses_nv_enhancements
+    uses_nvidia_enhancements
 
 SOONG_CONFIG_NAMESPACES += customQcomVars
 SOONG_CONFIG_customQcomVars += \
@@ -72,7 +72,7 @@ SOONG_CONFIG_customGlobalVars_ignores_ftp_pptp_conntrack_failure := $(TARGET_IGN
 SOONG_CONFIG_customGlobalVars_needs_camera_boottime := $(TARGET_CAMERA_BOOTTIME_TIMESTAMP)
 SOONG_CONFIG_customGlobalVars_needs_netd_direct_connect_rule := $(TARGET_NEEDS_NETD_DIRECT_CONNECT_RULE)
 SOONG_CONFIG_customGlobalVars_target_uses_prebuilt_dynamic_partitions := $(TARGET_USES_PREBUILT_DYNAMIC_PARTITIONS)
-SOONG_CONFIG_customNvidiaVars_uses_nv_enhancements := $(NV_ANDROID_FRAMEWORK_ENHANCEMENTS)
+SOONG_CONFIG_customNvidiaVars_uses_nvidia_enhancements := $(NV_ANDROID_FRAMEWORK_ENHANCEMENTS)
 SOONG_CONFIG_customQcomVars_legacy_hw_disk_encryption := $(TARGET_LEGACY_HW_DISK_ENCRYPTION)
 SOONG_CONFIG_customQcomVars_should_wait_for_qsee := $(TARGET_KEYMASTER_WAIT_FOR_QSEE)
 SOONG_CONFIG_customQcomVars_supports_extended_compress_format := $(AUDIO_FEATURE_ENABLED_EXTENDED_COMPRESS_FORMAT)
