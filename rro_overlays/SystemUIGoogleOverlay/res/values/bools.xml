@@ -6,7 +6,4 @@
     <!--bool name="config_vibrateOnIconAnimation">true</bool-->
     <bool name="flag_charging_ripple">true</bool>
     <bool name="flag_conversations">true</bool>
-    <bool name="flag_keyguard_layout">true</bool>
-    <bool name="flag_lockscreen_animations">true</bool>
-    <bool name="flag_pm_lite">true</bool>
 </resources>
