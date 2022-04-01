@@ -212,4 +212,7 @@ $(call inherit-product, vendor/aosp/config/ota.mk)
 # RRO Overlays
 $(call inherit-product, vendor/aosp/config/rro_overlays.mk)
 
+# ThemeIcons Overlay
+$(call inherit-product, packages/overlays/ThemeIcons/config.mk)
+
 -include $(WORKSPACE)/build_env/image-auto-bits.mk
