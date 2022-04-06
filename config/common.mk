@@ -105,7 +105,8 @@ PRODUCT_PACKAGE_OVERLAYS += \
 
 # Cutout control overlay
 PRODUCT_PACKAGES += \
-    NoCutoutOverlay
+    NoCutoutOverlay \
+    DummyCutoutOverlay
 
 # TouchGestures
 PRODUCT_PACKAGES += \
