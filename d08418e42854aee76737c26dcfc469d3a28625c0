@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "1038ce5f_62435995",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000507
+      },
+      "writtenOn": "2022-04-13T13:49:56Z",
+      "side": 1,
+      "message": "Tested on thyme, device rounded corner works fine now",
+      "revId": "d08418e42854aee76737c26dcfc469d3a28625c0",
+      "serverId": "8ba0da3e-d57f-4bbe-ac74-faf358ba962a"
+    }
+  ]
+}
