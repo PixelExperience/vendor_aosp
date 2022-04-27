@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "dc570c3e_2c01b4a8",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000126
+      },
+      "writtenOn": "2022-04-27T13:41:23Z",
+      "side": 1,
+      "message": "Could you please address my comment first?",
+      "revId": "186d70f7b400d58bd75678405ca1e412701010c5",
+      "serverId": "8ba0da3e-d57f-4bbe-ac74-faf358ba962a"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "6596533b_9ec12216",
+        "filename": "config/BoardConfigQcom.mk",
+        "patchSetId": 1
+      },
+      "lineNbr": 27,
+      "author": {
+        "id": 1000126
+      },
+      "writtenOn": "2022-04-27T13:41:23Z",
+      "side": 1,
+      "message": "What\u0027s the point of TARGET_ENFORCE_QSSI flag when your first commit (1/2) already links os_pickup_qssi.mk unconditionally in manifest? Also, the name of the flag indicates it works for every \"target\", but in reality it only changes things for 8953. Something like \"MSM8953_ENFORCES_QSSI\" would be more appropriate. (Note that it\u0027s ENFORCES not ENFORCE, following the same grammatic style as TARGET_USES_XXX and BOARD_USES_XXX.)",
+      "revId": "186d70f7b400d58bd75678405ca1e412701010c5",
+      "serverId": "8ba0da3e-d57f-4bbe-ac74-faf358ba962a"
+    }
+  ]
+}
