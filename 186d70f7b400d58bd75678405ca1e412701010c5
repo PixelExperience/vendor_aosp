@@ -69,6 +69,24 @@
       "parentUuid": "2f802bad_18c2dc4d",
       "revId": "186d70f7b400d58bd75678405ca1e412701010c5",
       "serverId": "8ba0da3e-d57f-4bbe-ac74-faf358ba962a"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "8a5e0982_572dfe29",
+        "filename": "config/BoardConfigQcom.mk",
+        "patchSetId": 1
+      },
+      "lineNbr": 27,
+      "author": {
+        "id": 1000648
+      },
+      "writtenOn": "2022-04-27T17:02:23Z",
+      "side": 1,
+      "message": "Fine with you @jjpprrrr?",
+      "parentUuid": "5f949dcc_8b57c311",
+      "revId": "186d70f7b400d58bd75678405ca1e412701010c5",
+      "serverId": "8ba0da3e-d57f-4bbe-ac74-faf358ba962a"
     }
   ]
 }
