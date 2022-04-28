@@ -105,6 +105,24 @@
       "parentUuid": "2f802bad_18c2dc4d",
       "revId": "186d70f7b400d58bd75678405ca1e412701010c5",
       "serverId": "8ba0da3e-d57f-4bbe-ac74-faf358ba962a"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "05ad7617_c24655ea",
+        "filename": "config/BoardConfigQcom.mk",
+        "patchSetId": 1
+      },
+      "lineNbr": 27,
+      "author": {
+        "id": 1000648
+      },
+      "writtenOn": "2022-04-28T14:51:46Z",
+      "side": 1,
+      "message": "I am preparing for official submission(FP3). Since my tree depends on this change I thought of completing this before applying.\n\nI have discussed this with Jarl so far. I\u0027m ready to discuss with others but I am not sure who are using the new projects.",
+      "parentUuid": "7b388481_4a6ee88a",
+      "revId": "186d70f7b400d58bd75678405ca1e412701010c5",
+      "serverId": "8ba0da3e-d57f-4bbe-ac74-faf358ba962a"
     }
   ]
 }
