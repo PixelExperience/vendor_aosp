@@ -123,6 +123,24 @@
       "parentUuid": "7b388481_4a6ee88a",
       "revId": "186d70f7b400d58bd75678405ca1e412701010c5",
       "serverId": "8ba0da3e-d57f-4bbe-ac74-faf358ba962a"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "4bd8d1c7_faff515a",
+        "filename": "config/BoardConfigQcom.mk",
+        "patchSetId": 1
+      },
+      "lineNbr": 27,
+      "author": {
+        "id": 1000126
+      },
+      "writtenOn": "2022-04-28T15:49:50Z",
+      "side": 1,
+      "message": "You don\u0027t need to wait for this to be merged before submitting your application. It\u0027s probably easier for you to coordinate with other maintainers once you are accepted.",
+      "parentUuid": "05ad7617_c24655ea",
+      "revId": "186d70f7b400d58bd75678405ca1e412701010c5",
+      "serverId": "8ba0da3e-d57f-4bbe-ac74-faf358ba962a"
     }
   ]
 }
