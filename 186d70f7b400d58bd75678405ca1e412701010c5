@@ -141,6 +141,24 @@
       "parentUuid": "05ad7617_c24655ea",
       "revId": "186d70f7b400d58bd75678405ca1e412701010c5",
       "serverId": "8ba0da3e-d57f-4bbe-ac74-faf358ba962a"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "8c8ddcae_7563c5dd",
+        "filename": "config/BoardConfigQcom.mk",
+        "patchSetId": 1
+      },
+      "lineNbr": 27,
+      "author": {
+        "id": 1000648
+      },
+      "writtenOn": "2022-05-02T13:45:03Z",
+      "side": 1,
+      "message": "Thanks. I have submitted the application.",
+      "parentUuid": "4bd8d1c7_faff515a",
+      "revId": "186d70f7b400d58bd75678405ca1e412701010c5",
+      "serverId": "8ba0da3e-d57f-4bbe-ac74-faf358ba962a"
     }
   ]
 }
