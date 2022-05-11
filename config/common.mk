@@ -117,6 +117,9 @@ PRODUCT_DEXPREOPT_SPEED_APPS += \
     SystemUI \
     NexusLauncherRelease
 
+PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
+    dalvik.vm.systemuicompilerfilter=speed
+
 # SystemUI plugins
 PRODUCT_PACKAGES += \
     QuickAccessWallet
