@@ -35,6 +35,11 @@
         <item>com.google.android.dialer/com.android.dialer.rtt.settings.impl.gateway.RttSettingsDeepLink</item>
     </string-array>
 
+    <!-- Force enable components -->
+    <string-array name="config_forceEnabledComponents" translatable="false">
+        <item>com.google.android.settings.intelligence/com.google.android.settings.intelligence.modules.battery.impl.BatterySettingsContentProvider</item>
+    </string-array>
+
     <bool name="config_cellBroadcastAppLinks">true</bool>
 
     <!-- Set this to true to enable the platform's auto-power-save modes like doze and
