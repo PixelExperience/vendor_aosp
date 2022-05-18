@@ -2866,6 +2866,8 @@
   <apn carrier="Hot Mobile MMS" mcc="425" mnc="07" apn="mms.hotm" mmsc="http://mms.hotmobile.co.il" mmsport="80" type="mms" />
   <apn carrier="Golan Telecom" mcc="425" mnc="08" apn="internet.golantelecom.net.il" authtype="0" type="default,supl" />
   <apn carrier="Golan Telecom MMS" mcc="425" mnc="08" apn="mms.golantelecom.net.il" mmsc="http://mmsc.golantelecom.co.il" mmsproxy="10.224.228.81" mmsport="80" authtype="0" type="mms" />
+  <apn carrier="we" mcc="425" mnc="09" apn="xfone" type="default" protocol="IPV4V6" roaming_protocol="IPV4V6" />
+  <apn carrier="we mms" mcc="425" mnc="09" apn="xfone" mmsc="mms.we4g.co.il" mmsport="8080" type="mms" protocol="IPV4V6" roaming_protocol="IPV4V6" />
   <apn carrier="YouPhone 3G" mcc="425" mnc="14" apn="data.youphone.co.il" mmsc="http://192.168.220.15/servlets/mms" mmsport="80" type="default,supl,mms" />
   <apn carrier="Batelco Internet" mcc="426" mnc="01" apn="internet.batelco.com" type="default,supl" />
   <apn carrier="Batelco WAP" mcc="426" mnc="01" apn="wap.batelco.com" user="wap" password="wap" authtype="0" proxy="192.168.1.2" port="80" type="default,supl" />
