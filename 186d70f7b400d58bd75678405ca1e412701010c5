@@ -159,6 +159,24 @@
       "parentUuid": "4bd8d1c7_faff515a",
       "revId": "186d70f7b400d58bd75678405ca1e412701010c5",
       "serverId": "8ba0da3e-d57f-4bbe-ac74-faf358ba962a"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "d0ee06ab_14c89a93",
+        "filename": "config/BoardConfigQcom.mk",
+        "patchSetId": 1
+      },
+      "lineNbr": 27,
+      "author": {
+        "id": 1000648
+      },
+      "writtenOn": "2022-05-18T05:31:56Z",
+      "side": 1,
+      "message": "Hi,\nDo we have any update on this request? It has been close to 3 weeks since I submitted the application and neither of them have had any progress.\n\nThanks.",
+      "parentUuid": "8c8ddcae_7563c5dd",
+      "revId": "186d70f7b400d58bd75678405ca1e412701010c5",
+      "serverId": "8ba0da3e-d57f-4bbe-ac74-faf358ba962a"
     }
   ]
 }
