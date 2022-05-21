@@ -89,6 +89,10 @@ PRODUCT_PACKAGES += \
     charger_res_images \
     product_charger_res_images
 
+# Display
+PRODUCT_SYSTEM_EXT_PROPERTIES += \
+    debug.sf.frame_rate_multiple_threshold=60
+
 # Filesystems tools
 PRODUCT_PACKAGES += \
     fsck.ntfs \
