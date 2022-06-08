@@ -1,0 +1,6 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.google.android.apps.nexuslauncher.custom.overlay">
+    <overlay android:isStatic="true" android:priority="0" android:targetName="PixelLauncherCustomOverlay" android:targetPackage="com.google.android.apps.nexuslauncher"/>
+
+    <application android:hasCode="false" android:label="PixelLauncherCustomOverlay"/>
+</manifest>
