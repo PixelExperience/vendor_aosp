@@ -1,5 +1,6 @@
 # RRO Overlays
 PRODUCT_PACKAGES += \
+    NetworkStackOverlay \
     PixelLauncherCustomOverlay \
     PixelDocumentsUIGoogleOverlay \
     BuiltInPrintServiceOverlay \
