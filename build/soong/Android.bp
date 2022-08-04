@@ -89,6 +89,27 @@ camera_needs_client_info_lib {
 }
 
 soong_config_module_type {
+    name: "target_alternative_futex_waiters",
+    module_type: "cc_defaults",
+    config_namespace: "customGlobalVars",
+    bool_variables: ["target_alternative_futex_waiters"],
+    properties: [
+        "cflags",
+        "cppflags",
+    ],
+}
+
+target_alternative_futex_waiters {
+    name: "target_alternative_futex_waiters_defaults",
+    soong_config_variables: {
+        target_alternative_futex_waiters: {
+            cflags: ["-DTARGET_ALTERNATIVE_FUTEX_WAITERS"],
+            cppflags: ["-DTARGET_ALTERNATIVE_FUTEX_WAITERS"],
+        },
+    },
+}
+
+soong_config_module_type {
     name: "disable_postrender_cleanup",
     module_type: "cc_defaults",
     config_namespace: "customGlobalVars",
