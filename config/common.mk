@@ -42,7 +42,8 @@ PRODUCT_COPY_FILES += \
 
 # Copy all custom init rc files
 PRODUCT_COPY_FILES += \
-    vendor/aosp/prebuilt/common/etc/init/init.pixelexperience-updater.rc:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/init/init.pixelexperience-updater.rc
+    vendor/aosp/prebuilt/common/etc/init/init.pixelexperience-updater.rc:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/init/init.pixelexperience-updater.rc \
+    vendor/aosp/prebuilt/common/etc/init/init.snet.rc:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/init/init.snet.rc
 
 # Enable Android Beam on all targets
 PRODUCT_COPY_FILES += \
