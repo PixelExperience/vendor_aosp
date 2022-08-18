@@ -104,8 +104,8 @@ PRODUCT_PACKAGE_OVERLAYS += \
     vendor/aosp/overlay/common
 
 # TouchGestures
-PRODUCT_PACKAGES += \
-    TouchGestures
+#PRODUCT_PACKAGES += \
+#    TouchGestures
 
 # One Handed mode
 PRODUCT_PRODUCT_PROPERTIES += \
@@ -185,32 +185,32 @@ TARGET_SUPPORTS_QUICK_TAP ?= false
 TARGET_SUPPORTS_CALL_RECORDING ?= true
 
 # Face Unlock
-TARGET_FACE_UNLOCK_SUPPORTED ?= true
-ifeq ($(TARGET_FACE_UNLOCK_SUPPORTED),true)
-PRODUCT_PACKAGES += \
-    FaceUnlockService
-PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
-    ro.face_unlock_service.enabled=$(TARGET_FACE_UNLOCK_SUPPORTED)
-PRODUCT_COPY_FILES += \
-    frameworks/native/data/etc/android.hardware.biometrics.face.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/android.hardware.biometrics.face.xml
-endif
+#TARGET_FACE_UNLOCK_SUPPORTED ?= true
+#ifeq ($(TARGET_FACE_UNLOCK_SUPPORTED),true)
+#PRODUCT_PACKAGES += \
+#    FaceUnlockService
+#PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
+#    ro.face_unlock_service.enabled=$(TARGET_FACE_UNLOCK_SUPPORTED)
+#PRODUCT_COPY_FILES += \
+#    frameworks/native/data/etc/android.hardware.biometrics.face.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/android.hardware.biometrics.face.xml
+#endif
 
 # Audio
-$(call inherit-product, vendor/aosp/config/audio.mk)
+#$(call inherit-product, vendor/aosp/config/audio.mk)
 
 # Bootanimation
 $(call inherit-product, vendor/aosp/config/bootanimation.mk)
 
 # Fonts
-$(call inherit-product, vendor/aosp/config/fonts.mk)
+#$(call inherit-product, vendor/aosp/config/fonts.mk)
 
 # GApps
-$(call inherit-product, vendor/gapps/config.mk)
+#$(call inherit-product, vendor/gapps/config.mk)
 
 # OTA
-$(call inherit-product, vendor/aosp/config/ota.mk)
+#$(call inherit-product, vendor/aosp/config/ota.mk)
 
 # RRO Overlays
-$(call inherit-product, vendor/aosp/config/rro_overlays.mk)
+#$(call inherit-product, vendor/aosp/config/rro_overlays.mk)
 
 -include $(WORKSPACE)/build_env/image-auto-bits.mk
