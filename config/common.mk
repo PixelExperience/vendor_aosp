@@ -196,7 +196,7 @@ TARGET_SUPPORTS_CALL_RECORDING ?= true
 #endif
 
 # Audio
-#$(call inherit-product, vendor/aosp/config/audio.mk)
+$(call inherit-product, vendor/aosp/config/audio.mk)
 
 # Bootanimation
 $(call inherit-product, vendor/aosp/config/bootanimation.mk)
