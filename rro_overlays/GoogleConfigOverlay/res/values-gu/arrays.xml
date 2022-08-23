@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="face_acquired_vendor">
+    </array>
+    <array name="face_error_vendor">
+        <item>પ્રમાણપત્રની સમયસીમા સમાપ્ત થઈ</item>
+        <item>સેન્સર હંગામી રૂપે બંધ કર્યું છે</item>
+        <item>કેલિબ્રેશનમાં ભૂલ</item>
+        <item>ફેસ અનલૉકની સુવિધા ઉપલબ્ધ નથી. ફોન ખૂબ ગરમ થઈ ગયો છે.</item>
+        <item>ફેસ અનલૉક ફરી સેટઅપ કરવું જરૂરી છે</item>
+    </array>
+</resources>

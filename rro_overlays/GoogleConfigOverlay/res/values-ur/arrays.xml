@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="face_acquired_vendor">
+    </array>
+    <array name="face_error_vendor">
+        <item>سرٹیفیکیٹ کی میعاد ختم ہو گئی</item>
+        <item>سینسر عارضی طور غیر فعال ہے</item>
+        <item>کیلیبریشن کی خرابی</item>
+        <item>فیس اَنلاک غیر دستیاب ہے۔ فون بہت گرم ہے۔</item>
+        <item>فیس اَنلاک کو دوبارہ سیٹ اپ کرنے کی ضرورت ہے</item>
+    </array>
+</resources>

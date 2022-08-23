@@ -8,4 +8,5 @@
     <string name="face_recalibrate_notification_name">Mở khóa bằng khuôn mặt</string>
     <string name="face_recalibrate_notification_title">Vui lòng đăng ký lại khuôn mặt của bạn</string>
     <string name="harmful_app_warning_title">Cảnh báo của Play Protect</string>
+    <string name="safety_protection_display_text">&lt;font face=\"google-sans\"&gt;Được &lt;/font&gt;&lt;font face=\"google-sans-medium\"&gt;Android&lt;/font&gt;&lt;font face=\"google-sans\"&gt; bảo vệ&lt;/font&gt;</string>
 </resources>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="face_acquired_vendor">
+    </array>
+    <array name="face_error_vendor">
+        <item>O certificado expirou</item>
+        <item>Sensor desativado temporariamente</item>
+        <item>Erro de calibração</item>
+        <item>O Desbloqueio facial não está disponível. O smartphone está quente demais.</item>
+        <item>O Desbloqueio facial precisa ser configurado novamente</item>
+    </array>
+</resources>

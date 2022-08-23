@@ -8,4 +8,5 @@
     <string name="face_recalibrate_notification_name">ଫେସ୍ ଅନଲକ୍</string>
     <string name="face_recalibrate_notification_title">ଦୟାକରି ଆପଣଙ୍କର ମୁହଁର ପୁନଃ-ପଞ୍ଜିକରଣ କରନ୍ତୁ</string>
     <string name="harmful_app_warning_title">Play Protectର ଚେତାବନୀ</string>
+    <string name="safety_protection_display_text">&lt;font face=\"google-sans-medium\"&gt;Android ଦ୍ୱାରା&lt;/font&gt; &lt;font face=\"google-sans\"&gt; ସୁରକ୍ଷିତ ଅଟେ &lt;/font&gt;</string>
 </resources>

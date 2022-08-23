@@ -8,4 +8,5 @@
     <string name="face_recalibrate_notification_name">Deblocare facială</string>
     <string name="face_recalibrate_notification_title">Reînregistrați-vă chipul</string>
     <string name="harmful_app_warning_title">Avertisment Play Protect</string>
+    <string name="safety_protection_display_text">&lt;font face=\"google-sans\"&gt;Protejat de &lt;/font&gt;&lt;font face=\"google-sans-medium\"&gt;Android&lt;/font&gt;</string>
 </resources>

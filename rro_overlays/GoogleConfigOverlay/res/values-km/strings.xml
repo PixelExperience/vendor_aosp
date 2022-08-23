@@ -8,4 +8,5 @@
     <string name="face_recalibrate_notification_name">ដោះសោ​តាមទម្រង់មុខ</string>
     <string name="face_recalibrate_notification_title">សូមស្កេន​បញ្ចូល​មុខរបស់អ្នក​ម្ដងទៀត</string>
     <string name="harmful_app_warning_title">ការ​ព្រមានពី Play Protect</string>
+    <string name="safety_protection_display_text">&lt;font face=\"google-sans\"&gt;ការពារដោយ &lt;/font&gt;&lt;font face=\"google-sans-medium\"&gt;Android&lt;/font&gt;</string>
 </resources>

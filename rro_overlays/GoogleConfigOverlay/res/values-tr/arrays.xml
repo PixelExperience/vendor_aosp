@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="face_acquired_vendor">
+    </array>
+    <array name="face_error_vendor">
+        <item>Sertifikanın süresi doldu</item>
+        <item>Sensör geçici olarak devre dışı bırakıldı</item>
+        <item>Kalibrasyon hatası</item>
+        <item>Yüz tanıma kilidi kullanılamıyor. Telefon çok ısındı.</item>
+        <item>Yüz tanıma kilidinin tekrar kurulması gerekiyor</item>
+    </array>
+</resources>

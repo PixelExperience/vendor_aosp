@@ -8,4 +8,5 @@
     <string name="face_recalibrate_notification_name">顔認証</string>
     <string name="face_recalibrate_notification_title">顔を登録し直してください</string>
     <string name="harmful_app_warning_title">Play プロテクトの警告</string>
+    <string name="safety_protection_display_text">&lt;font face=\"google-sans\"&gt;Protected by &lt;/font&gt;&lt;font face=\"google-sans-medium\"&gt;Android&lt;/font&gt;</string>
 </resources>

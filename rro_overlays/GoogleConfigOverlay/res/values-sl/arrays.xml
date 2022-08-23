@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="face_acquired_vendor">
+    </array>
+    <array name="face_error_vendor">
+        <item>Potrdilo je poteklo</item>
+        <item>Tipalo je začasno onemogočeno</item>
+        <item>Napaka pri umerjanju</item>
+        <item>Odklepanje z obrazom ni na voljo. Telefon je prevroč.</item>
+        <item>Odklepanje z obrazom je treba znova nastaviti</item>
+    </array>
+</resources>

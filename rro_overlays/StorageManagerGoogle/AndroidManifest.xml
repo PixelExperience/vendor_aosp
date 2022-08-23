@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="com.android.storagemanager.overlay" >
+    <application android:label="StorageManagerGoogleOverlay" android:hasCode="false"/>
+    <overlay android:priority="0" android:targetPackage="com.android.storagemanager" android:isStatic="true"/>
+</manifest>

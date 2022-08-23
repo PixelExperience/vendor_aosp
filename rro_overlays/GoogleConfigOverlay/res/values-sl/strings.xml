@@ -8,4 +8,5 @@
     <string name="face_recalibrate_notification_name">Odklepanje z obrazom</string>
     <string name="face_recalibrate_notification_title">Znova registrirajte svoj obraz</string>
     <string name="harmful_app_warning_title">Opozorilo storitve Play Protect</string>
+    <string name="safety_protection_display_text">&lt;font face=\"google-sans\"&gt;Zaščiteno z &lt;/font&gt;&lt;font face=\"google-sans-medium\"&gt;Androidom&lt;/font&gt;</string>
 </resources>

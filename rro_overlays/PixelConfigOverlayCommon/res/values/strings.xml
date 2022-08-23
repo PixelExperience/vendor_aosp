@@ -2,9 +2,13 @@
 <resources>
     <string name="android_start_title">Pixel is starting…</string>
     <string name="android_upgrading_title">Pixel is updating…</string>
+    <string name="config_ambientContextEventArrayExtraKey">EVENT_ARRAY</string>
+    <string name="config_ambientContextPackageNameExtraKey">PACKAGE_NAME</string>
     <string name="config_batterySaverScheduleProvider">com.google.android.apps.turbo</string>
     <string name="config_bodyFontFamily">google-sans-text</string>
     <string name="config_bodyFontFamilyMedium">google-sans-text-medium</string>
+    <string name="config_defaultAmbientContextConsentComponent">com.google.android.as/com.google.android.apps.miphone.aiai.ambientcontext.ui.ConsentActivity</string>
+    <string name="config_defaultAmbientContextDetectionService">com.google.android.as/com.google.android.apps.miphone.aiai.app.AiAiAmbientContextDetectionService</string>
     <string name="config_defaultAppPredictionService">com.google.android.as/com.google.android.apps.miphone.aiai.app.AiAiPredictionService</string>
     <!--string name="config_defaultAssistantAccessComponent">com.google.android.as/com.google.android.apps.miphone.aiai.common.notification.service.AiAiNotificationAssistantService</string-->
     <string name="config_defaultAugmentedAutofillService">com.google.android.as/com.google.android.apps.miphone.aiai.app.AiAiAugmentedAutofillService</string>
@@ -12,7 +16,7 @@
     <string name="config_defaultContentCaptureService">com.google.android.as/com.google.android.apps.miphone.aiai.app.AiAiContentCaptureService</string>
     <string name="config_defaultContentSuggestionsService">com.google.android.as/com.google.android.apps.miphone.aiai.app.AiAiContentSuggestionsService</string>
     <string name="config_defaultDndAccessPackages">com.google.android.GoogleCamera:com.google.android.gms:com.google.intelligence.sense:com.google.android.settings.intelligence:com.google.android.apps.wellbeing:com.google.android.apps.safetyhub:com.google.android.dialer</string>
-    <string name="config_defaultListenerAccessPackages">com.google.android.apps.nexuslauncher:com.google.android.setupwizard:com.google.android.apps.pixelmigrate:com.google.android.as:com.google.android.projection.gearhead</string>
+    <string name="config_defaultListenerAccessPackages">com.google.android.apps.nexuslauncher:com.google.android.setupwizard:com.google.android.apps.pixelmigrate:com.google.android.as:com.google.android.projection.gearhead:com.google.pixel.exo</string>
     <!--string name="config_defaultModuleMetadataProvider">com.google.android.modulemetadata</string-->
     <string name="config_defaultMusicRecognitionService">com.google.android.googlequicksearchbox/com.google.android.apps.search.soundsearch.service.SoundSearchService</string>
     <string name="config_defaultOnDeviceSpeechRecognitionService">com.google.android.as/com.google.android.apps.miphone.aiai.app.AiAiSpeechRecognitionService</string>
@@ -22,9 +26,9 @@
     <string name="config_defaultSmartspaceService">com.google.android.as/com.google.android.apps.miphone.aiai.app.AiAiSmartspaceService</string>
     <string name="config_defaultSupervisionProfileOwnerComponent">com.google.android.gms/.kids.account.receiver.ProfileOwnerReceiver</string>
     <string name="config_defaultSystemCaptionsManagerService">com.google.android.as/com.google.android.apps.miphone.aiai.captions.SystemCaptionsManagerService</string>
-    <string name="config_defaultSystemCaptionsService">com.google.android.as/com.google.android.apps.miphone.aiai.captions.CaptionsService</string>
     <string name="config_defaultTextClassifierPackage">com.google.android.as</string>
     <string name="config_defaultTranslationService">com.google.android.as/com.google.android.apps.miphone.aiai.app.AiAiTranslationService</string>
+    <string name="config_defaultWallpaperEffectsGenerationService">com.google.android.as/com.google.android.apps.miphone.aiai.app.wallpapereffects.AiAiWallpaperEffectsGenerationService</string>
     <string name="config_defaultWellbeingPackage">com.google.android.apps.wellbeing</string>
     <string name="config_emergency_dialer_package">com.google.android.apps.safetyhub</string>
     <string name="config_feedbackIntentExtraKey">EXTRA_FEEDBACK_PSD_KEYS</string>
@@ -44,9 +48,11 @@
     <string name="config_retailDemoPackageSignature">6547c73dee150c103980bfdffe55cc9a011d785dd694a5f99afd8205bcaf1f80</string>
     <string name="config_secondaryHomePackage">com.google.android.apps.nexuslauncher</string>
     <string name="config_systemAmbientAudioIntelligence">com.google.android.as</string>
+    <string name="config_systemAppProtectionService">com.google.android.odad</string>
     <string name="config_systemAudioIntelligence">com.google.android.as</string>
     <string name="config_systemImageEditor">com.google.android.markup/com.google.android.markup.AnnotateActivity</string>
     <string name="config_systemNotificationIntelligence">com.google.android.as</string>
+    <string name="config_systemSupervision">com.google.android.gms.supervision</string>
     <string name="config_systemTextIntelligence">com.google.android.as</string>
     <string name="config_systemUiIntelligence">com.google.android.as</string>
     <string name="config_systemVisualIntelligence">com.google.android.as</string>

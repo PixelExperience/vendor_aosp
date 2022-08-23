@@ -4,8 +4,12 @@
     <string name="biometric_dialog_default_subtitle">‏‮Use‬‏ ‏‮your‬‏ ‏‮face‬‏ ‏‮or‬‏ ‏‮fingerprint‬‏ ‏‮to‬‏ ‏‮continue‬‏</string>
     <string name="biometric_or_screen_lock_app_setting_name">‏‮Use‬‏ ‏‮face,‬‏ ‏‮fingerprint,‬‏ ‏‮or‬‏ ‏‮screen‬‏ ‏‮lock‬‏</string>
     <string name="biometric_or_screen_lock_dialog_default_subtitle">‏‮Use‬‏ ‏‮your‬‏ ‏‮face,‬‏ ‏‮fingerprint,‬‏ ‏‮or‬‏ ‏‮screen‬‏ ‏‮lock‬‏ ‏‮to‬‏ ‏‮continue‬‏</string>
+    <string name="config_defaultQrCodeComponent">‏‮com.google.android.gms/.mlkit.barcode.ui.PlatformBarcodeScanningActivityProxy‬‏</string>
+    <string name="config_devicePolicyManagement">‏‮com.google.android.apps.work.clouddpc:23962F4B43B9857638EA66F4D419518EAE282491ACDA4B94707BD59003C45E58‬‏</string>
+    <string name="config_devicePolicyManagementUpdater">‏‮com.google.android.gms‬‏</string>
     <string name="face_recalibrate_notification_content">‏‮Face‬‏ ‏‮unlock‬‏ ‏‮may‬‏ ‏‮not‬‏ ‏‮work‬‏ ‏‮until‬‏ ‏‮you‬‏ ‏‮re-enroll‬‏</string>
     <string name="face_recalibrate_notification_name">‏‮Face‬‏ ‏‮unlock‬‏</string>
     <string name="face_recalibrate_notification_title">‏‮Please‬‏ ‏‮re-enroll‬‏ ‏‮your‬‏ ‏‮face‬‏</string>
     <string name="harmful_app_warning_title">‏‮Play‬‏ ‏‮Protect‬‏ ‏‮warning‬‏</string>
+    <string name="safety_protection_display_text">‏‮&lt;font‬‏ ‏‮face=\"google-sans\"&gt;Protected‬‏ ‏‮by‬‏ ‏‮&lt;/font&gt;&lt;font‬‏ ‏‮face=\"google-sans-medium\"&gt;Android&lt;/font&gt;‬‏</string>
 </resources>

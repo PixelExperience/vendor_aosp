@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="face_acquired_vendor">
+    </array>
+    <array name="face_error_vendor">
+        <item>El certificado ha caducado</item>
+        <item>El sensor está inhabilitado en estos momentos</item>
+        <item>Error de calibración</item>
+        <item>Desbloqueo facial no está disponible porque la temperatura del teléfono es demasiado elevada.</item>
+        <item>Se debe volver a configurar Desbloqueo facial</item>
+    </array>
+</resources>

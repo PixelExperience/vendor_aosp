@@ -23,7 +23,9 @@ PRODUCT_PACKAGES += \
     PixelConfigOverlay2021 \
     PixelSetupWizardOverlay \
     PixelSetupWizardOverlay2019 \
-    PixelSetupWizardOverlayActiveEdge \
+    PixelSetupWizardOverlay2021 \
     PixelFwResOverlay \
     GoogleConfigOverlay \
-    SystemUIGoogleOverlay
+    SystemUIGoogleOverlay \
+    StorageManagerGoogleOverlay \
+    FlipendoOverlay

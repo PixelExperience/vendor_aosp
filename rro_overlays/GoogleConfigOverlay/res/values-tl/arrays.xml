@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="face_acquired_vendor">
+    </array>
+    <array name="face_error_vendor">
+        <item>Nag-expire na ang certificate</item>
+        <item>Pansamantalang na-disable ang sensor</item>
+        <item>Error sa pag-calibrate</item>
+        <item>Hindi available ang pag-unlock gamit ang mukha. Masyadong mainit ang telepono.</item>
+        <item>Kailangang i-set up ulit ang pag-unlock gamit ang mukha</item>
+    </array>
+</resources>

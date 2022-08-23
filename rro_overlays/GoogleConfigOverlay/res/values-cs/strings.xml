@@ -8,4 +8,5 @@
     <string name="face_recalibrate_notification_name">Odemknutí obličejem</string>
     <string name="face_recalibrate_notification_title">Zaznamenejte obličej znovu</string>
     <string name="harmful_app_warning_title">Upozornění funkce Play Protect</string>
+    <string name="safety_protection_display_text">&lt;font face=\"google-sans\"&gt;&lt;/font&gt;&lt;font face=\"google-sans-medium\"&gt;Chráněno Androidem&lt;/font&gt;</string>
 </resources>

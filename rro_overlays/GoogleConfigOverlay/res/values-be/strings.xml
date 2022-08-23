@@ -8,4 +8,5 @@
     <string name="face_recalibrate_notification_name">Распазнаванне твару</string>
     <string name="face_recalibrate_notification_title">Паўтарыце рэгістрацыю твару</string>
     <string name="harmful_app_warning_title">Папярэджанне Play Абароны</string>
+    <string name="safety_protection_display_text">&lt;font face=\"google-sans\"&gt;Пад абаронай &lt;/font&gt;&lt;font face=\"google-sans-medium\"&gt;Android&lt;/font&gt;</string>
 </resources>

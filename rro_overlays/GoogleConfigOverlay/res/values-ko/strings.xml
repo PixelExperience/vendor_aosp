@@ -8,4 +8,5 @@
     <string name="face_recalibrate_notification_name">얼굴 인식 잠금 해제</string>
     <string name="face_recalibrate_notification_title">얼굴을 다시 등록해 주세요</string>
     <string name="harmful_app_warning_title">Play 프로텍트 경고</string>
+    <string name="safety_protection_display_text">&lt;font face=\"google-sans\"&gt;Protected by &lt;/font&gt;&lt;font face=\"google-sans-medium\"&gt;Android&lt;/font&gt;</string>
 </resources>

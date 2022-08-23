@@ -8,4 +8,5 @@
     <string name="face_recalibrate_notification_name">फेस अनलक</string>
     <string name="face_recalibrate_notification_title">कृपया आफ्नो अनुहार पुनः दर्ता गर्नुहोस्</string>
     <string name="harmful_app_warning_title">Play संरक्षणको चेतावनी</string>
+    <string name="safety_protection_display_text">&lt;font face=\"google-sans\"&gt;Protected by &lt;/font&gt;&lt;font face=\"google-sans-medium\"&gt;Android&lt;/font&gt;</string>
 </resources>

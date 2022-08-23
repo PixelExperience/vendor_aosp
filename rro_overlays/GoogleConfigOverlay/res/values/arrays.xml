@@ -1,8 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <array name="config_accessibility_allowed_install_source">
-        <item>com.android.vending</item>
-    </array>
     <array name="config_allowedSecureInstantAppSettings">
         <item>advertising_id</item>
         <item>limit_ad_tracking</item>

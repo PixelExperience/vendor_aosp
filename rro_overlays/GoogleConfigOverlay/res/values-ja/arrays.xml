@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="face_acquired_vendor">
+    </array>
+    <array name="face_error_vendor">
+        <item>証明書の有効期限が切れています</item>
+        <item>センサーが一時的に無効になっています</item>
+        <item>調整エラー</item>
+        <item>顔認証を利用できません。スマートフォンが過熱しています。</item>
+        <item>顔認証をもう一度設定してください</item>
+    </array>
+</resources>

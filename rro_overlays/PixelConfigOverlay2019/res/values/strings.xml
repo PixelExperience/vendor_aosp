@@ -2,6 +2,6 @@
 <resources>
     <string name="config_defaultAttentionService">com.google.android.as/com.google.android.apps.miphone.aiai.attention.service.AiAiAttentionService</string>
     <string name="config_defaultDndAccessPackages">com.google.android.GoogleCamera:com.google.android.gms:com.google.android.settings.intelligence:com.google.android.apps.wellbeing:com.google.android.apps.dreamliner:com.google.android.apps.safetyhub:com.google.android.dialer</string>
-    <string name="config_defaultListenerAccessPackages">com.google.android.apps.nexuslauncher:com.google.android.setupwizard:com.google.android.apps.pixelmigrate:com.google.android.as:com.google.android.projection.gearhead:com.google.android.apps.dreamliner</string>
+    <string name="config_defaultListenerAccessPackages">com.google.android.apps.nexuslauncher:com.google.android.setupwizard:com.google.android.apps.pixelmigrate:com.google.android.as:com.google.android.projection.gearhead:com.google.android.apps.dreamliner:com.google.pixel.exo</string>
     <string name="config_defaultRotationResolverService">com.google.android.as/com.google.android.apps.miphone.aiai.app.AiAiRotationResolverService</string>
 </resources>

@@ -47,11 +47,11 @@
     </array>
     <array name="enabled_networks_except_gsm_values">
         <item>10</item>
-        <item>@null</item>
+        <item>0</item>
     </array>
     <array name="enabled_networks_values">
         <item>10</item>
-        <item>@null</item>
+        <item>0</item>
         <item>1</item>
     </array>
     <array name="thermal_mitigation_allowlisted_packages">

@@ -8,4 +8,5 @@
     <string name="face_recalibrate_notification_name">Kufungua kwa uso</string>
     <string name="face_recalibrate_notification_title">Tafadhali andikisha uso wako tena</string>
     <string name="harmful_app_warning_title">Ilani ya Play Protect</string>
+    <string name="safety_protection_display_text">&lt;font face=\"google-sans\"&gt;Inalindwa na &lt;/font&gt;&lt;font face=\"google-sans-medium\"&gt;Android&lt;/font&gt;</string>
 </resources>

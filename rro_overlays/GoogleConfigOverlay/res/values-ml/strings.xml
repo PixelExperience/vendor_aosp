@@ -8,4 +8,5 @@
     <string name="face_recalibrate_notification_name">ഫെയ്‌സ് അൺലോക്ക്</string>
     <string name="face_recalibrate_notification_title">നിങ്ങളുടെ മുഖം വീണ്ടും എൻറോൾ ചെയ്യുക</string>
     <string name="harmful_app_warning_title">Play Protect മുന്നറിയിപ്പ്</string>
+    <string name="safety_protection_display_text">&lt;font face=\"google-sans\"&gt;ഇതുപയോഗിച്ച് സംരക്ഷിച്ചിരിക്കുന്നു: &lt;/font&gt;&lt;font face=\"google-sans-medium\"&gt;Android&lt;/font&gt;</string>
 </resources>

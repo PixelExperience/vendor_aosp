@@ -4,12 +4,20 @@
         <item>com.google.android.gms</item>
         <item>com.google.android.apps.gcs</item>
     </array>
+    <array name="config_defaultCloudSearchServices">
+        <item>com.android.vending/com.google.android.finsky.cloudsearch.PlayCloudSearchService</item>
+        <item>com.android.chrome/com.google.android.apps.chrome.cloudsearch.ChromeCloudSearchService</item>
+        <item>com.chrome.canary/com.google.android.apps.chrome.cloudsearch.ChromeCloudSearchService</item>
+        <item>com.chrome.dev/com.google.android.apps.chrome.cloudsearch.ChromeCloudSearchService</item>
+        <item>com.chrome.beta/com.google.android.apps.chrome.cloudsearch.ChromeCloudSearchService</item>
+    </array>
     <array name="config_nonBlockableNotificationPackages">
         <item>com.google.android.deskclock:Firing</item>
         <item>com.google.android.setupwizard</item>
         <item>com.google.android.apps.pixelmigrate</item>
         <item>com.google.android.dialer</item>
         <item>com.google.android.googlequicksearchbox:com.google.android.apps.gsa.plugins.podcastplayer.channel</item>
+        <item>com.google.android.cellbroadcastreceiver</item>
     </array>
     <array name="config_notificationMsgPkgsAllowedAsConvos">
     </array>

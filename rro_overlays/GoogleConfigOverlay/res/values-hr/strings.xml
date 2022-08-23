@@ -8,4 +8,5 @@
     <string name="face_recalibrate_notification_name">Otključavanje licem</string>
     <string name="face_recalibrate_notification_title">Ponovo registrirajte svoje lice</string>
     <string name="harmful_app_warning_title">Upozorenje Play Protecta</string>
+    <string name="safety_protection_display_text">&lt;font face=\"google-sans\"&gt;Zaštitu pruža &lt;/font&gt;&lt;font face=\"google-sans-medium\"&gt;Android&lt;/font&gt;</string>
 </resources>

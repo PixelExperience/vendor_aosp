@@ -8,4 +8,5 @@
     <string name="face_recalibrate_notification_name">ফেস আনলক ফিচার</string>
     <string name="face_recalibrate_notification_title">আপনার মুখের ছবি আবার নথিভুক্ত করুন</string>
     <string name="harmful_app_warning_title">Play নিরাপত্তা সতর্কতা</string>
+    <string name="safety_protection_display_text">&lt;font face=\"google-sans\"&gt;Android দ্বারা &lt;/font&gt;&lt;font face=\"google-sans-medium\"&gt;সুরক্ষিত&lt;/font&gt;</string>
 </resources>

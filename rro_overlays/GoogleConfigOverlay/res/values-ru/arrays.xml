@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="face_acquired_vendor">
+    </array>
+    <array name="face_error_vendor">
+        <item>Срок действия сертификата истек.</item>
+        <item>Датчик временно отключен.</item>
+        <item>Ошибка калибровки.</item>
+        <item>Фейсконтроль недоступен, так как телефон слишком горячий.</item>
+        <item>Необходимо повторно настроить фейсконтроль.</item>
+    </array>
+</resources>

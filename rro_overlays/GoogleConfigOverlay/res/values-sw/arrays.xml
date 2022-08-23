@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="face_acquired_vendor">
+    </array>
+    <array name="face_error_vendor">
+        <item>Muda wa kutumia cheti umekwisha</item>
+        <item>Kitambuzi kimezimwa kwa muda</item>
+        <item>Hitilafu ya urekebishaji</item>
+        <item>Kipengele cha kufungua kwa uso hakipatikani. Simu ina joto sana.</item>
+        <item>Unahitaji kuweka tena mipangilio ya kipengele cha kufungua kwa uso</item>
+    </array>
+</resources>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="face_acquired_vendor">
+    </array>
+    <array name="face_error_vendor">
+        <item>Сертификатын хугацаа дууссан байна</item>
+        <item>Мэдрэгчийг түр хугацаанд идэвхгүй болгосон байна</item>
+        <item>Тохируулгын алдаа гарлаа</item>
+        <item>Царайгаар түгжээ тайлах боломжгүй байна. Утас хэт халсан байна.</item>
+        <item>Царайгаар түгжээ тайлах онцлогийг дахин тохируулах шаардлагатай</item>
+    </array>
+</resources>

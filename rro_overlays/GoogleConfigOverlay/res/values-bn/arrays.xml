@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="face_acquired_vendor">
+    </array>
+    <array name="face_error_vendor">
+        <item>সার্টিফিকেটের মেয়াদ শেষ হয়েছে</item>
+        <item>সেন্সর অস্থায়ীভাবে বন্ধ আছে</item>
+        <item>ক্যালিব্রেশন সংক্রান্ত সমস্যা</item>
+        <item>ফেস আনলক ব্যবহার করা যাবে না। ফোনটি খুব গরম।</item>
+        <item>ফেস আনলক আবার সেট-আপ করতে হবে</item>
+    </array>
+</resources>

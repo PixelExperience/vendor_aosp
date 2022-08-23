@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="face_acquired_vendor">
+    </array>
+    <array name="face_error_vendor">
+        <item>Сертификат је истекао</item>
+        <item>Сензор је привремено онемогућен</item>
+        <item>Грешка при калибрисању</item>
+        <item>Откључавање лицем није доступно. Телефон је превише загрејан.</item>
+        <item>Треба поново да подесите откључавање лицем</item>
+    </array>
+</resources>

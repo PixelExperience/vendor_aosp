@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="face_acquired_vendor">
+    </array>
+    <array name="face_error_vendor">
+        <item>प्रमाणपत्र की समयसीमा खत्म हो गई है</item>
+        <item>सेंसर कुछ समय के लिए बंद कर दिया गया है</item>
+        <item>चेहरा पहचानने की सेटिंग में हुई गड़बड़ी</item>
+        <item>मालिक का चेहरा पहचानकर अनलॉक करने की सुविधा उपलब्ध नहीं है. फ़ोन बहुत गर्म है.</item>
+        <item>मालिक का चेहरा पहचानकर अनलॉक करने की सुविधा को फिर से सेट अप करना होगा</item>
+    </array>
+</resources>

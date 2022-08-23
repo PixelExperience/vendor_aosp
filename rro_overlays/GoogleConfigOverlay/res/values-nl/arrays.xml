@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="face_acquired_vendor">
+    </array>
+    <array name="face_error_vendor">
+        <item>Certificaat verlopen</item>
+        <item>Sensor staat tijdelijk uit</item>
+        <item>Kalibratiefout</item>
+        <item>\'Ontgrendelen via gezichtsherkenning\' is niet beschikbaar. De telefoon is te heet.</item>
+        <item>Ontgrendelen via gezichtsherkenning moet opnieuw worden ingesteld</item>
+    </array>
+</resources>

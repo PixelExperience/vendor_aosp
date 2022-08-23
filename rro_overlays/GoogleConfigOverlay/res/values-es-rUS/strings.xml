@@ -8,4 +8,5 @@
     <string name="face_recalibrate_notification_name">Desbloqueo facial</string>
     <string name="face_recalibrate_notification_title">Vuelve a registrar tu rostro</string>
     <string name="harmful_app_warning_title">Advertencia de Play Protect</string>
+    <string name="safety_protection_display_text">&lt;font face=\"google-sans\"&gt;Protegido por &lt;/font&gt;&lt;font face=\"google-sans-medium\"&gt;Android&lt;/font&gt;</string>
 </resources>
