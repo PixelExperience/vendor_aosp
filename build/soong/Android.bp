@@ -459,23 +459,6 @@ surfaceflinger_qcom_extensions {
 }
 
 soong_config_module_type {
-    name: "stagefright_qcom_legacy",
-    module_type: "cc_defaults",
-    config_namespace: "customQcomVars",
-    bool_variables: ["uses_qcom_bsp_legacy"],
-    properties: ["cppflags"],
-}
-
-stagefright_qcom_legacy {
-    name: "stagefright_qcom_legacy_defaults",
-    soong_config_variables: {
-        uses_qcom_bsp_legacy: {
-            cppflags: ["-DQCOM_BSP_LEGACY"],
-        },
-    },
-}
-
-soong_config_module_type {
     name: "inputdispatcher_skip_event_key",
     module_type: "cc_defaults",
     config_namespace: "customGlobalVars",
