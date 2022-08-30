@@ -29,7 +29,6 @@ SOONG_CONFIG_customGlobalVars += \
     bootloader_message_offset \
     camera_needs_client_info \
     camera_needs_client_info_lib \
-    disable_postrender_cleanup \
     has_legacy_camera_hal1 \
     needs_camera_boottime \
     target_init_vendor_lib \
@@ -59,7 +58,6 @@ endif
 # Soong bool variables
 SOONG_CONFIG_customGlobalVars_camera_needs_client_info := $(TARGET_CAMERA_NEEDS_CLIENT_INFO)
 SOONG_CONFIG_customGlobalVars_camera_needs_client_info_lib := $(TARGET_CAMERA_NEEDS_CLIENT_INFO_LIB)
-SOONG_CONFIG_customGlobalVars_disable_postrender_cleanup := $(TARGET_DISABLE_POSTRENDER_CLEANUP)
 SOONG_CONFIG_customGlobalVars_has_legacy_camera_hal1 := $(TARGET_HAS_LEGACY_CAMERA_HAL1)
 SOONG_CONFIG_customGlobalVars_needs_camera_boottime := $(TARGET_CAMERA_BOOTTIME_TIMESTAMP)
 SOONG_CONFIG_customGlobalVars_uses_egl_display_array := $(TARGET_USES_EGL_DISPLAY_ARRAY)
