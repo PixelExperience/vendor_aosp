@@ -160,7 +160,7 @@ def get_private_gerrit_url():
 
 if __name__ == '__main__':
     # Default to PixelExperience Gerrit
-    default_gerrit = get_private_gerrit_url()
+    default_gerrit = 'https://gerrit.pixelexperience.org'
 
     parser = argparse.ArgumentParser(formatter_class=argparse.RawDescriptionHelpFormatter, description=textwrap.dedent('''\
         repopick.py is a utility to simplify the process of cherry picking
