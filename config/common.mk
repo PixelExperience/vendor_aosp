@@ -2,7 +2,7 @@
 $(call inherit-product, vendor/aosp/config/branding.mk)
 
 # Require all requested packages to exist
-$(call enforce-product-packages-exist-internal,$(wildcard device/*/$(CUSTOM_BUILD)/$(TARGET_PRODUCT).mk),)
+$(call enforce-product-packages-exist-internal,$(wildcard device/*/$(CUSTOM_BUILD)/$(TARGET_PRODUCT).mk),product_manifest.xml)
 
 PRODUCT_BRAND ?= PixelExperience
 
