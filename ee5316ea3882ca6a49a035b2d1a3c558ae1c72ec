@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "479cd47b_3af476e9",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000166
+      },
+      "writtenOn": "2022-09-23T18:15:03Z",
+      "side": 1,
+      "message": "Some devices aren\u0027t booting at all",
+      "revId": "ee5316ea3882ca6a49a035b2d1a3c558ae1c72ec",
+      "serverId": "8ba0da3e-d57f-4bbe-ac74-faf358ba962a"
+    }
+  ]
+}
