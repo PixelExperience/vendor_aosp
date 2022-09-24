@@ -16,6 +16,23 @@
       "message": "Some devices aren\u0027t booting at all",
       "revId": "ee5316ea3882ca6a49a035b2d1a3c558ae1c72ec",
       "serverId": "8ba0da3e-d57f-4bbe-ac74-faf358ba962a"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "f508cb78_9726ff24",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000126
+      },
+      "writtenOn": "2022-09-24T13:47:38Z",
+      "side": 1,
+      "message": "Hold on to it for now. I\u0027ll see if I can do something about it.",
+      "revId": "ee5316ea3882ca6a49a035b2d1a3c558ae1c72ec",
+      "serverId": "8ba0da3e-d57f-4bbe-ac74-faf358ba962a"
     }
   ]
 }
