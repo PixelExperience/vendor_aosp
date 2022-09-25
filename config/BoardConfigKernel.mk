@@ -162,8 +162,10 @@ ifeq (,$(filter 5.10, $(TARGET_KERNEL_VERSION)))
     KERNEL_MAKE_FLAGS += HOSTCXX=$(CLANG_PREBUILTS)/bin/clang++
     ifneq ($(TARGET_KERNEL_CLANG_COMPILE), false)
         ifneq ($(TARGET_KERNEL_LLVM_BINUTILS), false)
-            KERNEL_MAKE_FLAGS += LD=$(CLANG_PREBUILTS)/bin/ld.lld
-            KERNEL_MAKE_FLAGS += AR=$(CLANG_PREBUILTS)/bin/llvm-ar
+            ifeq ($(KERNEL_TOOLCHAIN),)
+                KERNEL_MAKE_FLAGS += LD=$(CLANG_PREBUILTS)/bin/ld.lld
+                KERNEL_MAKE_FLAGS += AR=$(CLANG_PREBUILTS)/bin/llvm-ar
+            endif # KERNEL_TOOLCHAIN
         endif
     endif
 else
