@@ -33,6 +33,23 @@
       "message": "Hold on to it for now. I\u0027ll see if I can do something about it.",
       "revId": "ee5316ea3882ca6a49a035b2d1a3c558ae1c72ec",
       "serverId": "8ba0da3e-d57f-4bbe-ac74-faf358ba962a"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "7f90664f_a2074b86",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000232
+      },
+      "writtenOn": "2022-09-28T12:37:18Z",
+      "side": 1,
+      "message": "Fixed.. Latest commits https://github.com/PixelExperience-Devices/kernel_xiaomi_mojito/commits/thirteen",
+      "revId": "ee5316ea3882ca6a49a035b2d1a3c558ae1c72ec",
+      "serverId": "8ba0da3e-d57f-4bbe-ac74-faf358ba962a"
     }
   ]
 }
