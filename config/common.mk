@@ -2,7 +2,7 @@
 $(call inherit-product, vendor/aosp/config/branding.mk)
 
 # Require all requested packages to exist
-$(call enforce-product-packages-exist-internal,$(wildcard device/*/$(CUSTOM_BUILD)/$(TARGET_PRODUCT).mk),product_manifest.xml rild)
+$(call enforce-product-packages-exist-internal,$(wildcard device/*/$(CUSTOM_BUILD)/$(TARGET_PRODUCT).mk),product_manifest.xml rild android.hidl.memory@1.0-impl.vendor vndk_apex_snapshot_package)
 
 PRODUCT_BRAND ?= PixelExperience
 
