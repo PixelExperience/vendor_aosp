@@ -149,6 +149,8 @@ func (g *Module) GenerateAndroidBuildActions(ctx android.ModuleContext) {
 	if len(g.properties.Tools) > 0 {
 		ctx.VisitDirectDepsBlueprint(func(module blueprint.Module) {
 			switch ctx.OtherModuleDependencyTag(module) {
+			case android.SourceDepTag:
+				// Nothing to do
 			case hostToolDepTag:
 				tool := ctx.OtherModuleName(module)
 				var path android.OptionalPath
@@ -227,25 +229,9 @@ func (g *Module) GenerateAndroidBuildActions(ctx android.ModuleContext) {
 		}
 	}
 
-	exCmd := customExpandVariables(ctx, String(g.properties.Cmd))
+	cmd := customExpandVariables(ctx, String(g.properties.Cmd))
 
-	// Dummy output dep
-	dummyDep := android.PathForModuleGen(ctx, ".dummy_dep")
-
-	genDir := android.PathForModuleGen(ctx)
-
-	// Pick a unique rule name and the user-visible description.
-	manifestName := "custom.sbox.textproto"
-	desc := "generate"
-	name := "generator"
-	manifestPath := android.PathForModuleOut(ctx, manifestName)
-
-	// Use a RuleBuilder to create a rule that runs the command inside an sbox sandbox.
-	rule := android.NewRuleBuilder(pctx, ctx).Sbox(genDir, manifestPath).SandboxTools()
-	rule.Command().Text("touch").Output(dummyDep)
-        cmd := rule.Command()
-
-	rawCommand, err := android.Expand(exCmd, func(name string) (string, error) {
+	rawCommand, err := android.Expand(cmd, func(name string) (string, error) {
 		switch name {
 		case "location":
 			if len(g.properties.Tools) == 0 && len(toolFiles) == 0 {
@@ -277,14 +263,25 @@ func (g *Module) GenerateAndroidBuildActions(ctx android.ModuleContext) {
 		return
 	}
 
-	cmd.Text(rawCommand)
-	cmd.ImplicitOutput(dummyDep)
-	cmd.Implicits(g.inputDeps)
-	cmd.Implicits(g.implicitDeps)
+	// Dummy output dep
+	dummyDep := android.PathForModuleGen(ctx, ".dummy_dep")
+
+	buildDir := android.PathForOutput(ctx, "generator")
+	genDir := android.PathForModuleGen(ctx)
+
+	// Use a RuleBuilder to create a rule that runs the command inside an sbox sandbox.
+	rule := android.NewRuleBuilder(pctx, ctx).Sbox(genDir, buildDir).SandboxTools()
+
+	rule.Command().
+		Text(rawCommand).
+		ImplicitOutput(dummyDep).
+		Implicits(g.inputDeps).
+		Implicits(g.implicitDeps)
+	rule.Command().Text("touch").Output(dummyDep)
 
 	g.outputDeps = append(g.outputDeps, dummyDep)
 
-	rule.Build(name, desc)
+	rule.Build("generator", "generate")
 }
 
 func NewGenerator() *Module {
