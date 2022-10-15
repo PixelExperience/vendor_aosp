@@ -1,11 +1,6 @@
 # Branding
 $(call inherit-product, vendor/aosp/config/branding.mk)
 
-ifneq ($(TARGET_DISABLE_EPPE),true)
-# Require all requested packages to exist
-$(call enforce-product-packages-exist-internal,$(wildcard device/*/$(CUSTOM_BUILD)/$(TARGET_PRODUCT).mk),product_manifest.xml rild android.hidl.memory@1.0-impl.vendor vndk_apex_snapshot_package)
-endif
-
 PRODUCT_BRAND ?= PixelExperience
 
 PRODUCT_BUILD_PROP_OVERRIDES += BUILD_UTC_DATE=0
@@ -89,13 +84,6 @@ PRODUCT_PACKAGES += \
     mke2fs \
     mkfs.ntfs \
     mount.ntfs
-
-PRODUCT_ARTIFACT_PATH_REQUIREMENT_ALLOWED_LIST += \
-    system/bin/fsck.ntfs \
-    system/bin/mkfs.ntfs \
-    system/bin/mount.ntfs \
-    system/%/libfuse-lite.so \
-    system/%/libntfs-3g.so
 
 # Storage manager
 PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
