@@ -15,7 +15,7 @@
     <string name="config_defaultBugReportHandlerApp">com.google.android.apps.internal.betterbug</string>
     <string name="config_defaultContentCaptureService">com.google.android.as/com.google.android.apps.miphone.aiai.app.AiAiContentCaptureService</string>
     <string name="config_defaultContentSuggestionsService">com.google.android.as/com.google.android.apps.miphone.aiai.app.AiAiContentSuggestionsService</string>
-    <string name="config_defaultDndAccessPackages">com.google.android.GoogleCamera:com.google.android.gms:com.google.intelligence.sense:com.google.android.settings.intelligence:com.google.android.apps.wellbeing:com.google.android.apps.safetyhub:com.google.android.dialer</string>
+    <string name="config_defaultDndAccessPackages">com.google.android.GoogleCamera:com.google.android.gms:com.google.intelligence.sense:com.google.android.settings.intelligence:com.google.android.apps.wellbeing:com.google.android.apps.safetyhub:com.google.android.dialer:com.google.android.apps.diagnosticstool</string>
     <string name="config_defaultListenerAccessPackages">com.google.android.apps.nexuslauncher:com.google.android.setupwizard:com.google.android.apps.pixelmigrate:com.google.android.as:com.google.android.projection.gearhead:com.google.pixel.exo</string>
     <!--string name="config_defaultModuleMetadataProvider">com.google.android.modulemetadata</string-->
     <string name="config_defaultMusicRecognitionService">com.google.android.googlequicksearchbox/com.google.android.apps.search.soundsearch.service.SoundSearchService</string>

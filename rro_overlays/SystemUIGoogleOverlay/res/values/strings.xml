@@ -9,5 +9,5 @@
     <string name="clock_component_name">com.google.android.deskclock/com.android.deskclock.DeskClock</string>
     <string name="config_preferredEmergencySosPackage">com.google.android.apps.safetyhub</string>
     <string name="launcher_overlayable_package">com.google.android.apps.nexuslauncher</string>
-    <string name="quick_settings_tiles_default">internet,bt,flashlight,dnd,alarm,airplane,controls,wallet,rotation,battery,cast,screenrecord,custom(com.google.android.gms/.nearby.sharing.SharingTileService),mictoggle,cameratoggle</string>
+    <string name="quick_settings_tiles_default">internet,bt,dnd,flashlight,rotation,battery,airplane,night,screenrecord,custom(com.google.android.gms/.nearby.sharing.SharingTileService)</string>
 </resources>
