@@ -83,7 +83,7 @@ camera_needs_client_info_lib {
     soong_config_variables: {
         camera_needs_client_info_lib: {
             cppflags: ["-DCAMERA_NEEDS_CLIENT_INFO_LIB"],
-            shared_libs: ["//hardware/oneplus:vendor.oneplus.hardware.camera@1.0"],
+            shared_libs: ["vendor.oplus.hardware.cameraMDM@2.0"],
         },
     },
 }
