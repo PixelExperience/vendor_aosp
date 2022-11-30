@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "cb9fe338_6ddeeca6",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000358
+      },
+      "writtenOn": "2022-11-30T06:24:20Z",
+      "side": 1,
+      "message": "REF : - https://github.com/PixelExperience-Devices/device_samsung_exynos9810-common/commit/b67c0f3ca46269a7588406215bec64b253c0ded6\n\nhttps://github.com/PixelExperience/vendor_pixel-framework/commit/8be4fc80c0af1a38386b7dc23b7392d0a9e64669",
+      "revId": "bdc82a590e4669145c7c19db7a5a03e1f2b0dacb",
+      "serverId": "8ba0da3e-d57f-4bbe-ac74-faf358ba962a"
+    }
+  ]
+}
