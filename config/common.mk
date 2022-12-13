@@ -8,9 +8,17 @@ PRODUCT_BUILD_PROP_OVERRIDES += BUILD_UTC_DATE=0
 ifeq ($(PRODUCT_GMS_CLIENTID_BASE),)
 PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
     ro.com.google.clientidbase=android-google
+
+PRODUCT_PRODUCT_PROPERTIES += \
+    ro.com.google.clientidbase=android-google
+
 else
 PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
     ro.com.google.clientidbase=$(PRODUCT_GMS_CLIENTID_BASE)
+
+PRODUCT_PRODUCT_PROPERTIES += \
+    ro.com.google.clientidbase=$(PRODUCT_GMS_CLIENTID_BASE)
+
 endif
 
 PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
@@ -164,7 +172,6 @@ PRODUCT_PRODUCT_PROPERTIES += \
 
 # Google Play services configuration
 PRODUCT_PRODUCT_PROPERTIES += \
-    ro.com.google.clientidbase=android-google \
     ro.error.receiver.system.apps=com.google.android.gms \
     ro.atrace.core.services=com.google.android.gms,com.google.android.gms.ui,com.google.android.gms.persistent
 
