@@ -147,5 +147,8 @@
         <item>notification_assistant/generate_actions=true</item>
         <item>notification_assistant/generate_replies=true</item>
 
+        <!-- Globally enable the new photo picker -->
+        <item>storage_native_boot/take_over_get_content=true</item>
+
     </string-array>
 </resources>
