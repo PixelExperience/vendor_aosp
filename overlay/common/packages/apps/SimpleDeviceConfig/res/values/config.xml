@@ -137,6 +137,7 @@
         <item>launcher/ENABLE_WIDGETS_PICKER_AIAI_SEARCH=true</item>
 
         <!-- System Ui -->
+        <item>systemui/clipboard_overlay_show_actions=true</item>
         <item>systemui/quick_access_wallet_enabled=true</item>
         <item>systemui/enable_screenshot_corner_flow=true</item>
         <item>systemui/enable_screenshot_notification_smart_actions=true</item>
