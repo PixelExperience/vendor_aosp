@@ -11,9 +11,7 @@
     <string name="config_defaultAutofillService">com.google.android.gms/.autofill.service.AutofillService</string>
     <!--string name="config_defaultCaptivePortalLoginPackageName">com.google.android.captiveportallogin</string-->
     <string name="config_defaultDialer">com.google.android.dialer</string>
-    <string name="config_defaultGallery">com.google.android.apps.photos</string>
     <string name="config_defaultListenerAccessPackages">com.google.android.apps.nexuslauncher:com.google.android.setupwizard:com.google.android.apps.pixelmigrate</string>
-    <string name="config_defaultMusic">com.google.android.music</string>
     <string name="config_defaultNearbyFastPairSettingsDevicesComponent">com.google.android.gms/com.google.android.gms.nearby.discovery.devices.SavedDevicesSettingsActivity</string>
     <string name="config_defaultNearbySharingComponent">com.google.android.gms/com.google.android.gms.nearby.sharing.ShareSheetActivity</string>
     <string name="config_defaultNetworkRecommendationProviderPackage">com.google.android.gms</string>

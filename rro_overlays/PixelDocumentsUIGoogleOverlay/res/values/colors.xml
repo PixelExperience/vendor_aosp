@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="hairline">@*android:color/accent_material_light</color>
     <color name="primary">#1a73e8</color>
 </resources>
