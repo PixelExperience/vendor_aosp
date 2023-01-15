@@ -369,3 +369,19 @@ uses_legacy_fd_fbdev {
         },
     },
 }
+
+soong_config_module_type {
+    name: "uses_oplus_camera",
+    module_type: "cc_defaults",
+    config_namespace: "customGlobalVars",
+    bool_variables: ["uses_oplus_camera"],
+    properties: ["cppflags"],
+}
+uses_oplus_camera {
+    name: "uses_oplus_camera_defaults",
+    soong_config_variables: {
+        uses_oplus_camera: {
+            cppflags: ["-DUSES_OPLUS_CAMERA"],
+        },
+    },
+}
