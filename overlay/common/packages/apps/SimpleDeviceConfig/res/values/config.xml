@@ -167,6 +167,9 @@
         <item>device_personalization_services/NotificationAssistant__importance_model_version=1</item>
         <item>device_personalization_services/NotificationAssistant__max_importance_variance=0.5</item>
 
+        <!-- Pixel Launcher Overview -->
+        <item>device_personalization_services/Overview__enable_lens_r_overview_translate_action=true</item>
+
         <!-- Google Live Translate -->
         <item>device_personalization_services/Translate__blue_chip_translate_enabled=true</item>
         <item>device_personalization_services/Translate__copy_to_translate_enabled=true</item>
