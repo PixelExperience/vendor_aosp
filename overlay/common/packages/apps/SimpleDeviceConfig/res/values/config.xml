@@ -56,6 +56,8 @@
         <item>device_personalization_services/Captions__enable_punctuations=true</item>
 
         <!-- Pixel Launcher Search -->
+        <item>device_personalization_services/Echo__search_enable_all_fallback_results=true</item>
+        <item>device_personalization_services/Echo__search_enable_allowlist=true</item>
         <item>device_personalization_services/Echo__search_enable_app_fetcher_v2=true</item>
         <item>device_personalization_services/Echo__search_enable_app_search_tips=true</item>
         <item>device_personalization_services/Echo__search_enable_app_token_indexing=false</item>
@@ -64,13 +66,25 @@
         <item>device_personalization_services/Echo__search_enable_apps=true</item>
         <item>device_personalization_services/Echo__search_enable_appsearch_tips_ranking_improvement=true</item>
         <item>device_personalization_services/Echo__search_enable_assistant_quick_phrases_settings=true</item>
+        <item>device_personalization_services/Echo__search_enable_bc_smartspace_settings=true</item>
+        <item>device_personalization_services/Echo__search_enable_bc_translate_settings=true</item>
+        <item>device_personalization_services/Echo__search_enable_eventstore=true</item>
+        <item>device_personalization_services/Echo__search_enable_everything_else_above_web=true</item>
+        <item>device_personalization_services/Echo__search_enable_fetcher_optimization_using_result_types=true</item>
+        <item>device_personalization_services/Echo__search_enable_filter_pending_jobs=true</item>
         <item>device_personalization_services/Echo__search_enable_mdp_play_results=true</item>
+        <item>device_personalization_services/Echo__search_enable_play=true</item>
+        <item>device_personalization_services/Echo__search_enable_play_alleyoop=true</item>
+        <item>device_personalization_services/Echo__search_enable_scraping=true</item>
         <item>device_personalization_services/Echo__search_enable_search_in_app_icon=true</item>
+        <item>device_personalization_services/Echo__search_enable_settings_corpus=true</item>
+        <item>device_personalization_services/Echo__search_enable_shortcuts=true</item>
         <item>device_personalization_services/Echo__search_enable_static_shortcuts=true</item>
         <item>device_personalization_services/Echo__search_enable_superpacks_app_terms=true</item>
         <item>device_personalization_services/Echo__search_enable_superpacks_play_results=true</item>
+        <item>device_personalization_services/Echo__search_enable_top_hit_row=true</item>
+        <item>device_personalization_services/Echo__search_enable_widget_corpus=true</item>
         <item>device_personalization_services/Echo__search_play_enable_spell_correction=true</item>
-        <item>device_personalization_services/Echo__settings_search_debug=true</item>
 
         <!-- Smartspace -->
         <item>device_personalization_services/Echo__smartspace_dedupe_fast_pair_notification=true</item>
