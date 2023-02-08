@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "202fd341_19a1cd04",
+        "filename": "config/common_full_tablet.mk",
+        "patchSetId": 3
+      },
+      "lineNbr": 4,
+      "author": {
+        "id": 1000126
+      },
+      "writtenOn": "2023-02-08T09:50:18Z",
+      "side": 1,
+      "message": "Looks like there\u0027s an extra indentation? xd",
+      "revId": "83799965f57871114a5d0b08b0ebf7dbb4a11079",
+      "serverId": "8ba0da3e-d57f-4bbe-ac74-faf358ba962a"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "03a667d9_b4d05a7b",
+        "filename": "config/common_full_tablet_wifionly.mk",
+        "patchSetId": 3
+      },
+      "lineNbr": 4,
+      "author": {
+        "id": 1000126
+      },
+      "writtenOn": "2023-02-08T09:50:18Z",
+      "side": 1,
+      "message": "Same here.",
+      "revId": "83799965f57871114a5d0b08b0ebf7dbb4a11079",
+      "serverId": "8ba0da3e-d57f-4bbe-ac74-faf358ba962a"
+    }
+  ]
+}
