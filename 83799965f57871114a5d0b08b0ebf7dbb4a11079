@@ -18,6 +18,24 @@
       "serverId": "8ba0da3e-d57f-4bbe-ac74-faf358ba962a"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "0b108d58_9234e8e7",
+        "filename": "config/common_full_tablet.mk",
+        "patchSetId": 3
+      },
+      "lineNbr": 4,
+      "author": {
+        "id": 1000588
+      },
+      "writtenOn": "2023-02-08T09:54:12Z",
+      "side": 1,
+      "message": "...",
+      "parentUuid": "202fd341_19a1cd04",
+      "revId": "83799965f57871114a5d0b08b0ebf7dbb4a11079",
+      "serverId": "8ba0da3e-d57f-4bbe-ac74-faf358ba962a"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "03a667d9_b4d05a7b",
@@ -31,6 +49,24 @@
       "writtenOn": "2023-02-08T09:50:18Z",
       "side": 1,
       "message": "Same here.",
+      "revId": "83799965f57871114a5d0b08b0ebf7dbb4a11079",
+      "serverId": "8ba0da3e-d57f-4bbe-ac74-faf358ba962a"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "43c0bf5f_99449fab",
+        "filename": "config/common_full_tablet_wifionly.mk",
+        "patchSetId": 3
+      },
+      "lineNbr": 4,
+      "author": {
+        "id": 1000588
+      },
+      "writtenOn": "2023-02-08T09:54:12Z",
+      "side": 1,
+      "message": "Patchset 3 done",
+      "parentUuid": "03a667d9_b4d05a7b",
       "revId": "83799965f57871114a5d0b08b0ebf7dbb4a11079",
       "serverId": "8ba0da3e-d57f-4bbe-ac74-faf358ba962a"
     }
