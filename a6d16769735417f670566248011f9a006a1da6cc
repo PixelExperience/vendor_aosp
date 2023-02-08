@@ -18,6 +18,24 @@
       "serverId": "8ba0da3e-d57f-4bbe-ac74-faf358ba962a"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "ddd5bf3f_06c8c93c",
+        "filename": "config/common_full_tablet.mk",
+        "patchSetId": 2
+      },
+      "lineNbr": 3,
+      "author": {
+        "id": 1000588
+      },
+      "writtenOn": "2023-02-08T09:48:45Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "02a39161_c3f61570",
+      "revId": "a6d16769735417f670566248011f9a006a1da6cc",
+      "serverId": "8ba0da3e-d57f-4bbe-ac74-faf358ba962a"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "5c862d69_13e72114",
@@ -31,6 +49,24 @@
       "writtenOn": "2023-02-08T09:35:44Z",
       "side": 1,
       "message": "I see that the major difference of common_full_tablet.mk from common_full_phone.mk is \"IS_PHONE :\u003d true\", besides the tablet-specific overlays. However, I could not find anything that uses \"IS_PHONE\" in the source. If that is true, I guess we could simply inherit common_full_phone.mk here? That would help avoid duplicating these packages and properties.",
+      "revId": "a6d16769735417f670566248011f9a006a1da6cc",
+      "serverId": "8ba0da3e-d57f-4bbe-ac74-faf358ba962a"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "b3fdb31e_0743647d",
+        "filename": "config/common_full_tablet.mk",
+        "patchSetId": 2
+      },
+      "lineNbr": 6,
+      "author": {
+        "id": 1000588
+      },
+      "writtenOn": "2023-02-08T09:48:45Z",
+      "side": 1,
+      "message": "Done. Like now?",
+      "parentUuid": "5c862d69_13e72114",
       "revId": "a6d16769735417f670566248011f9a006a1da6cc",
       "serverId": "8ba0da3e-d57f-4bbe-ac74-faf358ba962a"
     }
