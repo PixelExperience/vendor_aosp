@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "c459217c_b9076579",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000003
+      },
+      "writtenOn": "2023-02-12T16:23:45Z",
+      "side": 1,
+      "message": "Merge done on plus branch, I don\u0027t think that we should change AOSP behavior on non-plus branch",
+      "revId": "e0dbf731c69cb4140a7fb86ecc879b10f034dc2e",
+      "serverId": "8ba0da3e-d57f-4bbe-ac74-faf358ba962a"
+    }
+  ]
+}
