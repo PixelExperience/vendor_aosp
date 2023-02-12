@@ -140,3 +140,8 @@ endif
 ifneq ($(USE_DEVICE_SPECIFIC_DATASERVICES),true)
     PRODUCT_SOONG_NAMESPACES += vendor/qcom/opensource/dataservices
 endif
+
+# Add fm-commonsys to PRODUCT_SOONG_NAMESPACES if needed
+ifneq ($(USE_DEVICE_SPECIFIC_FM),true)
+    PRODUCT_SOONG_NAMESPACES += vendor/qcom/opensource/fm-commonsys
+endif
