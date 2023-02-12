@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (C) 2020 The Proton AOSP Project
+                  2022 The LineageOS Project
+
+    Licensed under the Apache License, Version 2.0 (the "License");
+    you may not use this file except in compliance with the License.
+    You may obtain a copy of the License at
+
+        http://www.apache.org/licenses/LICENSE-2.0
+
+    Unless required by applicable law or agreed to in writing, software
+    distributed under the License is distributed on an "AS IS" BASIS,
+    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+    See the License for the specific language governing permissions and
+    limitations under the License.
+-->
+<resources>
+    <string-array name="configs_base">
+        <!--
+            System
+        -->
+
+        <!-- Use new privacy indicators for location -->
+        <item>privacy/location_indicators_enabled=true</item>
+
+        <!-- Machine learning back gesture (requires TensorFlow model) -->
+        <item>systemui/use_back_gesture_ml_model=true</item>
+        <item>systemui/back_gesture_ml_model_name=backgesture</item>
+        <item>systemui/back_gesture_ml_model_threshold=0.8</item>
+
+        <!-- Contribute app shortcuts to centralized AppSearch index -->
+        <item>systemui/shortcut_appsearch_integration=true</item>
+
+        <!--
+            Device Personalization Services (AiAi)
+        -->
+
+        <!-- Live Captions (Pixel 2017 + OEM) -->
+        <item>device_personalization_services/Captions__manifest_url_template=https://storage.googleapis.com/captions/%{NAMESPACE}_%{VERSION}_manifest.json</item>
+        <item>device_personalization_services/Captions__model_version_v1=20190613</item>
+        <item>device_personalization_services/Captions__model_version_v1_2=20200112</item>
+        <item>device_personalization_services/Captions__speech_threshold=0.2</item>
+        <item>device_personalization_services/Captions__surface_sound_events=true</item>
+        <item>device_personalization_services/Captions__visibility_playing_duration_millis=5000</item>
+        <item>device_personalization_services/Captions__visibility_stopped_duration_millis=1500</item>
+
+        <!-- Now Playing (Pixel 2017) -->
+        <item>device_personalization_services/NowPlaying__ambient_music_index_manifest_17_09_02=191:https://storage.googleapis.com/music-iq-db/updatable_ytm_db/20211031-040022/manifest.json</item>
+
+        <!-- Adaptive Sound (Pixel 2020) -->
+        <item>device_personalization_services/AdaptiveAudio__enable_adaptive_audio=true</item>
+        <item>device_personalization_services/AdaptiveAudio__show_promo_notification=true</item>
+
+        <!-- Screen attention (Pixel 2019) -->
+        <item>device_personalization_services/Attention__accel_sensor_enabled=false</item>
+        <item>device_personalization_services/Attention__accel_sensor_threshold_mss=0.2</item>
+        <item>device_personalization_services/Attention__enabled=false</item>
+        <item>device_personalization_services/Attention__margin_horizontal_px=1000</item>
+        <item>device_personalization_services/Attention__margin_vertical_px=1000</item>
+        <item>device_personalization_services/Attention__proximity_sensor_enabled=false</item>
+
+        <!-- Disable unused AiAi features -->
+        <item>device_personalization_services/Autofill__enable=false</item>
+        <item>device_personalization_services/Autofill__enable_fa=false</item>
+        <item>device_personalization_services/Fedex__enable_fedex=false</item>
+        <item>device_personalization_services/Logging__enable_aiai_clearcut_logging=false</item>
+        <item>device_personalization_services/NotificationAssistant__enable_service=false</item>
+        <item>device_personalization_services/VisualCortex__enable=false</item>
+
+        <!-- Recents text selection (for Pixel Launcher users) -->
+        <item>device_personalization_services/Overview__enable_image_selection=true</item>
+        <item>device_personalization_services/Overview__enable_japanese_ocr=true</item>
+        <item>device_personalization_services/Overview__enable_lens_r_overview_long_press=true</item>
+        <item>device_personalization_services/Overview__enable_lens_r_overview_select_mode=true</item>
+        <item>device_personalization_services/Overview__enable_lens_r_overview_translate_action=false</item>
+        <item>device_personalization_services/Overview__enable_overview=true</item>
+        <item>device_personalization_services/Overview__enable_pir_clearcut_logging=true</item>
+        <item>device_personalization_services/Overview__enable_pir_westworld_logging=true</item>
+        <item>device_personalization_services/Overview__enable_proactive_hints=false</item>
+        <item>device_personalization_services/Overview__enable_superpacks_pir_protocol=true</item>
+        <item>device_personalization_services/Overview__min_lens_agsa_app_version=301084649</item>
+
+        <!-- Disable federated learning -->
+        <item>device_personalization_services/OverviewFederatedAnalytics__enable_fa=false</item>
+        <item>device_personalization_services/OverviewFederatedAnalytics__enable_min_training_interval=false</item>
+        <item>device_personalization_services/OverviewFederatedAnalytics__enable_non_synthetic_logs=false</item>
+
+        <!-- Allow users to disable location indicators in Developer Options -->
+        <item>privacy/location_indicator_settings_enabled=true</item>
+
+        <!-- Disable always screen on -->
+        <item>attention_manager_service/keep_screen_on_enabled=false</item>
+    </string-array>
+</resources>
