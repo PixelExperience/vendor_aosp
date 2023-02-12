@@ -97,6 +97,10 @@ PRODUCT_PACKAGES += \
     mkfs.ntfs \
     mount.ntfs
 
+# Config
+PRODUCT_PACKAGES += \
+    SimpleDeviceConfig
+
 # Storage manager
 PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
     ro.storage_manager.enabled=true
