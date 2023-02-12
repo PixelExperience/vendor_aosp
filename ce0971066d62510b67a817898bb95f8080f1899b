@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "c205bd8c_9ae50ce8",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000411
+      },
+      "writtenOn": "2023-02-12T13:55:03Z",
+      "side": 1,
+      "message": "https://github.com/PixelExperience/android-issues/issues/4456",
+      "revId": "ce0971066d62510b67a817898bb95f8080f1899b",
+      "serverId": "8ba0da3e-d57f-4bbe-ac74-faf358ba962a"
+    }
+  ]
+}
