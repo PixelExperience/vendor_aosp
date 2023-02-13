@@ -20,7 +20,7 @@
     <string name="config_defaultQrCodeComponent">com.google.android.gms/.mlkit.barcode.ui.PlatformBarcodeScanningActivityProxy</string>
     <string name="config_defaultSearchSelectorPackageName">com.google.android.apps.setupwizard.searchselector</string>
     <string name="config_defaultSms">com.google.android.apps.messaging</string>
-    <string name="config_deviceConfiguratorPackageName">com.google.android.gms</string>
+    <string name="config_deviceConfiguratorPackageName">org.protonaosp.deviceconfig</string>
     <string name="config_devicePolicyManagement">com.google.android.apps.work.clouddpc:23962F4B43B9857638EA66F4D419518EAE282491ACDA4B94707BD59003C45E58</string>
     <string name="config_devicePolicyManagementUpdater">com.google.android.gms</string>
     <string name="config_loggable_dream_prefix">com.google.</string>
