@@ -207,6 +207,17 @@ PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.hardware.biometrics.face.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/android.hardware.biometrics.face.xml
 endif
 
+<<<<<<< HEAD   (0e7d7c vendor: Change device configurator package)
+=======
+# Repainter integration
+PRODUCT_PACKAGES += \
+    RepainterServicePriv
+
+# NexusLauncher resources
+PRODUCT_PACKAGES += \
+    NexusLauncherResOverlay
+
+>>>>>>> CHANGE (2b7c7f vendor: fix NexusLauncher for tablet mode & follow system ta)
 # Audio
 $(call inherit-product, vendor/aosp/config/audio.mk)
 
