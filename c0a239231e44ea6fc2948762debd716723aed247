@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "2a3fe4c5_f9865f0b",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000665
+      },
+      "writtenOn": "2023-02-17T18:34:15Z",
+      "side": 1,
+      "message": "Breaks signin during setup",
+      "revId": "c0a239231e44ea6fc2948762debd716723aed247",
+      "serverId": "8ba0da3e-d57f-4bbe-ac74-faf358ba962a"
+    }
+  ]
+}
