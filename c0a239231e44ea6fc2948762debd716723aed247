@@ -33,6 +33,23 @@
       "message": "Breaks signin during setup",
       "revId": "c0a239231e44ea6fc2948762debd716723aed247",
       "serverId": "8ba0da3e-d57f-4bbe-ac74-faf358ba962a"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "dec0a34e_ca1a053d",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000610
+      },
+      "writtenOn": "2023-02-17T18:34:59Z",
+      "side": 1,
+      "message": "@Risen reported it\u0027s not working on clean flash. But for me and for testers it\u0027s working as expected. will have to wait for more people to test this ",
+      "revId": "c0a239231e44ea6fc2948762debd716723aed247",
+      "serverId": "8ba0da3e-d57f-4bbe-ac74-faf358ba962a"
     }
   ]
 }
