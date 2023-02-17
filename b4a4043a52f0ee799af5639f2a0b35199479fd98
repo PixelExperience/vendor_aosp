@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "303dd0ef_d7e96967",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000610
+      },
+      "writtenOn": "2023-02-17T12:56:24Z",
+      "side": 1,
+      "message": "verified on my OnePlus7T.",
+      "revId": "b4a4043a52f0ee799af5639f2a0b35199479fd98",
+      "serverId": "8ba0da3e-d57f-4bbe-ac74-faf358ba962a"
+    }
+  ]
+}
