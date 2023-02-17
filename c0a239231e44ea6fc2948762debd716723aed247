@@ -50,6 +50,23 @@
       "message": "@Risen reported it\u0027s not working on clean flash. But for me and for testers it\u0027s working as expected. will have to wait for more people to test this ",
       "revId": "c0a239231e44ea6fc2948762debd716723aed247",
       "serverId": "8ba0da3e-d57f-4bbe-ac74-faf358ba962a"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "352aee7d_44dd0dbd",
+        "filename": "overlay/common/frameworks/base/core/res/res/values/config.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 39,
+      "author": {
+        "id": 1000602
+      },
+      "writtenOn": "2023-02-17T19:12:09Z",
+      "side": 1,
+      "message": "While this might fix the problem, it will also cause notifications to become delayed",
+      "revId": "c0a239231e44ea6fc2948762debd716723aed247",
+      "serverId": "8ba0da3e-d57f-4bbe-ac74-faf358ba962a"
     }
   ]
 }
