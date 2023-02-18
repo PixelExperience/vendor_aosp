@@ -30,9 +30,6 @@
         <item>privacy/discrete_history_cutoff_millis=604800000</item>
         <item>privacy/privacy_dashboard_7_day_toggle=true</item>
 
-        <!-- Use new privacy indicators for location -->
-        <item>privacy/location_indicators_enabled=true</item>
-
         <!-- Enable permission hub v2 -->
         <item>privacy/permissions_hub_enabled=true</item>
         <item>privacy/permissions_hub_2_enabled=true</item>
