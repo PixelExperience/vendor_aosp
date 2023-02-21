@@ -36,6 +36,7 @@
         <item>com.google.android.gms/com.google.android.gms.update.SystemUpdateService.ActiveReceiver</item>
         <item>com.google.android.gms/com.google.android.gms.update.SystemUpdateService.Receiver</item>
         <item>com.google.android.gms/com.google.android.gms.update.SystemUpdateService.SecretCodeReceiver</item>
+        <item>com.google.android.gms/com.google.android.gms.chimera.GmsIntentOperationService$GmsExternalReceiver</item>
     </string-array>
 
     <string-array name="config_locationExtraPackageNames" translatable="false">
