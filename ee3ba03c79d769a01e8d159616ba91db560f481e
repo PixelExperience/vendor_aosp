@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "3be44300_b39cfc02",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 4
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000679
+      },
+      "writtenOn": "2023-02-24T07:10:10Z",
+      "side": 1,
+      "message": "Works fine now. Set up doesn\u0027t break",
+      "revId": "ee3ba03c79d769a01e8d159616ba91db560f481e",
+      "serverId": "8ba0da3e-d57f-4bbe-ac74-faf358ba962a"
+    }
+  ]
+}
