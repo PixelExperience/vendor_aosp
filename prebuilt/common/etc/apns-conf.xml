@@ -1125,7 +1125,7 @@
   <apn carrier="MMS Nova" mcc="274" mnc="11" apn="mms.nova.is" proxy="" port="" user="" password="" mmsc="http://mmsc.nova.is" mmsproxy="10.10.2.60" mmsport="8080" type="mms" />
   <apn carrier="Net Nova" mcc="274" mnc="11" apn="net.nova.is" proxy="" port="" user="" password="" mmsc="" type="default,supl" />
   <apn carrier="Tal" mcc="274" mnc="12" apn="internet.tal.is" mmsc="http://mms.tal.is/servlets/mms" mmsproxy="213.167.138.210" mmsport="8080" type="default,supl,mms" />
-  <apn carrier="AMC" mcc="276" mnc="01" apn="internet.amc" type="default,supl" />
+  <apn carrier="ONE AL" mcc="276" mnc="01" apn="internet.t" type="default,supl" />
   <apn carrier="AMC MMS" mcc="276" mnc="01" apn="mms" mmsc="http://195.167.65.220:8002" mmsproxy="10.10.10.20" mmsport="8080" type="mms" />
   <apn carrier="Vodafone AL" mcc="276" mnc="02" apn="vodafoneweb" type="default,supl" />
   <apn carrier="Vodafone AL" mcc="276" mnc="02" apn="Twa" proxy="" port="" user="" password="" mmsc="" type="default,supl" />
@@ -3173,8 +3173,6 @@
   <apn carrier="FarEasTone" mcc="466" mnc="01" apn="internet" type="default,supl" />
   <apn carrier="遠傳電信(Far EasTone) (Fetnet01)" mcc="466" mnc="01" apn="fetnet01" proxy="210.241.199.199" port="80" type="default,supl" />
   <apn carrier="FarEasTone MMS" mcc="466" mnc="01" apn="fetnet01" mmsc="http://mms" mmsproxy="210.241.199.199" mmsport="9201" type="mms" />
-  <apn carrier="GT Internet" mcc="466"mnc="05" apn="gtnet" type="default,supl" protocol="IPV4V6" roaming_protocol="IP" />
-  <apn carrier="GT IMS" mcc="466" mnc="05" apn="ims" type="ims" protocol="IP" roaming_protocol="IP" />
   <apn carrier="KGT" mcc="466" mnc="88" apn="internet" type="default,supl" />
   <apn carrier="KGT MMS" mcc="466" mnc="88" apn="kgtmms" mmsc="http://mms.kgtmms.net.tw/mms/wapenc" mmsproxy="172.28.33.5" mmsport="8080" type="mms" />
   <apn carrier="VIBO-vibo" mcc="466" mnc="89" apn="vibo" proxy="172.24.128.36" port="8080" mmsc="" user="" password="" authtype="1" type="default,supl" />
