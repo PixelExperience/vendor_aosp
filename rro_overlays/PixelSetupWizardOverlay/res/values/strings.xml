@@ -3,4 +3,6 @@
     <string name="demo_device_admin_component_name">com.google.android.retaildemo/.DemoDeviceAdminReceiver</string>
     <string name="demo_device_admin_download_location">https://g.co/pixel/retaildemo</string>
     <string name="demo_device_admin_signature_checksum">ZUfHPe4VDBA5gL_f_lXMmgEdeF3WlKX5mv2CBbyvH4A</string>
+    <string name="exit_to_action_in_initial_setup">com.google.android.apps.nexuslauncher/com.android.quickstep.action.GESTURE_ONBOARDING_ALL_SET</string>
+    <string name="exit_to_action_in_deferred_setup">com.google.android.setupwizard/com.google.android.setupwizard.OPTIONAL_SETUP</string>
 </resources>

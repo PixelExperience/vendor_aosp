@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="com.google.android.pixel.setupwizard.overlay2019">
-    <application android:label="PixelSetupWizardOverlay2019" android:hasCode="false"/>
-    <overlay android:priority="190" android:targetPackage="com.google.android.pixel.setupwizard" android:targetName="PixelSetupWizard" android:isStatic="true"/>
-</manifest>
