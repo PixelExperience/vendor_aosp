@@ -78,12 +78,25 @@
         <item>com.google.android.gms</item>
         <item>com.android.location.fused</item>
     </array>
+    <array name="config_loggable_dream_prefixes">
+        <item>com.google.</item>
+        <item>com.android.</item>
+    </array>
     <array name="vendor_cross_profile_apps">
         <item>com.google.android.googlequicksearchbox</item>
         <item>com.google.android.inputmethod.latin</item>
         <item>com.google.android.projection.gearhead</item>
         <item>com.google.android.inputmethod.latin.dev</item>
         <item>com.google.android.inputmethod.latin.canary</item>
+    </array>
+    <array name="vendor_disallowed_apps_managed_device">
+        <item>com.google.android.apps.healthdata</item>
+    </array>
+    <array name="vendor_disallowed_apps_managed_profile">
+        <item>com.google.android.apps.healthdata</item>
+    </array>
+    <array name="vendor_disallowed_apps_managed_user">
+        <item>com.google.android.apps.healthdata</item>
     </array>
     <array name="vendor_required_apps_managed_device">
         <item>com.android.vending</item>
