@@ -74,6 +74,7 @@
     <!-- If this is true, long press on power button will be available from a
          non-interactive state. -->
     <bool name="config_supportLongPressPowerWhenNonInteractive">true</bool>
+<<<<<<< HEAD   (b04c37 kernel: Check HIP support of clang before disabling it)
 
     <!-- Whether or not we should show the option to show battery percentage -->
     <bool name="config_battery_percentage_setting_available">false</bool>
@@ -81,4 +82,6 @@
     <!-- The type of the light sensor to be used by the display framework for things like
          auto-brightness. If unset, then it just gets the default sensor of type TYPE_LIGHT. -->
     <string name="config_displayLightSensorType" translatable="false">android.sensor.light</string>
+=======
+>>>>>>> CHANGE (d2f012 Revert "overlay: Set config_displayLightSensorType to androi)
 </resources>
