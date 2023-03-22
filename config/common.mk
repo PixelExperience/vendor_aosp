@@ -128,6 +128,7 @@ PRODUCT_PACKAGES += \
 PRODUCT_PRODUCT_PROPERTIES += \
     ro.support_one_handed_mode=true \
 
+<<<<<<< HEAD   (91894e apn: fix AMC APN)
 # NavigationBarMode
 PRODUCT_PACKAGES += \
     NavigationBarMode2ButtonOverlay
@@ -136,6 +137,8 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     NavigationBarNoHintOverlay
 
+=======
+>>>>>>> CHANGE (d4f564 Revert "vendor: Build NavigationBarMode2ButtonOverlay")
 # Dex preopt
 PRODUCT_DEXPREOPT_SPEED_APPS += \
     SystemUIGoogle \
