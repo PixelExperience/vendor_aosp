@@ -123,10 +123,6 @@ PRODUCT_PACKAGES += \
 PRODUCT_PRODUCT_PROPERTIES += \
     ro.support_one_handed_mode=true \
 
-# NavigationBarMode
-PRODUCT_PACKAGES += \
-    NavigationBarMode2ButtonOverlay
-
 # Dex preopt
 PRODUCT_DEXPREOPT_SPEED_APPS += \
     SystemUIGoogle \
