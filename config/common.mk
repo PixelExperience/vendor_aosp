@@ -128,10 +128,6 @@ PRODUCT_PACKAGES += \
 PRODUCT_PRODUCT_PROPERTIES += \
     ro.support_one_handed_mode=true \
 
-# NavigationBarMode
-PRODUCT_PACKAGES += \
-    NavigationBarMode2ButtonOverlay
-
 # Hide navigation bar hint
 PRODUCT_PACKAGES += \
     NavigationBarNoHintOverlay
