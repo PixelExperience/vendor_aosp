@@ -369,3 +369,19 @@ uses_legacy_fd_fbdev {
         },
     },
 }
+
+soong_config_module_type {
+    name: "needs_oplus_tag",
+    module_type: "cc_defaults",
+    config_namespace: "customGlobalVars",
+    bool_variables: ["needs_oplus_tag"],
+    properties: ["cppflags"],
+}
+needs_oplus_tag {
+    name: "needs_oplus_vendor_tag",
+    soong_config_variables: {
+        needs_oplus_tag: {
+            cppflags: ["-DNEEDS_OPLUS_VENDOR_TAG"],
+        },
+    },
+}
