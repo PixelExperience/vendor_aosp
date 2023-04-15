@@ -18,6 +18,12 @@ ADDITIONAL_SYSTEM_PROPERTIES  += \
     persist.sys.recovery_update=true
 endif
 
+# Compress AOSP recovery, for our infra
+ifeq ($(TARGET_USES_TAR_COMPRESSED_RECOVERY),true)
+ADDITIONAL_SYSTEM_PROPERTIES  += \
+    org.pixelexperience.tar_compressed_recovery=true
+endif
+
 # Custom security patch
 CUSTOM_SECURITY_PATCH := 2022-08-05
 
