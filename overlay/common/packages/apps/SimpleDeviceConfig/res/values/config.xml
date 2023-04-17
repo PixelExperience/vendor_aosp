@@ -38,6 +38,27 @@
             Device Personalization Services (AiAi)
         -->
 
+        <!-- Now Playing (Pixel 2017+) -->
+        <item>device_personalization_services/device_personalization_services/NowPlaying__ambient_music_apk_music_detector_min_score=0.45</item>
+        <item>device_personalization_services/device_personalization_services/NowPlaying__ambient_music_index_manifest_17_09_02=3048:https://storage.googleapis.com/music-iq-db/updatable_db_v3/20230402-030031/manifest.json</item>
+        <item>device_personalization_services/device_personalization_services/NowPlaying__ambient_music_matcher_match_threshold_17_09_02=1.0E-6</item>
+        <item>device_personalization_services/device_personalization_services/NowPlaying__ambient_music_on_demand_enabled=true</item>
+        <item>device_personalization_services/device_personalization_services/NowPlaying__ambient_music_on_demand_music_confidence=0.48</item>
+        <item>device_personalization_services/device_personalization_services/NowPlaying__cloud_api_allowed=true</item>
+        <item>device_personalization_services/device_personalization_services/NowPlaying__enable_usage_fa=true</item>
+        <item>device_personalization_services/device_personalization_services/NowPlaying__favorites_enabled=true</item>
+        <item>device_personalization_services/device_personalization_services/NowPlaying__feature_users_count_enabled=true</item>
+        <item>device_personalization_services/device_personalization_services/NowPlaying__federated_analytics_allowed=true</item>
+        <item>device_personalization_services/device_personalization_services/NowPlaying__handle_ambient_music_results_with_history=true</item>
+        <item>device_personalization_services/device_personalization_services/NowPlaying__min_training_interval_millis=86400000</item>
+        <item>device_personalization_services/device_personalization_services/NowPlaying__nnfp_v3_model_enabled=true</item>
+        <item>device_personalization_services/device_personalization_services/NowPlaying__on_demand_enable_eager_prompt=true</item>
+        <item>device_personalization_services/device_personalization_services/NowPlaying__on_demand_fingerprinter_being_setup_warning=true</item>
+        <item>device_personalization_services/device_personalization_services/NowPlaying__on_demand_hide_if_fingerprinter_install_not_confirmed=true</item>
+        <item>device_personalization_services/device_personalization_services/NowPlaying__on_demand_min_supported_aga_version=12.35.17</item>
+        <item>device_personalization_services/device_personalization_services/NowPlaying__on_demand_retry_fingerprinter_install=true</item>
+        <item>device_personalization_services/device_personalization_services/NowPlaying__youtube_export_enabled=true</item>
+
         <!-- Adaptive Sound (Pixel 2020) -->
         <item>device_personalization_services/AdaptiveAudio__enable_adaptive_audio=true</item>
         <item>device_personalization_services/AdaptiveAudio__show_promo_notification=false</item>
