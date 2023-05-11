@@ -9,7 +9,7 @@ ATOLL ?= atoll #SM6250
 LAHAINA ?= lahaina #SM8350
 HOLI ?= holi #SM4350
 TARO ?= taro #SM8450
-PARROT ?= parrot #SM4450
+PARROT ?= parrot #SM6450
 KALAMA ?= kalama #SM8550
 
 UM_3_18_FAMILY := msm8996
