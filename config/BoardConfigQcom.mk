@@ -142,6 +142,12 @@ endif
 # List of targets that use master side content protection
 MASTER_SIDE_CP_TARGET_LIST := msm8996 msm8998 sdm660 $(UM_4_9_FAMILY) $(UM_4_14_FAMILY) $(UM_4_19_KONA_FAMILY) $(UM_4_19_BENGAL_FAMILY)
 
+# Use full QTI gralloc struct for GKI 2.0 targets
+ifneq ($(filter $(UM_5_10_FAMILY) $(UM_5_15_FAMILY),$(TARGET_BOARD_PLATFORM)),)
+    TARGET_GRALLOC_HANDLE_HAS_CUSTOM_CONTENT_MD_RESERVED_SIZE ?= true
+    TARGET_GRALLOC_HANDLE_HAS_RESERVED_SIZE ?= true
+endif
+
 ifneq ($(filter $(UM_3_18_FAMILY),$(TARGET_BOARD_PLATFORM)),)
     MSM_VIDC_TARGET_LIST := $(UM_3_18_FAMILY)
     QCOM_HARDWARE_VARIANT := msm8996
