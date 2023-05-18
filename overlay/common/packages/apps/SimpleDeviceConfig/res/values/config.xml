@@ -219,10 +219,11 @@
         <item>device_personalization_services/SmartRecPixelSearch__spelling_checker_frequency_score_overrides_map={"8":-7}</item>
 
         <!-- Pixel Launcher -->
-        <item>launcher/enable_one_search=true</item>
-        <item>launcher/ENABLE_LOCAL_RECOMMENDED_WIDGETS_FILTER=true</item>
         <item>launcher/ENABLE_SMARTSPACE_ENHANCED=true</item>
-        <item>launcher/ENABLE_WIDGETS_PICKER_AIAI_SEARCH=true</item>
+        <item>launcher/ENABLE_QUICK_LAUNCH_V2=true</item>
+        <item>launcher/GBOARD_UPDATE_ENTER_KEY=true</item>
+        <item>launcher/enable_one_search=true</item>
+        <item>launcher/enable_quick_launch_v2=true</item>
 
         <!-- System Ui -->
         <item>systemui/clipboard_overlay_show_actions=true</item>
