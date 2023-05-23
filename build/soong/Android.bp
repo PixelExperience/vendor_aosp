@@ -129,6 +129,27 @@ target_alternative_futex_waiters {
 }
 
 soong_config_module_type {
+    name: "camera_needs_client_info_lib_oplus",
+    module_type: "cc_defaults",
+    config_namespace: "customGlobalVars",
+    bool_variables: ["camera_needs_client_info_lib_oplus"],
+    properties: [
+        "cppflags",
+        "shared_libs",
+    ],
+}
+
+camera_needs_client_info_lib_oplus {
+    name: "camera_needs_client_info_lib_oplus_defaults",
+    soong_config_variables: {
+        camera_needs_client_info_lib_oplus: {
+            cppflags: ["-DCAMERA_NEEDS_CLIENT_INFO_LIB_OPLUS"],
+            shared_libs: ["vendor.oplus.hardware.cameraMDM@2.0"],
+        },
+    },
+}
+
+soong_config_module_type {
     name: "gralloc_10_usage_bits",
     module_type: "cc_defaults",
     config_namespace: "customGlobalVars",
