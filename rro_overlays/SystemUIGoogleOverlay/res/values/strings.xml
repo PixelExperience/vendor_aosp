@@ -10,4 +10,5 @@
     <string name="config_preferredEmergencySosPackage">com.google.android.apps.safetyhub</string>
     <string name="launcher_overlayable_package">com.google.android.apps.nexuslauncher</string>
     <string name="quick_settings_tiles_default">internet,bt,dnd,flashlight,rotation,battery,airplane,night,screenrecord,custom(com.google.android.gms/.nearby.sharing.SharingTileService)</string>
+    <string name="config_sceenshotWorkProfileFilesApp">com.google.android.apps.nbu.files/com.google.android.apps.nbu.files.home.HomeActivity</string>
 </resources>

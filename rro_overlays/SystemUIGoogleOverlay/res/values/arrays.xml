@@ -3,9 +3,20 @@
     <array name="config_controlsPreferredPackages">
         <item>com.google.android.apps.chromecast.app</item>
     </array>
-    <array name="config_pluginWhitelist">
+    <array name="config_pluginAllowlist">
         <item>com.android.systemui</item>
         <item>com.android.systemui.plugin.globalactions.wallet</item>
+        <item>com.android.systemui.falcon</item>
+        <item>com.android.systemui.falcon.debug</item>
+        <item>com.android.systemui.falcon.one</item>
+        <item>com.android.systemui.falcon.two</item>
+        <item>com.android.systemui.falcon.three</item>
+        <item>com.android.systemui.falcon.four</item>
+        <item>com.android.systemui.falcon.five</item>
+        <item>com.android.systemui.falcon.six</item>
+        <item>com.android.systemui.falcon.seven</item>
+        <item>com.android.systemui.falcon.eight</item>
+        <item>com.android.systemui.falcon.nine</item>
     </array>
     <string-array name="recents_onboarding_blacklisted_packages">
         <item>com.google.android.setupwizard</item>
