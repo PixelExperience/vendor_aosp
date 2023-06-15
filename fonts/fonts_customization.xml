@@ -42,6 +42,27 @@
     </font>
   </family>
 
+  <family customizationType="new-named-family" name="google-sans-flex">
+    <font weight="100" style="normal">GoogleSansFlex-Regular.ttf
+    </font>
+    <font weight="200" style="normal">GoogleSansFlex-Regular.ttf
+    </font>
+    <font weight="300" style="normal">GoogleSansFlex-Regular.ttf
+    </font>
+    <font weight="400" style="normal">GoogleSansFlex-Regular.ttf
+    </font>
+    <font weight="500" style="normal">GoogleSansFlex-Regular.ttf
+    </font>
+    <font weight="600" style="normal">GoogleSansFlex-Regular.ttf
+    </font>
+    <font weight="700" style="normal">GoogleSansFlex-Regular.ttf
+    </font>
+    <font weight="800" style="normal">GoogleSansFlex-Regular.ttf
+    </font>
+    <font weight="900" style="normal">GoogleSansFlex-Regular.ttf
+    </font>
+  </family>
+
   <family customizationType="new-named-family" name="google-sans-medium">
     <font weight="500" style="normal">GoogleSans-Regular.ttf
       <axis tag="GRAD" stylevalue="0"/>
