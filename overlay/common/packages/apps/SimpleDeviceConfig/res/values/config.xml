@@ -230,6 +230,7 @@
         <item>systemui/enable_screenshot_corner_flow=true</item>
         <item>systemui/enable_screenshot_notification_smart_actions=true</item>
         <item>systemui/enable_screenshot_scrolling=true</item>
+        <item>systemui/volume_separate_notification=true</item>
 
         <!-- Notifications -->
         <item>notification_assistant/generate_actions=true</item>
