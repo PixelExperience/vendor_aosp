@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "219d34fb_94474204",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000358
+      },
+      "writtenOn": "2023-06-24T11:28:11Z",
+      "side": 1,
+      "message": "Lineage Upstream. Needs for jasmine_sprout and clover in PE",
+      "revId": "80a955138e8c4e6e0e2e2f7e473f63b0321697d4",
+      "serverId": "8ba0da3e-d57f-4bbe-ac74-faf358ba962a"
+    }
+  ]
+}
