@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "19f3ca8d_c05a6c9b",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000358
+      },
+      "writtenOn": "2023-06-24T11:26:47Z",
+      "side": 1,
+      "message": "IMPORTANT. Been broken on 4.19 since long",
+      "revId": "cc066fb7abff194defc5f58ab71e3645c253a8fb",
+      "serverId": "8ba0da3e-d57f-4bbe-ac74-faf358ba962a"
+    }
+  ]
+}
