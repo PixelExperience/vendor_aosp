@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "e9b22589_6c2c0f26",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000588
+      },
+      "writtenOn": "2023-06-26T22:10:01Z",
+      "side": 1,
+      "message": "* Not lineage upstream\n* Harmful for upstream compatibility and flexibility, don\u0027t block other\u0027s way, sdm660 is not everyone",
+      "revId": "c051b2b8810e927959557dda46d36b8c89f086ad",
+      "serverId": "8ba0da3e-d57f-4bbe-ac74-faf358ba962a"
+    }
+  ]
+}
