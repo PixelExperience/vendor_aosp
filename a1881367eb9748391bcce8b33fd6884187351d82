@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "c4e5596d_83b77ecf",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000588
+      },
+      "writtenOn": "2023-06-26T22:19:30Z",
+      "side": 1,
+      "message": "not \"we\" are using qcom/common",
+      "revId": "a1881367eb9748391bcce8b33fd6884187351d82",
+      "serverId": "8ba0da3e-d57f-4bbe-ac74-faf358ba962a"
+    }
+  ]
+}
