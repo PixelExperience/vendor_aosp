@@ -34,6 +34,24 @@
       "parentUuid": "e9b22589_6c2c0f26",
       "revId": "c051b2b8810e927959557dda46d36b8c89f086ad",
       "serverId": "8ba0da3e-d57f-4bbe-ac74-faf358ba962a"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "ab91d6a7_f90f5a54",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000588
+      },
+      "writtenOn": "2023-06-26T23:59:57Z",
+      "side": 1,
+      "message": "As https://review.lineageos.org/c/LineageOS/android_vendor_lineage/+/360379,\nSDM845 is also trying 4.19",
+      "parentUuid": "7c52679d_f8fb589b",
+      "revId": "c051b2b8810e927959557dda46d36b8c89f086ad",
+      "serverId": "8ba0da3e-d57f-4bbe-ac74-faf358ba962a"
     }
   ]
 }
