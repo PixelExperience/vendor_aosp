@@ -33,6 +33,23 @@
       "message": "As lineage still not popping sdm660 to 4.19(not merged), this might not be the right behavior, these are also contained in sdm660\u0027s display-commonsys",
       "revId": "a88b56f7a0f94dbe9d615d1ebe365e0fbd565ab4",
       "serverId": "8ba0da3e-d57f-4bbe-ac74-faf358ba962a"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "4977feaa_7a1a5880",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000588
+      },
+      "writtenOn": "2023-06-26T23:17:48Z",
+      "side": 1,
+      "message": "My fault, it\u0027s already guarded by $(QSSI_SUPPORTED_PLATFORMS)",
+      "revId": "a88b56f7a0f94dbe9d615d1ebe365e0fbd565ab4",
+      "serverId": "8ba0da3e-d57f-4bbe-ac74-faf358ba962a"
     }
   ]
 }
