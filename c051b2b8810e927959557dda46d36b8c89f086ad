@@ -52,6 +52,24 @@
       "parentUuid": "7c52679d_f8fb589b",
       "revId": "c051b2b8810e927959557dda46d36b8c89f086ad",
       "serverId": "8ba0da3e-d57f-4bbe-ac74-faf358ba962a"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "156be926_02c04819",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000588
+      },
+      "writtenOn": "2023-06-27T01:05:53Z",
+      "side": 1,
+      "message": "Sorry, it\u0027s this one https://review.lineageos.org/c/LineageOS/android_device_oneplus_sdm845-common/+/355136",
+      "parentUuid": "ab91d6a7_f90f5a54",
+      "revId": "c051b2b8810e927959557dda46d36b8c89f086ad",
+      "serverId": "8ba0da3e-d57f-4bbe-ac74-faf358ba962a"
     }
   ]
 }
