@@ -70,6 +70,24 @@
       "parentUuid": "ab91d6a7_f90f5a54",
       "revId": "c051b2b8810e927959557dda46d36b8c89f086ad",
       "serverId": "8ba0da3e-d57f-4bbe-ac74-faf358ba962a"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "fa3493e6_c39ed51e",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000358
+      },
+      "writtenOn": "2023-06-29T03:33:54Z",
+      "side": 1,
+      "message": "This was a old commit done by me to make device supported as qssi supported platform. I reverted this because lineage has a better one which i have added in gerrit to https://gerrit.pixelexperience.org/c/vendor_aosp/+/25178 so to favour that one i reverted this one. As you said we can add sdm845 and msm8998 there as well its not a problem. HOpe you get it now. Also they can add their devices with UM_4_19_legacy flag and override hardware_qcom_variant to call their hals specifically (Not sure what hals sdm845 are gonna use but for msm8998 and sdm660 its sdm660 hals) So we shall make changes on way as lineage progresses and as per our needs",
+      "parentUuid": "156be926_02c04819",
+      "revId": "c051b2b8810e927959557dda46d36b8c89f086ad",
+      "serverId": "8ba0da3e-d57f-4bbe-ac74-faf358ba962a"
     }
   ]
 }
