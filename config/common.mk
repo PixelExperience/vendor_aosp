@@ -121,7 +121,7 @@ PRODUCT_PACKAGES += \
 
 # One Handed mode
 PRODUCT_PRODUCT_PROPERTIES += \
-    ro.support_one_handed_mode=true \
+    ro.support_one_handed_mode?=true \
 
 # Dex preopt
 PRODUCT_DEXPREOPT_SPEED_APPS += \
