@@ -40,7 +40,7 @@
 
         <!-- Now Playing (Pixel 2017+) -->
         <item>device_personalization_services/NowPlaying__ambient_music_apk_music_detector_min_score=0.45</item>
-        <item>device_personalization_services/NowPlaying__ambient_music_index_manifest_17_09_02=3048:https://storage.googleapis.com/music-iq-db/updatable_db_v3/20230402-030031/manifest.json</item>
+        <item>device_personalization_services/NowPlaying__ambient_music_index_manifest_17_09_02=3056:https://storage.googleapis.com/music-iq-db/updatable_db_v3/20230625-030030/manifest.json</item>
         <item>device_personalization_services/NowPlaying__ambient_music_matcher_match_threshold_17_09_02=1.0E-6</item>
         <item>device_personalization_services/NowPlaying__ambient_music_on_demand_enabled=true</item>
         <item>device_personalization_services/NowPlaying__ambient_music_on_demand_music_confidence=0.48</item>
