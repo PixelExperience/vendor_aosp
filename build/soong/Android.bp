@@ -108,6 +108,28 @@ aapt_version_code {
     },
 }
 
+
+soong_config_module_type {
+    name: "camera_uses_newer_hidl_override_format",
+    module_type: "cc_defaults",
+    config_namespace: "customGlobalVars",
+    bool_variables: ["camera_uses_newer_hidl_override_format"],
+    properties: [
+        "cflags",
+        "cppflags",
+    ],
+}
+
+camera_uses_newer_hidl_override_format {
+    name: "camera_uses_newer_hidl_override_format_defaults",
+    soong_config_variables: {
+        camera_uses_newer_hidl_override_format: {
+            cflags: ["-DTARGET_CAMERA_USES_NEWER_HIDL_OVERRIDE_FORMAT"],
+            cppflags: ["-DTARGET_CAMERA_USES_NEWER_HIDL_OVERRIDE_FORMAT"],
+        },
+    },
+}
+
 soong_config_module_type {
     name: "target_alternative_futex_waiters",
     module_type: "cc_defaults",
