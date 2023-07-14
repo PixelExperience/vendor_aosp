@@ -16,6 +16,24 @@
       "message": "Ooops",
       "revId": "7711783ab16f41ef1601753cabf50fba7c1c9a94",
       "serverId": "8ba0da3e-d57f-4bbe-ac74-faf358ba962a"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "35cf74f7_fd320e5c",
+        "filename": "config/BoardConfigSoong.mk",
+        "patchSetId": 1
+      },
+      "lineNbr": 64,
+      "author": {
+        "id": 1000679
+      },
+      "writtenOn": "2023-07-14T12:15:44Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "af0e3156_5d144ac6",
+      "revId": "7711783ab16f41ef1601753cabf50fba7c1c9a94",
+      "serverId": "8ba0da3e-d57f-4bbe-ac74-faf358ba962a"
     }
   ]
 }
