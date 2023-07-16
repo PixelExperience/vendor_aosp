@@ -89,6 +89,23 @@ camera_needs_client_info_lib {
 }
 
 soong_config_module_type {
+    name: "camera_needs_64_bit_usage_flags",
+    module_type: "cc_defaults",
+    config_namespace: "customGlobalVars",
+    bool_variables: ["camera_needs_64_bit_usage_flags"],
+    properties: ["cppflags"],
+}
+
+camera_needs_64_bit_usage_flags {
+    name: "camera_needs_64_bit_usage_flags_defaults",
+    soong_config_variables: {
+        camera_needs_64_bit_usage_flags: {
+            cppflags: ["-DCAMERA_NEEDS_64_BIT_USAGE_FLAGS"],
+        },
+    },
+}
+
+soong_config_module_type {
     name: "aapt_version_code",
     module_type: "java_defaults",
     config_namespace: "lineageGlobalVars",
