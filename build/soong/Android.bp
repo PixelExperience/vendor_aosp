@@ -491,3 +491,19 @@ needs_oplus_tag {
         },
     },
 }
+
+soong_config_module_type {
+    name: "uses_miui_camera",
+    module_type: "cc_defaults",
+    config_namespace: "aospaGlobalVars",
+    bool_variables: ["uses_miui_camera"],
+    properties: ["cppflags"],
+}
+uses_miui_camera {
+    name: "uses_miui_camera_defaults",
+    soong_config_variables: {
+        uses_miui_camera: {
+            cppflags: ["-DUSES_MIUI_CAMERA"],
+        },
+    },
+}
