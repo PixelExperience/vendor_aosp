@@ -44,7 +44,8 @@ SOONG_CONFIG_customGlobalVars += \
     target_uses_prebuilt_dynamic_partitions \
     uses_legacy_fd_fbdev \
     uses_egl_display_array \
-    needs_oplus_tag
+    needs_oplus_tag \
+    uses_miui_camera
 
 SOONG_CONFIG_NAMESPACES += customNvidiaVars
 SOONG_CONFIG_customNvidiaVars += \
@@ -76,6 +77,7 @@ SOONG_CONFIG_customQcomVars_supports_extended_compress_format := $(AUDIO_FEATURE
 SOONG_CONFIG_customQcomVars_uses_pre_uplink_features_netmgrd := $(TARGET_USES_PRE_UPLINK_FEATURES_NETMGRD)
 SOONG_CONFIG_customGlobalVars_uses_legacy_fd_fbdev := $(TARGET_USES_LEGACY_FD_FBDEV)
 SOONG_CONFIG_customGlobalVars_gralloc_handle_has_reserved_size := $(TARGET_GRALLOC_HANDLE_HAS_RESERVED_SIZE)
+SOONG_CONFIG_customGlobalVars_uses_miui_camera := $(TARGET_USES_MIUI_CAMERA)
 
 # Set default values
 BOOTLOADER_MESSAGE_OFFSET ?= 0
