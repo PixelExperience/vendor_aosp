@@ -181,9 +181,11 @@ PRODUCT_PACKAGES += \
 	libtextclassifier_actions_suggestions_universal_model \
 	libtextclassifier_lang_id_model
 
-# Apps
+# Camera
+ifneq ($(PRODUCT_NO_CAMERA),true)
 PRODUCT_PACKAGES += \
     Aperture
+endif
 
 # Use gestures by default
 PRODUCT_PRODUCT_PROPERTIES += \
