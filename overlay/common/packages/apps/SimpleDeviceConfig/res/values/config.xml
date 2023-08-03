@@ -40,40 +40,6 @@
             Device Personalization Services (AiAi)
         -->
 
-        <!-- Now Playing (Pixel 2017+) -->
-        <item>device_personalization_services/NowPlaying__ambient_music_apk_music_detector_min_score=0.45</item>
-        <item>device_personalization_services/NowPlaying__ambient_music_index_manifest_17_09_02=3058:https://storage.googleapis.com/music-iq-db/updatable_db_v3/20230709-030046/manifest.json</item>
-        <item>device_personalization_services/NowPlaying__ambient_music_matcher_match_threshold_17_09_02=1.0E-6</item>
-        <item>device_personalization_services/NowPlaying__ambient_music_on_demand_enabled=true</item>
-        <item>device_personalization_services/NowPlaying__ambient_music_on_demand_music_confidence=0.48</item>
-        <item>device_personalization_services/NowPlaying__cloud_api_allowed=true</item>
-        <item>device_personalization_services/NowPlaying__enable_usage_fa=true</item>
-        <item>device_personalization_services/NowPlaying__favorites_enabled=true</item>
-        <item>device_personalization_services/NowPlaying__feature_users_count_enabled=true</item>
-        <item>device_personalization_services/NowPlaying__federated_analytics_allowed=true</item>
-        <item>device_personalization_services/NowPlaying__handle_ambient_music_results_with_history=true</item>
-        <item>device_personalization_services/NowPlaying__min_training_interval_millis=86400000</item>
-        <item>device_personalization_services/NowPlaying__nnfp_v3_model_enabled=true</item>
-        <item>device_personalization_services/NowPlaying__on_demand_enable_eager_prompt=true</item>
-        <item>device_personalization_services/NowPlaying__on_demand_fingerprinter_being_setup_warning=true</item>
-        <item>device_personalization_services/NowPlaying__on_demand_hide_if_fingerprinter_install_not_confirmed=true</item>
-        <item>device_personalization_services/NowPlaying__on_demand_min_supported_aga_version=12.35.17</item>
-        <item>device_personalization_services/NowPlaying__on_demand_retry_fingerprinter_install=true</item>
-        <item>device_personalization_services/NowPlaying__youtube_export_enabled=true</item>
-
-        <!-- Adaptive Sound (Pixel 2020) -->
-        <item>device_personalization_services/AdaptiveAudio__enable_adaptive_audio=true</item>
-        <item>device_personalization_services/AdaptiveAudio__show_promo_notification=false</item>
-        <item>device_personalization_services/AdaptiveAudio__use_silence_detector_state_bug_fix=true</item>
-
-        <!-- Live Caption (Pixel 2017 + OEM) -->
-        <item>device_personalization_services/Captions__enable_augmented_modality=true</item>
-        <item>device_personalization_services/Captions__enable_augmented_modality_input=true</item>
-        <item>device_personalization_services/Captions__enable_augmented_modality_language_detection=true</item>
-        <item>device_personalization_services/Captions__enable_augmented_music=false</item>
-        <item>device_personalization_services/Captions__enable_clearcut_logging=true</item>
-        <item>device_personalization_services/Captions__enable_language_detection=true</item>
-        <item>device_personalization_services/Captions__enable_punctuations=true</item>
         <!-- Smartspace -->
         <item>device_personalization_services/Cell__enable_cell=true</item>
         <item>device_personalization_services/Cell__enable_smartspace_events=true</item>
@@ -147,76 +113,12 @@
         <item>device_personalization_services/Echo_smartspace__smartspace_enable_daily_forecast=true</item>
         <item>device_personalization_services/Echo_smartspace__smartspace_enable_timely_reminder=true</item>
 
-        <!-- Notification Assistant (DPS) -->
-        <item>device_personalization_services/NotificationAssistant__enable_service=true</item>
-        <item>device_personalization_services/NotificationAssistant__enable_upgrade_importance=true</item>
-        <item>device_personalization_services/NotificationAssistant__importance_model_download_url=https://www.gstatic.com/android/notifications/importance/v1/manifest.json</item>
-        <item>device_personalization_services/NotificationAssistant__importance_model_type=channel_stats</item>
-        <item>device_personalization_services/NotificationAssistant__importance_model_version=1</item>
-        <item>device_personalization_services/NotificationAssistant__max_importance_variance=0.5</item>
-
-        <!-- Google Live Translate -->
-        <item>device_personalization_services/Translate__blue_chip_translate_enabled=true</item>
-        <item>device_personalization_services/Translate__copy_to_translate_enabled=true</item>
-        <item>device_personalization_services/Translate__replace_auto_translate_copied_text_enabled=true</item>
-        <item>device_personalization_services/Translate__translation_service_enabled=true</item>
-        <item>device_personalization_services/Translate__enable_chronicle_migration=true</item>
-        <item>device_personalization_services/Translate__use_translate_kit_streaming_api=true</item>
-
-        <!-- Gboard -->
-        <item>device_personalization_services/SmartDictation__enable_alternatives_from_past_corrections=true</item>
-        <item>device_personalization_services/SmartDictation__enable_alternatives_from_speech_hypotheses=true</item>
-        <item>device_personalization_services/SmartDictation__enable_biasing_for_commands=true</item>
-        <item>device_personalization_services/SmartDictation__enable_biasing_for_contact_fields=true</item>
-        <item>device_personalization_services/SmartDictation__enable_biasing_for_contacts=true</item>
-        <item>device_personalization_services/SmartDictation__enable_biasing_for_contacts_learned_from_past_corrections=true</item>
-        <item>device_personalization_services/SmartDictation__enable_biasing_for_interests_model=true</item>
-        <item>device_personalization_services/SmartDictation__enable_biasing_for_past_correction=true</item>
-        <item>device_personalization_services/SmartDictation__enable_biasing_for_past_corrections=true</item>
-        <item>device_personalization_services/SmartDictation__enable_biasing_for_screen_context=true</item>
-        <item>device_personalization_services/SmartDictation__enable_personalized_biasing_on_locked_device=false</item>
-        <item>device_personalization_services/SmartDictation__enable_selection_filtering=true</item>
-        <item>device_personalization_services/SmartDictation__enable_stronger_boost_for_generic_phrases_biasing=false</item>
-        <item>device_personalization_services/SmartRecCompose__enable_aiai_tc_generator=true</item>
-        <item>device_personalization_services/SmartRecCompose__enable_compose_action_filter=true</item>
-        <item>device_personalization_services/SmartRecCompose__enable_compose_tc=true</item>
-        <item>device_personalization_services/SmartRecCompose__enable_deep_clu_model=true</item>
-        <item>device_personalization_services/SmartRecOverviewChips__enable_action_boost_generator=true</item>
-        <item>device_personalization_services/SmartRecOverviewChips__enable_assistant_geller_data_index=false</item>
-        <item>device_personalization_services/SmartRecOverviewChips__enable_matchmaker_generator=true</item>
-        <item>device_personalization_services/SmartRecOverviewChips__enable_reflection_generator=true</item>
-        <item>device_personalization_services/SmartRecOverviewChips__enable_settings_card_generator=true</item>
-        <item>device_personalization_services/SmartRecOverviewChips__enable_smartrec_for_overview_chips=true</item>
-        <item>device_personalization_services/SmartRecOverviewChips__nasa_superpacks_manifest_url=https://www.gstatic.com/nasa/apps/pack_enus_10062022/22100618/2/en-us/superpacks_manifest.zip</item>
-        <item>device_personalization_services/SmartRecOverviewChips__nasa_superpacks_manifest_ver=2022100601</item>
-        <item>device_personalization_services/SmartRecPixelSearch__enable_aiai_tc_generator=true</item>
-        <item>device_personalization_services/SmartRecPixelSearch__enable_all_fallbacks=true</item>
-        <item>device_personalization_services/SmartRecPixelSearch__enable_appaction_generator=true</item>
-        <item>device_personalization_services/SmartRecPixelSearch__enable_assistant_geller_data_index=true</item>
-        <item>device_personalization_services/SmartRecPixelSearch__enable_assistant_generator=true</item>
-        <item>device_personalization_services/SmartRecPixelSearch__enable_assistant_personalized_deeplinks=true</item>
-        <item>device_personalization_services/SmartRecPixelSearch__enable_assistant_vertical_generator=true</item>
-        <item>device_personalization_services/SmartRecPixelSearch__enable_chrometab_generator=true</item>
-        <item>device_personalization_services/SmartRecPixelSearch__enable_corpora_via_search_context=true</item>
-        <item>device_personalization_services/SmartRecPixelSearch__enable_entity_annotation_generator=true</item>
-        <item>device_personalization_services/SmartRecPixelSearch__enable_entity_based_action_generation=true</item>
-        <item>device_personalization_services/SmartRecPixelSearch__enable_feedback_ranking=false</item>
-        <item>device_personalization_services/SmartRecPixelSearch__enable_gboard_suggestion=true</item>
-        <item>device_personalization_services/SmartRecPixelSearch__enable_nasa_for_search=true</item>
-        <item>device_personalization_services/SmartRecPixelSearch__enable_navigational_sites_generator=true</item>
-        <item>device_personalization_services/SmartRecPixelSearch__enable_screenshot_generator=true</item>
-        <item>device_personalization_services/SmartRecPixelSearch__enable_screenshot_thumbnail_cache=true</item>
-        <item>device_personalization_services/SmartRecPixelSearch__enable_search_on_contacts=true</item>
-        <item>device_personalization_services/SmartRecPixelSearch__enable_search_on_files=false</item>
-        <item>device_personalization_services/SmartRecPixelSearch__enable_spelling_correction=true</item>
-        <item>device_personalization_services/SmartRecPixelSearch__spelling_checker_frequency_score_overrides_map={"8":-7}</item>
-
         <!-- Pixel Launcher -->
         <item>launcher/ENABLE_SMARTSPACE_ENHANCED=true</item>
-        <item>launcher/ENABLE_QUICK_LAUNCH_V2=true</item>
-        <item>launcher/GBOARD_UPDATE_ENTER_KEY=true</item>
-        <item>launcher/enable_one_search=true</item>
-        <item>launcher/enable_quick_launch_v2=true</item>
+        <item>launcher/ENABLE_QUICK_LAUNCH_V2=false</item>
+        <item>launcher/GBOARD_UPDATE_ENTER_KEY=false</item>
+        <item>launcher/enable_one_search=false</item>
+        <item>launcher/enable_quick_launch_v2=false</item>
 
         <!-- System Ui -->
         <item>systemui/clipboard_overlay_show_actions=true</item>
@@ -229,6 +131,65 @@
         <!-- Notifications -->
         <item>notification_assistant/generate_actions=true</item>
         <item>notification_assistant/generate_replies=true</item>
+    </string-array>
+    <string-array name="pixel_devices">
+        <item>felix</item>
+        <item>tangorpro</item>
+        <item>lynx</item>
+        <item>cheetah</item>
+        <item>panther</item>
+        <item>bluejay</item>
+        <item>oriole</item>
+        <item>raven</item>
+        <item>barbet</item>
+        <item>redfin</item>
+        <item>bramble</item>
+        <item>sunfish</item>
+        <item>coral</item>
+        <item>flame</item>
+        <item>bonito</item>
+        <item>sargo</item>
+        <item>crosshatch</item>
+        <item>blueline</item>
+        <item>taimen</item>
+        <item>walleye</item>
+        <item>marlin</item>
+        <item>sailfish</item>
+    </string-array>
+    <string-array name="configs_base_pixel">
+        <!-- Now Playing (Pixel 2017+) -->
+        <item>device_personalization_services/NowPlaying__ambient_music_apk_music_detector_min_score=0.45</item>
+        <item>device_personalization_services/NowPlaying__ambient_music_index_manifest_17_09_02=3058:https://storage.googleapis.com/music-iq-db/updatable_db_v3/20230709-030046/manifest.json</item>
+        <item>device_personalization_services/NowPlaying__ambient_music_matcher_match_threshold_17_09_02=1.0E-6</item>
+        <item>device_personalization_services/NowPlaying__ambient_music_on_demand_enabled=true</item>
+        <item>device_personalization_services/NowPlaying__ambient_music_on_demand_music_confidence=0.48</item>
+        <item>device_personalization_services/NowPlaying__cloud_api_allowed=true</item>
+        <item>device_personalization_services/NowPlaying__enable_usage_fa=true</item>
+        <item>device_personalization_services/NowPlaying__favorites_enabled=true</item>
+        <item>device_personalization_services/NowPlaying__feature_users_count_enabled=true</item>
+        <item>device_personalization_services/NowPlaying__federated_analytics_allowed=true</item>
+        <item>device_personalization_services/NowPlaying__handle_ambient_music_results_with_history=true</item>
+        <item>device_personalization_services/NowPlaying__min_training_interval_millis=86400000</item>
+        <item>device_personalization_services/NowPlaying__nnfp_v3_model_enabled=true</item>
+        <item>device_personalization_services/NowPlaying__on_demand_enable_eager_prompt=true</item>
+        <item>device_personalization_services/NowPlaying__on_demand_fingerprinter_being_setup_warning=true</item>
+        <item>device_personalization_services/NowPlaying__on_demand_hide_if_fingerprinter_install_not_confirmed=true</item>
+        <item>device_personalization_services/NowPlaying__on_demand_min_supported_aga_version=12.35.17</item>
+        <item>device_personalization_services/NowPlaying__on_demand_retry_fingerprinter_install=true</item>
+        <item>device_personalization_services/NowPlaying__youtube_export_enabled=true</item>
 
+        <!-- Adaptive Sound (Pixel 2020) -->
+        <item>device_personalization_services/AdaptiveAudio__enable_adaptive_audio=true</item>
+        <item>device_personalization_services/AdaptiveAudio__show_promo_notification=false</item>
+        <item>device_personalization_services/AdaptiveAudio__use_silence_detector_state_bug_fix=true</item>
+
+        <!-- Live Caption (Pixel 2017 + OEM) -->
+        <item>device_personalization_services/Captions__enable_augmented_modality=true</item>
+        <item>device_personalization_services/Captions__enable_augmented_modality_input=true</item>
+        <item>device_personalization_services/Captions__enable_augmented_modality_language_detection=true</item>
+        <item>device_personalization_services/Captions__enable_augmented_music=false</item>
+        <item>device_personalization_services/Captions__enable_clearcut_logging=true</item>
+        <item>device_personalization_services/Captions__enable_language_detection=true</item>
+        <item>device_personalization_services/Captions__enable_punctuations=true</item>
     </string-array>
 </resources>
