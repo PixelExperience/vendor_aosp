@@ -158,9 +158,10 @@
     </string-array>
     <string-array name="configs_base_pixel">
         <!-- Now Playing (Pixel 2017+) -->
-        <item>device_personalization_services/NowPlaying__ambient_music_apk_music_detector_min_score=0.45</item>
-        <item>device_personalization_services/NowPlaying__ambient_music_index_manifest_17_09_02=3058:https://storage.googleapis.com/music-iq-db/updatable_db_v3/20230709-030046/manifest.json</item>
-        <item>device_personalization_services/NowPlaying__ambient_music_matcher_match_threshold_17_09_02=1.0E-6</item>
+        <item>device_personalization_services/NowPlaying__ambient_music_apk_music_detector_min_score=0.2</item>
+        <item>device_personalization_services/NowPlaying__ambient_music_get_model_state_cooldown_seconds_cloud_search=9</item>
+        <item>device_personalization_services/NowPlaying__ambient_music_index_manifest_17_09_02=256:https://storage.googleapis.com/music-iq-db/updatable_ytm_db/20230730-030034/manifest.json</item>
+        <item>device_personalization_services/NowPlaying__ambient_music_matcher_match_threshold_17_09_02=-2.0</item>
         <item>device_personalization_services/NowPlaying__ambient_music_on_demand_enabled=true</item>
         <item>device_personalization_services/NowPlaying__ambient_music_on_demand_music_confidence=0.48</item>
         <item>device_personalization_services/NowPlaying__cloud_api_allowed=true</item>
@@ -170,7 +171,7 @@
         <item>device_personalization_services/NowPlaying__federated_analytics_allowed=true</item>
         <item>device_personalization_services/NowPlaying__handle_ambient_music_results_with_history=true</item>
         <item>device_personalization_services/NowPlaying__min_training_interval_millis=86400000</item>
-        <item>device_personalization_services/NowPlaying__nnfp_v3_model_enabled=true</item>
+        <item>device_personalization_services/NowPlaying__nnfp_v3_model_enabled=false</item>
         <item>device_personalization_services/NowPlaying__on_demand_enable_eager_prompt=true</item>
         <item>device_personalization_services/NowPlaying__on_demand_fingerprinter_being_setup_warning=true</item>
         <item>device_personalization_services/NowPlaying__on_demand_hide_if_fingerprinter_install_not_confirmed=true</item>
