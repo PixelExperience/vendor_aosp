@@ -140,6 +140,9 @@
         <item>notification_assistant/generate_actions=true</item>
         <item>notification_assistant/generate_replies=true</item>
     </string-array>
+    <string-array name="reset_namespaces">
+        <item>device_personalization_services</item>
+    </string-array>
     <string-array name="pixel_devices">
         <item>felix</item>
         <item>tangorpro</item>
