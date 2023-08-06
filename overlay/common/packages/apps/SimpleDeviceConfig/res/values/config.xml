@@ -171,7 +171,7 @@
     <string-array name="configs_base_pixel">
         <!-- Now Playing (Pixel 2017+) -->
         <item>device_personalization_services/NowPlaying__ambient_music_apk_music_detector_min_score=0.45</item>
-        <item>device_personalization_services/NowPlaying__ambient_music_index_manifest_17_09_02=3058:https://storage.googleapis.com/music-iq-db/updatable_db_v3/20230709-030046/manifest.json</item>
+        <item>device_personalization_services/NowPlaying__ambient_music_index_manifest_17_09_02=3060:https://storage.googleapis.com/music-iq-db/updatable_ytm_db/20230730-030034/manifest.json</item>
         <item>device_personalization_services/NowPlaying__ambient_music_matcher_match_threshold_17_09_02=1.0E-6</item>
         <item>device_personalization_services/NowPlaying__ambient_music_on_demand_enabled=true</item>
         <item>device_personalization_services/NowPlaying__ambient_music_on_demand_music_confidence=0.48</item>
