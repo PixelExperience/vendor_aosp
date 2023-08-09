@@ -83,4 +83,41 @@
 
     <!-- Default value for performant auth feature. -->
     <bool name="config_performantAuthDefault">true</bool>
+
+    <!-- Define device configs on boot -->
+    <string-array name="global_device_configs_override">
+ 
+        <!-- Machine learning back gesture (requires TensorFlow model) -->
+        <item>systemui/use_back_gesture_ml_model=true</item>
+        <item>systemui/back_gesture_ml_model_name=backgesture</item>
+        <item>systemui/back_gesture_ml_model_threshold=0.8</item>
+
+        <!-- Don't pin camera app to save memory -->
+        <item>runtime_native_boot/pin_camera=false</item>
+
+        <!-- Keep up to 7 days of permission usage history -->
+        <item>privacy/discrete_history_cutoff_millis=604800000</item>
+        <item>privacy/privacy_dashboard_7_day_toggle=true</item>
+
+        <!-- Enable protected by android banner -->
+        <item>privacy/safety_protection_enabled=true</item>
+
+        <!-- Globally enable the new photo picker -->
+        <item>storage_native_boot/take_over_get_content=true</item>
+
+        <!-- Pixel Launcher -->
+        <item>launcher/ENABLE_SMARTSPACE_ENHANCED=true</item>
+
+        <!-- System Ui -->
+        <item>systemui/clipboard_overlay_show_actions=true</item>
+        <item>systemui/quick_access_wallet_enabled=true</item>
+        <item>systemui/enable_screenshot_corner_flow=true</item>
+        <item>systemui/enable_screenshot_notification_smart_actions=true</item>
+        <item>systemui/enable_screenshot_scrolling=true</item>
+        <item>systemui/volume_separate_notification=true</item>
+
+        <!-- Notifications -->
+        <item>notification_assistant/generate_actions=true</item>
+        <item>notification_assistant/generate_replies=true</item>
+    </string-array>
 </resources>
