@@ -97,8 +97,8 @@ PRODUCT_PACKAGES += \
     mount.ntfs
 
 # Config
-PRODUCT_PACKAGES += \
-    SimpleDeviceConfig
+#PRODUCT_PACKAGES += \
+#    SimpleDeviceConfig
 
 # Storage manager
 PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
