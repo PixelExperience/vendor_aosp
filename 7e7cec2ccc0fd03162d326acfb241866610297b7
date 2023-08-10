@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "4c0f4eb5_c2dd7e09",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000003
+      },
+      "writtenOn": "2023-08-10T20:46:19Z",
+      "side": 1,
+      "message": "Seems not ready for production usage yet, lot of translations errors by Google side\n\nhttps://i.imgur.com/S8V2lua.png",
+      "revId": "7e7cec2ccc0fd03162d326acfb241866610297b7",
+      "serverId": "8ba0da3e-d57f-4bbe-ac74-faf358ba962a"
+    }
+  ]
+}
