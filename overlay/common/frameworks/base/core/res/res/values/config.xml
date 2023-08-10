@@ -115,5 +115,8 @@
         <!-- Notifications -->
         <item>notification_assistant/generate_actions=true</item>
         <item>notification_assistant/generate_replies=true</item>
+
+        <!-- Enable safety center -->
+        <item>privacy/safety_center_is_enabled=true</item>
     </string-array>
 </resources>
