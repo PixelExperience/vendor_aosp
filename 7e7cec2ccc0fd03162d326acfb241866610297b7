@@ -16,6 +16,24 @@
       "message": "Seems not ready for production usage yet, lot of translations errors by Google side\n\nhttps://i.imgur.com/S8V2lua.png",
       "revId": "7e7cec2ccc0fd03162d326acfb241866610297b7",
       "serverId": "8ba0da3e-d57f-4bbe-ac74-faf358ba962a"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "822ea7ae_7e463eb8",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000678
+      },
+      "writtenOn": "2023-09-08T15:05:48Z",
+      "side": 1,
+      "message": "Yep, this is only suitable for Google\u0027s PermissionController APEX",
+      "parentUuid": "4c0f4eb5_c2dd7e09",
+      "revId": "7e7cec2ccc0fd03162d326acfb241866610297b7",
+      "serverId": "8ba0da3e-d57f-4bbe-ac74-faf358ba962a"
     }
   ]
 }
