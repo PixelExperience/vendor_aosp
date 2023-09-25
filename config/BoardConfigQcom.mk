@@ -248,3 +248,6 @@ endif
 ifneq ($(USE_DEVICE_SPECIFIC_FM),true)
     PRODUCT_SOONG_NAMESPACES += vendor/qcom/opensource/fm-commonsys
 endif
+
+# Add wlan to PRODUCT_SOONG_NAMESPACES
+PRODUCT_SOONG_NAMESPACES += hardware/qcom-caf/wlan
