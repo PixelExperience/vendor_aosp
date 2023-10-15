@@ -197,13 +197,13 @@ PRODUCT_PACKAGES += \
     NexusLauncherResOverlay
 
 # Audio
-#$(call inherit-product, vendor/aosp/config/audio.mk)
+$(call inherit-product, vendor/aosp/config/audio.mk)
 
 # Bootanimation
 $(call inherit-product, vendor/aosp/config/bootanimation.mk)
 
 # Fonts
-#$(call inherit-product, vendor/aosp/config/fonts.mk)
+$(call inherit-product, vendor/aosp/config/fonts.mk)
 
 # GMS
 #$(call inherit-product, vendor/gms/products/gms.mk)
