@@ -18,7 +18,7 @@
     <string name="config_defaultDndAccessPackages">com.google.android.GoogleCamera:com.google.android.gms:com.google.intelligence.sense:com.google.android.settings.intelligence:com.google.android.apps.wellbeing:com.google.android.apps.safetyhub:com.google.android.dialer:com.google.android.apps.diagnosticstool</string>
     <string name="config_defaultFieldClassificationService">com.google.android.as/com.google.android.apps.miphone.aiai.app.AutofillFieldClassificationService</string>
     <string name="config_defaultListenerAccessPackages">com.google.android.apps.nexuslauncher:com.google.android.setupwizard:com.google.android.apps.pixelmigrate:com.google.android.as:com.google.android.projection.gearhead:com.google.pixel.exo</string>
-    <string name="config_defaultModuleMetadataProvider">com.google.android.modulemetadata</string>
+    <!--string name="config_defaultModuleMetadataProvider">com.google.android.modulemetadata</string-->
     <string name="config_defaultMusicRecognitionService">com.google.android.googlequicksearchbox/com.google.android.apps.search.soundsearch.service.SoundSearchService</string>
     <string name="config_defaultOnDeviceSpeechRecognitionService">com.google.android.as/com.google.android.apps.miphone.aiai.app.AiAiSpeechRecognitionService</string>
     <string name="config_defaultProfcollectReportUploaderAction">com.google.android.apps.betterbug.intent.action.UPLOAD_PROFILE</string>
@@ -42,7 +42,7 @@
     <string name="config_helpPackageNameKey">genie-eng:app_pkg_name</string>
     <string name="config_helpPackageNameValue">com.google.android.settings.gphone</string>
     <string name="config_icon_mask">M50 0C77.6 0 100 22.4 100 50C100 77.6 77.6 100 50 100C22.4 100 0 77.6 0 50C0 22.4 22.4 0 50 0Z</string>
-    <string name="config_incidentReportApproverPackage">com.google.android.permissioncontroller</string>
+    <!--string name="config_incidentReportApproverPackage">com.google.android.permissioncontroller</string-->
     <string name="config_powerSaveModeChangedListenerPackage">com.google.android.flipendo</string>
     <string name="config_recentsComponentName">com.google.android.apps.nexuslauncher/com.android.quickstep.RecentsActivity</string>
     <string name="config_retailDemoPackage">com.google.android.retaildemo</string>

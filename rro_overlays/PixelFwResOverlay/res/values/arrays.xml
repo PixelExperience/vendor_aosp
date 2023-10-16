@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string-array name="config_defaultFirstUserRestrictions">
+    <!--string-array name="config_defaultFirstUserRestrictions">
         <item>no_oem_unlock</item>
-    </string-array>
+    </string-array-->
     <string-array name="config_keep_warming_services">
         <item>com.google.android.GoogleCamera/com.google.android.apps.camera.prewarm.NoOpPrewarmService</item>
     </string-array>
@@ -13,7 +13,7 @@
         <item>com.google.android.gms</item>
         <item>com.android.location.fused</item>
     </string-array>
-    <string-array name="config_nightDisplayColorTemperatureCoefficients">
+    <!--string-array name="config_nightDisplayColorTemperatureCoefficients">
         <item>0.0</item>
         <item>0.0</item>
         <item>1.0</item>
@@ -65,5 +65,5 @@
     </string-array>
     <integer-array name="non_removable_euicc_slots">
         <item>0</item>
-    </integer-array>
+    </integer-array-->
 </resources>

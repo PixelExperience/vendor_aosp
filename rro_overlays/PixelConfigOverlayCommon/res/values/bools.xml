@@ -3,7 +3,7 @@
     <bool name="config_bugReportHandlerEnabled">true</bool>
     <bool name="config_buttonTextAllCaps">false</bool>
     <bool name="config_defaultRingtonePickerEnabled">false</bool>
-    <bool name="config_fingerprintSupportsGestures">true</bool>
+    <!--bool name="config_fingerprintSupportsGestures">true</bool-->
     <bool name="config_lockscreenWeatherEnabledByDefault">true</bool>
     <bool name="config_profcollectReportUploaderEnabled">true</bool>
     <bool name="config_safetyProtectionEnabled">true</bool>
@@ -15,5 +15,5 @@
     <bool name="config_swipe_up_gesture_setting_available">true</bool>
     <bool name="config_systemCaptionsServiceCallsEnabled">true</bool>
     <bool name="config_useRoundIcon">true</bool>
-    <bool name="config_volumeAdjustmentForRemoteGroupSessions">false</bool>
+    <!--bool name="config_volumeAdjustmentForRemoteGroupSessions">false</bool-->
 </resources>
