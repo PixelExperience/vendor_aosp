@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="battery_saver_description_with_learn_more">"Funkcija varčevanja z energijo baterije podaljša čas delovanja baterije tako:
+
+• vklopi temno temo;
+• izklopi ali omeji dejavnost v ozadju, nekatere vizualne učinke in druge funkcije, kot je »Hey Google«;
+• optimizira omrežne povezave.
+
+"<annotation id="url">Več o tem</annotation></string>
+</resources>

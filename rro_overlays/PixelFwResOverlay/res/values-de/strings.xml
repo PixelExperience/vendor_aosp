@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="battery_saver_description_with_learn_more">"Der Stromsparmodus sorgt für eine längere Akkulaufzeit:
+
+• Das dunkle Design wird aktiviert
+• Hintergrundaktivitäten, einige optische Effekte und weitere Funktionen wie „Hey Google“ werden abgeschaltet oder eingeschränkt
+• Deine Netzwerkverbindungen werden optimiert
+
+"<annotation id="url">Weitere Informationen</annotation></string>
+</resources>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="battery_saver_description_with_learn_more">"Pour prolonger l'autonomie de la batterie, l'économiseur de batterie :
+
+• active le thème sombre ;
+• désactive ou restreint les activités en arrière-plan, certains effets visuels et d'autres fonctionnalités, comme \"Hey Google\" ;
+• optimise vos connexions réseau.
+
+"<annotation id="url">En savoir plus</annotation></string>
+</resources>

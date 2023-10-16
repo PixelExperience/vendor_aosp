@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="battery_saver_description_with_learn_more">"බැටරියේ ජීව කාලය දික් කිරීමට, බැටරි සුරැකුම:
+
+• අඳුරු තේමාව ක්‍රියාත්මක කරයි
+• පසුබිම් ක්‍රියාකාරකම්, සමහර දෘශ්‍ය ප්‍රයෝග සහ “Hey Google” වැනි වෙනත් විශේෂාංග ක්‍රියාවිරහිත කරයි නැතහොත් අවහිර කරයි
+• ඔබගේ ජාල සබැඳුම් ප්‍රශස්ත කරයි
+
+"<annotation id="url">තව දැන ගන්න</annotation></string>
+</resources>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="config_qualified_networks_service_package">[çöḿ.åñðŕöîð.Qñš one two three]</string>
+    <string name="fingerprint_error_bad_calibration">[Çåñ’ţ ûšé ƒîñĝéŕþŕîñţ šéñšöŕ. νîšîţ å ŕéþåîŕ þŕöVîðéŕ öŕ ĝ.çö/þîхéļ/ƒîñĝéŕþŕîñţûñļöçķ one two three four five six seven eight nine]</string>
+    <string name="fingerprint_recalibrate_notification_content">[νîšîţ å ŕéþåîŕ þŕöVîðéŕ öŕ ĝ.çö/þîхéļ/ƒîñĝéŕþŕîñţûñļöçķ one two three four five six seven]</string>
+</resources>

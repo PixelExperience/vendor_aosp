@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-    <string name="display_white_balance_summary">Juster automatisk skærmen på baggrund af omgivende lys</string>
-    <string name="display_white_balance_title">Automatisk billedjustering</string>
-</resources>

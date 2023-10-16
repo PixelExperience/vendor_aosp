@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="error_color_device_default_dark">#ec928e</color>
-    <color name="error_color_device_default_light">#b3261e</color>
-    <color name="system_error">#ea4335</color>
-    <color name="user_icon_1">@*android:color/car_body1_dark</color>
+    <color name="error_color_device_default_dark">#ffec928e</color>
+    <color name="error_color_device_default_light">#ffb3261e</color>
+    <color name="system_error">#ffea4335</color>
+    <color name="user_icon_1">@*android:color/accent_device_default_light</color>
 </resources>

@@ -8,5 +8,5 @@
     <string name="face_recalibrate_notification_name">Gesigslot</string>
     <string name="face_recalibrate_notification_title">Skryf jou gesig asseblief weer in</string>
     <string name="harmful_app_warning_title">Play Beskerming-waarskuwing</string>
-    <string name="safety_protection_display_text">&lt;font face=\"google-sans\"&gt;Beskerm deur &lt;/font&gt;&lt;font face=\"google-sans-medium\"&gt;Android&lt;/font&gt;</string>
+    <string name="safety_protection_display_text">&lt;font face=\"google-sans\">Beskerm deur &lt;/font>&lt;font face=\"google-sans-medium\">Android&lt;/font></string>
 </resources>

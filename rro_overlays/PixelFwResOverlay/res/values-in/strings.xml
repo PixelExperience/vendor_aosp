@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="battery_saver_description_with_learn_more">"Untuk memperpanjang masa pakai baterai, Penghemat Baterai akan:
+
+• Mengaktifkan Tema gelap
+• Menonaktifkan atau membatasi aktivitas latar belakang, beberapa efek visual, dan fitur lainnya seperti “Ok Google”
+• Mengoptimalkan koneksi jaringan
+
+"<annotation id="url">Pelajari lebih lanjut</annotation></string>
+</resources>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="battery_saver_description_with_learn_more">"За да го продолжи траењето на батеријата, „Штедачот на батерија“:
+
+• вклучува темна тема
+• исклучува или ограничува активност во заднина, некои визуелни ефекти и други функции како „Ok Google“
+• ги оптимизира мрежните врски
+
+"<annotation id="url">Дознајте повеќе</annotation></string>
+</resources>

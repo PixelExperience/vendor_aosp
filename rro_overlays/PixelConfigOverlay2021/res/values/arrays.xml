@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="config_forceSlowJpegModeList">
+        <item>com.facebook.orca</item>
+        <item>com.skype.raider</item>
+    </string-array>
+</resources>

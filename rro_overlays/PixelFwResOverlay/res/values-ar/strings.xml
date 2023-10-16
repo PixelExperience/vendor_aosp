@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="battery_saver_description_with_learn_more">"‏لإطالة عمر البطارية، تعمل ميزة \"توفير شحن البطارية\" على:
+•·
+تفعيل \"المظهر الداكن\"
+• إيقاف أو حظر النشاط في الخلفية وبعض التأثيرات المرئية والميزات الأخرى، مثل \"Ok Google\"
+• تحسين الاتصالات بالشبكة
+
+"<annotation id="url">مزيد من المعلومات</annotation></string>
+</resources>

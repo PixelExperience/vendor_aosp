@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="battery_saver_description_with_learn_more">"Батарейн ажиллах хугацааг уртасгахын тулд Батарей хэмнэгч:
+
+• Бараан загварыг асаана
+• Арын үйл ажиллагаа, зарим визуал эффект болон “Hey Google” зэрэг бусад онцлогийг унтрааж эсвэл хязгаарлана
+• Таны сүлжээний холболтыг оновчилно
+
+"<annotation id="url">Нэмэлт мэдээлэл авах</annotation></string>
+</resources>

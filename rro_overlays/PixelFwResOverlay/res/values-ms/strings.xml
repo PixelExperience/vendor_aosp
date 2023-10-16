@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="battery_saver_description_with_learn_more">"Untuk melanjutkan hayat bateri, Penjimat Bateri:
+
+• Menghidupkan Tema gelap
+• Mematikan atau mengehadkan aktiviti latar, sesetengah kesan visual dan ciri lain seperti “Ok Google”
+• Mengoptimumkan sambungan rangkaian anda
+
+"<annotation id="url">Ketahui lebih lanjut</annotation></string>
+</resources>

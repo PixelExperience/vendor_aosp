@@ -8,5 +8,5 @@
     <string name="face_recalibrate_notification_name">မျက်နှာပြ လော့ခ်ဖွင့်ခြင်း</string>
     <string name="face_recalibrate_notification_title">သင့်မျက်နှာကို ပြန်လည်စာရင်းသွင်းပါ</string>
     <string name="harmful_app_warning_title">Play Protect သတိပေးချက်</string>
-    <string name="safety_protection_display_text">&lt;font face=\"google-sans-medium\"&gt;Androidin&lt;/font&gt;&lt;font face=\"google-sans\"&gt; က ကာကွယ်ထားသည်&lt;/font&gt;</string>
+    <string name="safety_protection_display_text">&lt;font face=\"google-sans-medium\">Androidin&lt;/font>&lt;font face=\"google-sans\"> က ကာကွယ်ထားသည်&lt;/font></string>
 </resources>

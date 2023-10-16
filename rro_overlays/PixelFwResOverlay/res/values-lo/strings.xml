@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="battery_saver_description_with_learn_more">"ເພື່ອຍືດອາຍຸແບັດເຕີຣີ, ຕົວປະຢັດແບັດເຕີຣີຈະ:
+
+• ເປີດໃຊ້ຮູບແບບສີສັນມືດ
+• ປິດ ຫຼື ຈຳກັດການເຄື່ອນໄຫວໃນພື້ນຫຼັງ, ເອັບເຟັກດ້ານພາບບາງຢ່າງ ແລະ ຄຸນສົມບັດອື່ນໆ ເຊັ່ນ “Hey Google”
+• ປັບແຕ່ງການເຊື່ອມຕໍ່ເຄືອຂ່າຍຂອງທ່ານ
+
+"<annotation id="url">ສຶກສາເພີ່ມເຕີມ</annotation></string>
+</resources>

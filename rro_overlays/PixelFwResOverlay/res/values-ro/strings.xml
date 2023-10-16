@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="battery_saver_description_with_learn_more">"Pentru a mări autonomia bateriei, Economisirea bateriei:
+
+•·activează tema întunecată;
+•·dezactivează sau restricționează activitatea în fundal, unele efecte vizuale și alte funcții, cum ar fi „Ok Google”;
+• optimizează conexiunile la rețea
+
+"<annotation id="url">Aflați mai multe</annotation></string>
+</resources>

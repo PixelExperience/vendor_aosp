@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="config_qualified_networks_service_package">‏‮com.android.qns‬‏</string>
+    <string name="fingerprint_error_bad_calibration">‏‮Can’t‬‏ ‏‮use‬‏ ‏‮fingerprint‬‏ ‏‮sensor.‬‏ ‏‮Visit‬‏ ‏‮a‬‏ ‏‮repair‬‏ ‏‮provider‬‏ ‏‮or‬‏ ‏‮g.co/pixel/fingerprintunlock‬‏</string>
+    <string name="fingerprint_recalibrate_notification_content">‏‮Visit‬‏ ‏‮a‬‏ ‏‮repair‬‏ ‏‮provider‬‏ ‏‮or‬‏ ‏‮g.co/pixel/fingerprintunlock‬‏</string>
+</resources>

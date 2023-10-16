@@ -5,8 +5,8 @@
     <string name="biometric_or_screen_lock_app_setting_name">ប្រើ​មុខ ស្នាមម្រាមដៃ ឬ​ការចាក់សោ​អេក្រង់</string>
     <string name="biometric_or_screen_lock_dialog_default_subtitle">ប្រើ​មុខ ស្នាមម្រាមដៃ ឬ​ការចាក់សោ​អេក្រង់​របស់អ្នក ដើម្បីបន្ត</string>
     <string name="face_recalibrate_notification_content">ការដោះសោ​តាមទម្រង់មុខ​អាចនឹង​មិនដំណើរការទេ រហូតទាល់តែអ្នក​ស្កេន​បញ្ចូល​មុខ​ម្ដងទៀត</string>
-    <string name="face_recalibrate_notification_name">ដោះសោ​តាមទម្រង់មុខ</string>
+    <string name="face_recalibrate_notification_name">ការដោះ​សោ​ដោយស្កេន​មុខ</string>
     <string name="face_recalibrate_notification_title">សូមស្កេន​បញ្ចូល​មុខរបស់អ្នក​ម្ដងទៀត</string>
     <string name="harmful_app_warning_title">ការ​ព្រមានពី Play Protect</string>
-    <string name="safety_protection_display_text">&lt;font face=\"google-sans\"&gt;ការពារដោយ &lt;/font&gt;&lt;font face=\"google-sans-medium\"&gt;Android&lt;/font&gt;</string>
+    <string name="safety_protection_display_text">&lt;font face=\"google-sans\">ការពារដោយ &lt;/font>&lt;font face=\"google-sans-medium\">Android&lt;/font></string>
 </resources>

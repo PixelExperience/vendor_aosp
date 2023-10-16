@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <array name="config_mobile_tcp_buffers">
+    <string-array name="config_mobile_tcp_buffers">
         <item>umts:21135,131070,1056768,6144,24576,165312</item>
         <item>hspa:18300,131070,1056768,6144,24576,393216</item>
         <item>hsdpa:18300,131070,1056768,6144,24576,393216</item>
@@ -12,5 +12,5 @@
         <item>lte_ca:2097152,4194304,8388608,32768,131072,1048576</item>
         <item>nr:2097152,6291456,16777216,32768,131072,8388608</item>
         <item>nr_sa:2097152,6291456,16777216,32768,131072,8388608</item>
-    </array>
+    </string-array>
 </resources>

@@ -8,5 +8,5 @@
     <string name="face_recalibrate_notification_name">Andlitskenni</string>
     <string name="face_recalibrate_notification_title">Skráðu andlit þitt aftur</string>
     <string name="harmful_app_warning_title">Viðvörun frá Play Protect</string>
-    <string name="safety_protection_display_text">&lt;font face=\"google-sans\"&gt;Verndað af &lt;/font&gt;&lt;font face=\"google-sans-medium\"&gt;Android&lt;/font&gt;</string>
+    <string name="safety_protection_display_text">&lt;font face=\"google-sans\">Verndað af &lt;/font>&lt;font face=\"google-sans-medium\">Android&lt;/font></string>
 </resources>

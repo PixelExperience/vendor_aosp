@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <array name="config_countries_to_enable_shortcut_view">
+    <string-array name="config_countries_to_enable_shortcut_view">
         <item>ca</item>
         <item>us</item>
         <item>de</item>
@@ -44,17 +44,17 @@
         <item>uy</item>
         <item>vn</item>
         <item>za</item>
-    </array>
-    <array name="enabled_networks_except_gsm_values">
+    </string-array>
+    <string-array name="enabled_networks_except_gsm_values">
         <item>10</item>
         <item>0</item>
-    </array>
-    <array name="enabled_networks_values">
+    </string-array>
+    <string-array name="enabled_networks_values">
         <item>10</item>
         <item>0</item>
         <item>1</item>
-    </array>
-    <array name="thermal_mitigation_allowlisted_packages">
+    </string-array>
+    <string-array name="thermal_mitigation_allowlisted_packages">
         <item>com.google.android.connectivitythermalpowermanager</item>
-    </array>
+    </string-array>
 </resources>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="battery_saver_description_with_learn_more">"Batareyanın ömrünü artırmaq üçün Enerjiyə Qənaət funksiyası:
+
+• Qaranlıq temanı aktiv edir
+• Arxa fondakı fəaliyyəti, bəzi vizual effektləri və “Hey Google” kimi digər funksiyaları deaktiv edir və ya məhdudlaşdırır
+• Şəbəkə bağlantılarınızı optimallaşdırır
+
+"<annotation id="url">Ətraflı məlumat</annotation></string>
+</resources>

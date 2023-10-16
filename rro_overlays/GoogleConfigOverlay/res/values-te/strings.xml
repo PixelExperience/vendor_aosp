@@ -7,6 +7,6 @@
     <string name="face_recalibrate_notification_content">మీరు తిరిగి ఎన్‌రోల్ చేసే దాకా ఫేస్ అన్‌లాక్ పని చేయకపోవచ్చు</string>
     <string name="face_recalibrate_notification_name">ఫేస్ అన్‌లాక్</string>
     <string name="face_recalibrate_notification_title">దయచేసి మీ ముఖాన్ని మళ్లీ నమోదు చేయండి</string>
-    <string name="harmful_app_warning_title">Play రక్షణ హెచ్చరిక</string>
-    <string name="safety_protection_display_text">&lt;font face=\"google-sans-medium\"&gt;Android&lt;/font&gt; &lt;font face=\"google-sans\"&gt;ద్వారా సంరక్షించబడుతోంది &lt;/font&gt;</string>
+    <string name="harmful_app_warning_title">Play Protect హెచ్చరిక</string>
+    <string name="safety_protection_display_text">&lt;font face=\"google-sans-medium\">Android&lt;/font> &lt;font face=\"google-sans\">ద్వారా సంరక్షించబడుతోంది &lt;/font></string>
 </resources>

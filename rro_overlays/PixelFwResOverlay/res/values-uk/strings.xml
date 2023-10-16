@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="battery_saver_description_with_learn_more">"Щоб подовжити час роботи акумулятора, режим енергозбереження:
+
+• вмикає темну тему;
+• припиняє або обмежує фонову активність, вимикає деякі візуальні ефекти та інші енергозатратні функції, зокрема команду \"Ok Google\";
+• оптимізує з'єднання з мережею.
+
+"<annotation id="url">Докладніше</annotation></string>
+</resources>

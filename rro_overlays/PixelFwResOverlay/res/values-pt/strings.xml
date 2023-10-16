@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="battery_saver_description_with_learn_more">"Para prolongar a duração da carga, a Economia de bateria:
+
+• ativa o tema escuro;
+• desativa ou restringe atividades em segundo plano, alguns efeitos visuais e outros recursos, como o \"Ok Google\";
+• otimiza suas conexões de rede.
+
+"<annotation id="url">Saiba mais</annotation></string>
+</resources>

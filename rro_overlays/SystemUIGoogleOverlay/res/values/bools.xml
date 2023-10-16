@@ -3,7 +3,11 @@
     <bool name="config_hspa_data_distinguishable">true</bool>
     <bool name="config_nfc_conflict_with_usb_audio">true</bool>
     <bool name="config_nfc_conflict_with_wlc">true</bool>
+    <bool name="config_screen_protector_notification_enabled">true</bool>
+    <bool name="config_touch_context_enabled">true</bool>
     <!--bool name="config_vibrateOnIconAnimation">true</bool-->
+    <!--bool name="config_wlc_support_enabled">true</bool-->
+    <bool name="are_flags_overrideable">true</bool>
     <bool name="flag_charging_ripple">true</bool>
     <bool name="flag_conversations">true</bool>
 </resources>

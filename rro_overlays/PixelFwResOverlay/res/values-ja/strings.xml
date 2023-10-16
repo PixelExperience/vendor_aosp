@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="battery_saver_description_with_learn_more">"電池を長持ちさせるためにバッテリー セーバーが行う操作:
+
+• ダークテーマを ON にする
+• バックグラウンド アクティビティ、一部の視覚効果や、「OK Google」などの機能を OFF にする、または制限する
+• ネットワーク接続を最適化する
+
+"<annotation id="url">詳細</annotation></string>
+</resources>

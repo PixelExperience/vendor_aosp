@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="battery_saver_description_with_learn_more">"Para aumentar a duración da batería, a función Aforro de batería fai o seguinte:
+
+• Activa o tema escuro.
+• Desactiva ou restrinxe a actividade en segundo plano, algúns efectos visuais e outras funcións, como \"Hey Google\".
+• Optimiza as conexións de rede.
+
+"<annotation id="url">Máis información</annotation></string>
+</resources>

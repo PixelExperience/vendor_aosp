@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="battery_saver_description_with_learn_more">"Batterybespaarder doen die volgende om die batterylewe te verleng:
+
+• Skakel Donkertema aan
+• Skakel agtergrondaktiwiteit, sommige visuele effekte en ander kenmerke, soos “Ok Google”, af of beperk hulle
+• Optimeer jou netwerkverbindings
+
+"<annotation id="url">Kom meer te wete</annotation></string>
+</resources>

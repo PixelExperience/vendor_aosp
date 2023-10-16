@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-    <string name="display_white_balance_summary">Ajusta dinàmicament la pantalla segons els nivells de llum de l\'entorn</string>
-    <string name="display_white_balance_title">Ambient EQ</string>
-</resources>

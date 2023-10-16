@@ -5,8 +5,8 @@
     <string name="biometric_or_screen_lock_app_setting_name">Erabili aurpegia, hatz-marka edo pantailaren blokeoa</string>
     <string name="biometric_or_screen_lock_dialog_default_subtitle">Aurrera egiteko, erabili aurpegia, hatz-marka edo pantailaren blokeoa</string>
     <string name="face_recalibrate_notification_content">Baliteke aurpegi bidez desblokeatzeko eginbideak ez funtzionatzea berriro erregistratu arte</string>
-    <string name="face_recalibrate_notification_name">Aurpegi bidez desblokeatzeko eginbidea</string>
+    <string name="face_recalibrate_notification_name">Aurpegi bidez desblokeatzea</string>
     <string name="face_recalibrate_notification_title">Erregistratu berriro aurpegia</string>
     <string name="harmful_app_warning_title">Play Protect-en abisua</string>
-    <string name="safety_protection_display_text">&lt;font face=\"google-sans-medium\"&gt;Android&lt;/font&gt;&lt;font face=\"google-sans\"&gt; bidez babestua&lt;/font&gt;</string>
+    <string name="safety_protection_display_text">&lt;font face=\"google-sans-medium\">Android&lt;/font>&lt;font face=\"google-sans\"> bidez babestua&lt;/font></string>
 </resources>

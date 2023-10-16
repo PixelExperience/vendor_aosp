@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="battery_saver_description_with_learn_more">"為延長電池壽命，「省電模式」會：
+
+• 開啟深色主題背景
+• 關閉或限制背景活動、某些視覺效果和其他功能 (例如「Hey Google」)
+• 優化網絡連線
+
+"<annotation id="url">瞭解詳情</annotation></string>
+</resources>

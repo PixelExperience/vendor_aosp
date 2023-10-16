@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <bool name="show_notification_if_connected_to_companion_devices">true</bool>
+</resources>

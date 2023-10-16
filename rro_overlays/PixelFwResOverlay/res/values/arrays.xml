@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!--array name="config_defaultFirstUserRestrictions">
+    <string-array name="config_defaultFirstUserRestrictions">
         <item>no_oem_unlock</item>
-    </array-->
-    <array name="config_keep_warming_services">
+    </string-array>
+    <string-array name="config_keep_warming_services">
         <item>com.google.android.GoogleCamera/com.google.android.apps.camera.prewarm.NoOpPrewarmService</item>
-    </array>
-    <array name="config_locationExtraPackageNames">
+    </string-array>
+    <string-array name="config_locationExtraPackageNames">
         <item>com.google.android.gms.location.history</item>
-    </array>
-    <array name="config_locationProviderPackageNames">
+    </string-array>
+    <string-array name="config_locationProviderPackageNames">
         <item>com.google.android.gms</item>
         <item>com.android.location.fused</item>
-    </array>
-    <!--array name="config_nightDisplayColorTemperatureCoefficients">
+    </string-array>
+    <string-array name="config_nightDisplayColorTemperatureCoefficients">
         <item>0.0</item>
         <item>0.0</item>
         <item>1.0</item>
@@ -23,8 +23,47 @@
         <item>-0.000000000910931179</item>
         <item>0.000207598323269139</item>
         <item>-0.349361641294833436</item>
-    </array>
-    <array name="non_removable_euicc_slots">
-        <item>1</item>
-    </array-->
+    </string-array>
+    <string-array name="config_udfps_enroll_stage_thresholds">
+        <item>0.065</item>
+        <item>0.48</item>
+        <item>0.584</item>
+        <item>0.792</item>
+    </string-array>
+    <string-array name="fingerprint_acquired_vendor">
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item>Move your finger. Try again.</item>
+        <item>Finger already enrolled use a different finger.</item>
+        <item>Poor image quality. Try again.</item>
+        <item></item>
+        <item>Poor image quality. Try again.</item>
+        <item></item>
+        <item></item>
+        <item>Smudge detected, clean screen. Try again.</item>
+        <item>Failure to read image. Try again.</item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item>Re-enroll required</item>
+    </string-array>
+    <string-array name="fingerprint_error_vendor">
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item>Bad data. Try again.</item>
+        <item>Failed to enroll finger. Try again.</item>
+    </string-array>
+    <integer-array name="non_removable_euicc_slots">
+        <item>0</item>
+    </integer-array>
 </resources>

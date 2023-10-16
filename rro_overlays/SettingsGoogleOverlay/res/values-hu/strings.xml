@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-    <string name="display_white_balance_summary">Dinamikusan korrigálja a kijelzőt a környezeti fényerő alapján</string>
-    <string name="display_white_balance_title">Környezeti fényerő szabályozása</string>
-</resources>

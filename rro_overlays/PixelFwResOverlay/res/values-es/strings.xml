@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="battery_saver_description_with_learn_more">"Para que la batería dure más, Ahorro de batería hace lo siguiente:
+
+• Activa el tema oscuro.
+• Desactiva o restringe la actividad en segundo plano, algunos efectos visuales y otras funciones como \"Hey Google\".
+• Optimiza tus conexiones de red.
+
+"<annotation id="url">Más información</annotation></string>
+</resources>

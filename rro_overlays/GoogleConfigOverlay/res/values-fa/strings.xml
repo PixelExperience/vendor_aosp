@@ -8,5 +8,5 @@
     <string name="face_recalibrate_notification_name">قفل‌گشایی با چهره</string>
     <string name="face_recalibrate_notification_title">لطفاً چهره‌تان را مجدداً ثبت کنید</string>
     <string name="harmful_app_warning_title">‏هشدار «سپر ایمنی Play»</string>
-    <string name="safety_protection_display_text">‏&lt;font face=\"google-sans\"&gt;تحت حفاظت &lt;/font&gt;&lt;font face=\"google-sans-medium\"&gt;Android&lt;/font&gt;</string>
+    <string name="safety_protection_display_text">‏&lt;font face=\"google-sans\">تحت حفاظت &lt;/font>&lt;font face=\"google-sans-medium\">Android&lt;/font></string>
 </resources>

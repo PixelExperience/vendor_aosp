@@ -8,5 +8,5 @@
     <string name="face_recalibrate_notification_name">Yuz bilan ochish</string>
     <string name="face_recalibrate_notification_title">Yuzingizni qaytadan qayd qildiring</string>
     <string name="harmful_app_warning_title">Play Protect tomonidan ogohlantirish</string>
-    <string name="safety_protection_display_text">&lt;font face=\"google-sans\"&gt;Android tomonidan &lt;/font&gt;&lt;font face=\"google-sans-medium\"&gt;himoyalangan&lt;/font&gt;</string>
+    <string name="safety_protection_display_text">&lt;font face=\"google-sans\">Android tomonidan &lt;/font>&lt;font face=\"google-sans-medium\">himoyalangan&lt;/font></string>
 </resources>

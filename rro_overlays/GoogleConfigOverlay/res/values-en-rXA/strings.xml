@@ -7,9 +7,10 @@
     <string name="config_defaultQrCodeComponent">[çöḿ.ĝööĝļé.åñðŕöîð.ĝḿš/.ḿļķîţ.ɓåŕçöðé.ûî.ÞļåţƒöŕḿβåŕçöðéŠçåññîñĝÅçţîVîţýÞŕöхý one two three four five six seven eight]</string>
     <string name="config_devicePolicyManagement">[çöḿ.ĝööĝļé.åñðŕöîð.åþþš.ŵöŕķ.çļöûððþç:23962F4β43β9857638ÉÅ66F4Ð419518ÉÅÉ282491ÅÇÐÅ4β94707βÐ59003Ç45É58 one two three four five six seven eight nine ten eleven]</string>
     <string name="config_devicePolicyManagementUpdater">[çöḿ.ĝööĝļé.åñðŕöîð.ĝḿš one two three]</string>
+    <string name="config_healthConnectMigratorPackageName">[çöḿ.ĝööĝļé.åñðŕöîð.åþþš.ĥéåļţĥðåţå one two three four]</string>
     <string name="face_recalibrate_notification_content">[Fåçé ûñļöçķ ḿåý ñöţ ŵöŕķ ûñţîļ ýöû ŕé-éñŕöļļ one two three four five]</string>
     <string name="face_recalibrate_notification_name">[Fåçé ûñļöçķ one two]</string>
     <string name="face_recalibrate_notification_title">[Þļéåšé ŕé-éñŕöļļ ýöûŕ ƒåçé one two three four]</string>
     <string name="harmful_app_warning_title">[Þļåý Þŕöţéçţ ŵåŕñîñĝ one two three]</string>
-    <string name="safety_protection_display_text">[&lt;font face=\"google-sans\"&gt;Þŕöţéçţéð ɓý &lt;/font&gt;&lt;font face=\"google-sans-medium\"&gt;Åñðŕöîð&lt;/font&gt; one two three]</string>
+    <string name="safety_protection_display_text">[&lt;font face=\"google-sans\">Þŕöţéçţéð ɓý &lt;/font>&lt;font face=\"google-sans-medium\">Åñðŕöîð&lt;/font> one two three]</string>
 </resources>

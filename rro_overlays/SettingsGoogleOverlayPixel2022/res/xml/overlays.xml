@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<overlay>
+    <item target="integer/config_vibration_supported_intensity_levels" value="@integer/config_vibration_supported_intensity_levels" />
+    <item target="xml/gestures" value="@xml/gestures" />
+    <item target="drawable/nfc_detection_point" value="@drawable/nfc_detection_point" />
+    <item target="bool/config_nfc_detection_point" value="@bool/config_nfc_detection_point" />
+    <item target="bool/config_show_reverse_charging" value="@bool/config_show_reverse_charging" />
+    <item target="bool/config_suc_use_partner_resource" value="@bool/config_suc_use_partner_resource" />
+    <item target="bool/config_show_touch_sensitivity" value="@bool/config_show_touch_sensitivity" />
+    <item target="raw/gesture_columbus" value="@raw/gesture_columbus" />
+    <item target="raw/gesture_columbus_circle" value="@raw/gesture_columbus_circle" />
+</overlay>

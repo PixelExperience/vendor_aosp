@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="battery_saver_description_with_learn_more">"Pour prolonger l'autonomie, l'économiseur de pile effectue les actions suivantes :
+
+• Active le thème sombre
+• Désactive ou limite l'activité en arrière-plan, certains effets visuels et d'autres fonctionnalités, comme « Ok Google »
+• Optimise vos connexions réseau
+
+"<annotation id="url">En savoir plus</annotation></string>
+</resources>

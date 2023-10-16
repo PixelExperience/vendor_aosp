@@ -8,5 +8,5 @@
     <string name="face_recalibrate_notification_name">முகம் காட்டித் திறத்தல்</string>
     <string name="face_recalibrate_notification_title">உங்கள் முகத்தை மீண்டும் பதிவுசெய்யுங்கள்</string>
     <string name="harmful_app_warning_title">Play Protect எச்சரிக்கை</string>
-    <string name="safety_protection_display_text">&lt;font face=\"google-sans-medium\"&gt;Android &lt;/font&gt;&lt;font face=\"google-sans\"&gt;பாதுகாப்பு&lt;/font&gt;</string>
+    <string name="safety_protection_display_text">&lt;font face=\"google-sans-medium\">Android &lt;/font>&lt;font face=\"google-sans\">பாதுகாப்பு&lt;/font></string>
 </resources>

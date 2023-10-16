@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="battery_saver_description_with_learn_more">"Kad akumuliatorius veiktų ilgiau, Akumuliatoriaus tausojimo priemonė:
+
+• įjungia tamsiąją temą;
+• išjungia arba apriboja veiklą fone, kai kuriuos vaizdinius efektus ir kitas funkcijas, pvz., „Ok Google“;
+• optimizuoja tinklo ryšius.
+
+"<annotation id="url">Sužinokite daugiau</annotation></string>
+</resources>

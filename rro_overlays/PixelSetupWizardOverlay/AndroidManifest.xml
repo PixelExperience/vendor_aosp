@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="com.google.android.pixel.setupwizard.overlay">
-    <application android:label="PixelSetupWizardOverlay" android:hasCode="false"/>
-    <overlay android:targetPackage="com.google.android.pixel.setupwizard" android:priority="0" android:targetName="PixelSetupWizard" android:isStatic="true"/>
+<?xml version="1.0" encoding="utf-8" standalone="no"?><manifest xmlns:android="http://schemas.android.com/apk/res/android" android:compileSdkVersion="34" android:compileSdkVersionCodename="14" package="com.google.android.pixel.setupwizard.overlay" platformBuildVersionCode="34" platformBuildVersionName="14">
+    <overlay android:isStatic="true" android:targetName="PixelSetupWizard" android:targetPackage="com.google.android.pixel.setupwizard"/>
+    <application android:extractNativeLibs="true" android:hasCode="false" android:label="PixelSetupWizardOverlay"/>
 </manifest>

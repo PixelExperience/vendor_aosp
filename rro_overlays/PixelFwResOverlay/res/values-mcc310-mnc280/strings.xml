@@ -2,4 +2,5 @@
 <resources>
     <string name="config_mobile_hotspot_provision_app_no_ui">com.google.android.carrierentitlement.SILENT_ENTITLEMENT_CHECK</string>
     <string name="config_mobile_hotspot_provision_response">com.google.android.carrierentitlement.SILENT_ENTITLEMENT_CHECK_RESULT</string>
+    <string name="crossSimFormat_spn_cross_sim_calling">Backup Calling</string>
 </resources>

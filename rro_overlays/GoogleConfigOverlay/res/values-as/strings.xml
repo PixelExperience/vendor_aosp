@@ -8,5 +8,5 @@
     <string name="face_recalibrate_notification_name">ফেচ আনলক</string>
     <string name="face_recalibrate_notification_title">অনুগ্ৰহ কৰি আপোনাৰ মুখাৱয়ব পুনৰ পঞ্জীয়ন কৰক</string>
     <string name="harmful_app_warning_title">Play Protectৰ সকীয়নি</string>
-    <string name="safety_protection_display_text">&lt;font face=\"google-sans\"&gt;&lt;/font&gt;&lt;font face=\"google-sans-medium\"&gt;Androidৰ দ্বাৰা সুৰক্ষিত&lt;/font&gt;</string>
+    <string name="safety_protection_display_text">&lt;font face=\"google-sans\">&lt;/font>&lt;font face=\"google-sans-medium\">Androidৰ দ্বাৰা সুৰক্ষিত&lt;/font></string>
 </resources>

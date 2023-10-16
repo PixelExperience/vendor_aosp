@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="battery_saver_description_with_learn_more">"Parantaakseen akunkestoa Virransäästö
+
+•·laittaa tumman teeman päälle
+•·laittaa pois päältä tai rajoittaa taustatoimintoja, joitakin visuaalisia tehosteita ja muita ominaisuuksia (esim. Ok Google)
+• optimoi verkkoyhteyksiä.
+
+"<annotation id="url">Lue lisää</annotation></string>
+</resources>

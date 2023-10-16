@@ -8,5 +8,5 @@
     <string name="face_recalibrate_notification_name">ปลดล็อกด้วยใบหน้า</string>
     <string name="face_recalibrate_notification_title">โปรดลงทะเบียนใบหน้าอีกครั้ง</string>
     <string name="harmful_app_warning_title">คำเตือนจาก Play Protect</string>
-    <string name="safety_protection_display_text">&lt;font face=\"google-sans\"&gt;ปกป้องโดย &lt;/font&gt;&lt;font face=\"google-sans-medium\"&gt;Android&lt;/font&gt;</string>
+    <string name="safety_protection_display_text">&lt;font face=\"google-sans\">ปกป้องโดย &lt;/font>&lt;font face=\"google-sans-medium\">Android&lt;/font></string>
 </resources>

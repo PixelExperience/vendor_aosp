@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-    <string name="display_white_balance_summary">Dynamicky upraví displej podle úrovně okolního světla</string>
-    <string name="display_white_balance_title">Ambientní ekvalizér</string>
-</resources>

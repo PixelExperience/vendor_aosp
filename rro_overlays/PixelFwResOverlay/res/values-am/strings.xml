@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="battery_saver_description_with_learn_more">"የባትሪ ዕድሜን ለማራዘም የባትሪ ኃይል ቆጣቢ፦
+
+• ጨለማ ገጽታን ያበራል
+• የበስተጀርባ እንቅስቃሴን፣ አንዳንድ ምስላዊ ተጽዕኖዎችን እና ሌሎች እንደ «Hey Google» ያሉ ባህሪያትን ያጠፋል ወይም ይገድባል
+• የአውታረ መረብ ግንኙነቶችዎን ያመቻቻል
+
+"<annotation id="url">የበለጠ ለመረዳት</annotation></string>
+</resources>

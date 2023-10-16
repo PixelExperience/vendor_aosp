@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="battery_saver_description_with_learn_more">"Batterisparefunktionen gør følgende for at spare på batteriet:
+
+• Aktiverer Mørkt tema
+• Deaktiverer eller begrænser aktivitet i baggrunden, visse visuelle effekter og andre funktioner som f.eks. \"Hey Google\"
+• Optimerer dine netværksforbindelser
+
+"<annotation id="url">Få flere oplysninger</annotation></string>
+</resources>

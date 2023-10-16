@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="battery_saver_description_with_learn_more">"Šetrič batérie predlžuje výdrž batérie:
+
+• zapnutím tmavého motívu;
+• vypnutím alebo obmedzením aktivity na pozadí, niektorých vizuálnych efektov a ďalších funkcií, napríklad kľúčového výrazu „Hey Google“;
+• optimalizáciou pripojení k sieti.
+
+"<annotation id="url">Ďalšie informácie</annotation></string>
+</resources>

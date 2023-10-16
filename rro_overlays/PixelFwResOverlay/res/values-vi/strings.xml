@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="battery_saver_description_with_learn_more">"Để tăng thời lượng pin, Trình tiết kiệm pin sẽ:
+
+• Bật Giao diện tối
+• Tắt hoặc hạn chế hoạt động chạy trong nền, một số hiệu ứng hình ảnh và các tính năng khác như lệnh “Ok Google”
+• Tối ưu hóa kết nối mạng
+
+"<annotation id="url">Tìm hiểu thêm</annotation></string>
+</resources>

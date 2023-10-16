@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="battery_saver_description_with_learn_more">"Til að auka rafhlöðuendingu gerir Rafhlöðusparnaður eftirfarandi:
+
+• Kveikir á dökku þema
+• Slekkur á eða takmarkar bakgrunnsvirkni, tiltekin myndáhrif og aðra eiginleika eins og „Ok Google“
+• Fínstillir nettengingar
+
+"<annotation id="url">Frekari upplýsingar</annotation></string>
+</resources>

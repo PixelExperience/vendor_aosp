@@ -1,0 +1,6 @@
+runtime_resource_overlay {
+    name: "WildlifeSettingsVpnOverlay2022",
+    certificate: "platform",
+    sdk_version: "current",
+    product_specific: true
+}

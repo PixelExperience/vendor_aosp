@@ -8,5 +8,5 @@
     <string name="face_recalibrate_notification_name">ફેસ અનલૉક</string>
     <string name="face_recalibrate_notification_title">કૃપા કરીને તમારા ચહેરાની ફરી નોંધણી કરાવો</string>
     <string name="harmful_app_warning_title">Play Protectની ચેતવણી</string>
-    <string name="safety_protection_display_text">&lt;font face=\"google-sans-medium\"&gt;Android &lt;/font&gt;&lt;font face=\"google-sans\"&gt;વડે સુરક્ષિત&lt;/font&gt;</string>
+    <string name="safety_protection_display_text">&lt;font face=\"google-sans-medium\">Android &lt;/font>&lt;font face=\"google-sans\">વડે સુરક્ષિત&lt;/font></string>
 </resources>

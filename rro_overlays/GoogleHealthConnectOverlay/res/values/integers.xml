@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="gravity_bottom">0x00000050</integer>
+    <integer name="gravity_center">0x00000011</integer>
+    <integer name="gravity_start">0x00800003</integer>
+    <integer name="visibility_gone">2</integer>
+    <integer name="visibility_visible">0</integer>
+</resources>

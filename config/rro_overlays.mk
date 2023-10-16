@@ -26,4 +26,9 @@ PRODUCT_PACKAGES += \
     GoogleConfigOverlay \
     SystemUIGoogleOverlay \
     StorageManagerGoogleOverlay \
-    FlipendoOverlay
+    FlipendoOverlay \
+    AccessibilityMenuOverlay \
+    CellBroadcastReceiverOverlay \
+    ClearCallingSettingsOverlay2022 \
+    GoogleHealthConnectOverlay \
+    MediaProviderOverlay

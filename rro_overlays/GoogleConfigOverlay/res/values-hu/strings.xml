@@ -8,5 +8,5 @@
     <string name="face_recalibrate_notification_name">Arcalapú feloldás</string>
     <string name="face_recalibrate_notification_title">Regisztrálja újra az arcát</string>
     <string name="harmful_app_warning_title">A Play Protect figyelmeztetése</string>
-    <string name="safety_protection_display_text">&lt;font face=\"google-sans\"&gt;Androiddal &lt;/font&gt;&lt;font face=\"google-sans-medium\"&gt;védett&lt;/font&gt;</string>
+    <string name="safety_protection_display_text">&lt;font face=\"google-sans\">Androiddal &lt;/font>&lt;font face=\"google-sans-medium\">védett&lt;/font></string>
 </resources>

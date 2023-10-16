@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="battery_saver_description_with_learn_more">"Aby wydłużyć czas pracy na baterii, Oszczędzanie baterii:
+
+• włącza ciemny motyw;
+• wyłącza lub ogranicza aktywność w tle, niektóre efekty wizualne oraz inne funkcje, np. „OK Google”;
+• włącza optymalizację połączeń sieciowych.
+
+"<annotation id="url">Więcej informacji</annotation></string>
+</resources>

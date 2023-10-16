@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-    <string name="display_white_balance_summary">Regola il display in modo dinamico in base ai livelli di luminosità circostanti</string>
-    <string name="display_white_balance_title">Equalizzatore ambientale</string>
-</resources>

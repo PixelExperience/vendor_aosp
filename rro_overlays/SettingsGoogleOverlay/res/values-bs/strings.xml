@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-    <string name="display_white_balance_summary">Dinamično podešava ekran na osnovu nivoa svjetlosti u okruženju</string>
-    <string name="display_white_balance_title">Ekvilizator ambijenta</string>
-</resources>

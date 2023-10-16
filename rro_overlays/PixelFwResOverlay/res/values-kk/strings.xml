@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="battery_saver_description_with_learn_more">"Батарея жұмысының ұзақтығын арттыру үшін Батареяны үнемдеу режимі:
+
+• қараңғы тақырыпты іске қосады;
+• фондық әрекеттерді, кейбір көрнекі әсерлерді және \"Ok Google\" сияқты басқа да функцияларды өшіреді немесе шектейді.
+• Желі байланысын оңтайландырады
+
+"<annotation id="url">Толығырақ</annotation></string>
+</resources>

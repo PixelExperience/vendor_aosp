@@ -8,5 +8,5 @@
     <string name="face_recalibrate_notification_name">სახით განბლოკვა</string>
     <string name="face_recalibrate_notification_title">გთხოვთ, ხელახლა დაარეგისტრიროთ თქვენი სახე</string>
     <string name="harmful_app_warning_title">Play Protect-ის გაფრთხილება</string>
-    <string name="safety_protection_display_text">&lt;font face=\"google-sans\"&gt;იცავს &lt;/font&gt;&lt;font face=\"google-sans-medium\"&gt;Android&lt;/font&gt;</string>
+    <string name="safety_protection_display_text">&lt;font face=\"google-sans\">დაცულია &lt;/font>&lt;font face=\"google-sans-medium\">Android-ის მიერ&lt;/font></string>
 </resources>

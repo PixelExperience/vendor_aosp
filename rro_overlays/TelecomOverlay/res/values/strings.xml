@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="call_diagnostic_service_package_name">com.google.android.apps.scone</string>
     <string name="dialer_default_class">com.google.android.dialer.extensions.GoogleDialtactsActivity</string>
 </resources>

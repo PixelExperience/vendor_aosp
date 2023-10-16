@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="com.google.android.overlay.permissioncontroller">
-    <application android:label="GooglePermissionControllerOverlay" android:hasCode="false"/>
-    <overlay android:priority="0" android:targetPackage="com.android.permissioncontroller" android:targetName="PermissionControllerStyles" android:isStatic="true"/>
+<?xml version="1.0" encoding="utf-8" standalone="no"?><manifest xmlns:android="http://schemas.android.com/apk/res/android" android:compileSdkVersion="34" android:compileSdkVersionCodename="14" package="com.google.android.overlay.permissioncontroller" platformBuildVersionCode="34" platformBuildVersionName="14">
+    <application android:extractNativeLibs="true" android:hasCode="false"/>
+    <overlay android:isStatic="true" android:priority="0" android:targetName="PermissionControllerStyles" android:targetPackage="com.google.android.permissioncontroller"/>
 </manifest>

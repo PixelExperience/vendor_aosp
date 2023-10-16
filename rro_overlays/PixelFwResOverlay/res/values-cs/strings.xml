@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="battery_saver_description_with_learn_more">"Spořič baterie za účelem úspory energie:
+
+• zapne tmavý motiv,
+• vypne nebo omezí aktivitu na pozadí, některé vizuální efekty a další funkce jako „Ok Google“,
+• optimalizuje síťová připojení.
+
+"<annotation id="url">Další informace</annotation></string>
+</resources>

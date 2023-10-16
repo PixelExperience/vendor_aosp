@@ -5,13 +5,15 @@
     <string name="biometric_or_screen_lock_app_setting_name">Use face, fingerprint, or screen lock</string>
     <string name="biometric_or_screen_lock_dialog_default_subtitle">Use your face, fingerprint, or screen lock to continue</string>
     <string name="config_appsAuthorizedForSharedAccounts">;com.android.vending;com.android.settings;</string>
+    <string name="config_defaultAccessibilityNotificationSound">Effect_Tick.ogg</string>
     <string name="config_defaultAccessibilityService">com.google.android.marvin.talkback/.TalkBackService</string>
     <string name="config_defaultAssistant">com.google.android.googlequicksearchbox</string>
-    <!--string name="config_defaultAssistantAccessComponent">com.google.android.ext.services/android.ext.services.notification.Assistant</string-->
+    <string name="config_defaultAssistantAccessComponent">com.google.android.ext.services/android.ext.services.notification.Assistant</string>
     <string name="config_defaultAutofillService">com.google.android.gms/.autofill.service.AutofillService</string>
-    <!--string name="config_defaultCaptivePortalLoginPackageName">com.google.android.captiveportallogin</string-->
-    <string name="config_defaultDockManagerPackageName">com.google.android.apps.nest.dockmanager.app</string>
+    <string name="config_defaultCaptivePortalLoginPackageName">com.google.android.captiveportallogin</string>
+    <string name="config_defaultCredentialManagerHybridService">com.google.android.gms/.auth.api.credentials.credman.service.RemoteService</string>
     <string name="config_defaultDialer">com.google.android.dialer</string>
+    <string name="config_defaultDockManagerPackageName">com.google.android.apps.nest.dockmanager.app</string>
     <string name="config_defaultGallery">com.google.android.apps.photos</string>
     <string name="config_defaultListenerAccessPackages">com.google.android.apps.nexuslauncher:com.google.android.setupwizard:com.google.android.apps.pixelmigrate</string>
     <string name="config_defaultMusic">com.google.android.music</string>
@@ -24,15 +26,19 @@
     <string name="config_deviceConfiguratorPackageName">com.google.android.gms</string>
     <string name="config_devicePolicyManagement">com.google.android.apps.work.clouddpc:23962F4B43B9857638EA66F4D419518EAE282491ACDA4B94707BD59003C45E58</string>
     <string name="config_devicePolicyManagementUpdater">com.google.android.gms</string>
+    <string name="config_dreamsDefaultComponent">com.google.android.deskclock/com.android.deskclock.Screensaver</string>
+    <string name="config_healthConnectMigratorPackageName">com.google.android.apps.healthdata</string>
     <string name="config_persistentDataPackageName">com.google.android.gms</string>
     <string name="config_primaryLocationTimeZoneProviderPackageName">com.google.android.gms</string>
     <string name="config_secondaryLocationTimeZoneProviderPackageName" />
-    <!--string name="config_servicesExtensionPackage">com.google.android.ext.services</string-->
+    <string name="config_servicesExtensionPackage">com.google.android.ext.services</string>
     <string name="config_systemActivityRecognizer">com.google.android.gms</string>
     <string name="config_systemAutomotiveProjection">com.google.android.projection.gearhead</string>
-    <!--string name="config_systemBluetoothStack">com.google.android.bluetooth</string-->
+    <string name="config_systemBluetoothStack">com.google.android.bluetooth</string>
+    <string name="config_systemCallStreaming">com.google.android.gms</string>
     <string name="config_systemCompanionDeviceProvider">com.google.android.gms</string>
     <string name="config_systemContacts">com.google.android.contacts</string>
+    <string name="config_systemFinancedDeviceController">com.google.android.devicelockcontroller</string>
     <string name="config_systemGallery">com.google.android.apps.photos</string>
     <string name="config_systemGameService">com.google.android.gms</string>
     <string name="config_systemSettingsIntelligence">com.google.android.settings.intelligence</string>
@@ -42,8 +48,8 @@
     <string name="face_recalibrate_notification_name">Face unlock</string>
     <string name="face_recalibrate_notification_title">Please re-enroll your face</string>
     <string name="harmful_app_warning_title">Play Protect warning</string>
-    <string name="safety_protection_display_text">&lt;font face=\"google-sans\"&gt;Protected by &lt;/font&gt;&lt;font face=\"google-sans-medium\"&gt;Android&lt;/font&gt;</string>
+    <string name="safety_protection_display_text">&lt;font face=\"google-sans\">Protected by &lt;/font>&lt;font face=\"google-sans-medium\">Android&lt;/font></string>
+    <string name="vendor_required_attestation_revocation_list_url">https://android.googleapis.com/attestation/status</string>
     <string name="widget_default_class_name">com.android.alarmclock.DigitalAppWidgetProvider</string>
     <string name="widget_default_package_name">com.google.android.deskclock</string>
-    <string name="config_dreamsDefaultComponent" translatable="false">com.google.android.deskclock/com.android.deskclock.Screensaver</string>
 </resources>

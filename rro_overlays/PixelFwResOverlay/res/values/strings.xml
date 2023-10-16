@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="config_deviceProvisioningPackage">com.google.android.apps.work.oobconfig</string>
+    <string name="config_qualified_networks_service_package">com.android.qns</string>
     <string name="config_wallpaperCropperPackage">com.google.android.apps.wallpaper</string>
+    <string name="default_wallpaper_component">com.breel.wallpapers20a/com.breel.wallpapers20a.gradient.wallpaper.GradientWallpaper</string>
+    <string name="fingerprint_error_bad_calibration">Can’t use fingerprint sensor. Visit a repair provider or g.co/pixel/fingerprintunlock</string>
+    <string name="fingerprint_recalibrate_notification_content">Visit a repair provider or g.co/pixel/fingerprintunlock</string>
 </resources>

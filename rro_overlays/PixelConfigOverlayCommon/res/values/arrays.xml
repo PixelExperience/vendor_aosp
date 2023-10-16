@@ -1,27 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <array name="config_batteryPackageTypeService">
+    <string-array name="config_batteryPackageTypeService">
         <item>com.google.android.gms</item>
         <item>com.google.android.apps.gcs</item>
-    </array>
-    <array name="config_defaultCloudSearchServices">
+    </string-array>
+    <string-array name="config_defaultCloudSearchServices">
         <item>com.android.vending/com.google.android.finsky.cloudsearch.PlayCloudSearchService</item>
         <item>com.android.chrome/com.google.android.apps.chrome.cloudsearch.ChromeCloudSearchService</item>
         <item>com.chrome.canary/com.google.android.apps.chrome.cloudsearch.ChromeCloudSearchService</item>
         <item>com.chrome.dev/com.google.android.apps.chrome.cloudsearch.ChromeCloudSearchService</item>
         <item>com.chrome.beta/com.google.android.apps.chrome.cloudsearch.ChromeCloudSearchService</item>
-    </array>
-    <array name="config_nonBlockableNotificationPackages">
-        <item>com.google.android.deskclock:Firing</item>
-        <item>com.google.android.setupwizard</item>
-        <item>com.google.android.apps.pixelmigrate</item>
-        <item>com.google.android.dialer</item>
-        <item>com.google.android.googlequicksearchbox:com.google.android.apps.gsa.plugins.podcastplayer.channel</item>
-        <item>com.google.android.cellbroadcastreceiver</item>
-    </array>
-    <array name="config_notificationMsgPkgsAllowedAsConvos">
-    </array>
-    <array name="config_packagesExemptFromSuspension">
+    </string-array>
+    <array name="config_notificationMsgPkgsAllowedAsConvos" />
+    <string-array name="config_packagesExemptFromSuspension">
         <item>com.google.android.apps.wellbeing</item>
         <item>com.android.vending</item>
         <item>com.google.android.gms</item>
@@ -29,11 +20,11 @@
         <item>com.android.settings</item>
         <item>com.google.android.apps.pixelmigrate</item>
         <item>com.google.android.apps.restore</item>
-    </array>
-    <array name="config_priorityOnlyDndExemptPackages">
+    </string-array>
+    <string-array name="config_priorityOnlyDndExemptPackages">
         <item>com.google.android.dialer</item>
         <item>com.android.server.telecom</item>
         <item>android</item>
         <item>com.android.systemui</item>
-    </array>
+    </string-array>
 </resources>

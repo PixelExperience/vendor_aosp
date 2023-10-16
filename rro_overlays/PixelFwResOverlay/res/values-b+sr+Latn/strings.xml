@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="battery_saver_description_with_learn_more">"Da bi se produžilo trajanje baterije, Ušteda baterije:
+
+• uključuje tamnu temu
+• isključuje ili ograničava aktivnosti u pozadini, neke vizuelne efekte i druge funkcije, na primer, „Ok Google“
+• optimizuje mrežne veze
+
+"<annotation id="url">Saznajte više</annotation></string>
+</resources>

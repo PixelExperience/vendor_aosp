@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="battery_saver_description_with_learn_more">"Da bi se produljilo trajanje baterije, Štednja baterije:
+
+• Uključuje Tamnu temu.
+• Isključuje ili ograničava aktivnosti u pozadini, neke vizualne efekte i druge značajke kao što je \"Hey Google\".
+• Optimizira vaše mrežne veze.
+
+"<annotation id="url">Saznajte više</annotation></string>
+</resources>

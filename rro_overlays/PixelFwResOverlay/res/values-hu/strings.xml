@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="battery_saver_description_with_learn_more">"Az Akkumulátorkímélő mód az akkumulátor üzemidejének növelése érdekében a következőket teszi:
+
+• Bekapcsolja a sötét témát.
+• Kikapcsolja vagy korlátozza a háttérben futó tevékenységeket, egyes vizuális effekteket, az „Ok Google” parancsot és egyéb funkciókat.
+• Optimalizálja a hálózati kapcsolatokat.
+
+"<annotation id="url">További információ.</annotation></string>
+</resources>

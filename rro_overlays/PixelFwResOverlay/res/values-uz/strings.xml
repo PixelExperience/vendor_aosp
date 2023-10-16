@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="battery_saver_description_with_learn_more">"Batareya quvvatini uzaytirish uchun Quvvat tejash funksiyasi:
+
+• Tungi mavzuni yoqadi
+• Fondagi harakatlar, vizual effektlar va “Ok Google” kabi boshqa funksiyalarni faolsizlantiradi
+• Tarmoq aloqalarini optimallashtiradi
+
+"<annotation id="url">Batafsil</annotation></string>
+</resources>

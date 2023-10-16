@@ -4,9 +4,9 @@
     <string name="biometric_dialog_default_subtitle">Щоб продовжити, скористайтеся фейсконтролем чи відбитком пальця</string>
     <string name="biometric_or_screen_lock_app_setting_name">За обличчям, відбитком пальця чи даними для розблокування екрана</string>
     <string name="biometric_or_screen_lock_dialog_default_subtitle">Щоб продовжити, скористайтеся відбитком пальця або даними для розблокування екрана</string>
-    <string name="face_recalibrate_notification_content">Фейсконтроль може не працювати, доки ви повторно не проскануєте своє обличчя</string>
-    <string name="face_recalibrate_notification_name">Фейсконтроль</string>
+    <string name="face_recalibrate_notification_content">Фейс-контроль може не працювати, доки ви повторно не проскануєте своє обличчя</string>
+    <string name="face_recalibrate_notification_name">Фейс-контроль</string>
     <string name="face_recalibrate_notification_title">Повторно проскануйте обличчя</string>
     <string name="harmful_app_warning_title">Застереження Play Захисту</string>
-    <string name="safety_protection_display_text">&lt;font face=\"google-sans\"&gt;Під захистом &lt;/font&gt;&lt;font face=\"google-sans-medium\"&gt;Android&lt;/font&gt;</string>
+    <string name="safety_protection_display_text">&lt;font face=\"google-sans\">Під захистом &lt;/font>&lt;font face=\"google-sans-medium\">Android&lt;/font></string>
 </resources>

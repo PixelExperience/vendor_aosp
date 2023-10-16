@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-    <string name="display_white_balance_summary">周囲の明るさに応じてディスプレイを動的に調整します</string>
-    <string name="display_white_balance_title">アンビエント EQ</string>
-</resources>

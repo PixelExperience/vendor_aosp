@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="biometric_app_setting_name">Folosiți fața sau amprenta</string>
-    <string name="biometric_dialog_default_subtitle">Folosiți fața sau amprenta pentru a continua</string>
-    <string name="biometric_or_screen_lock_app_setting_name">Folosiți fața, amprenta sau blocarea ecranului</string>
-    <string name="biometric_or_screen_lock_dialog_default_subtitle">Folosiți fața, amprenta sau blocarea ecranului pentru a continua</string>
-    <string name="face_recalibrate_notification_content">Este posibil ca deblocarea facială să nu funcționeze până când nu vă înregistrați din nou</string>
+    <string name="biometric_app_setting_name">Folosește fața sau amprenta</string>
+    <string name="biometric_dialog_default_subtitle">Folosește fața sau amprenta pentru a continua</string>
+    <string name="biometric_or_screen_lock_app_setting_name">Folosește fața, amprenta sau blocarea ecranului</string>
+    <string name="biometric_or_screen_lock_dialog_default_subtitle">Folosește fața, amprenta sau blocarea ecranului pentru a continua</string>
+    <string name="face_recalibrate_notification_content">Este posibil ca deblocarea facială să nu funcționeze până când nu te înregistrezi din nou</string>
     <string name="face_recalibrate_notification_name">Deblocare facială</string>
-    <string name="face_recalibrate_notification_title">Reînregistrați-vă chipul</string>
+    <string name="face_recalibrate_notification_title">Reînregistrează-ți chipul</string>
     <string name="harmful_app_warning_title">Avertisment Play Protect</string>
-    <string name="safety_protection_display_text">&lt;font face=\"google-sans\"&gt;Protejat de &lt;/font&gt;&lt;font face=\"google-sans-medium\"&gt;Android&lt;/font&gt;</string>
+    <string name="safety_protection_display_text">&lt;font face=\"google-sans\">Protejat de &lt;/font>&lt;font face=\"google-sans-medium\">Android&lt;/font></string>
 </resources>

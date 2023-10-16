@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="battery_saver_description_with_learn_more">"Për të rritur kohëzgjatjen e baterisë, \"Kursyesi i baterisë\":
+
+• Aktivizon \"Temën e errët\"
+• Çaktivizon ose kufizon aktivitetin në sfond, disa efekte vizuale dhe veçori të tjera si “Ok Google”
+• Optimizon lidhjet e tua të rrjetit
+
+"<annotation id="url">Mëso më shumë</annotation></string>
+</resources>

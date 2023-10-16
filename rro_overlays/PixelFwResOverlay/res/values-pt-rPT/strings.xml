@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="battery_saver_description_with_learn_more">"Para prolongar a autonomia da bateria, a Poupança de bateria:
+
+•·Ativa o tema escuro.
+• Desativa ou restringe a atividade em segundo plano, alguns efeitos visuais e outras funcionalidades como \"Ok Google\".
+• Otimiza as ligações de rede.
+
+"<annotation id="url">Saiba mais</annotation></string>
+</resources>
