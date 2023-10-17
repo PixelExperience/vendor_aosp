@@ -219,6 +219,9 @@ $(call inherit-product, vendor/gms/products/gms.mk)
 # RRO Overlays
 $(call inherit-product, vendor/aosp/config/rro_overlays.mk)
 
+# Clocks
+$(call inherit-product, vendor/aosp/config/clocks.mk)
+
 # Pixel Framework
 #$(call inherit-product, vendor/pixel-framework/config.mk)
 
