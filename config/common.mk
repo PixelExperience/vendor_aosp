@@ -223,6 +223,6 @@ $(call inherit-product, vendor/aosp/config/rro_overlays.mk)
 $(call inherit-product, vendor/aosp/config/clocks.mk)
 
 # Pixel Framework
-#$(call inherit-product, vendor/pixel-framework/config.mk)
+$(call inherit-product-if-exists, vendor/pixel-framework/config.mk)
 
 -include $(WORKSPACE)/build_env/image-auto-bits.mk
