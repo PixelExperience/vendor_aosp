@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "df65b554_bb0e6f72",
+        "filename": "build/soong/Android.bp",
+        "patchSetId": 1
+      },
+      "lineNbr": 195,
+      "author": {
+        "id": 1000898
+      },
+      "writtenOn": "2023-10-19T17:20:43Z",
+      "side": 1,
+      "message": "Should be customGlobalVars",
+      "range": {
+        "startLine": 195,
+        "startChar": 23,
+        "endLine": 195,
+        "endChar": 40
+      },
+      "revId": "07b7ca763c27759febe6c287b8433cfcc89f018d",
+      "serverId": "8ba0da3e-d57f-4bbe-ac74-faf358ba962a"
+    }
+  ]
+}
