@@ -116,6 +116,11 @@
         <item>notification_assistant/generate_actions=true</item>
         <item>notification_assistant/generate_replies=true</item>
 
+       <!-- Enable app cloning  -->
+       <item>app_cloning/cloned_apps_enabled=true</item>
+       <item>app_cloning/delete_all_app_clones_enabled=true</item>
+       <item>app_cloning/enable_app_cloning_building_blocks=true</item>
+
         <!--
             Device Personalization Services (AiAi)
         -->
