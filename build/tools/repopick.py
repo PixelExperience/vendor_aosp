@@ -72,7 +72,7 @@ def fetch_query_via_ssh(remote_url, query):
     elif remote_url.count(':') == 1:
         (uri, userhost) = remote_url.split(':')
         userhost = userhost[2:]
-        port = 29418
+        port = 29419
     else:
         raise Exception('Malformed URI: Expecting ssh://[user@]host[:port]')
 
@@ -160,7 +160,7 @@ def get_private_gerrit_url():
 
 if __name__ == '__main__':
     # Default to PixelExperience Gerrit
-    default_gerrit = 'https://gerrit.pixelexperience.org'
+    default_gerrit = 'https://gerrit-staging.pixelexperience.org'
 
     parser = argparse.ArgumentParser(formatter_class=argparse.RawDescriptionHelpFormatter, description=textwrap.dedent('''\
         repopick.py is a utility to simplify the process of cherry picking
