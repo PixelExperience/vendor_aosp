@@ -17,10 +17,10 @@
 
 import re
 import sys
+import importlib
 
 def main(argv):
-    reload(sys)
-    sys.setdefaultencoding('utf8')
+    importlib.reload(sys)
     original_file = 'vendor/aosp/prebuilt/common/etc/apns-conf.xml'
 
     if len(argv) == 3:
@@ -30,17 +30,17 @@ def main(argv):
         raise ValueError("Wrong number of arguments %s" % len(argv))
 
     custom_apn_names = set()
-    with open(custom_override_file, 'r') as f:
+    with open(custom_override_file, 'r', encoding='utf-8') as f:
         for line in f:
             custom_apn_names.add(re.search(r'carrier="[^"]+"', line).group(0))
 
-    with open(original_file, 'r') as input_file:
-        with open(output_file_path, 'w') as output_file:
+    with open(original_file, 'r', encoding='utf-8') as input_file:
+        with open(output_file_path, 'w', encoding='utf-8') as output_file:
             for line in input_file:
                 found_custom_apns = set()
                 for apn in custom_apn_names:
                     if apn in line:
-                        with open(custom_override_file, 'r') as custom_file:
+                        with open(custom_override_file, 'r', encoding='utf-8') as custom_file:
                             for override_line in custom_file:
                                 if apn in override_line:
                                     output_file.write(override_line)
@@ -51,7 +51,7 @@ def main(argv):
                     if "</apns>" in line:
                         if custom_apn_names:
                             for apn in custom_apn_names:
-                                with open(custom_override_file, 'r') as custom_file:
+                                with open(custom_override_file, 'r', encoding='utf-8') as custom_file:
                                     for override_line in custom_file:
                                         if apn in override_line:
                                             output_file.write(override_line)
