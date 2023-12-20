@@ -32,6 +32,8 @@
     <string name="config_primaryLocationTimeZoneProviderPackageName">com.google.android.gms</string>
     <string name="config_secondaryLocationTimeZoneProviderPackageName" />
     <!--string name="config_servicesExtensionPackage">com.google.android.ext.services</string-->
+    <string name="config_sharedConnectivityServiceIntentAction">com.google.android.gms.magictether.BIND</string>
+    <string name="config_sharedConnectivityServicePackage">com.google.android.gms</string>
     <string name="config_systemActivityRecognizer">com.google.android.gms</string>
     <string name="config_systemAutomotiveProjection">com.google.android.projection.gearhead</string>
     <!--string name="config_systemBluetoothStack">com.google.android.bluetooth</string-->

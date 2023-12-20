@@ -14,6 +14,7 @@
     <string name="config_defaultAugmentedAutofillService">com.google.android.as/com.google.android.apps.miphone.aiai.app.AiAiAugmentedAutofillService</string>
     <string name="config_defaultBugReportHandlerApp">com.google.android.apps.internal.betterbug</string>
     <string name="config_defaultContentCaptureService">com.google.android.as/com.google.android.apps.miphone.aiai.app.AiAiContentCaptureService</string>
+    <string name="config_defaultContentProtectionService">com.google.android.odad/com.google.android.apps.miphone.odad.contentprotection.ContentProtectionService</string>
     <string name="config_defaultContentSuggestionsService">com.google.android.as/com.google.android.apps.miphone.aiai.app.AiAiContentSuggestionsService</string>
     <string name="config_defaultDndAccessPackages">com.google.android.GoogleCamera:com.google.android.gms:com.google.intelligence.sense:com.google.android.settings.intelligence:com.google.android.apps.wellbeing:com.google.android.apps.safetyhub:com.google.android.dialer:com.google.android.apps.diagnosticstool</string>
     <string name="config_defaultFieldClassificationService">com.google.android.as/com.google.android.apps.miphone.aiai.app.AutofillFieldClassificationService</string>
