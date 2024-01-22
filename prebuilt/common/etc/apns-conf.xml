@@ -1696,8 +1696,7 @@
   <apn carrier="LIME Postpaid MMS" mcc="342" mnc="600" apn="multimedia" mmsc="http://mmsc" user="" password="" proxy="10.20.5.34" port="8799" type="mms" />
   <apn carrier="Digicel BB MMS" mcc="342" mnc="750" apn="wap.digicelbarbados.com" proxy="" port="" user="wapbarb" password="wap03barb" mmsc="http://mme.digiceljamaica.com/servlets/mms" mmsproxy="172.16.7.12" mmsport="8080" type="mms" />
   <apn carrier="Digicel BB" mcc="342" mnc="750" apn="web.digicelbarbados.com" proxy="" port="" user="" password="" mmsc="" type="default,supl" />
-  <apn carrier="Imobile" mcc="344" mnc="03" apn="ppnet.apuapcs.ag" mmsc="" server="http://208.083.080.131:40007" user="" password="" proxy="208.83.80.131" port="9090" type="default,supl" />
-  <apn carrier="Imobile" mcc="344" mnc="03" apn="net.apuapcs.ag" mmsc="" server="http://208.083.080.131:40007" user="" password="" proxy="208.83.80.131" port="9090" type="default,supl" />
+  <apn carrier="APUA inet" mcc="344" mnc="03" apn="net" mmsc="" server="http://208.083.080.131:40007" user="" password="" proxy="" port="" type="default,supl" />
   <apn carrier="LIME Prepaid Internet" mcc="344" mnc="920" apn="ppinternet" mmsc="" user="" password="" proxy="" port="8799" type="default,supl" />
   <apn carrier="LIME Postpaid Internet" mcc="344" mnc="920" apn="internet" mmsc="" user="" password="" proxy="" port="8799" type="default,supl" />
   <apn carrier="LIME Prepaid MMS" mcc="344" mnc="920" apn="ppmms" mmsc="http://mmsc" user="" password="" proxy="10.20.5.34" port="8799" type="mms" />
