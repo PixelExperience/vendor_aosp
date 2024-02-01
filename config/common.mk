@@ -172,10 +172,10 @@ PRODUCT_PACKAGES += \
     libprotobuf-cpp-lite-3.9.1-vendorcompat
 
 # Camera
-#ifneq ($(PRODUCT_NO_CAMERA),true)
-#PRODUCT_PACKAGES += \
-#    Aperture
-#endif
+ifneq ($(PRODUCT_NO_CAMERA),true)
+PRODUCT_PACKAGES += \
+    Aperture
+endif
 
 # Use gestures by default
 PRODUCT_PRODUCT_PROPERTIES += \
