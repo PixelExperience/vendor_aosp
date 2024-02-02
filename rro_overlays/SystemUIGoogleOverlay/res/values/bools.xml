@@ -7,6 +7,7 @@
     <bool name="config_touch_context_enabled">true</bool>
     <!--bool name="config_vibrateOnIconAnimation">true</bool-->
     <!--bool name="config_wlc_support_enabled">true</bool-->
+    <bool name="custom_lockscreen_shortcuts_enabled">true</bool>
     <bool name="are_flags_overrideable">true</bool>
     <bool name="flag_charging_ripple">true</bool>
     <bool name="flag_conversations">true</bool>
