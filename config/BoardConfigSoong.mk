@@ -52,7 +52,8 @@ SOONG_CONFIG_customGlobalVars += \
     target_surfaceflinger_udfps_lib \
     target_uses_prebuilt_dynamic_partitions \
     uses_legacy_fd_fbdev \
-    uses_egl_display_array
+    uses_egl_display_array \
+    target_camera_package_name
 
 SOONG_CONFIG_NAMESPACES += customNvidiaVars
 SOONG_CONFIG_customNvidiaVars += \
@@ -89,6 +90,7 @@ SOONG_CONFIG_customGlobalVars_gralloc_handle_has_reserved_size := $(TARGET_GRALL
 SOONG_CONFIG_customGlobalVars_gralloc_handle_has_custom_content_md_reserved_size := $(TARGET_GRALLOC_HANDLE_HAS_CUSTOM_CONTENT_MD_RESERVED_SIZE)
 SOONG_CONFIG_customGlobalVars_gralloc_handle_has_ubwcp_format := $(TARGET_GRALLOC_HANDLE_HAS_UBWCP_FORMAT)
 SOONG_CONFIG_customGlobalVars_camera_override_format_from_reserved := $(TARGET_CAMERA_OVERRIDE_FORMAT_FROM_RESERVED)
+SOONG_CONFIG_customGlobalVars_target_camera_package_name := $(TARGET_CAMERA_PACKAGE_NAME)
 
 # Set default values
 BOOTLOADER_MESSAGE_OFFSET ?= 0
