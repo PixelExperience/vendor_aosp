@@ -402,7 +402,7 @@ function pixelgerrit() {
         $FUNCNAME help
         return 1
     fi
-    local user=`git config --get review.gerrit-staging.pixelexperience.org.username`
+    local user=`git config --get review.gerrit.pixelexperience.org.username`
     local review=`git config --get remote.pixel.review`
     local project=`git config --get remote.pixel.projectname`
     local remote_branch=fourteen
@@ -460,7 +460,7 @@ EOF
 usage: $FUNCNAME push BRANCH
 
 works as:
-    git push ssh://USER@DOMAIN:29419/PROJECT \\
+    git push ssh://USER@DOMAIN:29418/PROJECT \\
       HEAD:refs/for/$remote_branch
 
 Example:
@@ -520,7 +520,7 @@ EOF
                 remote_branch=$1
             fi
             shift
-            git push $@ ssh://$user@$review:29419/$project \
+            git push $@ ssh://$user@$review:29418/$project \
                 ${local_branch}:refs/for/$remote_branch || return 1
             ;;
         changes|for)
@@ -652,7 +652,7 @@ function pixelrebase() {
     echo "Bringing it up to date..."
     repo sync .
     echo "Fetching change..."
-    git fetch "http://gerrit-staging.pixelexperience.org/p/$repo" "refs/changes/$refs" && git cherry-pick FETCH_HEAD
+    git fetch "http://gerrit.pixelexperience.org/p/$repo" "refs/changes/$refs" && git cherry-pick FETCH_HEAD
     if [ "$?" != "0" ]; then
         echo "Error cherry-picking. Not uploading!"
         return
